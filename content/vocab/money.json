@@ -1,0 +1,263 @@
+{
+ "id": "money",
+ "title": "Money & banking",
+ "es": "Dinero y banco",
+ "priority": 12,
+ "packs": [
+  {
+   "id": "money-1",
+   "title": "At the bank",
+   "entries": [
+    {
+     "id": "mon-001",
+     "es": "la cuenta bancaria",
+     "en": "the bank account",
+     "pos": "noun",
+     "ex": "Quiero abrir una cuenta bancaria.",
+     "exEn": "I want to open a bank account."
+    },
+    {
+     "id": "mon-002",
+     "es": "el cajero",
+     "en": "the cash machine",
+     "pos": "noun",
+     "ex": "Voy al cajero un momento.",
+     "exEn": "I'm going to the cash machine for a moment."
+    },
+    {
+     "id": "mon-003",
+     "es": "sacar dinero",
+     "en": "to withdraw money",
+     "pos": "verb",
+     "ex": "Tengo que sacar dinero para el taxi.",
+     "exEn": "I have to withdraw money for the taxi."
+    },
+    {
+     "id": "mon-004",
+     "es": "la transferencia",
+     "en": "the bank transfer",
+     "pos": "noun",
+     "ex": "Te hago una transferencia esta tarde.",
+     "exEn": "I'll make you a bank transfer this afternoon."
+    },
+    {
+     "id": "mon-005",
+     "es": "el banco",
+     "en": "the bank",
+     "pos": "noun",
+     "ex": "El banco cierra a las dos.",
+     "exEn": "The bank closes at two."
+    },
+    {
+     "id": "mon-006",
+     "es": "la tarjeta de crédito",
+     "en": "the credit card",
+     "pos": "noun",
+     "ex": "He perdido mi tarjeta de crédito.",
+     "exEn": "I've lost my credit card."
+    },
+    {
+     "id": "mon-007",
+     "es": "el préstamo",
+     "en": "the loan",
+     "pos": "noun",
+     "ex": "He pedido un préstamo para el coche.",
+     "exEn": "I've asked for a loan for the car."
+    },
+    {
+     "id": "mon-008",
+     "es": "la comisión",
+     "en": "the fee",
+     "pos": "noun",
+     "ex": "Este banco no cobra comisión.",
+     "exEn": "This bank doesn't charge a fee."
+    },
+    {
+     "id": "mon-009",
+     "es": "el recibo",
+     "en": "the bill (regular payment)",
+     "pos": "noun",
+     "ex": "El recibo del gas llega hoy.",
+     "exEn": "The gas bill arrives today."
+    },
+    {
+     "id": "mon-010",
+     "es": "la factura",
+     "en": "the invoice",
+     "pos": "noun",
+     "ex": "¿Me puede dar una factura?",
+     "exEn": "Can you give me an invoice?"
+    },
+    {
+     "id": "mon-011",
+     "es": "los impuestos",
+     "en": "the taxes",
+     "pos": "noun",
+     "ex": "Aquí los impuestos son altos.",
+     "exEn": "The taxes here are high."
+    },
+    {
+     "id": "mon-012",
+     "es": "el sueldo",
+     "en": "the pay",
+     "pos": "noun",
+     "ex": "Me pagan el sueldo a final de mes.",
+     "exEn": "They pay me at the end of the month."
+    },
+    {
+     "id": "mon-013",
+     "es": "el ahorro",
+     "en": "the saving",
+     "pos": "noun",
+     "ex": "Ir en bici es un gran ahorro.",
+     "exEn": "Going by bike is a great saving."
+    },
+    {
+     "id": "mon-014",
+     "es": "el presupuesto",
+     "en": "the budget",
+     "pos": "noun",
+     "ex": "Tenemos un presupuesto de mil euros.",
+     "exEn": "We have a budget of a thousand euros."
+    },
+    {
+     "id": "mon-015",
+     "es": "el extracto",
+     "en": "the bank statement",
+     "pos": "noun",
+     "ex": "Quiero ver el extracto de este mes.",
+     "exEn": "I want to see this month's statement."
+    }
+   ]
+  },
+  {
+   "id": "money-2",
+   "title": "Spending and saving",
+   "entries": [
+    {
+     "id": "mon-016",
+     "es": "ahorrar",
+     "en": "to save",
+     "pos": "verb",
+     "ex": "Quiero ahorrar para un viaje.",
+     "exEn": "I want to save for a trip."
+    },
+    {
+     "id": "mon-017",
+     "es": "gastar",
+     "en": "to spend",
+     "pos": "verb",
+     "ex": "No quiero gastar tanto dinero.",
+     "exEn": "I don't want to spend so much money."
+    },
+    {
+     "id": "mon-018",
+     "es": "deber",
+     "en": "to owe",
+     "pos": "verb",
+     "ex": "Te debo veinte euros.",
+     "exEn": "I owe you twenty euros.",
+     "cloze": "debo"
+    },
+    {
+     "id": "mon-019",
+     "es": "prestar",
+     "en": "to lend",
+     "pos": "verb",
+     "ex": "¿Me puedes prestar diez euros?",
+     "exEn": "Can you lend me ten euros?"
+    },
+    {
+     "id": "mon-020",
+     "es": "pedir prestado",
+     "en": "to borrow",
+     "pos": "verb",
+     "ex": "Voy a pedir prestado dinero a mi padre.",
+     "exEn": "I'm going to borrow money from my father."
+    },
+    {
+     "id": "mon-021",
+     "es": "pagar a plazos",
+     "en": "to pay in instalments",
+     "pos": "verb",
+     "ex": "Podemos pagar a plazos el sofá.",
+     "exEn": "We can pay for the sofa in instalments."
+    },
+    {
+     "id": "mon-022",
+     "es": "barato",
+     "en": "cheap",
+     "pos": "adj",
+     "ex": "Este móvil es barato.",
+     "exEn": "This phone is cheap."
+    },
+    {
+     "id": "mon-023",
+     "es": "caro",
+     "en": "expensive",
+     "pos": "adj",
+     "ex": "La vida aquí es cara.",
+     "exEn": "Life here is expensive.",
+     "cloze": "cara"
+    },
+    {
+     "id": "mon-024",
+     "es": "merecer la pena",
+     "en": "to be worth it",
+     "pos": "verb",
+     "ex": "Este viaje va a merecer la pena.",
+     "exEn": "This trip is going to be worth it."
+    },
+    {
+     "id": "mon-025",
+     "es": "costar",
+     "en": "to cost",
+     "pos": "verb",
+     "ex": "¿Cuánto va a costar el billete?",
+     "exEn": "How much is the ticket going to cost?"
+    },
+    {
+     "id": "mon-026",
+     "es": "pagar",
+     "en": "to pay",
+     "pos": "verb",
+     "ex": "Tengo que pagar el alquiler hoy.",
+     "exEn": "I have to pay the rent today."
+    },
+    {
+     "id": "mon-027",
+     "es": "cobrar",
+     "en": "to charge; to be paid",
+     "pos": "verb",
+     "ex": "Mañana cobro el sueldo.",
+     "exEn": "I get paid tomorrow.",
+     "cloze": "cobro"
+    },
+    {
+     "id": "mon-028",
+     "es": "Estoy sin blanca",
+     "en": "I'm broke",
+     "pos": "phrase",
+     "ex": "Este mes estoy sin blanca.",
+     "exEn": "This month I'm broke."
+    },
+    {
+     "id": "mon-029",
+     "es": "un dineral",
+     "en": "a fortune",
+     "pos": "phrase",
+     "ex": "Este coche cuesta un dineral.",
+     "exEn": "This car costs a fortune."
+    },
+    {
+     "id": "mon-030",
+     "es": "la ganga",
+     "en": "the bargain",
+     "pos": "noun",
+     "ex": "Este piso es una ganga.",
+     "exEn": "This flat is a bargain."
+    }
+   ]
+  }
+ ]
+}

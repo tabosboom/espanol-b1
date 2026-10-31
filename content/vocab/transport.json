@@ -13,105 +13,120 @@
      "es": "el billete de ida",
      "en": "the one-way ticket",
      "pos": "noun",
-     "ex": "Quiero un billete de ida para Sevilla en el tren de las diez."
+     "ex": "Quiero un billete de ida para Sevilla.",
+     "exEn": "I want a one-way ticket to Seville."
     },
     {
      "id": "tr-002",
      "es": "el billete de ida y vuelta",
      "en": "the return ticket",
      "pos": "noun",
-     "ex": "Un billete de ida y vuelta a Toledo, por favor."
+     "ex": "Un billete de ida y vuelta, por favor.",
+     "exEn": "A return ticket, please."
     },
     {
      "id": "tr-003",
      "es": "sacar un billete",
      "en": "to buy a ticket",
      "pos": "verb",
-     "ex": "Tengo que sacar un billete antes de subir al tren."
+     "ex": "Tengo que sacar un billete para el tren.",
+     "exEn": "I have to buy a ticket for the train."
     },
     {
      "id": "tr-004",
      "es": "comprar un billete",
      "en": "to buy a ticket",
      "pos": "verb",
-     "ex": "Puedes comprar un billete por internet o en la estación."
+     "ex": "Voy a comprar un billete por internet.",
+     "exEn": "I'm going to buy a ticket online."
     },
     {
      "id": "tr-005",
      "es": "la taquilla",
      "en": "the ticket office",
      "pos": "noun",
-     "ex": "La taquilla abre a las seis y media de la mañana."
+     "ex": "La taquilla abre a las seis.",
+     "exEn": "The ticket office opens at six."
     },
     {
      "id": "tr-006",
      "es": "la máquina de billetes",
      "en": "the ticket machine",
      "pos": "noun",
-     "ex": "La máquina de billetes no acepta tarjetas extranjeras, creo."
+     "ex": "La máquina de billetes no funciona.",
+     "exEn": "The ticket machine isn't working."
     },
     {
      "id": "tr-007",
      "es": "el horario",
      "en": "the timetable",
      "pos": "noun",
-     "ex": "He mirado el horario y hay un tren cada hora."
+     "ex": "He mirado el horario del tren.",
+     "exEn": "I've looked at the train timetable."
     },
     {
      "id": "tr-008",
      "es": "la salida",
      "en": "the departure; the exit",
      "pos": "noun",
-     "ex": "La salida del tren es a las ocho y cuarto."
+     "ex": "La salida del tren es a las ocho.",
+     "exEn": "The train departs at eight."
     },
     {
      "id": "tr-009",
      "es": "la llegada",
      "en": "the arrival",
      "pos": "noun",
-     "ex": "La llegada a Madrid está prevista para las doce."
+     "ex": "La llegada a Madrid es a las doce.",
+     "exEn": "The arrival in Madrid is at twelve."
     },
     {
      "id": "tr-010",
      "es": "el retraso",
      "en": "the delay",
      "pos": "noun",
-     "ex": "El tren lleva un retraso de veinte minutos por la lluvia."
+     "ex": "El tren tiene un retraso de veinte minutos.",
+     "exEn": "The train has a twenty-minute delay."
     },
     {
      "id": "tr-011",
      "es": "cancelado",
      "en": "cancelled",
      "pos": "adj",
-     "ex": "Mi vuelo está cancelado y nadie me explica por qué."
+     "ex": "Mi vuelo está cancelado.",
+     "exEn": "My flight is cancelled."
     },
     {
      "id": "tr-012",
      "es": "¿A qué hora sale el próximo…?",
      "en": "What time does the next … leave?",
      "pos": "phrase",
-     "ex": "¿A qué hora sale el próximo tren para Valencia?"
+     "ex": "¿A qué hora sale el próximo tren?",
+     "exEn": "What time does the next train leave?"
     },
     {
      "id": "tr-013",
      "es": "¿Desde qué andén sale?",
      "en": "Which platform does it leave from?",
      "pos": "phrase",
-     "ex": "Este tren va a Bilbao, pero ¿desde qué andén sale?"
+     "ex": "Este tren va a Bilbao, ¿desde qué andén sale?",
+     "exEn": "This train goes to Bilbao, which platform does it leave from?"
     },
     {
      "id": "tr-014",
      "es": "¿Cuánto cuesta el billete?",
      "en": "How much is the ticket?",
      "pos": "phrase",
-     "ex": "¿Cuánto cuesta el billete si lo compro en la estación?"
+     "ex": "¿Cuánto cuesta el billete a Toledo?",
+     "exEn": "How much is the ticket to Toledo?"
     },
     {
      "id": "tr-015",
      "es": "Quería un billete para…",
      "en": "I'd like a ticket to…",
      "pos": "phrase",
-     "ex": "Quería un billete para Granada, en el tren de la tarde."
+     "ex": "Quería un billete para Granada.",
+     "exEn": "I'd like a ticket to Granada."
     }
    ]
   },
@@ -124,107 +139,122 @@
      "es": "el andén",
      "en": "the platform",
      "pos": "noun",
-     "ex": "Nuestro tren sale del andén número cuatro dentro de diez minutos."
+     "ex": "El tren sale del andén cuatro.",
+     "exEn": "The train leaves from platform four."
     },
     {
      "id": "tr-017",
      "es": "la vía",
      "en": "the track",
      "pos": "noun",
-     "ex": "El tren para Córdoba sale por la vía seis esta tarde."
+     "ex": "El tren sale por la vía seis.",
+     "exEn": "The train leaves from track six."
     },
     {
      "id": "tr-018",
      "es": "hacer transbordo",
      "en": "to change (trains or lines)",
      "pos": "verb",
-     "ex": "Para llegar al centro hay que hacer transbordo en Sol."
+     "ex": "Hay que hacer transbordo en Sol.",
+     "exEn": "You have to change at Sol."
     },
     {
      "id": "tr-019",
      "es": "la parada",
      "en": "the stop",
      "pos": "noun",
-     "ex": "Bájate en la próxima parada, justo delante del museo."
+     "ex": "Bájate en la próxima parada.",
+     "exEn": "Get off at the next stop."
     },
     {
      "id": "tr-020",
      "es": "la estación de autobuses",
      "en": "the bus station",
      "pos": "noun",
-     "ex": "La estación de autobuses está a diez minutos del centro."
+     "ex": "La estación de autobuses está cerca.",
+     "exEn": "The bus station is near."
     },
     {
      "id": "tr-021",
      "es": "el metro",
      "en": "the metro",
      "pos": "noun",
-     "ex": "Voy al trabajo en metro porque es más rápido."
+     "ex": "Voy al trabajo en metro.",
+     "exEn": "I go to work by metro."
     },
     {
      "id": "tr-022",
      "es": "la línea",
      "en": "the line",
      "pos": "noun",
-     "ex": "Coge la línea tres del metro hasta la plaza de España."
+     "ex": "Coge la línea tres.",
+     "exEn": "Take line three."
     },
     {
      "id": "tr-023",
      "es": "el tren de cercanías",
      "en": "the commuter train",
      "pos": "noun",
-     "ex": "Cojo el tren de cercanías para ir al aeropuerto."
+     "ex": "Cojo el tren de cercanías todos los días.",
+     "exEn": "I take the commuter train every day."
     },
     {
      "id": "tr-024",
      "es": "el AVE",
      "en": "the high-speed train",
      "pos": "noun",
-     "ex": "El AVE de Madrid a Sevilla tarda unas dos horas y media.",
-     "cloze": "AVE"
+     "ex": "El AVE es muy rápido.",
+     "cloze": "AVE",
+     "exEn": "The high-speed train is very fast."
     },
     {
      "id": "tr-025",
      "es": "perder el tren",
      "en": "to miss the train",
      "pos": "verb",
-     "ex": "Si no salimos ya, vamos a perder el tren."
+     "ex": "Vamos a perder el tren.",
+     "exEn": "We're going to miss the train."
     },
     {
      "id": "tr-026",
      "es": "coger el autobús",
      "en": "to take the bus",
      "pos": "verb",
-     "ex": "Tengo que coger el autobús de las ocho para llegar bien."
+     "ex": "Tengo que coger el autobús de las ocho.",
+     "exEn": "I have to take the eight o'clock bus."
     },
     {
      "id": "tr-027",
      "es": "¿Este autobús va a…?",
      "en": "Does this bus go to…?",
      "pos": "phrase",
-     "ex": "Perdone, ¿este autobús va a la playa o al centro?"
+     "ex": "Perdone, ¿este autobús va a la playa?",
+     "exEn": "Excuse me, does this bus go to the beach?"
     },
     {
      "id": "tr-028",
      "es": "bajarse",
      "en": "to get off",
      "pos": "verb",
-     "ex": "Tienes que bajarte en la tercera parada, después del puente.",
-     "cloze": "bajarte"
+     "ex": "Tienes que bajarte aquí.",
+     "cloze": "bajarte",
+     "exEn": "You have to get off here."
     },
     {
      "id": "tr-029",
      "es": "subir al tren",
      "en": "to get on the train",
      "pos": "verb",
-     "ex": "Ya podemos subir al tren, las puertas están abiertas."
+     "ex": "Ya podemos subir al tren.",
+     "exEn": "We can get on the train now."
     },
     {
      "id": "tr-030",
      "es": "el asiento",
      "en": "the seat",
      "pos": "noun",
-     "ex": "Perdone, creo que este es mi asiento; tengo el once."
+     "ex": "Perdone, este es mi asiento.",
+     "exEn": "Excuse me, this is my seat."
     }
    ]
   },
@@ -237,105 +267,120 @@
      "es": "el vuelo",
      "en": "the flight",
      "pos": "noun",
-     "ex": "Mi vuelo a Tenerife sale mañana a primera hora."
+     "ex": "Mi vuelo sale mañana.",
+     "exEn": "My flight leaves tomorrow."
     },
     {
      "id": "tr-032",
      "es": "la puerta de embarque",
      "en": "the boarding gate",
      "pos": "noun",
-     "ex": "La puerta de embarque ha cambiado; ahora es la veintidós."
+     "ex": "La puerta de embarque es la doce.",
+     "exEn": "The boarding gate is number twelve."
     },
     {
      "id": "tr-033",
      "es": "la tarjeta de embarque",
      "en": "the boarding pass",
      "pos": "noun",
-     "ex": "Llevo la tarjeta de embarque en el móvil, no en papel."
+     "ex": "Tengo la tarjeta de embarque en el móvil.",
+     "exEn": "I have the boarding pass on my phone."
     },
     {
      "id": "tr-034",
      "es": "facturar",
      "en": "to check in (luggage)",
      "pos": "verb",
-     "ex": "Tengo que facturar la maleta porque pesa demasiado para cabina."
+     "ex": "Tengo que facturar la maleta.",
+     "exEn": "I have to check in my suitcase."
     },
     {
      "id": "tr-035",
      "es": "el equipaje de mano",
      "en": "the hand luggage",
      "pos": "noun",
-     "ex": "Solo llevo equipaje de mano, así que no tengo que esperar."
+     "ex": "Solo llevo equipaje de mano.",
+     "exEn": "I only have hand luggage."
     },
     {
      "id": "tr-036",
      "es": "la maleta",
      "en": "the suitcase",
      "pos": "noun",
-     "ex": "Mi maleta no ha llegado y ya no hay nadie aquí."
+     "ex": "Mi maleta no ha llegado.",
+     "exEn": "My suitcase hasn't arrived."
     },
     {
      "id": "tr-037",
      "es": "la consigna",
      "en": "the left-luggage office",
      "pos": "noun",
-     "ex": "Podemos dejar las mochilas en la consigna de la estación."
+     "ex": "Dejamos las cosas en la consigna.",
+     "exEn": "We're leaving our things in the left-luggage office."
     },
     {
      "id": "tr-038",
      "es": "la mochila",
      "en": "the backpack",
      "pos": "noun",
-     "ex": "Llevo el pasaporte y la cartera en la mochila pequeña."
+     "ex": "Llevo el pasaporte en la mochila.",
+     "exEn": "I have my passport in my backpack."
     },
     {
      "id": "tr-039",
      "es": "el aeropuerto",
      "en": "the airport",
      "pos": "noun",
-     "ex": "¿Cuánto se tarda del centro al aeropuerto en taxi?"
+     "ex": "¿Cómo voy al aeropuerto?",
+     "exEn": "How do I get to the airport?"
     },
     {
      "id": "tr-040",
      "es": "aterrizar",
      "en": "to land",
      "pos": "verb",
-     "ex": "El avión va a aterrizar en Madrid con media hora de retraso."
+     "ex": "El avión va a aterrizar en Madrid.",
+     "exEn": "The plane is going to land in Madrid."
     },
     {
      "id": "tr-041",
      "es": "despegar",
      "en": "to take off",
      "pos": "verb",
-     "ex": "El avión no puede despegar por culpa de la niebla."
+     "ex": "El avión no puede despegar.",
+     "exEn": "The plane can't take off."
     },
     {
      "id": "tr-042",
      "es": "el pasaporte",
      "en": "the passport",
      "pos": "noun",
-     "ex": "No olvides el pasaporte, lo necesitas para facturar en el aeropuerto."
+     "ex": "No olvides el pasaporte.",
+     "exEn": "Don't forget your passport."
     },
     {
      "id": "tr-043",
      "es": "el control de seguridad",
      "en": "the security check",
      "pos": "noun",
-     "ex": "Hay mucha cola en el control de seguridad esta mañana."
+     "ex": "Hay mucha gente en el control de seguridad.",
+     "exEn": "There are a lot of people at the security check."
     },
     {
      "id": "tr-044",
      "es": "la cola",
      "en": "the queue",
      "pos": "noun",
-     "ex": "La cola para facturar es larguísima, vamos a llegar justos."
+     "ex": "La cola es muy larga.",
+     "exEn": "The queue is very long."
     },
     {
      "id": "tr-045",
      "es": "el destino",
      "en": "the destination",
      "pos": "noun",
-     "ex": "Mira la pantalla para ver el destino y la hora del vuelo."
+     "ex": "¿Cuál es el destino de este tren?",
+     "exEn": "What is this train's destination?"
     }
    ]
   },
@@ -348,105 +393,120 @@
      "es": "alquilar un coche",
      "en": "to rent a car",
      "pos": "verb",
-     "ex": "Queremos alquilar un coche para recorrer la isla tres días."
+     "ex": "Queremos alquilar un coche.",
+     "exEn": "We want to rent a car."
     },
     {
      "id": "tr-047",
      "es": "la gasolinera",
      "en": "the petrol station",
      "pos": "noun",
-     "ex": "Hay una gasolinera a la salida del pueblo, antes de la rotonda."
+     "ex": "Hay una gasolinera en el pueblo.",
+     "exEn": "There's a petrol station in the village."
     },
     {
      "id": "tr-048",
      "es": "el peaje",
      "en": "the toll",
      "pos": "noun",
-     "ex": "Esta autopista tiene peaje, pero es mucho más rápida."
+     "ex": "Esta carretera tiene peaje.",
+     "exEn": "This road has a toll."
     },
     {
      "id": "tr-049",
      "es": "aparcar",
      "en": "to park",
      "pos": "verb",
-     "ex": "Es muy difícil aparcar en el centro durante el fin de semana."
+     "ex": "Es difícil aparcar en el centro.",
+     "exEn": "It's hard to park in the centre."
     },
     {
      "id": "tr-050",
      "es": "el aparcamiento",
      "en": "the car park",
      "pos": "noun",
-     "ex": "El aparcamiento del hotel cuesta quince euros al día."
+     "ex": "El aparcamiento cuesta diez euros.",
+     "exEn": "The car park costs ten euros."
     },
     {
      "id": "tr-051",
      "es": "el taxi",
      "en": "the taxi",
      "pos": "noun",
-     "ex": "Vamos a coger un taxi porque llevamos demasiadas maletas."
+     "ex": "Vamos a coger un taxi.",
+     "exEn": "Let's take a taxi."
     },
     {
      "id": "tr-052",
      "es": "¿Me lleva a…?",
      "en": "Can you take me to…?",
      "pos": "phrase",
-     "ex": "Buenos días, ¿me lleva a la estación de Atocha, por favor?"
+     "ex": "Buenos días, ¿me lleva a la estación?",
+     "exEn": "Good morning, can you take me to the station?"
     },
     {
      "id": "tr-053",
      "es": "la autopista",
      "en": "the motorway",
      "pos": "noun",
-     "ex": "Por la autopista llegamos a Valencia en menos de cuatro horas."
+     "ex": "Por la autopista llegamos antes.",
+     "exEn": "We'll get there sooner on the motorway."
     },
     {
      "id": "tr-054",
      "es": "la carretera",
      "en": "the road",
      "pos": "noun",
-     "ex": "La carretera de la costa tiene unas vistas preciosas."
+     "ex": "La carretera de la costa es muy bonita.",
+     "exEn": "The coast road is very pretty."
     },
     {
      "id": "tr-055",
      "es": "el carné de conducir",
      "en": "the driving licence",
      "pos": "noun",
-     "ex": "Para alquilar un coche necesitas el carné de conducir y una tarjeta."
+     "ex": "Necesitas el carné de conducir.",
+     "exEn": "You need your driving licence."
     },
     {
      "id": "tr-056",
      "es": "conducir",
      "en": "to drive",
      "pos": "verb",
-     "ex": "No me gusta conducir de noche por estas carreteras."
+     "ex": "No me gusta conducir de noche.",
+     "exEn": "I don't like driving at night."
     },
     {
      "id": "tr-057",
      "es": "la gasolina",
      "en": "the petrol",
      "pos": "noun",
-     "ex": "Nos queda poca gasolina; paramos en la próxima estación de servicio."
+     "ex": "Nos queda poca gasolina.",
+     "exEn": "We don't have much petrol left."
     },
     {
      "id": "tr-058",
      "es": "el atasco",
      "en": "the traffic jam",
      "pos": "noun",
-     "ex": "Hemos llegado tarde por un atasco enorme en la entrada de Madrid."
+     "ex": "Hay un atasco enorme hoy.",
+     "exEn": "There's a huge traffic jam today."
     },
     {
      "id": "tr-059",
      "es": "la bici",
      "en": "the bike",
      "pos": "noun",
-     "ex": "En esta ciudad puedes alquilar una bici por muy poco dinero."
+     "ex": "Puedes alquilar una bici aquí.",
+     "exEn": "You can rent a bike here."
     },
     {
      "id": "tr-060",
      "es": "¿Dónde puedo aparcar?",
      "en": "Where can I park?",
      "pos": "phrase",
-     "ex": "Perdone, ¿dónde puedo aparcar cerca del centro histórico?"
+     "ex": "Perdone, ¿dónde puedo aparcar?",
+     "exEn": "Excuse me, where can I park?"
     }
    ]
   }

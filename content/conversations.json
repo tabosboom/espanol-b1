@@ -103,7 +103,7 @@
      {
       "es": "¡Qué pena! No me digas.",
       "correct": false,
-      "why": "They helped you, so a reaction of pity makes no sense."
+      "why": "They helped you, so pity makes no sense."
      }
     ]
    },
@@ -153,6 +153,1519 @@
     "¡Buen viaje!",
     "Have a good trip!",
     "st-087"
+   ]
+  ]
+ },
+ {
+  "id": "conv-lost",
+  "title": "Lost on the way to a restaurant",
+  "setting": "You are looking for a restaurant and seem to have gone too far.",
+  "turns": [
+   {
+    "speaker": "me",
+    "es": "Perdone, ¿hay un restaurante llamado Casa Lola por aquí?",
+    "en": "Excuse me, is there a restaurant called Casa Lola around here?",
+    "options": [
+     {
+      "es": "Perdone, ¿hay un restaurante llamado Casa Lola por aquí?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Perdone, ¿está un restaurante llamado Casa Lola por aquí?",
+      "correct": false,
+      "why": "A new thing takes hay."
+     },
+     {
+      "es": "Perdone, ¿cuánto cuesta este bolso?",
+      "correct": false,
+      "why": "That asks a price."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Sí, pero te has pasado. Está dos calles más atrás.",
+    "en": "Yes, but you've gone past it. It's two streets back."
+   },
+   {
+    "speaker": "me",
+    "es": "¡Vaya! Entonces, ¿doy la vuelta?",
+    "en": "Oh dear! So, shall I turn around?",
+    "options": [
+     {
+      "es": "¡Vaya! Entonces, ¿doy la vuelta?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "¡Vaya! Entonces, ¿doy el vuelta?",
+      "correct": false,
+      "why": "La vuelta is feminine."
+     },
+     {
+      "es": "¡Enhorabuena! Me alegro mucho.",
+      "correct": false,
+      "why": "You are lost, so congratulations makes no sense."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Sí. Da la vuelta y gira a la derecha en la esquina.",
+    "en": "Yes. Turn around and turn right at the corner."
+   },
+   {
+    "speaker": "me",
+    "es": "¿Está al lado de la farmacia?",
+    "en": "Is it next to the pharmacy?",
+    "options": [
+     {
+      "es": "¿Está al lado de la farmacia?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "¿Está al lado del farmacia?",
+      "correct": false,
+      "why": "Farmacia is feminine: de la farmacia."
+     },
+     {
+      "es": "¿Está incluido el desayuno?",
+      "correct": false,
+      "why": "That is a hotel question."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "No, enfrente. Tiene una terraza grande.",
+    "en": "No, opposite. It has a big terrace."
+   },
+   {
+    "speaker": "me",
+    "es": "Perfecto, muchas gracias por su ayuda.",
+    "en": "Perfect, thank you very much for your help.",
+    "options": [
+     {
+      "es": "Perfecto, muchas gracias por su ayuda.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Perfecto, muchas gracias para su ayuda.",
+      "correct": false,
+      "why": "Thanks for: por."
+     },
+     {
+      "es": "Perfecto, voy a facturar la maleta.",
+      "correct": false,
+      "why": "That is for the airport."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Te has pasado",
+    "You've gone past it",
+    "dir-026"
+   ],
+   [
+    "Da la vuelta",
+    "Turn around",
+    "dir-025"
+   ],
+   [
+    "En la esquina",
+    "On the corner",
+    "dir-030"
+   ],
+   [
+    "Enfrente de",
+    "Opposite",
+    "dir-032"
+   ],
+   [
+    "la terraza",
+    "the terrace",
+    "hou-029"
+   ],
+   [
+    "¿Hay un banco por aquí?",
+    "Is there a bank around here?",
+    "dir-005"
+   ]
+  ]
+ },
+ {
+  "id": "conv-ticket",
+  "title": "Buying a train ticket",
+  "setting": "You are at the ticket office in Madrid.",
+  "turns": [
+   {
+    "speaker": "me",
+    "es": "Buenos días, quería un billete para Toledo.",
+    "en": "Good morning, I'd like a ticket to Toledo.",
+    "options": [
+     {
+      "es": "Buenos días, quería un billete para Toledo.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Buenos días, quería un billete por Toledo.",
+      "correct": false,
+      "why": "A destination takes para."
+     },
+     {
+      "es": "Buenos días, ¿tienen mesa para dos?",
+      "correct": false,
+      "why": "That is for a restaurant."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿De ida o de ida y vuelta?",
+    "en": "One-way or return?"
+   },
+   {
+    "speaker": "me",
+    "es": "De ida y vuelta, por favor.",
+    "en": "Return, please.",
+    "options": [
+     {
+      "es": "De ida y vuelta, por favor.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "De ida o vuelta, por favor.",
+      "correct": false,
+      "why": "The phrase is ida y vuelta."
+     },
+     {
+      "es": "Regular, ¿y tú?",
+      "correct": false,
+      "why": "That answers 'how are you?'."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Para qué día?",
+    "en": "For what day?"
+   },
+   {
+    "speaker": "me",
+    "es": "Para hoy. ¿A qué hora sale el próximo tren?",
+    "en": "For today. What time does the next train leave?",
+    "options": [
+     {
+      "es": "Para hoy. ¿A qué hora sale el próximo tren?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Para hoy. ¿A qué hora salen el próximo tren?",
+      "correct": false,
+      "why": "Tren is singular: sale."
+     },
+     {
+      "es": "Para hoy. ¿Qué me recomienda de postre?",
+      "correct": false,
+      "why": "That is for a waiter."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "A las once y cuarto. Son veinte euros.",
+    "en": "At a quarter past eleven. That's twenty euros."
+   },
+   {
+    "speaker": "me",
+    "es": "Aquí tiene. ¿Desde qué andén sale?",
+    "en": "Here you are. Which platform does it leave from?",
+    "options": [
+     {
+      "es": "Aquí tiene. ¿Desde qué andén sale?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Aquí tiene. ¿Desde qué andén salen?",
+      "correct": false,
+      "why": "El tren is singular: sale."
+     },
+     {
+      "es": "Aquí tiene. Solo estoy mirando.",
+      "correct": false,
+      "why": "That is for a shop."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Del andén cinco.",
+    "en": "From platform five."
+   }
+  ],
+  "phrases": [
+   [
+    "el billete de ida y vuelta",
+    "the return ticket",
+    "tr-002"
+   ],
+   [
+    "Quería un billete para…",
+    "I'd like a ticket to…",
+    "tr-015"
+   ],
+   [
+    "¿A qué hora sale el próximo…?",
+    "What time does the next … leave?",
+    "tr-012"
+   ],
+   [
+    "¿Desde qué andén sale?",
+    "Which platform does it leave from?",
+    "tr-013"
+   ],
+   [
+    "el andén",
+    "the platform",
+    "tr-016"
+   ]
+  ]
+ },
+ {
+  "id": "conv-delay",
+  "title": "The train is delayed",
+  "setting": "Your train has not arrived, and you ask a member of staff.",
+  "turns": [
+   {
+    "speaker": "me",
+    "es": "Perdone, ¿el tren a Valencia tiene retraso?",
+    "en": "Excuse me, is the train to Valencia delayed?",
+    "options": [
+     {
+      "es": "Perdone, ¿el tren a Valencia tiene retraso?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Perdone, ¿el tren a Valencia está retraso?",
+      "correct": false,
+      "why": "Tener retraso: to be delayed."
+     },
+     {
+      "es": "Perdone, ¿me lo puedo probar?",
+      "correct": false,
+      "why": "That is for a clothes shop."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Sí, lleva una hora de retraso por una avería.",
+    "en": "Yes, it's an hour late because of a breakdown."
+   },
+   {
+    "speaker": "me",
+    "es": "¡Vaya! ¿Y qué puedo hacer?",
+    "en": "Oh dear! And what can I do?",
+    "options": [
+     {
+      "es": "¡Vaya! ¿Y qué puedo hacer?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "¡Vaya! ¿Y qué puedo hago?",
+      "correct": false,
+      "why": "After poder: infinitive, hacer."
+     },
+     {
+      "es": "¡Qué bien! Me alegro.",
+      "correct": false,
+      "why": "A delay is not good news."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Puede esperar o coger el siguiente, a las tres.",
+    "en": "You can wait or take the next one, at three."
+   },
+   {
+    "speaker": "me",
+    "es": "¿Tengo que comprar otro billete?",
+    "en": "Do I have to buy another ticket?",
+    "options": [
+     {
+      "es": "¿Tengo que comprar otro billete?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "¿Tengo comprar otro billete?",
+      "correct": false,
+      "why": "Tener que + infinitive."
+     },
+     {
+      "es": "¿Tengo que pagar la propina?",
+      "correct": false,
+      "why": "That is for a restaurant."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "No, le vale el mismo. Y puede pedir la devolución.",
+    "en": "No, the same one is valid. And you can ask for a refund."
+   },
+   {
+    "speaker": "me",
+    "es": "Muy bien. Espero que no haya más problemas.",
+    "en": "Fine. I hope there are no more problems.",
+    "options": [
+     {
+      "es": "Muy bien. Espero que no haya más problemas.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Muy bien. Espero que no hay más problemas.",
+      "correct": false,
+      "why": "Esperar que + subjunctive: haya."
+     },
+     {
+      "es": "Muy bien. Me queda grande.",
+      "correct": false,
+      "why": "That is about clothes."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "el retraso",
+    "the delay",
+    "tr-010"
+   ],
+   [
+    "la avería",
+    "the breakdown",
+    "prb-033"
+   ],
+   [
+    "cancelado",
+    "cancelled",
+    "tr-011"
+   ],
+   [
+    "perder el tren",
+    "to miss the train",
+    "tr-025"
+   ]
+  ]
+ },
+ {
+  "id": "conv-hotel",
+  "title": "Checking in at a hotel",
+  "setting": "You arrive at reception in the evening.",
+  "turns": [
+   {
+    "speaker": "me",
+    "es": "Buenas tardes, tengo una reserva a nombre de Tim.",
+    "en": "Good evening, I have a booking under the name Tim.",
+    "options": [
+     {
+      "es": "Buenas tardes, tengo una reserva a nombre de Tim.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Buenas tardes, tengo una reserva en nombre por Tim.",
+      "correct": false,
+      "why": "The phrase is a nombre de."
+     },
+     {
+      "es": "Buenas tardes, ¿qué tal el fin de semana?",
+      "correct": false,
+      "why": "You are checking in, not chatting."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Sí, una habitación doble, dos noches. ¿Me deja su pasaporte?",
+    "en": "Yes, a double room, two nights. May I have your passport?"
+   },
+   {
+    "speaker": "me",
+    "es": "Claro, aquí tiene. ¿El desayuno está incluido?",
+    "en": "Of course, here you are. Is breakfast included?",
+    "options": [
+     {
+      "es": "Claro, aquí tiene. ¿El desayuno está incluido?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Claro, aquí tiene. ¿El desayuno es incluido?",
+      "correct": false,
+      "why": "State after a decision: está incluido."
+     },
+     {
+      "es": "Claro, aquí tiene. ¿Cuánto vale este pincho?",
+      "correct": false,
+      "why": "That is for a bar."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Sí, de siete a diez, en la primera planta.",
+    "en": "Yes, from seven to ten, on the first floor."
+   },
+   {
+    "speaker": "me",
+    "es": "¿Y cuál es la contraseña del wifi?",
+    "en": "And what is the wifi password?",
+    "options": [
+     {
+      "es": "¿Y cuál es la contraseña del wifi?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "¿Y qué es la contraseña del wifi?",
+      "correct": false,
+      "why": "Asking for specific data: cuál."
+     },
+     {
+      "es": "¿Y cuál es su talla?",
+      "correct": false,
+      "why": "That is for a clothes shop."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Está en la tarjeta de la habitación. Es la 214.",
+    "en": "It's on the room card. It's room 214."
+   },
+   {
+    "speaker": "me",
+    "es": "Gracias. ¿A qué hora es el check-out?",
+    "en": "Thanks. What time is check-out?",
+    "options": [
+     {
+      "es": "Gracias. ¿A qué hora es el check-out?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Gracias. ¿A qué hora está el check-out?",
+      "correct": false,
+      "why": "Time of an event: es."
+     },
+     {
+      "es": "Gracias. ¿Hay que hacer transbordo?",
+      "correct": false,
+      "why": "That is for trains."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "A las doce.",
+    "en": "At twelve."
+   }
+  ],
+  "phrases": [
+   [
+    "Tengo una reserva a nombre de…",
+    "I have a booking under the name…",
+    "acc-003"
+   ],
+   [
+    "el desayuno incluido",
+    "breakfast included",
+    "acc-006"
+   ],
+   [
+    "la contraseña del wifi",
+    "the wifi password",
+    "acc-014"
+   ],
+   [
+    "¿A qué hora es el check-out?",
+    "What time is check-out?",
+    "acc-027"
+   ],
+   [
+    "la planta",
+    "the floor",
+    "acc-033"
+   ]
+  ]
+ },
+ {
+  "id": "conv-room",
+  "title": "A problem in the room",
+  "setting": "The air conditioning does not work, so you call reception.",
+  "turns": [
+   {
+    "speaker": "me",
+    "es": "Hola, llamo de la 214. El aire acondicionado no funciona.",
+    "en": "Hello, I'm calling from 214. The air conditioning isn't working.",
+    "options": [
+     {
+      "es": "Hola, llamo de la 214. El aire acondicionado no funciona.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Hola, llamo de la 214. El aire acondicionado no funcionan.",
+      "correct": false,
+      "why": "Singular subject: funciona."
+     },
+     {
+      "es": "Hola, llamo de la 214. Quería una caña.",
+      "correct": false,
+      "why": "That is for a bar."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Lo siento mucho. ¿Ha probado con el mando?",
+    "en": "I'm very sorry. Have you tried the remote?"
+   },
+   {
+    "speaker": "me",
+    "es": "Sí, pero no hace nada. Y hace mucho calor.",
+    "en": "Yes, but it does nothing. And it's very hot.",
+    "options": [
+     {
+      "es": "Sí, pero no hace nada. Y hace mucho calor.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Sí, pero no hace nada. Y está mucho calor.",
+      "correct": false,
+      "why": "Weather and heat: hace calor."
+     },
+     {
+      "es": "Sí, gira a la derecha en la rotonda.",
+      "correct": false,
+      "why": "That is a direction."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Ahora subo a verlo. ¿Necesita algo más?",
+    "en": "I'll come up and see it now. Do you need anything else?"
+   },
+   {
+    "speaker": "me",
+    "es": "Sí, ¿me puede traer otra toalla, por favor?",
+    "en": "Yes, can you bring me another towel, please?",
+    "options": [
+     {
+      "es": "Sí, ¿me puede traer otra toalla, por favor?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Sí, ¿me puede traer una otra toalla, por favor?",
+      "correct": false,
+      "why": "Otra needs no una."
+     },
+     {
+      "es": "Sí, ¿me pone medio kilo de tomates?",
+      "correct": false,
+      "why": "That is for a market."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Por supuesto. Si no lo arreglamos, le cambiamos de habitación.",
+    "en": "Of course. If we can't fix it, we'll move you to another room."
+   },
+   {
+    "speaker": "me",
+    "es": "Muy bien, muchas gracias.",
+    "en": "Very good, thank you very much.",
+    "options": [
+     {
+      "es": "Muy bien, muchas gracias.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Muy bueno, muchas gracias.",
+      "correct": false,
+      "why": "Agreeing to something: muy bien."
+     },
+     {
+      "es": "Me da pereza.",
+      "correct": false,
+      "why": "That sounds rude here."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "el aire acondicionado",
+    "the air conditioning",
+    "acc-015"
+   ],
+   [
+    "No funciona…",
+    "… isn't working",
+    "acc-021"
+   ],
+   [
+    "las toallas",
+    "the towels",
+    "acc-017"
+   ],
+   [
+    "arreglar",
+    "to fix",
+    "eve-050"
+   ]
+  ]
+ },
+ {
+  "id": "conv-bar",
+  "title": "Ordering at a bar",
+  "setting": "You and a friend stand at the bar with tapas on the counter.",
+  "turns": [
+   {
+    "speaker": "them",
+    "es": "Buenas, ¿qué os pongo?",
+    "en": "Hi, what can I get you?"
+   },
+   {
+    "speaker": "me",
+    "es": "¿Me pone una caña y un tinto de verano?",
+    "en": "Can I have a small beer and a red wine with lemonade?",
+    "options": [
+     {
+      "es": "¿Me pone una caña y un tinto de verano?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "¿Me pones una caña y un tinto de verano, por usted?",
+      "correct": false,
+      "why": "Por usted does not fit here."
+     },
+     {
+      "es": "¿Me lo puedo probar?",
+      "correct": false,
+      "why": "That is for clothes."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Claro. ¿Queréis algo de comer?",
+    "en": "Sure. Do you want anything to eat?"
+   },
+   {
+    "speaker": "me",
+    "es": "Sí, ¿qué tapas tienen?",
+    "en": "Yes, what tapas do you have?",
+    "options": [
+     {
+      "es": "Sí, ¿qué tapas tienen?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Sí, ¿qué tapas tiene ustedes?",
+      "correct": false,
+      "why": "Plural ustedes: tienen."
+     },
+     {
+      "es": "Sí, ¿a qué hora sale?",
+      "correct": false,
+      "why": "That is for transport."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Hay tortilla, croquetas y calamares.",
+    "en": "There is omelette, croquettes and squid."
+   },
+   {
+    "speaker": "me",
+    "es": "Pues una ración de croquetas, por favor.",
+    "en": "Well, a portion of croquettes, please.",
+    "options": [
+     {
+      "es": "Pues una ración de croquetas, por favor.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Pues un ración de croquetas, por favor.",
+      "correct": false,
+      "why": "Ración is feminine."
+     },
+     {
+      "es": "Pues no lo sé, depende del tiempo.",
+      "correct": false,
+      "why": "That does not order anything."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Marchando. ¿Algo más?",
+    "en": "Coming up. Anything else?"
+   },
+   {
+    "speaker": "me",
+    "es": "No, nada más, gracias. Luego nos cobra.",
+    "en": "No, nothing else, thanks. We'll pay later.",
+    "options": [
+     {
+      "es": "No, nada más, gracias. Luego nos cobra.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "No, nada más, gracias. Luego nos cobramos.",
+      "correct": false,
+      "why": "The barman charges you: nos cobra."
+     },
+     {
+      "es": "No, nada más. Te has pasado.",
+      "correct": false,
+      "why": "That means you have gone past something."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "¿Me pone…?",
+    "Can I have…?",
+    "res-013"
+   ],
+   [
+    "la caña",
+    "the small draught beer",
+    "res-018"
+   ],
+   [
+    "el tinto de verano",
+    "red wine with lemonade",
+    "res-019"
+   ],
+   [
+    "la ración",
+    "the portion (to share)",
+    "res-014"
+   ],
+   [
+    "¿Algo más?",
+    "Anything else?",
+    "shp-051"
+   ],
+   [
+    "Nada más, gracias",
+    "Nothing else, thanks",
+    "shp-052"
+   ]
+  ]
+ },
+ {
+  "id": "conv-menu",
+  "title": "The menú del día and an allergy",
+  "setting": "You sit down for lunch and order the set menu.",
+  "turns": [
+   {
+    "speaker": "them",
+    "es": "¿Ya sabe qué va a tomar?",
+    "en": "Do you know what you would like?"
+   },
+   {
+    "speaker": "me",
+    "es": "Sí, el menú del día. ¿Qué lleva la sopa?",
+    "en": "Yes, the set menu. What's in the soup?",
+    "options": [
+     {
+      "es": "Sí, el menú del día. ¿Qué lleva la sopa?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Sí, el menú del día. ¿Qué lleva el sopa?",
+      "correct": false,
+      "why": "Sopa is feminine."
+     },
+     {
+      "es": "Sí, el andén cinco. ¿Qué lleva la sopa?",
+      "correct": false,
+      "why": "Andén is for trains."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Lleva pollo y verduras.",
+    "en": "It has chicken and vegetables."
+   },
+   {
+    "speaker": "me",
+    "es": "Vale, de primero la sopa. Soy alérgico a los frutos secos.",
+    "en": "OK, the soup to start. I'm allergic to nuts.",
+    "options": [
+     {
+      "es": "Vale, de primero la sopa. Soy alérgico a los frutos secos.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Vale, de primero la sopa. Soy alérgico de los frutos secos.",
+      "correct": false,
+      "why": "Alérgico a."
+     },
+     {
+      "es": "Vale, de primero la sopa. Estoy de vacaciones hasta el lunes.",
+      "correct": false,
+      "why": "This does not warn about food."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "No se preocupe, no lleva. ¿Y de segundo?",
+    "en": "Don't worry, it doesn't have any. And for the main course?"
+   },
+   {
+    "speaker": "me",
+    "es": "El filete, poco hecho, por favor.",
+    "en": "The steak, rare, please.",
+    "options": [
+     {
+      "es": "El filete, poco hecho, por favor.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "El filete, poco hecha, por favor.",
+      "correct": false,
+      "why": "Filete is masculine: hecho."
+     },
+     {
+      "es": "Poco a poco, por favor.",
+      "correct": false,
+      "why": "That does not say how you want the steak."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Muy bien. (Después de comer) ¿Todo bien?",
+    "en": "Very good. (After the meal) Is everything fine?"
+   },
+   {
+    "speaker": "me",
+    "es": "Estaba todo muy rico. ¿Me trae la cuenta?",
+    "en": "It was all very good. Can you bring me the bill?",
+    "options": [
+     {
+      "es": "Estaba todo muy rico. ¿Me trae la cuenta?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Estaba todo muy rica. ¿Me trae la cuenta?",
+      "correct": false,
+      "why": "Todo is masculine: rico."
+     },
+     {
+      "es": "Estaba todo muy rico. ¿Me trae la maleta?",
+      "correct": false,
+      "why": "You want the bill."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "el menú del día",
+    "the set lunch menu",
+    "res-005"
+   ],
+   [
+    "de primero",
+    "for the first course",
+    "res-007"
+   ],
+   [
+    "de segundo",
+    "for the main course",
+    "res-008"
+   ],
+   [
+    "Soy alérgico/a a…",
+    "I'm allergic to…",
+    "res-029"
+   ],
+   [
+    "poco hecho",
+    "rare (meat)",
+    "res-031"
+   ],
+   [
+    "Estaba todo muy rico",
+    "It was all very good",
+    "res-041"
+   ],
+   [
+    "¿Me trae la cuenta?",
+    "Can you bring me the bill?",
+    "res-053"
+   ]
+  ]
+ },
+ {
+  "id": "conv-coffee",
+  "title": "A coffee to take away",
+  "setting": "You are in a hurry on your way to the station.",
+  "turns": [
+   {
+    "speaker": "them",
+    "es": "Buenos días, ¿qué le pongo?",
+    "en": "Good morning, what can I get you?"
+   },
+   {
+    "speaker": "me",
+    "es": "Un café con leche para llevar, por favor.",
+    "en": "A white coffee to take away, please.",
+    "options": [
+     {
+      "es": "Un café con leche para llevar, por favor.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Un café con leche por llevar, por favor.",
+      "correct": false,
+      "why": "Para llevar."
+     },
+     {
+      "es": "Un café con leche, ¿cómo estás?",
+      "correct": false,
+      "why": "That is an odd thing to ask here."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Grande o pequeño?",
+    "en": "Large or small?"
+   },
+   {
+    "speaker": "me",
+    "es": "Pequeño, que tengo prisa.",
+    "en": "Small, I'm in a hurry.",
+    "options": [
+     {
+      "es": "Pequeño, que tengo prisa.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Pequeño, que estoy prisa.",
+      "correct": false,
+      "why": "Tener prisa."
+     },
+     {
+      "es": "Pequeño, me queda bien.",
+      "correct": false,
+      "why": "That is about clothes."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Algo de comer? Tenemos tostadas.",
+    "en": "Anything to eat? We have toast."
+   },
+   {
+    "speaker": "me",
+    "es": "No, gracias. ¿Se puede pagar con tarjeta?",
+    "en": "No, thanks. Can I pay by card?",
+    "options": [
+     {
+      "es": "No, gracias. ¿Se puede pagar con tarjeta?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "No, gracias. ¿Se puede pagar por tarjeta?",
+      "correct": false,
+      "why": "Pagar con tarjeta."
+     },
+     {
+      "es": "No, gracias. ¿Hay que facturar?",
+      "correct": false,
+      "why": "That is for flights."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Claro. Son dos euros.",
+    "en": "Of course. Two euros."
+   }
+  ],
+  "phrases": [
+   [
+    "el café con leche",
+    "the white coffee",
+    "res-020"
+   ],
+   [
+    "para llevar",
+    "to take away",
+    "res-022"
+   ],
+   [
+    "Tengo prisa",
+    "I'm in a hurry",
+    "st-051"
+   ],
+   [
+    "¿Se puede pagar con tarjeta?",
+    "Can I pay by card?",
+    "res-055"
+   ]
+  ]
+ },
+ {
+  "id": "conv-clothes",
+  "title": "Buying and returning clothes",
+  "setting": "You are in a clothes shop looking at a jacket.",
+  "turns": [
+   {
+    "speaker": "them",
+    "es": "Hola, ¿te puedo ayudar?",
+    "en": "Hi, can I help you?"
+   },
+   {
+    "speaker": "me",
+    "es": "Sí, ¿me puedo probar esta chaqueta?",
+    "en": "Yes, can I try on this jacket?",
+    "options": [
+     {
+      "es": "Sí, ¿me puedo probar esta chaqueta?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Sí, ¿me puedo probar este chaqueta?",
+      "correct": false,
+      "why": "Chaqueta is feminine."
+     },
+     {
+      "es": "Sí, ¿tiene una mesa para dos?",
+      "correct": false,
+      "why": "That is for a restaurant."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Claro, el probador está al fondo. ¿Qué talla usas?",
+    "en": "Of course, the fitting room is at the back. What size do you wear?"
+   },
+   {
+    "speaker": "me",
+    "es": "Normalmente la M, pero esta me queda pequeña.",
+    "en": "Usually M, but this one is too small for me.",
+    "options": [
+     {
+      "es": "Normalmente la M, pero esta me queda pequeña.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Normalmente la M, pero esta me queda pequeño.",
+      "correct": false,
+      "why": "Chaqueta is feminine: pequeña."
+     },
+     {
+      "es": "Normalmente la M, pero tengo fiebre.",
+      "correct": false,
+      "why": "That is for a doctor."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Te traigo la L. ¿Qué tal?",
+    "en": "I'll bring you the L. How is it?"
+   },
+   {
+    "speaker": "me",
+    "es": "Me queda bien. Si no le gusta a mi novia, ¿puedo devolverla?",
+    "en": "It fits me well. If my girlfriend doesn't like it, can I return it?",
+    "options": [
+     {
+      "es": "Me queda bien. Si no le gusta a mi novia, ¿puedo devolverla?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Me queda bien. Si no le gusta a mi novia, ¿puedo devolverlo?",
+      "correct": false,
+      "why": "Chaqueta: la, devolverla."
+     },
+     {
+      "es": "Me queda bien. ¿A qué hora quedamos?",
+      "correct": false,
+      "why": "That arranges a meeting."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Sí, tienes un mes. Guarda el tique.",
+    "en": "Yes, you have a month. Keep the receipt."
+   }
+  ],
+  "phrases": [
+   [
+    "¿Me lo puedo probar?",
+    "Can I try it on?",
+    "shp-003"
+   ],
+   [
+    "el probador",
+    "the fitting room",
+    "shp-004"
+   ],
+   [
+    "la talla",
+    "the size (clothes)",
+    "shp-005"
+   ],
+   [
+    "Me queda bien",
+    "It fits me well",
+    "shp-009"
+   ],
+   [
+    "devolver",
+    "to return (an item)",
+    "shp-024"
+   ],
+   [
+    "el tique",
+    "the receipt",
+    "shp-023"
+   ]
+  ]
+ },
+ {
+  "id": "conv-market",
+  "title": "At the market",
+  "setting": "You are buying food at a market stall.",
+  "turns": [
+   {
+    "speaker": "them",
+    "es": "Buenos días, ¿qué te pongo?",
+    "en": "Good morning, what can I get you?"
+   },
+   {
+    "speaker": "me",
+    "es": "Póngame un kilo de tomates, por favor.",
+    "en": "Give me a kilo of tomatoes, please.",
+    "options": [
+     {
+      "es": "Póngame un kilo de tomates, por favor.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Póngame un kilo tomates, por favor.",
+      "correct": false,
+      "why": "Un kilo de."
+     },
+     {
+      "es": "Póngame la contraseña del wifi.",
+      "correct": false,
+      "why": "That is for a hotel."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Aquí tienes. ¿Algo más?",
+    "en": "Here you are. Anything else?"
+   },
+   {
+    "speaker": "me",
+    "es": "Sí, medio kilo de naranjas.",
+    "en": "Yes, half a kilo of oranges.",
+    "options": [
+     {
+      "es": "Sí, medio kilo de naranjas.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Sí, media kilo de naranjas.",
+      "correct": false,
+      "why": "Kilo is masculine: medio."
+     },
+     {
+      "es": "Sí, gira a la izquierda.",
+      "correct": false,
+      "why": "That is a direction."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Muy bien, están muy frescas. ¿Algo más?",
+    "en": "Very good, they're very fresh. Anything else?"
+   },
+   {
+    "speaker": "me",
+    "es": "Nada más, gracias. ¿Cuánto es todo?",
+    "en": "Nothing else, thanks. How much is it altogether?",
+    "options": [
+     {
+      "es": "Nada más, gracias. ¿Cuánto es todo?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Nada más, gracias. ¿Cuántos es todo?",
+      "correct": false,
+      "why": "Asking a price: cuánto."
+     },
+     {
+      "es": "Nada más, gracias. ¿Qué me cuentas?",
+      "correct": false,
+      "why": "That is small talk."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Cuatro con cincuenta. ¿Necesitas bolsa?",
+    "en": "Four fifty. Do you need a bag?"
+   },
+   {
+    "speaker": "me",
+    "es": "No, gracias, llevo una.",
+    "en": "No, thanks, I have one.",
+    "options": [
+     {
+      "es": "No, gracias, llevo una.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "No, gracias, llevo uno.",
+      "correct": false,
+      "why": "Bolsa is feminine: una."
+     },
+     {
+      "es": "Sí, me encuentro mal.",
+      "correct": false,
+      "why": "That is about your health."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "un kilo de…",
+    "a kilo of…",
+    "shp-043"
+   ],
+   [
+    "medio kilo",
+    "half a kilo",
+    "shp-044"
+   ],
+   [
+    "¿Algo más?",
+    "Anything else?",
+    "shp-051"
+   ],
+   [
+    "¿Cuánto es todo?",
+    "How much is it altogether?",
+    "shp-054"
+   ],
+   [
+    "¿Necesitas bolsa?",
+    "Do you need a bag?",
+    "shp-027"
+   ]
+  ]
+ },
+ {
+  "id": "conv-pharmacy",
+  "title": "At the pharmacy",
+  "setting": "You feel unwell and go to a pharmacy.",
+  "turns": [
+   {
+    "speaker": "them",
+    "es": "Hola, ¿en qué le puedo ayudar?",
+    "en": "Hello, how can I help you?"
+   },
+   {
+    "speaker": "me",
+    "es": "Hola, me encuentro mal. Me duele la garganta.",
+    "en": "Hello, I feel unwell. My throat hurts.",
+    "options": [
+     {
+      "es": "Hola, me encuentro mal. Me duele la garganta.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Hola, me encuentro mal. Me duelo la garganta.",
+      "correct": false,
+      "why": "Doler works like gustar: me duele."
+     },
+     {
+      "es": "Hola, ¿tienen mesa en la terraza?",
+      "correct": false,
+      "why": "That is for a restaurant."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Tiene fiebre?",
+    "en": "Do you have a fever?"
+   },
+   {
+    "speaker": "me",
+    "es": "Creo que no, pero estoy muy cansado.",
+    "en": "I don't think so, but I'm very tired.",
+    "options": [
+     {
+      "es": "Creo que no, pero estoy muy cansado.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Creo que no, pero soy muy cansado.",
+      "correct": false,
+      "why": "A state: estoy."
+     },
+     {
+      "es": "Creo que no, pero la cuenta, por favor.",
+      "correct": false,
+      "why": "That asks for a bill."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Tome estas pastillas tres veces al día.",
+    "en": "Take these pills three times a day."
+   },
+   {
+    "speaker": "me",
+    "es": "¿Necesito receta?",
+    "en": "Do I need a prescription?",
+    "options": [
+     {
+      "es": "¿Necesito receta?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "¿Necesito una receto?",
+      "correct": false,
+      "why": "Receta is the word."
+     },
+     {
+      "es": "¿Necesito facturar?",
+      "correct": false,
+      "why": "That is for flights."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "No. Si no está mejor en tres días, vaya al médico.",
+    "en": "No. If you're not better in three days, go to the doctor."
+   },
+   {
+    "speaker": "me",
+    "es": "Muy bien, muchas gracias.",
+    "en": "Very good, thank you very much.",
+    "options": [
+     {
+      "es": "Muy bien, muchas gracias.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Muy bien, muchos gracias.",
+      "correct": false,
+      "why": "Gracias is feminine: muchas."
+     },
+     {
+      "es": "Vale, hasta el lunes en la oficina.",
+      "correct": false,
+      "why": "That is for a colleague."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Me encuentro mal",
+    "I feel unwell",
+    "prb-016"
+   ],
+   [
+    "Me duele…",
+    "My … hurts",
+    "prb-017"
+   ],
+   [
+    "la fiebre",
+    "the fever",
+    "prb-022"
+   ],
+   [
+    "la pastilla",
+    "the pill",
+    "rep-183"
+   ],
+   [
+    "la receta",
+    "the prescription",
+    "prb-020"
    ]
   ]
  },
@@ -320,6 +1833,1538 @@
     "¡Que lo pases bien!",
     "Have a good time!",
     "st-037"
+   ]
+  ]
+ },
+ {
+  "id": "conv-friend",
+  "title": "Catching up with a friend",
+  "setting": "Your friend Laura has just come back from a trip.",
+  "turns": [
+   {
+    "speaker": "me",
+    "es": "¡Cuánto tiempo! ¿Qué tal el viaje?",
+    "en": "Long time no see! How was the trip?",
+    "options": [
+     {
+      "es": "¡Cuánto tiempo! ¿Qué tal el viaje?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "¡Cuánto tiempo! ¿Cómo tal el viaje?",
+      "correct": false,
+      "why": "¿Qué tal?, not ¿cómo tal?"
+     },
+     {
+      "es": "¡Cuánto tiempo! ¿Me trae la carta?",
+      "correct": false,
+      "why": "That is for a waiter."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¡Genial! Hemos estado en Canarias. ¿Y tú, qué has hecho?",
+    "en": "Great! We've been to the Canaries. And you, what have you been up to?"
+   },
+   {
+    "speaker": "me",
+    "es": "He trabajado mucho, pero he empezado un curso de baile.",
+    "en": "I've worked a lot, but I've started a dance course.",
+    "options": [
+     {
+      "es": "He trabajado mucho, pero he empezado un curso de baile.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "He trabajado mucho, pero he empezado un curso de bailar.",
+      "correct": false,
+      "why": "Noun needed: curso de baile."
+     },
+     {
+      "es": "He trabajado mucho, pero tuerce a la derecha.",
+      "correct": false,
+      "why": "That is a direction."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¡Qué bien! ¿Has conocido a gente?",
+    "en": "How nice! Have you met people?"
+   },
+   {
+    "speaker": "me",
+    "es": "Sí, he conocido a personas muy majas.",
+    "en": "Yes, I've met some very nice people.",
+    "options": [
+     {
+      "es": "Sí, he conocido a personas muy majas.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Sí, he encontrado personas muy majas.",
+      "correct": false,
+      "why": "First meetings: conocer a."
+     },
+     {
+      "es": "Sí, he perdido el pasaporte.",
+      "correct": false,
+      "why": "That does not answer the question."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Me alegro mucho. Tenemos que quedar un día.",
+    "en": "I'm very glad. We must meet up one day."
+   },
+   {
+    "speaker": "me",
+    "es": "Claro, te escribo esta semana.",
+    "en": "Of course, I'll write to you this week.",
+    "options": [
+     {
+      "es": "Claro, te escribo esta semana.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Claro, te escribes esta semana.",
+      "correct": false,
+      "why": "I write: escribo."
+     },
+     {
+      "es": "Claro, es urgente.",
+      "correct": false,
+      "why": "That does not fit."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "¡Cuánto tiempo!",
+    "Long time no see!",
+    "st-057"
+   ],
+   [
+    "¿Qué tal el viaje?",
+    "How was the trip?"
+   ],
+   [
+    "He conocido a…",
+    "I've met…"
+   ],
+   [
+    "Te escribo luego",
+    "I'll write to you later",
+    "pln-019"
+   ]
+  ]
+ },
+ {
+  "id": "conv-weekend",
+  "title": "Telling a colleague about your weekend",
+  "setting": "On Monday a colleague asks about your weekend.",
+  "turns": [
+   {
+    "speaker": "them",
+    "es": "¿Qué tal el fin de semana?",
+    "en": "How was your weekend?"
+   },
+   {
+    "speaker": "me",
+    "es": "Muy bien. El sábado fui a la sierra con unos amigos.",
+    "en": "Very good. On Saturday I went to the mountains with some friends.",
+    "options": [
+     {
+      "es": "Muy bien. El sábado fui a la sierra con unos amigos.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Muy bien. El sábado iba a la sierra con unos amigos.",
+      "correct": false,
+      "why": "A finished event: fui."
+     },
+     {
+      "es": "Muy bien. El sábado me queda grande.",
+      "correct": false,
+      "why": "That makes no sense."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Y qué tal el tiempo?",
+    "en": "And how was the weather?"
+   },
+   {
+    "speaker": "me",
+    "es": "Hacía mucho sol, pero tenía frío.",
+    "en": "It was very sunny, but I was cold.",
+    "options": [
+     {
+      "es": "Hacía mucho sol, pero tenía frío.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Hacía mucho sol, pero estaba frío.",
+      "correct": false,
+      "why": "Feeling cold: tener frío."
+     },
+     {
+      "es": "Hacía mucho sol, ¿y dónde está el baño?",
+      "correct": false,
+      "why": "That changes the subject."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Hicisteis senderismo?",
+    "en": "Did you go hiking?"
+   },
+   {
+    "speaker": "me",
+    "es": "Sí, anduvimos cuatro horas y estábamos hechos polvo.",
+    "en": "Yes, we walked for four hours and we were exhausted.",
+    "options": [
+     {
+      "es": "Sí, anduvimos cuatro horas y estábamos hechos polvo.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Sí, andamos cuatro horas el sábado y estábamos hechos polvo.",
+      "correct": false,
+      "why": "Past of andar: anduvimos."
+     },
+     {
+      "es": "Sí, soy vegetariano.",
+      "correct": false,
+      "why": "That does not answer."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¡Qué pasada! Y el domingo, ¿qué hiciste?",
+    "en": "Amazing! And on Sunday, what did you do?"
+   },
+   {
+    "speaker": "me",
+    "es": "Nada especial. Me quedé en casa y vi una serie.",
+    "en": "Nothing special. I stayed at home and watched a series.",
+    "options": [
+     {
+      "es": "Nada especial. Me quedé en casa y vi una serie.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Nada especial. Me quedaba en casa y veí una serie.",
+      "correct": false,
+      "why": "Finished events: me quedé, vi."
+     },
+     {
+      "es": "Nada especial. Son veinte euros.",
+      "correct": false,
+      "why": "That is a price."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "¿Qué tal el fin de semana?",
+    "How was your weekend?",
+    "st-008"
+   ],
+   [
+    "hacer senderismo",
+    "to go hiking",
+    "nat-009"
+   ],
+   [
+    "estar hecho polvo",
+    "to be exhausted",
+    "exp-006"
+   ],
+   [
+    "¡Qué pasada!",
+    "That's amazing!",
+    "exp-014"
+   ],
+   [
+    "Nada especial",
+    "Nothing special",
+    "st-015"
+   ]
+  ]
+ },
+ {
+  "id": "conv-plans",
+  "title": "Making plans for Saturday",
+  "setting": "A friend calls to meet up.",
+  "turns": [
+   {
+    "speaker": "them",
+    "es": "¿Quedamos el sábado?",
+    "en": "Shall we meet on Saturday?"
+   },
+   {
+    "speaker": "me",
+    "es": "Vale, ¿a qué hora te viene bien?",
+    "en": "OK, what time suits you?",
+    "options": [
+     {
+      "es": "Vale, ¿a qué hora te viene bien?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Vale, ¿a qué hora te vienes bien?",
+      "correct": false,
+      "why": "Venir bien: te viene bien."
+     },
+     {
+      "es": "Vale, ¿cuánto cuesta el peaje?",
+      "correct": false,
+      "why": "That is about driving."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "A las once, en la plaza.",
+    "en": "At eleven, in the square."
+   },
+   {
+    "speaker": "me",
+    "es": "A las once me viene fatal. Tengo un plan con mi hermano.",
+    "en": "Eleven is really bad for me. I have plans with my brother.",
+    "options": [
+     {
+      "es": "A las once me viene fatal. Tengo un plan con mi hermano.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "A las once me va fatal de hermano.",
+      "correct": false,
+      "why": "This does not make sense."
+     },
+     {
+      "es": "A las once me encanta el marisco.",
+      "correct": false,
+      "why": "That is about food."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Y por la tarde?",
+    "en": "And in the afternoon?"
+   },
+   {
+    "speaker": "me",
+    "es": "Mejor a las cinco. Te aviso si llego tarde.",
+    "en": "Better at five. I'll let you know if I'm late.",
+    "options": [
+     {
+      "es": "Mejor a las cinco. Te aviso si llego tarde.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Mejor en las cinco. Te aviso si llego tarde.",
+      "correct": false,
+      "why": "Clock time: a las."
+     },
+     {
+      "es": "Mejor a las cinco. Te devuelvo el tique.",
+      "correct": false,
+      "why": "That is for a shop."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Perfecto. ¿Te apetece ir al cine?",
+    "en": "Perfect. Do you feel like going to the cinema?"
+   },
+   {
+    "speaker": "me",
+    "es": "¡Me apunto! Nos vemos a las cinco.",
+    "en": "I'm in! See you at five.",
+    "options": [
+     {
+      "es": "¡Me apunto! Nos vemos a las cinco.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "¡Me apunto! Nos ve a las cinco.",
+      "correct": false,
+      "why": "Reciprocal: nos vemos."
+     },
+     {
+      "es": "No, gracias, solo estoy mirando.",
+      "correct": false,
+      "why": "That is for a shop."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "¿Quedamos?",
+    "Shall we meet up?",
+    "pln-002"
+   ],
+   [
+    "¿Te viene bien…?",
+    "Does … suit you?",
+    "pln-003"
+   ],
+   [
+    "Me viene fatal",
+    "It's really bad for me",
+    "pln-008"
+   ],
+   [
+    "Te aviso",
+    "I'll let you know",
+    "pln-017"
+   ],
+   [
+    "¿Te apetece…?",
+    "Do you feel like…?",
+    "pln-004"
+   ],
+   [
+    "Me apunto",
+    "I'm in",
+    "pln-020"
+   ]
+  ]
+ },
+ {
+  "id": "conv-party",
+  "title": "Meeting someone at a party",
+  "setting": "A stranger starts talking to you at a party.",
+  "turns": [
+   {
+    "speaker": "them",
+    "es": "Hola, soy Marta. No te conozco, ¿verdad?",
+    "en": "Hi, I'm Marta. I don't know you, do I?"
+   },
+   {
+    "speaker": "me",
+    "es": "Hola, soy Tim. Encantado de conocerte.",
+    "en": "Hi, I'm Tim. Nice to meet you.",
+    "options": [
+     {
+      "es": "Hola, soy Tim. Encantado de conocerte.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Hola, estoy Tim. Encantado de conocerte.",
+      "correct": false,
+      "why": "Identity: soy."
+     },
+     {
+      "es": "Hola, ¿me cobra?",
+      "correct": false,
+      "why": "That is for a waiter."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Igualmente. ¿De dónde eres?",
+    "en": "Likewise. Where are you from?"
+   },
+   {
+    "speaker": "me",
+    "es": "Soy de los Países Bajos, de Utrecht.",
+    "en": "I'm from the Netherlands, from Utrecht.",
+    "options": [
+     {
+      "es": "Soy de los Países Bajos, de Utrecht.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Estoy de los Países Bajos, de Utrecht.",
+      "correct": false,
+      "why": "Origin: ser de."
+     },
+     {
+      "es": "Soy alérgico a los frutos secos.",
+      "correct": false,
+      "why": "That does not answer."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Y cuánto tiempo llevas en España?",
+    "en": "And how long have you been in Spain?"
+   },
+   {
+    "speaker": "me",
+    "es": "Llevo dos semanas aquí.",
+    "en": "I've been here for two weeks.",
+    "options": [
+     {
+      "es": "Llevo dos semanas aquí.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Estoy dos semanas aquí desde.",
+      "correct": false,
+      "why": "Llevar + time."
+     },
+     {
+      "es": "Llevo dos maletas aquí.",
+      "correct": false,
+      "why": "Suitcases do not answer this."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Y a qué te dedicas?",
+    "en": "And what do you do for a living?"
+   },
+   {
+    "speaker": "me",
+    "es": "Trabajo en consultoría, pero busco trabajo en España.",
+    "en": "I work in consulting, but I'm looking for work in Spain.",
+    "options": [
+     {
+      "es": "Trabajo en consultoría, pero busco trabajo en España.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Trabajo de consultoría, pero busco por trabajo en España.",
+      "correct": false,
+      "why": "Buscar takes no preposition."
+     },
+     {
+      "es": "Me dedico a girar a la izquierda.",
+      "correct": false,
+      "why": "That is nonsense here."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "Encantado/a de conocerte",
+    "Nice to meet you",
+    "st-038"
+   ],
+   [
+    "Igualmente",
+    "Likewise; same to you",
+    "st-059"
+   ],
+   [
+    "¿De dónde eres?",
+    "Where are you from?",
+    "st-039"
+   ],
+   [
+    "¿Cuánto tiempo llevas aquí?",
+    "How long have you been here?",
+    "st-041"
+   ],
+   [
+    "¿A qué te dedicas?",
+    "What do you do for a living?",
+    "st-040"
+   ]
+  ]
+ },
+ {
+  "id": "conv-colleague",
+  "title": "A colleague asks about your day",
+  "setting": "You meet a colleague at the coffee machine.",
+  "turns": [
+   {
+    "speaker": "them",
+    "es": "¿Qué tal el día? ¿En qué andas?",
+    "en": "How's your day? What are you up to?"
+   },
+   {
+    "speaker": "me",
+    "es": "Bien, pero muy liado. Estoy trabajando en un proyecto nuevo.",
+    "en": "Fine, but very busy. I'm working on a new project.",
+    "options": [
+     {
+      "es": "Bien, pero muy liado. Estoy trabajando en un proyecto nuevo.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Bien, pero muy liado. Estoy trabajando un proyecto nuevo.",
+      "correct": false,
+      "why": "Trabajar en un proyecto."
+     },
+     {
+      "es": "Bien, gracias, ¿me pone un kilo?",
+      "correct": false,
+      "why": "That is for a market."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Para cuándo es?",
+    "en": "When is it due?"
+   },
+   {
+    "speaker": "me",
+    "es": "El plazo termina el viernes.",
+    "en": "The deadline is on Friday.",
+    "options": [
+     {
+      "es": "El plazo termina el viernes.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "La plazo termina el viernes.",
+      "correct": false,
+      "why": "Plazo is masculine."
+     },
+     {
+      "es": "El plazo está enfrente del banco.",
+      "correct": false,
+      "why": "A deadline has no location."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¡Vaya! ¿Necesitas ayuda?",
+    "en": "Oh dear! Do you need help?"
+   },
+   {
+    "speaker": "me",
+    "es": "Te lo agradezco, pero creo que puedo terminarlo.",
+    "en": "Thanks, but I think I can finish it.",
+    "options": [
+     {
+      "es": "Te lo agradezco, pero creo que puedo terminarlo.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Te lo agradezco, pero creo que pueda terminarlo.",
+      "correct": false,
+      "why": "Creo que + indicative."
+     },
+     {
+      "es": "Te lo agradezco, pero prefiero la talla L.",
+      "correct": false,
+      "why": "That is about clothes."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Vale. Si cambias de idea, avísame.",
+    "en": "OK. If you change your mind, let me know."
+   }
+  ],
+  "phrases": [
+   [
+    "¿Qué tal el día?",
+    "How's your day going?",
+    "st-002"
+   ],
+   [
+    "¿En qué andas?",
+    "What are you up to?",
+    "st-007"
+   ],
+   [
+    "el proyecto",
+    "the project",
+    "wrk-038"
+   ],
+   [
+    "el plazo",
+    "the deadline",
+    "wrk-034"
+   ],
+   [
+    "Avísame",
+    "Let me know",
+    "pln-018"
+   ]
+  ]
+ },
+ {
+  "id": "conv-table",
+  "title": "Phoning to book a table",
+  "setting": "You phone a restaurant.",
+  "turns": [
+   {
+    "speaker": "them",
+    "es": "Restaurante La Plaza, dígame.",
+    "en": "La Plaza restaurant, how can I help?"
+   },
+   {
+    "speaker": "me",
+    "es": "Hola, quería reservar mesa para el sábado.",
+    "en": "Hello, I'd like to book a table for Saturday.",
+    "options": [
+     {
+      "es": "Hola, quería reservar mesa para el sábado.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Hola, quería reservar mesa por el sábado.",
+      "correct": false,
+      "why": "Intended date: para."
+     },
+     {
+      "es": "Hola, quería devolver esta camisa.",
+      "correct": false,
+      "why": "That is for a shop."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Para cuántas personas?",
+    "en": "For how many people?"
+   },
+   {
+    "speaker": "me",
+    "es": "Para cuatro, a las nueve, si es posible.",
+    "en": "For four, at nine, if possible.",
+    "options": [
+     {
+      "es": "Para cuatro, a las nueve, si es posible.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Para cuatro, en las nueve, si es posible.",
+      "correct": false,
+      "why": "Clock time: a las."
+     },
+     {
+      "es": "Para cuatro, soy de Utrecht.",
+      "correct": false,
+      "why": "That does not answer."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "A las nueve no tengo. ¿A las nueve y media?",
+    "en": "I have nothing at nine. At nine thirty?"
+   },
+   {
+    "speaker": "me",
+    "es": "Sí, perfecto. ¿Se puede en la terraza?",
+    "en": "Yes, perfect. Is the terrace possible?",
+    "options": [
+     {
+      "es": "Sí, perfecto. ¿Se puede en la terraza?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Sí, perfecto. ¿Se puede en el terraza?",
+      "correct": false,
+      "why": "Terraza is feminine."
+     },
+     {
+      "es": "Sí, perfecto. ¿Me duele la cabeza?",
+      "correct": false,
+      "why": "That makes no sense."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Sí. ¿A nombre de quién?",
+    "en": "Yes. Under what name?"
+   },
+   {
+    "speaker": "me",
+    "es": "A nombre de Tim. Muchas gracias.",
+    "en": "Under the name Tim. Thank you very much.",
+    "options": [
+     {
+      "es": "A nombre de Tim. Muchas gracias.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Por nombre de Tim. Muchas gracias.",
+      "correct": false,
+      "why": "A nombre de."
+     },
+     {
+      "es": "Se ha estropeado. Muchas gracias.",
+      "correct": false,
+      "why": "That means it has broken down."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "reservar mesa",
+    "to book a table",
+    "res-002"
+   ],
+   [
+    "la terraza",
+    "the terrace",
+    "hou-029"
+   ],
+   [
+    "a nombre de",
+    "under the name of"
+   ]
+  ]
+ },
+ {
+  "id": "conv-flat",
+  "title": "Renting a flat",
+  "setting": "You phone about a flat you saw online.",
+  "turns": [
+   {
+    "speaker": "me",
+    "es": "Hola, llamo por el piso del anuncio. ¿Sigue libre?",
+    "en": "Hello, I'm calling about the flat in the advert. Is it still available?",
+    "options": [
+     {
+      "es": "Hola, llamo por el piso del anuncio. ¿Sigue libre?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Hola, llamo para el piso del anuncio. ¿Sigue libre?",
+      "correct": false,
+      "why": "Cause of the call: por."
+     },
+     {
+      "es": "Hola, llamo por la cuenta. ¿Me la trae?",
+      "correct": false,
+      "why": "That is for a waiter."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Sí. Son ochocientos al mes, más gastos.",
+    "en": "Yes. It's eight hundred a month, plus bills."
+   },
+   {
+    "speaker": "me",
+    "es": "¿Cuánto es la fianza?",
+    "en": "How much is the deposit?",
+    "options": [
+     {
+      "es": "¿Cuánto es la fianza?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "¿Cuánto es el fianza?",
+      "correct": false,
+      "why": "Fianza is feminine."
+     },
+     {
+      "es": "¿Cuánto es la talla?",
+      "correct": false,
+      "why": "That is about clothes."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Un mes de alquiler. El piso está amueblado.",
+    "en": "One month's rent. The flat is furnished."
+   },
+   {
+    "speaker": "me",
+    "es": "¿Es exterior? Prefiero un piso luminoso.",
+    "en": "Does it face the street? I prefer a bright flat.",
+    "options": [
+     {
+      "es": "¿Es exterior? Prefiero un piso luminoso.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "¿Está exterior? Prefiero un piso luminoso.",
+      "correct": false,
+      "why": "Permanent feature: es."
+     },
+     {
+      "es": "¿Es exterior? Prefiero el pescado.",
+      "correct": false,
+      "why": "That is about food."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Sí, tiene mucha luz. ¿Quiere verlo?",
+    "en": "Yes, it gets a lot of light. Would you like to see it?"
+   },
+   {
+    "speaker": "me",
+    "es": "Sí, estoy muy interesado en verlo.",
+    "en": "Yes, I'm very interested in seeing it.",
+    "options": [
+     {
+      "es": "Sí, estoy muy interesado en verlo.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Sí, estoy muy interesado de verlo.",
+      "correct": false,
+      "why": "Interesado en: your exam mistake."
+     },
+     {
+      "es": "Sí, estoy muy interesado en facturar.",
+      "correct": false,
+      "why": "That is for flights."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Muy bien. ¿El jueves a las seis?",
+    "en": "Very good. Thursday at six?"
+   }
+  ],
+  "phrases": [
+   [
+    "el alquiler",
+    "the rent",
+    "hou-001"
+   ],
+   [
+    "la fianza",
+    "the deposit",
+    "acc-032"
+   ],
+   [
+    "los gastos",
+    "the bills",
+    "hou-006"
+   ],
+   [
+    "amueblado",
+    "furnished",
+    "hou-007"
+   ],
+   [
+    "luminoso",
+    "bright",
+    "hou-008"
+   ],
+   [
+    "exterior",
+    "facing the street",
+    "hou-009"
+   ]
+  ]
+ },
+ {
+  "id": "conv-interview",
+  "title": "A job interview",
+  "setting": "A recruiter interviews you for a position in Madrid.",
+  "turns": [
+   {
+    "speaker": "them",
+    "es": "Háblame un poco de ti.",
+    "en": "Tell me a bit about yourself."
+   },
+   {
+    "speaker": "me",
+    "es": "Soy holandés y llevo varios años trabajando en consultoría.",
+    "en": "I'm Dutch and I've been working in consulting for several years.",
+    "options": [
+     {
+      "es": "Soy holandés y llevo varios años trabajando en consultoría.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Soy holandés y llevo varios años trabajar en consultoría.",
+      "correct": false,
+      "why": "Llevar + gerund: trabajando."
+     },
+     {
+      "es": "Soy holandés y me duele la rodilla.",
+      "correct": false,
+      "why": "Not for an interview."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Qué experiencia tienes?",
+    "en": "What experience do you have?"
+   },
+   {
+    "speaker": "me",
+    "es": "He trabajado en varios proyectos internacionales.",
+    "en": "I've worked on several international projects.",
+    "options": [
+     {
+      "es": "He trabajado en varios proyectos internacionales.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "He trabajado varios proyectos internacionales.",
+      "correct": false,
+      "why": "Trabajar en: your exam mistake."
+     },
+     {
+      "es": "He comprado varios zapatos.",
+      "correct": false,
+      "why": "That is off-topic."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Por qué quieres trabajar en España?",
+    "en": "Why do you want to work in Spain?"
+   },
+   {
+    "speaker": "me",
+    "es": "Porque me encanta el país y quiero mejorar mi español.",
+    "en": "Because I love the country and want to improve my Spanish.",
+    "options": [
+     {
+      "es": "Porque me encanta el país y quiero mejorar mi español.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Para que me encanta el país y quiero mejorar mi español.",
+      "correct": false,
+      "why": "Reason: porque."
+     },
+     {
+      "es": "Porque el tren tiene retraso.",
+      "correct": false,
+      "why": "That does not answer."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Tienes alguna pregunta?",
+    "en": "Do you have any questions?"
+   },
+   {
+    "speaker": "me",
+    "es": "Sí, ¿se puede trabajar en remoto algunos días?",
+    "en": "Yes, is it possible to work remotely some days?",
+    "options": [
+     {
+      "es": "Sí, ¿se puede trabajar en remoto algunos días?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Sí, ¿se puede trabajo en remoto algunos días?",
+      "correct": false,
+      "why": "After poder: infinitive."
+     },
+     {
+      "es": "Sí, ¿qué me recomienda de postre?",
+      "correct": false,
+      "why": "That is for a waiter."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "la entrevista",
+    "the interview",
+    "wrk-001"
+   ],
+   [
+    "la experiencia",
+    "the experience",
+    "wrk-011"
+   ],
+   [
+    "el proyecto",
+    "the project",
+    "wrk-038"
+   ],
+   [
+    "trabajar en remoto",
+    "to work remotely",
+    "wrk-023"
+   ],
+   [
+    "mejorar",
+    "to improve",
+    "vrb-050"
+   ]
+  ]
+ },
+ {
+  "id": "conv-wallet",
+  "title": "Reporting a stolen wallet",
+  "setting": "You go to a police station.",
+  "turns": [
+   {
+    "speaker": "them",
+    "es": "Buenos días, ¿en qué le puedo ayudar?",
+    "en": "Good morning, how can I help you?"
+   },
+   {
+    "speaker": "me",
+    "es": "Buenos días, quiero poner una denuncia. Me han robado la cartera.",
+    "en": "Good morning, I want to report a crime. My wallet has been stolen.",
+    "options": [
+     {
+      "es": "Buenos días, quiero poner una denuncia. Me han robado la cartera.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Buenos días, quiero poner una denuncia. Me han robado el cartera.",
+      "correct": false,
+      "why": "Cartera is feminine."
+     },
+     {
+      "es": "Buenos días, quiero una habitación doble.",
+      "correct": false,
+      "why": "That is for a hotel."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Dónde ha ocurrido?",
+    "en": "Where did it happen?"
+   },
+   {
+    "speaker": "me",
+    "es": "En el metro, esta mañana, creo.",
+    "en": "On the metro, this morning, I think.",
+    "options": [
+     {
+      "es": "En el metro, esta mañana, creo.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Por metro, esta mañana, creo.",
+      "correct": false,
+      "why": "Location: en el metro."
+     },
+     {
+      "es": "Me queda pequeño, creo.",
+      "correct": false,
+      "why": "That is about clothes."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Qué llevaba en la cartera?",
+    "en": "What did you have in the wallet?"
+   },
+   {
+    "speaker": "me",
+    "es": "Llevaba dinero, dos tarjetas y el carné.",
+    "en": "I had money, two cards and my ID.",
+    "options": [
+     {
+      "es": "Llevaba dinero, dos tarjetas y el carné.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Llevé dinero, dos tarjetas y el carné.",
+      "correct": false,
+      "why": "Description of the past: llevaba."
+     },
+     {
+      "es": "Llevaba una vida tranquila.",
+      "correct": false,
+      "why": "That does not answer."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿Ha bloqueado las tarjetas?",
+    "en": "Have you blocked the cards?"
+   },
+   {
+    "speaker": "me",
+    "es": "Sí, ya las he bloqueado. ¿Qué tengo que hacer ahora?",
+    "en": "Yes, I've already blocked them. What do I have to do now?",
+    "options": [
+     {
+      "es": "Sí, ya las he bloqueado. ¿Qué tengo que hacer ahora?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Sí, ya los he bloqueado. ¿Qué tengo que hacer ahora?",
+      "correct": false,
+      "why": "Tarjetas: las."
+     },
+     {
+      "es": "Sí, ya he reservado mesa.",
+      "correct": false,
+      "why": "That is for a restaurant."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "poner una denuncia",
+    "to report a crime",
+    "prb-007"
+   ],
+   [
+    "Me han robado…",
+    "… has been stolen from me",
+    "prb-003"
+   ],
+   [
+    "la cartera",
+    "the wallet",
+    "prb-004"
+   ],
+   [
+    "bloquear la tarjeta",
+    "to block the card",
+    "prb-032"
+   ],
+   [
+    "la comisaría",
+    "the police station",
+    "prb-006"
+   ]
+  ]
+ },
+ {
+  "id": "conv-opinion",
+  "title": "Giving your opinion on a film",
+  "setting": "You and a friend have just seen a film.",
+  "turns": [
+   {
+    "speaker": "them",
+    "es": "¿Qué te ha parecido la película?",
+    "en": "What did you think of the film?"
+   },
+   {
+    "speaker": "me",
+    "es": "Me ha parecido muy buena, pero un poco larga.",
+    "en": "I thought it was very good, but a bit long.",
+    "options": [
+     {
+      "es": "Me ha parecido muy buena, pero un poco larga.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Me ha parecido muy bueno, pero un poco larga.",
+      "correct": false,
+      "why": "Película is feminine: buena."
+     },
+     {
+      "es": "Me ha parecido la segunda calle.",
+      "correct": false,
+      "why": "That is a direction."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Yo creo que el final es malísimo.",
+    "en": "I think the ending is terrible."
+   },
+   {
+    "speaker": "me",
+    "es": "No estoy de acuerdo contigo. A mí me ha encantado.",
+    "en": "I don't agree with you. I loved it.",
+    "options": [
+     {
+      "es": "No estoy de acuerdo contigo. A mí me ha encantado.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "No estoy de acuerdo para ti. A mí me ha encantado.",
+      "correct": false,
+      "why": "De acuerdo con: your exam mistake."
+     },
+     {
+      "es": "No estoy de vacaciones. A mí me duele.",
+      "correct": false,
+      "why": "That does not fit."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¿En serio? ¿Por qué?",
+    "en": "Really? Why?"
+   },
+   {
+    "speaker": "me",
+    "es": "Creo que es original y me parece que los actores son geniales.",
+    "en": "I think it's original and the actors seem great to me.",
+    "options": [
+     {
+      "es": "Creo que es original y me parece que los actores son geniales.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Creo que sea original y me parece que los actores son geniales.",
+      "correct": false,
+      "why": "Creo que + indicative."
+     },
+     {
+      "es": "Creo que está al lado de la farmacia.",
+      "correct": false,
+      "why": "That is a location."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Bueno, tienes razón en lo de los actores.",
+    "en": "Well, you're right about the actors."
+   },
+   {
+    "speaker": "me",
+    "es": "¿Quieres ver otra el fin de semana?",
+    "en": "Do you want to see another one at the weekend?",
+    "options": [
+     {
+      "es": "¿Quieres ver otra el fin de semana?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "¿Quieres ver una otra el fin de semana?",
+      "correct": false,
+      "why": "Otra needs no una."
+     },
+     {
+      "es": "¿Quieres ver el recibo del gas?",
+      "correct": false,
+      "why": "That is a bill."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "¿Qué te parece?",
+    "What do you think?",
+    "st-076"
+   ],
+   [
+    "Creo que…",
+    "I think that…",
+    "fee-001"
+   ],
+   [
+    "Estoy de acuerdo con…",
+    "I agree with…",
+    "fee-004"
+   ],
+   [
+    "No estoy de acuerdo con…",
+    "I don't agree with…",
+    "fee-005"
+   ],
+   [
+    "Tienes razón",
+    "You're right",
+    "fee-006"
+   ]
+  ]
+ },
+ {
+  "id": "conv-goodbye",
+  "title": "Saying goodbye",
+  "setting": "Your last evening before leaving. You say goodbye to a friend.",
+  "turns": [
+   {
+    "speaker": "them",
+    "es": "¿Entonces te vas mañana?",
+    "en": "So you are leaving tomorrow?"
+   },
+   {
+    "speaker": "me",
+    "es": "Sí, me voy por la mañana. Te voy a echar de menos.",
+    "en": "Yes, I'm leaving in the morning. I'm going to miss you.",
+    "options": [
+     {
+      "es": "Sí, me voy por la mañana. Te voy a echar de menos.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Sí, me voy a la mañana. Te voy a echar de menos.",
+      "correct": false,
+      "why": "Por la mañana: your exam mistake."
+     },
+     {
+      "es": "Sí, me voy al probador.",
+      "correct": false,
+      "why": "That is for a shop."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Yo también. ¿Cuándo vuelves?",
+    "en": "Me too. When are you coming back?"
+   },
+   {
+    "speaker": "me",
+    "es": "Espero volver dentro de unos meses.",
+    "en": "I hope to come back in a few months.",
+    "options": [
+     {
+      "es": "Espero volver dentro de unos meses.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Espero que vuelvo dentro de unos meses.",
+      "correct": false,
+      "why": "Same subject: espero + infinitive."
+     },
+     {
+      "es": "Espero el autobús número doce.",
+      "correct": false,
+      "why": "That does not answer."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¡Qué bien! Y avísame cuando llegues a casa.",
+    "en": "Great! And let me know when you get home."
+   },
+   {
+    "speaker": "me",
+    "es": "Claro, te escribo cuando llegue.",
+    "en": "Of course, I'll write to you when I arrive.",
+    "options": [
+     {
+      "es": "Claro, te escribo cuando llegue.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Claro, te escribo cuando llego.",
+      "correct": false,
+      "why": "Cuando + future idea: subjunctive."
+     },
+     {
+      "es": "Claro, la cuenta, por favor.",
+      "correct": false,
+      "why": "That is for a waiter."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¡Que te vaya muy bien!",
+    "en": "All the very best!"
+   },
+   {
+    "speaker": "me",
+    "es": "¡Igualmente! Cuídate mucho. ¡Nos vemos pronto!",
+    "en": "You too! Take good care. See you soon!",
+    "options": [
+     {
+      "es": "¡Igualmente! Cuídate mucho. ¡Nos vemos pronto!",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "¡Igualmente! Cuidas mucho. ¡Nos vemos pronto!",
+      "correct": false,
+      "why": "Command: cuídate."
+     },
+     {
+      "es": "¡Igualmente! ¿Cuánto vale?",
+      "correct": false,
+      "why": "That asks a price."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "echar de menos",
+    "to miss",
+    "per-018"
+   ],
+   [
+    "Que te vaya bien",
+    "All the best",
+    "st-035"
+   ],
+   [
+    "Cuídate",
+    "Take care",
+    "st-036"
+   ],
+   [
+    "Hasta pronto",
+    "See you soon",
+    "st-089"
+   ],
+   [
+    "¡Nos vemos!",
+    "See you!",
+    "st-033"
+   ],
+   [
+    "Avísame",
+    "Let me know",
+    "pln-018"
    ]
   ]
  }

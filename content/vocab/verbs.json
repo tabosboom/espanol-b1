@@ -1,0 +1,538 @@
+{
+ "id": "verbs",
+ "title": "High-frequency B1 verbs",
+ "es": "Verbos clave de B1",
+ "priority": 18,
+ "packs": [
+  {
+   "id": "verbs-1",
+   "title": "Getting things done",
+   "entries": [
+    {
+     "id": "vrb-001",
+     "es": "conseguir",
+     "en": "to manage, to get",
+     "pos": "verb",
+     "ex": "Por fin he conseguido el trabajo.",
+     "exEn": "I've finally got the job.",
+     "cloze": "conseguido"
+    },
+    {
+     "id": "vrb-002",
+     "es": "lograr",
+     "en": "to achieve",
+     "pos": "verb",
+     "ex": "Quiero lograr este objetivo.",
+     "exEn": "I want to achieve this goal."
+    },
+    {
+     "id": "vrb-003",
+     "es": "aprovechar",
+     "en": "to make the most of",
+     "pos": "verb",
+     "ex": "Vamos a aprovechar el buen tiempo.",
+     "exEn": "Let's make the most of the good weather."
+    },
+    {
+     "id": "vrb-004",
+     "es": "intentar",
+     "en": "to try",
+     "pos": "verb",
+     "ex": "Voy a intentar llegar a las ocho.",
+     "exEn": "I'm going to try to arrive at eight."
+    },
+    {
+     "id": "vrb-005",
+     "es": "tratar de",
+     "en": "to try to",
+     "pos": "verb",
+     "ex": "Voy a tratar de llegar pronto.",
+     "exEn": "I'm going to try to arrive early."
+    },
+    {
+     "id": "vrb-006",
+     "es": "evitar",
+     "en": "to avoid",
+     "pos": "verb",
+     "ex": "Quiero evitar la autopista.",
+     "exEn": "I want to avoid the motorway."
+    },
+    {
+     "id": "vrb-007",
+     "es": "sugerir",
+     "en": "to suggest",
+     "pos": "verb",
+     "ex": "¿Qué me puedes sugerir?",
+     "exEn": "What can you suggest?"
+    },
+    {
+     "id": "vrb-008",
+     "es": "proponer",
+     "en": "to propose",
+     "pos": "verb",
+     "ex": "Quiero proponer otro plan.",
+     "exEn": "I want to propose another plan."
+    },
+    {
+     "id": "vrb-009",
+     "es": "hacer falta",
+     "en": "to be needed",
+     "pos": "verb",
+     "ex": "No va a hacer falta el coche.",
+     "exEn": "The car isn't going to be needed."
+    },
+    {
+     "id": "vrb-010",
+     "es": "resultar",
+     "en": "to turn out",
+     "pos": "verb",
+     "ex": "El viaje puede resultar caro.",
+     "exEn": "The trip can turn out expensive."
+    },
+    {
+     "id": "vrb-011",
+     "es": "parecer",
+     "en": "to seem",
+     "pos": "verb",
+     "ex": "Eso me parece raro.",
+     "exEn": "That seems strange to me.",
+     "cloze": "parece"
+    },
+    {
+     "id": "vrb-012",
+     "es": "depender de",
+     "en": "to depend on",
+     "pos": "verb",
+     "ex": "Todo depende de ti.",
+     "exEn": "It all depends on you.",
+     "cloze": "depende de"
+    },
+    {
+     "id": "vrb-013",
+     "es": "contar con",
+     "en": "to rely on",
+     "pos": "verb",
+     "ex": "Cuento con tu ayuda.",
+     "exEn": "I'm relying on your help.",
+     "cloze": "Cuento con"
+    },
+    {
+     "id": "vrb-014",
+     "es": "tardar en",
+     "en": "to take time to",
+     "pos": "verb",
+     "ex": "Voy a tardar en llegar.",
+     "exEn": "It's going to take me a while to arrive."
+    },
+    {
+     "id": "vrb-015",
+     "es": "soler",
+     "en": "to usually do",
+     "pos": "verb",
+     "ex": "Suelo comer a las dos.",
+     "exEn": "I usually eat at two.",
+     "cloze": "Suelo"
+    }
+   ]
+  },
+  {
+   "id": "verbs-2",
+   "title": "Remembering and noticing",
+   "entries": [
+    {
+     "id": "vrb-016",
+     "es": "darse cuenta de",
+     "en": "to realise",
+     "pos": "verb",
+     "ex": "Me he dado cuenta de un error.",
+     "exEn": "I've realised there's a mistake.",
+     "cloze": "dado cuenta de"
+    },
+    {
+     "id": "vrb-017",
+     "es": "acordarse de",
+     "en": "to remember",
+     "pos": "verb",
+     "ex": "No me acuerdo de su nombre.",
+     "exEn": "I don't remember his name.",
+     "cloze": "me acuerdo de"
+    },
+    {
+     "id": "vrb-018",
+     "es": "olvidarse de",
+     "en": "to forget",
+     "pos": "verb",
+     "ex": "Me he olvidado de las llaves.",
+     "exEn": "I've forgotten the keys.",
+     "cloze": "olvidado de"
+    },
+    {
+     "id": "vrb-019",
+     "es": "enterarse de",
+     "en": "to find out about",
+     "pos": "verb",
+     "ex": "Me he enterado de la noticia hoy.",
+     "exEn": "I found out about the news today.",
+     "cloze": "enterado de"
+    },
+    {
+     "id": "vrb-020",
+     "es": "fijarse en",
+     "en": "to notice",
+     "pos": "verb",
+     "ex": "No me he fijado en eso.",
+     "exEn": "I didn't notice that.",
+     "cloze": "fijado en"
+    },
+    {
+     "id": "vrb-021",
+     "es": "quejarse de",
+     "en": "to complain about",
+     "pos": "verb",
+     "ex": "Mi vecino se queja de todo.",
+     "exEn": "My neighbour complains about everything.",
+     "cloze": "queja de"
+    },
+    {
+     "id": "vrb-022",
+     "es": "preocuparse por",
+     "en": "to worry about",
+     "pos": "verb",
+     "ex": "No debes preocuparte por eso.",
+     "exEn": "You mustn't worry about that.",
+     "cloze": "preocuparte por"
+    },
+    {
+     "id": "vrb-023",
+     "es": "pensar en",
+     "en": "to think about",
+     "pos": "verb",
+     "ex": "Voy a pensar en tu idea.",
+     "exEn": "I'm going to think about your idea."
+    },
+    {
+     "id": "vrb-024",
+     "es": "creer en",
+     "en": "to believe in",
+     "pos": "verb",
+     "ex": "Es importante creer en ti mismo.",
+     "exEn": "It's important to believe in yourself."
+    },
+    {
+     "id": "vrb-025",
+     "es": "dudar de",
+     "en": "to doubt",
+     "pos": "verb",
+     "ex": "No quiero dudar de ti.",
+     "exEn": "I don't want to doubt you."
+    },
+    {
+     "id": "vrb-026",
+     "es": "reconocer",
+     "en": "to recognise",
+     "pos": "verb",
+     "ex": "No te voy a reconocer con barba.",
+     "exEn": "I won't recognise you with a beard."
+    },
+    {
+     "id": "vrb-027",
+     "es": "recordar",
+     "en": "to remember",
+     "pos": "verb",
+     "ex": "No puedo recordar la dirección.",
+     "exEn": "I can't remember the address."
+    },
+    {
+     "id": "vrb-028",
+     "es": "comprender",
+     "en": "to understand",
+     "pos": "verb",
+     "ex": "Ahora comprendo el problema.",
+     "exEn": "Now I understand the problem.",
+     "cloze": "comprendo"
+    },
+    {
+     "id": "vrb-029",
+     "es": "imaginar",
+     "en": "to imagine",
+     "pos": "verb",
+     "ex": "No puedo imaginar una vida sin música.",
+     "exEn": "I can't imagine a life without music."
+    },
+    {
+     "id": "vrb-030",
+     "es": "sospechar",
+     "en": "to suspect",
+     "pos": "verb",
+     "ex": "Empiezo a sospechar de él.",
+     "exEn": "I'm beginning to suspect him."
+    }
+   ]
+  },
+  {
+   "id": "verbs-3",
+   "title": "Verbs with a helper",
+   "entries": [
+    {
+     "id": "vrb-031",
+     "es": "dejar de",
+     "en": "to stop doing",
+     "pos": "verb",
+     "ex": "Quiero dejar de fumar.",
+     "exEn": "I want to stop smoking."
+    },
+    {
+     "id": "vrb-032",
+     "es": "volver a",
+     "en": "to do again",
+     "pos": "verb",
+     "ex": "Voy a volver a llamar.",
+     "exEn": "I'm going to call again."
+    },
+    {
+     "id": "vrb-033",
+     "es": "seguir + gerundio",
+     "en": "to keep doing",
+     "pos": "verb",
+     "ex": "Sigo estudiando español.",
+     "exEn": "I'm still studying Spanish.",
+     "cloze": "Sigo estudiando"
+    },
+    {
+     "id": "vrb-034",
+     "es": "llevar + tiempo",
+     "en": "to have been doing",
+     "pos": "verb",
+     "ex": "Llevo dos años aquí.",
+     "exEn": "I've been here for two years.",
+     "cloze": "Llevo dos años"
+    },
+    {
+     "id": "vrb-035",
+     "es": "acabar de",
+     "en": "to have just done",
+     "pos": "verb",
+     "ex": "Acabo de llegar a casa.",
+     "exEn": "I've just got home.",
+     "cloze": "Acabo de"
+    },
+    {
+     "id": "vrb-036",
+     "es": "empezar a",
+     "en": "to start to",
+     "pos": "verb",
+     "ex": "Voy a empezar a correr.",
+     "exEn": "I'm going to start running."
+    },
+    {
+     "id": "vrb-037",
+     "es": "ponerse a",
+     "en": "to start doing",
+     "pos": "verb",
+     "ex": "Voy a ponerme a trabajar.",
+     "exEn": "I'm going to start working.",
+     "cloze": "ponerme a"
+    },
+    {
+     "id": "vrb-038",
+     "es": "tener que",
+     "en": "to have to",
+     "pos": "verb",
+     "ex": "Voy a tener que salir.",
+     "exEn": "I'm going to have to leave."
+    },
+    {
+     "id": "vrb-039",
+     "es": "deber",
+     "en": "must, should",
+     "pos": "verb",
+     "ex": "Debes descansar más.",
+     "exEn": "You should rest more.",
+     "cloze": "Debes"
+    },
+    {
+     "id": "vrb-040",
+     "es": "poder",
+     "en": "to be able to",
+     "pos": "verb",
+     "ex": "Voy a poder venir.",
+     "exEn": "I'm going to be able to come."
+    },
+    {
+     "id": "vrb-041",
+     "es": "ir a",
+     "en": "to be going to",
+     "pos": "verb",
+     "ex": "Voy a cenar con Ana.",
+     "exEn": "I'm going to have dinner with Ana.",
+     "cloze": "Voy a"
+    },
+    {
+     "id": "vrb-042",
+     "es": "estar a punto de",
+     "en": "to be about to",
+     "pos": "verb",
+     "ex": "Estoy a punto de salir.",
+     "exEn": "I'm about to leave.",
+     "cloze": "Estoy a punto de"
+    },
+    {
+     "id": "vrb-043",
+     "es": "atreverse a",
+     "en": "to dare to",
+     "pos": "verb",
+     "ex": "No me atrevo a preguntar.",
+     "exEn": "I don't dare to ask.",
+     "cloze": "atrevo a"
+    },
+    {
+     "id": "vrb-044",
+     "es": "negarse a",
+     "en": "to refuse to",
+     "pos": "verb",
+     "ex": "Se niega a pagar.",
+     "exEn": "He refuses to pay.",
+     "cloze": "niega a"
+    },
+    {
+     "id": "vrb-045",
+     "es": "aprender a",
+     "en": "to learn to",
+     "pos": "verb",
+     "ex": "Quiero aprender a cocinar.",
+     "exEn": "I want to learn to cook."
+    }
+   ]
+  },
+  {
+   "id": "verbs-4",
+   "title": "Becoming and changing",
+   "entries": [
+    {
+     "id": "vrb-046",
+     "es": "quedarse",
+     "en": "to stay",
+     "pos": "verb",
+     "ex": "Hoy voy a quedarme en casa.",
+     "exEn": "Today I'm going to stay at home.",
+     "cloze": "quedarme"
+    },
+    {
+     "id": "vrb-047",
+     "es": "ponerse",
+     "en": "to become (a mood)",
+     "pos": "verb",
+     "ex": "Mi madre se pone nerviosa.",
+     "exEn": "My mother gets nervous.",
+     "cloze": "se pone"
+    },
+    {
+     "id": "vrb-048",
+     "es": "hacerse",
+     "en": "to become (a job, a state)",
+     "pos": "verb",
+     "ex": "Mi hermano quiere hacerse médico.",
+     "exEn": "My brother wants to become a doctor."
+    },
+    {
+     "id": "vrb-049",
+     "es": "convertirse en",
+     "en": "to turn into",
+     "pos": "verb",
+     "ex": "Madrid va a convertirse en mi casa.",
+     "exEn": "Madrid is going to become my home."
+    },
+    {
+     "id": "vrb-050",
+     "es": "mejorar",
+     "en": "to improve",
+     "pos": "verb",
+     "ex": "Quiero mejorar mi español.",
+     "exEn": "I want to improve my Spanish."
+    },
+    {
+     "id": "vrb-051",
+     "es": "empeorar",
+     "en": "to get worse",
+     "pos": "verb",
+     "ex": "El tiempo va a empeorar.",
+     "exEn": "The weather is going to get worse."
+    },
+    {
+     "id": "vrb-052",
+     "es": "aumentar",
+     "en": "to increase",
+     "pos": "verb",
+     "ex": "El precio va a aumentar.",
+     "exEn": "The price is going to increase."
+    },
+    {
+     "id": "vrb-053",
+     "es": "reducir",
+     "en": "to reduce",
+     "pos": "verb",
+     "ex": "Quiero reducir mis gastos.",
+     "exEn": "I want to reduce my spending."
+    },
+    {
+     "id": "vrb-054",
+     "es": "crecer",
+     "en": "to grow",
+     "pos": "verb",
+     "ex": "Esta ciudad va a crecer mucho.",
+     "exEn": "This city is going to grow a lot."
+    },
+    {
+     "id": "vrb-055",
+     "es": "cambiar",
+     "en": "to change",
+     "pos": "verb",
+     "ex": "Nada va a cambiar.",
+     "exEn": "Nothing is going to change."
+    },
+    {
+     "id": "vrb-056",
+     "es": "acostumbrarse a",
+     "en": "to get used to",
+     "pos": "verb",
+     "ex": "Voy a acostumbrarme a este calor.",
+     "exEn": "I'm going to get used to this heat.",
+     "cloze": "acostumbrarme a"
+    },
+    {
+     "id": "vrb-057",
+     "es": "adaptarse a",
+     "en": "to adapt to",
+     "pos": "verb",
+     "ex": "Es fácil adaptarse a esta ciudad.",
+     "exEn": "It's easy to adapt to this city."
+    },
+    {
+     "id": "vrb-058",
+     "es": "apuntarse a",
+     "en": "to sign up for",
+     "pos": "verb",
+     "ex": "Quiero apuntarme a un curso.",
+     "exEn": "I want to sign up for a course.",
+     "cloze": "apuntarme a"
+    },
+    {
+     "id": "vrb-059",
+     "es": "tener éxito",
+     "en": "to be successful",
+     "pos": "verb",
+     "ex": "Espero tener éxito en mi trabajo.",
+     "exEn": "I hope to be successful in my job."
+    },
+    {
+     "id": "vrb-060",
+     "es": "sacar provecho de",
+     "en": "to benefit from",
+     "pos": "verb",
+     "ex": "Quiero sacar provecho de este viaje.",
+     "exEn": "I want to benefit from this trip."
+    }
+   ]
+  }
+ ]
+}

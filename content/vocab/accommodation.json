@@ -1,0 +1,348 @@
+{
+ "id": "accommodation",
+ "title": "Accommodation",
+ "es": "Alojamiento",
+ "priority": 4,
+ "packs": [
+  {
+   "id": "accommodation-1",
+   "title": "Booking and arriving",
+   "entries": [
+    {
+     "id": "acc-001",
+     "es": "la reserva",
+     "en": "the booking",
+     "pos": "noun",
+     "ex": "Tengo la reserva en el móvil.",
+     "exEn": "I have the booking on my phone."
+    },
+    {
+     "id": "acc-002",
+     "es": "reservar",
+     "en": "to book",
+     "pos": "verb",
+     "ex": "Quiero reservar una habitación.",
+     "exEn": "I want to book a room."
+    },
+    {
+     "id": "acc-003",
+     "es": "Tengo una reserva a nombre de…",
+     "en": "I have a booking under the name…",
+     "pos": "phrase",
+     "ex": "Tengo una reserva a nombre de Tim.",
+     "exEn": "I have a booking under the name Tim."
+    },
+    {
+     "id": "acc-004",
+     "es": "la habitación doble",
+     "en": "the double room",
+     "pos": "noun",
+     "ex": "Quería una habitación doble, por favor.",
+     "exEn": "I'd like a double room, please."
+    },
+    {
+     "id": "acc-005",
+     "es": "la habitación individual",
+     "en": "the single room",
+     "pos": "noun",
+     "ex": "La habitación individual es muy pequeña.",
+     "exEn": "The single room is very small."
+    },
+    {
+     "id": "acc-006",
+     "es": "el desayuno incluido",
+     "en": "breakfast included",
+     "pos": "noun",
+     "ex": "La habitación tiene el desayuno incluido.",
+     "exEn": "The room has breakfast included."
+    },
+    {
+     "id": "acc-007",
+     "es": "la recepción",
+     "en": "the reception",
+     "pos": "noun",
+     "ex": "Las llaves están en la recepción.",
+     "exEn": "The keys are at reception."
+    },
+    {
+     "id": "acc-008",
+     "es": "el/la recepcionista",
+     "en": "the receptionist",
+     "pos": "noun",
+     "ex": "El recepcionista habla muy bien inglés.",
+     "exEn": "The receptionist speaks English very well."
+    },
+    {
+     "id": "acc-009",
+     "es": "la llave",
+     "en": "the key",
+     "pos": "noun",
+     "ex": "He perdido la llave de la habitación.",
+     "exEn": "I've lost the room key."
+    },
+    {
+     "id": "acc-010",
+     "es": "la tarjeta de la habitación",
+     "en": "the room card",
+     "pos": "noun",
+     "ex": "La tarjeta de la habitación no funciona.",
+     "exEn": "The room card isn't working."
+    },
+    {
+     "id": "acc-011",
+     "es": "el carné de identidad",
+     "en": "the ID card",
+     "pos": "noun",
+     "ex": "¿Me deja su carné de identidad?",
+     "exEn": "May I have your ID card?"
+    },
+    {
+     "id": "acc-012",
+     "es": "¿Hay habitaciones libres?",
+     "en": "Are there any rooms available?",
+     "pos": "phrase",
+     "ex": "Buenas tardes, ¿hay habitaciones libres?",
+     "exEn": "Good afternoon, are there any rooms available?"
+    },
+    {
+     "id": "acc-013",
+     "es": "¿Cuánto cuesta por noche?",
+     "en": "How much is it per night?",
+     "pos": "phrase",
+     "ex": "Esta habitación, ¿cuánto cuesta por noche?",
+     "exEn": "This room, how much is it per night?"
+    }
+   ]
+  },
+  {
+   "id": "accommodation-2",
+   "title": "In the room",
+   "entries": [
+    {
+     "id": "acc-014",
+     "es": "la contraseña del wifi",
+     "en": "the wifi password",
+     "pos": "noun",
+     "ex": "¿Cuál es la contraseña del wifi?",
+     "exEn": "What is the wifi password?"
+    },
+    {
+     "id": "acc-015",
+     "es": "el aire acondicionado",
+     "en": "the air conditioning",
+     "pos": "noun",
+     "ex": "El aire acondicionado hace mucho ruido.",
+     "exEn": "The air conditioning makes a lot of noise."
+    },
+    {
+     "id": "acc-016",
+     "es": "la calefacción",
+     "en": "the heating",
+     "pos": "noun",
+     "ex": "Hace frío, ¿funciona la calefacción?",
+     "exEn": "It's cold, does the heating work?"
+    },
+    {
+     "id": "acc-017",
+     "es": "las toallas",
+     "en": "the towels",
+     "pos": "noun",
+     "ex": "Necesito dos toallas más, por favor.",
+     "exEn": "I need two more towels, please."
+    },
+    {
+     "id": "acc-018",
+     "es": "la sábana",
+     "en": "the sheet",
+     "pos": "noun",
+     "ex": "Esta sábana está un poco sucia.",
+     "exEn": "This sheet is a bit dirty."
+    },
+    {
+     "id": "acc-019",
+     "es": "la almohada",
+     "en": "the pillow",
+     "pos": "noun",
+     "ex": "¿Me trae otra almohada, por favor?",
+     "exEn": "Can you bring me another pillow, please?"
+    },
+    {
+     "id": "acc-020",
+     "es": "la manta",
+     "en": "the blanket",
+     "pos": "noun",
+     "ex": "Tengo frío; necesito una manta.",
+     "exEn": "I'm cold; I need a blanket."
+    },
+    {
+     "id": "acc-021",
+     "es": "No funciona…",
+     "en": "… isn't working",
+     "pos": "phrase",
+     "ex": "No funciona la ducha de mi habitación.",
+     "exEn": "The shower in my room isn't working."
+    },
+    {
+     "id": "acc-022",
+     "es": "la ducha",
+     "en": "the shower",
+     "pos": "noun",
+     "ex": "La ducha no tiene agua caliente.",
+     "exEn": "The shower has no hot water."
+    },
+    {
+     "id": "acc-023",
+     "es": "el enchufe",
+     "en": "the socket",
+     "pos": "noun",
+     "ex": "¿Dónde hay un enchufe para el móvil?",
+     "exEn": "Where is there a socket for my phone?"
+    },
+    {
+     "id": "acc-024",
+     "es": "ruidoso",
+     "en": "noisy",
+     "pos": "adj",
+     "ex": "Esta habitación es muy ruidosa.",
+     "exEn": "This room is very noisy.",
+     "cloze": "ruidosa"
+    },
+    {
+     "id": "acc-025",
+     "es": "limpio",
+     "en": "clean",
+     "pos": "adj",
+     "ex": "El baño está muy limpio.",
+     "exEn": "The bathroom is very clean."
+    },
+    {
+     "id": "acc-026",
+     "es": "sucio",
+     "en": "dirty",
+     "pos": "adj",
+     "ex": "El suelo está sucio.",
+     "exEn": "The floor is dirty."
+    }
+   ]
+  },
+  {
+   "id": "accommodation-3",
+   "title": "Leaving and other places",
+   "entries": [
+    {
+     "id": "acc-027",
+     "es": "¿A qué hora es el check-out?",
+     "en": "What time is check-out?",
+     "pos": "phrase",
+     "ex": "Perdone, ¿a qué hora es el check-out?",
+     "exEn": "Excuse me, what time is check-out?"
+    },
+    {
+     "id": "acc-028",
+     "es": "dejar las maletas",
+     "en": "to leave the suitcases",
+     "pos": "verb",
+     "ex": "¿Podemos dejar las maletas aquí?",
+     "exEn": "Can we leave the suitcases here?"
+    },
+    {
+     "id": "acc-029",
+     "es": "el albergue",
+     "en": "the hostel",
+     "pos": "noun",
+     "ex": "El albergue está cerca de la playa.",
+     "exEn": "The hostel is near the beach."
+    },
+    {
+     "id": "acc-030",
+     "es": "el piso turístico",
+     "en": "the holiday flat",
+     "pos": "noun",
+     "ex": "Hemos alquilado un piso turístico en Sevilla.",
+     "exEn": "We've rented a holiday flat in Seville."
+    },
+    {
+     "id": "acc-031",
+     "es": "el anfitrión",
+     "en": "the host",
+     "pos": "noun",
+     "ex": "El anfitrión nos ha dado las llaves.",
+     "exEn": "The host has given us the keys."
+    },
+    {
+     "id": "acc-032",
+     "es": "la fianza",
+     "en": "the deposit",
+     "pos": "noun",
+     "ex": "Tienes que pagar una fianza de cien euros.",
+     "exEn": "You have to pay a deposit of a hundred euros."
+    },
+    {
+     "id": "acc-033",
+     "es": "la planta",
+     "en": "the floor (of a building)",
+     "pos": "noun",
+     "ex": "Mi habitación está en la tercera planta.",
+     "exEn": "My room is on the third floor."
+    },
+    {
+     "id": "acc-034",
+     "es": "el ascensor",
+     "en": "the lift",
+     "pos": "noun",
+     "ex": "El ascensor no funciona hoy.",
+     "exEn": "The lift isn't working today."
+    },
+    {
+     "id": "acc-035",
+     "es": "las escaleras",
+     "en": "the stairs",
+     "pos": "noun",
+     "ex": "Subimos por las escaleras.",
+     "exEn": "We're going up the stairs."
+    },
+    {
+     "id": "acc-036",
+     "es": "las vistas",
+     "en": "the view",
+     "pos": "noun",
+     "ex": "La habitación tiene vistas al mar.",
+     "exEn": "The room has a sea view."
+    },
+    {
+     "id": "acc-037",
+     "es": "la queja",
+     "en": "the complaint",
+     "pos": "noun",
+     "ex": "Quiero poner una queja en recepción.",
+     "exEn": "I want to make a complaint at reception."
+    },
+    {
+     "id": "acc-038",
+     "es": "quedarse dos noches",
+     "en": "to stay two nights",
+     "pos": "verb",
+     "ex": "Vamos a quedarnos dos noches más.",
+     "exEn": "We're going to stay two more nights.",
+     "cloze": "quedarnos dos noches"
+    },
+    {
+     "id": "acc-039",
+     "es": "cancelar la reserva",
+     "en": "to cancel the booking",
+     "pos": "verb",
+     "ex": "Tengo que cancelar la reserva de mañana.",
+     "exEn": "I have to cancel tomorrow's booking."
+    },
+    {
+     "id": "acc-040",
+     "es": "incluido",
+     "en": "included",
+     "pos": "adj",
+     "ex": "¿El desayuno está incluido?",
+     "exEn": "Is breakfast included?"
+    }
+   ]
+  }
+ ]
+}

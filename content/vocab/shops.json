@@ -1,0 +1,472 @@
+{
+ "id": "shops",
+ "title": "Shops & shopping",
+ "es": "Tiendas y compras",
+ "priority": 6,
+ "packs": [
+  {
+   "id": "shops-1",
+   "title": "Clothes",
+   "entries": [
+    {
+     "id": "shp-001",
+     "es": "¿Cuánto cuesta?",
+     "en": "How much does it cost?",
+     "pos": "phrase",
+     "ex": "Esta camisa, ¿cuánto cuesta?",
+     "exEn": "This shirt, how much does it cost?"
+    },
+    {
+     "id": "shp-002",
+     "es": "¿Cuánto vale?",
+     "en": "How much is it?",
+     "pos": "phrase",
+     "ex": "Perdone, ¿cuánto vale este bolso?",
+     "exEn": "Excuse me, how much is this bag?"
+    },
+    {
+     "id": "shp-003",
+     "es": "¿Me lo puedo probar?",
+     "en": "Can I try it on?",
+     "pos": "phrase",
+     "ex": "Me gusta este abrigo, ¿me lo puedo probar?",
+     "exEn": "I like this coat, can I try it on?"
+    },
+    {
+     "id": "shp-004",
+     "es": "el probador",
+     "en": "the fitting room",
+     "pos": "noun",
+     "ex": "El probador está al fondo.",
+     "exEn": "The fitting room is at the back."
+    },
+    {
+     "id": "shp-005",
+     "es": "la talla",
+     "en": "the size (clothes)",
+     "pos": "noun",
+     "ex": "¿Qué talla usas?",
+     "exEn": "What size do you wear?"
+    },
+    {
+     "id": "shp-006",
+     "es": "¿Tiene una talla más grande?",
+     "en": "Do you have a bigger size?",
+     "pos": "phrase",
+     "ex": "Me queda pequeño, ¿tiene una talla más grande?",
+     "exEn": "It's too small for me, do you have a bigger size?"
+    },
+    {
+     "id": "shp-007",
+     "es": "¿Tiene una talla más pequeña?",
+     "en": "Do you have a smaller size?",
+     "pos": "phrase",
+     "ex": "Me queda grande, ¿tiene una talla más pequeña?",
+     "exEn": "It's too big for me, do you have a smaller size?"
+    },
+    {
+     "id": "shp-008",
+     "es": "el número",
+     "en": "the size (shoes)",
+     "pos": "noun",
+     "ex": "¿Qué número de zapato usas?",
+     "exEn": "What shoe size do you wear?"
+    },
+    {
+     "id": "shp-009",
+     "es": "Me queda bien",
+     "en": "It fits me well",
+     "pos": "phrase",
+     "ex": "Esta chaqueta me queda bien.",
+     "exEn": "This jacket fits me well."
+    },
+    {
+     "id": "shp-010",
+     "es": "Me queda grande",
+     "en": "It's too big for me",
+     "pos": "phrase",
+     "ex": "Este jersey me queda grande.",
+     "exEn": "This sweater is too big for me."
+    },
+    {
+     "id": "shp-011",
+     "es": "Me queda pequeño",
+     "en": "It's too small for me",
+     "pos": "phrase",
+     "ex": "El pantalón me queda pequeño.",
+     "exEn": "The trousers are too small for me."
+    },
+    {
+     "id": "shp-012",
+     "es": "Solo estoy mirando",
+     "en": "I'm just looking",
+     "pos": "phrase",
+     "ex": "No, gracias, solo estoy mirando.",
+     "exEn": "No, thanks, I'm just looking."
+    },
+    {
+     "id": "shp-013",
+     "es": "la ropa",
+     "en": "the clothes",
+     "pos": "noun",
+     "ex": "Esta tienda tiene ropa muy barata.",
+     "exEn": "This shop has very cheap clothes."
+    },
+    {
+     "id": "shp-014",
+     "es": "los zapatos",
+     "en": "the shoes",
+     "pos": "noun",
+     "ex": "Necesito unos zapatos nuevos.",
+     "exEn": "I need some new shoes."
+    }
+   ]
+  },
+  {
+   "id": "shops-2",
+   "title": "Prices and paying",
+   "entries": [
+    {
+     "id": "shp-015",
+     "es": "las rebajas",
+     "en": "the sales",
+     "pos": "noun",
+     "ex": "En enero hay rebajas en todas las tiendas.",
+     "exEn": "In January there are sales in all the shops."
+    },
+    {
+     "id": "shp-016",
+     "es": "el descuento",
+     "en": "the discount",
+     "pos": "noun",
+     "ex": "¿Hay descuento para estudiantes?",
+     "exEn": "Is there a discount for students?"
+    },
+    {
+     "id": "shp-017",
+     "es": "la oferta",
+     "en": "the special offer",
+     "pos": "noun",
+     "ex": "Estas camisetas están en oferta.",
+     "exEn": "These T-shirts are on offer."
+    },
+    {
+     "id": "shp-018",
+     "es": "barato",
+     "en": "cheap",
+     "pos": "adj",
+     "ex": "Este mercado es muy barato.",
+     "exEn": "This market is very cheap."
+    },
+    {
+     "id": "shp-019",
+     "es": "caro",
+     "en": "expensive",
+     "pos": "adj",
+     "ex": "Este restaurante es demasiado caro.",
+     "exEn": "This restaurant is too expensive."
+    },
+    {
+     "id": "shp-020",
+     "es": "en efectivo",
+     "en": "in cash",
+     "pos": "phrase",
+     "ex": "¿Paga con tarjeta o en efectivo?",
+     "exEn": "Are you paying by card or in cash?"
+    },
+    {
+     "id": "shp-021",
+     "es": "con tarjeta",
+     "en": "by card",
+     "pos": "phrase",
+     "ex": "Quiero pagar con tarjeta, por favor.",
+     "exEn": "I want to pay by card, please."
+    },
+    {
+     "id": "shp-022",
+     "es": "el cambio",
+     "en": "the change",
+     "pos": "noun",
+     "ex": "Aquí tiene el cambio.",
+     "exEn": "Here's your change."
+    },
+    {
+     "id": "shp-023",
+     "es": "el tique",
+     "en": "the receipt",
+     "pos": "noun",
+     "ex": "Guarda el tique por si acaso.",
+     "exEn": "Keep the receipt just in case."
+    },
+    {
+     "id": "shp-024",
+     "es": "devolver",
+     "en": "to return (an item)",
+     "pos": "verb",
+     "ex": "Quiero devolver estos zapatos.",
+     "exEn": "I want to return these shoes."
+    },
+    {
+     "id": "shp-025",
+     "es": "cambiar",
+     "en": "to exchange",
+     "pos": "verb",
+     "ex": "¿Puedo cambiar esta camisa por otra?",
+     "exEn": "Can I exchange this shirt for another one?"
+    },
+    {
+     "id": "shp-026",
+     "es": "la bolsa",
+     "en": "the bag",
+     "pos": "noun",
+     "ex": "Póngalo todo en una bolsa, por favor.",
+     "exEn": "Put it all in a bag, please."
+    },
+    {
+     "id": "shp-027",
+     "es": "¿Necesita bolsa?",
+     "en": "Do you need a bag?",
+     "pos": "phrase",
+     "ex": "Son diez euros, ¿necesita bolsa?",
+     "exEn": "That's ten euros, do you need a bag?"
+    },
+    {
+     "id": "shp-028",
+     "es": "la caja",
+     "en": "the till",
+     "pos": "noun",
+     "ex": "Se paga en la caja de abajo.",
+     "exEn": "You pay at the till downstairs."
+    }
+   ]
+  },
+  {
+   "id": "shops-3",
+   "title": "Which shop?",
+   "entries": [
+    {
+     "id": "shp-029",
+     "es": "el supermercado",
+     "en": "the supermarket",
+     "pos": "noun",
+     "ex": "Voy al supermercado a comprar leche.",
+     "exEn": "I'm going to the supermarket to buy milk."
+    },
+    {
+     "id": "shp-030",
+     "es": "la farmacia",
+     "en": "the pharmacy",
+     "pos": "noun",
+     "ex": "La farmacia cierra a las ocho.",
+     "exEn": "The pharmacy closes at eight."
+    },
+    {
+     "id": "shp-031",
+     "es": "el estanco",
+     "en": "the tobacconist's",
+     "pos": "noun",
+     "ex": "Venden sellos en el estanco.",
+     "exEn": "They sell stamps at the tobacconist's."
+    },
+    {
+     "id": "shp-032",
+     "es": "la panadería",
+     "en": "the bakery",
+     "pos": "noun",
+     "ex": "Compro el pan en la panadería.",
+     "exEn": "I buy bread at the bakery."
+    },
+    {
+     "id": "shp-033",
+     "es": "la frutería",
+     "en": "the fruit shop",
+     "pos": "noun",
+     "ex": "La frutería de mi calle es muy buena.",
+     "exEn": "The fruit shop on my street is very good."
+    },
+    {
+     "id": "shp-034",
+     "es": "la carnicería",
+     "en": "the butcher's",
+     "pos": "noun",
+     "ex": "La carnicería está al lado del bar.",
+     "exEn": "The butcher's is next to the bar."
+    },
+    {
+     "id": "shp-035",
+     "es": "la pescadería",
+     "en": "the fishmonger's",
+     "pos": "noun",
+     "ex": "Hoy no hay nada en la pescadería.",
+     "exEn": "There's nothing at the fishmonger's today."
+    },
+    {
+     "id": "shp-036",
+     "es": "la librería",
+     "en": "the bookshop",
+     "pos": "noun",
+     "ex": "He comprado un libro en la librería.",
+     "exEn": "I've bought a book at the bookshop."
+    },
+    {
+     "id": "shp-037",
+     "es": "la zapatería",
+     "en": "the shoe shop",
+     "pos": "noun",
+     "ex": "La zapatería está en el centro.",
+     "exEn": "The shoe shop is in the centre."
+    },
+    {
+     "id": "shp-038",
+     "es": "el mercado",
+     "en": "the market",
+     "pos": "noun",
+     "ex": "Los sábados vamos al mercado.",
+     "exEn": "On Saturdays we go to the market."
+    },
+    {
+     "id": "shp-039",
+     "es": "el centro comercial",
+     "en": "the shopping centre",
+     "pos": "noun",
+     "ex": "El centro comercial abre los domingos.",
+     "exEn": "The shopping centre opens on Sundays."
+    },
+    {
+     "id": "shp-040",
+     "es": "Está cerrado",
+     "en": "It's closed",
+     "pos": "phrase",
+     "ex": "Hoy es domingo y está cerrado.",
+     "exEn": "Today is Sunday and it's closed."
+    },
+    {
+     "id": "shp-041",
+     "es": "Está abierto",
+     "en": "It's open",
+     "pos": "phrase",
+     "ex": "El banco está abierto hasta las dos.",
+     "exEn": "The bank is open until two."
+    },
+    {
+     "id": "shp-042",
+     "es": "el horario de apertura",
+     "en": "the opening hours",
+     "pos": "noun",
+     "ex": "¿Cuál es el horario de apertura?",
+     "exEn": "What are the opening hours?"
+    }
+   ]
+  },
+  {
+   "id": "shops-4",
+   "title": "Quantities",
+   "entries": [
+    {
+     "id": "shp-043",
+     "es": "un kilo de…",
+     "en": "a kilo of…",
+     "pos": "phrase",
+     "ex": "Quiero un kilo de naranjas.",
+     "exEn": "I want a kilo of oranges."
+    },
+    {
+     "id": "shp-044",
+     "es": "medio kilo",
+     "en": "half a kilo",
+     "pos": "phrase",
+     "ex": "Póngame medio kilo de tomates.",
+     "exEn": "Give me half a kilo of tomatoes."
+    },
+    {
+     "id": "shp-045",
+     "es": "una docena",
+     "en": "a dozen",
+     "pos": "phrase",
+     "ex": "Compra una docena de huevos.",
+     "exEn": "Buy a dozen eggs."
+    },
+    {
+     "id": "shp-046",
+     "es": "un paquete de…",
+     "en": "a packet of…",
+     "pos": "phrase",
+     "ex": "Dame un paquete de arroz.",
+     "exEn": "Give me a packet of rice."
+    },
+    {
+     "id": "shp-047",
+     "es": "una lata",
+     "en": "a can",
+     "pos": "phrase",
+     "ex": "Solo queda una lata de atún.",
+     "exEn": "There's only one can of tuna left."
+    },
+    {
+     "id": "shp-048",
+     "es": "una botella",
+     "en": "a bottle",
+     "pos": "phrase",
+     "ex": "Compra una botella de aceite.",
+     "exEn": "Buy a bottle of oil."
+    },
+    {
+     "id": "shp-049",
+     "es": "una barra de pan",
+     "en": "a baguette",
+     "pos": "phrase",
+     "ex": "Quiero una barra de pan, por favor.",
+     "exEn": "I'd like a baguette, please."
+    },
+    {
+     "id": "shp-050",
+     "es": "un trozo de…",
+     "en": "a piece of…",
+     "pos": "phrase",
+     "ex": "Póngame un trozo de queso.",
+     "exEn": "Give me a piece of cheese."
+    },
+    {
+     "id": "shp-051",
+     "es": "¿Algo más?",
+     "en": "Anything else?",
+     "pos": "phrase",
+     "ex": "Aquí tiene el queso. ¿Algo más?",
+     "exEn": "Here's the cheese. Anything else?"
+    },
+    {
+     "id": "shp-052",
+     "es": "Nada más, gracias",
+     "en": "Nothing else, thanks",
+     "pos": "phrase",
+     "ex": "No, nada más, gracias.",
+     "exEn": "No, nothing else, thanks."
+    },
+    {
+     "id": "shp-053",
+     "es": "¿Me pone…?",
+     "en": "Could I have…?",
+     "pos": "phrase",
+     "ex": "¿Me pone dos kilos de patatas?",
+     "exEn": "Could I have two kilos of potatoes?"
+    },
+    {
+     "id": "shp-054",
+     "es": "¿Cuánto es todo?",
+     "en": "How much is it altogether?",
+     "pos": "phrase",
+     "ex": "Muy bien, ¿cuánto es todo?",
+     "exEn": "OK, how much is it altogether?"
+    },
+    {
+     "id": "shp-055",
+     "es": "fresco",
+     "en": "fresh",
+     "pos": "adj",
+     "ex": "El pescado de hoy está muy fresco.",
+     "exEn": "Today's fish is very fresh."
+    }
+   ]
+  }
+ ]
+}

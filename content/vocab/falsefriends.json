@@ -1,0 +1,245 @@
+{
+ "id": "falsefriends",
+ "title": "False friends",
+ "es": "Falsos amigos",
+ "priority": 20,
+ "packs": [
+  {
+   "id": "falsefriends-1",
+   "title": "Words that trick you (1)",
+   "entries": [
+    {
+     "id": "ffr-001",
+     "es": "embarazada",
+     "en": "pregnant",
+     "pos": "adj",
+     "ex": "Mi hermana está embarazada.",
+     "exEn": "My sister is pregnant.",
+     "note": "Not embarrassed: that's «avergonzado»."
+    },
+    {
+     "id": "ffr-002",
+     "es": "constipado",
+     "en": "having a cold",
+     "pos": "adj",
+     "ex": "Estoy constipado desde el lunes.",
+     "exEn": "I've had a cold since Monday.",
+     "note": "Not constipated."
+    },
+    {
+     "id": "ffr-003",
+     "es": "el éxito",
+     "en": "the success",
+     "pos": "noun",
+     "ex": "La película fue un gran éxito.",
+     "exEn": "The film was a great success.",
+     "note": "Not exit: that's «la salida»."
+    },
+    {
+     "id": "ffr-004",
+     "es": "la carpeta",
+     "en": "the folder",
+     "pos": "noun",
+     "ex": "El documento está en esta carpeta.",
+     "exEn": "The document is in this folder.",
+     "note": "Not carpet: that's «la alfombra»."
+    },
+    {
+     "id": "ffr-005",
+     "es": "la librería",
+     "en": "the bookshop",
+     "pos": "noun",
+     "ex": "Hay una librería en mi calle.",
+     "exEn": "There's a bookshop on my street.",
+     "note": "Not library: that's «la biblioteca»."
+    },
+    {
+     "id": "ffr-006",
+     "es": "actual",
+     "en": "current",
+     "pos": "adj",
+     "ex": "Mi trabajo actual es muy bueno.",
+     "exEn": "My current job is very good.",
+     "note": "Not actual: that's «real»."
+    },
+    {
+     "id": "ffr-007",
+     "es": "actualmente",
+     "en": "currently",
+     "pos": "adv",
+     "ex": "Actualmente vivo en Madrid.",
+     "exEn": "I currently live in Madrid.",
+     "note": "Not actually: that's «en realidad»."
+    },
+    {
+     "id": "ffr-008",
+     "es": "asistir",
+     "en": "to attend",
+     "pos": "verb",
+     "ex": "Quiero asistir a la reunión.",
+     "exEn": "I want to attend the meeting.",
+     "note": "Not to assist: that's «ayudar»."
+    },
+    {
+     "id": "ffr-009",
+     "es": "realizar",
+     "en": "to carry out",
+     "pos": "verb",
+     "ex": "Vamos a realizar un estudio.",
+     "exEn": "We're going to carry out a study.",
+     "note": "Not to realise: that's «darse cuenta»."
+    },
+    {
+     "id": "ffr-010",
+     "es": "sensible",
+     "en": "sensitive",
+     "pos": "adj",
+     "ex": "Mi hijo es muy sensible.",
+     "exEn": "My son is very sensitive.",
+     "note": "Not sensible: that's «sensato»."
+    },
+    {
+     "id": "ffr-011",
+     "es": "largo",
+     "en": "long",
+     "pos": "adj",
+     "ex": "El viaje es muy largo.",
+     "exEn": "The trip is very long.",
+     "note": "Not large: that's «grande»."
+    },
+    {
+     "id": "ffr-012",
+     "es": "contestar",
+     "en": "to answer",
+     "pos": "verb",
+     "ex": "Tengo que contestar este correo.",
+     "exEn": "I have to answer this email.",
+     "note": "Not to contest."
+    },
+    {
+     "id": "ffr-013",
+     "es": "recordar",
+     "en": "to remember",
+     "pos": "verb",
+     "ex": "No puedo recordar su nombre.",
+     "exEn": "I can't remember his name.",
+     "note": "Not to record: that's «grabar»."
+    }
+   ]
+  },
+  {
+   "id": "falsefriends-2",
+   "title": "Words that trick you (2)",
+   "entries": [
+    {
+     "id": "ffr-014",
+     "es": "pretender",
+     "en": "to try, to aim to",
+     "pos": "verb",
+     "ex": "No pretendo cambiarte.",
+     "exEn": "I'm not trying to change you.",
+     "cloze": "pretendo",
+     "note": "Not to pretend: that's «fingir»."
+    },
+    {
+     "id": "ffr-015",
+     "es": "molestar",
+     "en": "to bother",
+     "pos": "verb",
+     "ex": "No quiero molestar a nadie.",
+     "exEn": "I don't want to bother anyone.",
+     "note": "Not to molest."
+    },
+    {
+     "id": "ffr-016",
+     "es": "la ropa",
+     "en": "the clothes",
+     "pos": "noun",
+     "ex": "Tengo mucha ropa en la maleta.",
+     "exEn": "I have a lot of clothes in my suitcase.",
+     "note": "Not rope: that's «la cuerda»."
+    },
+    {
+     "id": "ffr-017",
+     "es": "la fábrica",
+     "en": "the factory",
+     "pos": "noun",
+     "ex": "Mi padre trabaja en una fábrica.",
+     "exEn": "My father works in a factory.",
+     "note": "Not fabric: that's «la tela»."
+    },
+    {
+     "id": "ffr-018",
+     "es": "el compromiso",
+     "en": "the commitment",
+     "pos": "noun",
+     "ex": "Tengo un compromiso esta noche.",
+     "exEn": "I have a commitment tonight.",
+     "note": "Not compromise: that's «el acuerdo»."
+    },
+    {
+     "id": "ffr-019",
+     "es": "el vaso",
+     "en": "the glass",
+     "pos": "noun",
+     "ex": "Pon el vaso en la mesa.",
+     "exEn": "Put the glass on the table.",
+     "note": "Not vase: that's «el jarrón»."
+    },
+    {
+     "id": "ffr-020",
+     "es": "la sopa",
+     "en": "the soup",
+     "pos": "noun",
+     "ex": "La sopa está muy caliente.",
+     "exEn": "The soup is very hot.",
+     "note": "Not soap: that's «el jabón»."
+    },
+    {
+     "id": "ffr-021",
+     "es": "la lectura",
+     "en": "the reading",
+     "pos": "noun",
+     "ex": "La lectura es mi pasatiempo.",
+     "exEn": "Reading is my hobby.",
+     "note": "Not lecture: that's «la conferencia»."
+    },
+    {
+     "id": "ffr-022",
+     "es": "el pariente",
+     "en": "the relative",
+     "pos": "noun",
+     "ex": "Tengo un pariente en Bilbao.",
+     "exEn": "I have a relative in Bilbao.",
+     "note": "Not parent: that's «el padre»."
+    },
+    {
+     "id": "ffr-023",
+     "es": "la decepción",
+     "en": "the disappointment",
+     "pos": "noun",
+     "ex": "Esa película fue una decepción.",
+     "exEn": "That film was a disappointment.",
+     "note": "Not deception: that's «el engaño»."
+    },
+    {
+     "id": "ffr-024",
+     "es": "sensato",
+     "en": "sensible",
+     "pos": "adj",
+     "ex": "Mi hermano es muy sensato.",
+     "exEn": "My brother is very sensible."
+    },
+    {
+     "id": "ffr-025",
+     "es": "la nota",
+     "en": "the mark, the grade",
+     "pos": "noun",
+     "ex": "He sacado una buena nota.",
+     "exEn": "I got a good mark.",
+     "note": "Also a note."
+    }
+   ]
+  }
+ ]
+}

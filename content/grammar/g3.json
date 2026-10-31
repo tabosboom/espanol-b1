@@ -1,0 +1,709 @@
+{
+ "id": "g3",
+ "title": "Imperative",
+ "rule": {
+  "intro": "Your tú and vosotros commands are fine. Practise the usted forms. They use the subjunctive endings, and reflexive pronouns go on the end of positive commands and before negative ones.",
+  "points": [
+   {
+    "title": "Usted",
+    "examples": [
+     [
+      "Complete, Utilice, Coja, Venga",
+      "-ar takes -e; -er and -ir take -a"
+     ],
+     [
+      "No utilice, No complete",
+      "the negative has the same form"
+     ]
+    ]
+   },
+   {
+    "title": "Usted with a reflexive",
+    "examples": [
+     [
+      "Siéntese, Preocúpese",
+      "positive: pronoun on the end, plus accent"
+     ],
+     [
+      "No se siente, No se preocupe",
+      "negative: pronoun in front"
+     ]
+    ]
+   },
+   {
+    "title": "Tú and vosotros",
+    "examples": [
+     [
+      "Habla, Come, Ven, Haz, Sal",
+      "positive tú"
+     ],
+     [
+      "No hables, No vengas",
+      "negative tú uses the subjunctive"
+     ],
+     [
+      "Hablad, Venid; No habléis",
+      "vosotros"
+     ]
+    ]
+   },
+   {
+    "title": "Pronouns",
+    "examples": [
+     [
+      "Dímelo, Tráigamelo",
+      "positive: joined on the end"
+     ],
+     [
+      "No me lo digas",
+      "negative: in front"
+     ]
+    ]
+   }
+  ],
+  "watch": "From your exam: Completa → Complete, No utilize → No utilice, Utiliza → Utilice, No preocupese → No se preocupe, Preocupase → Preocúpese."
+ },
+ "items": [
+  {
+   "id": "g3-001",
+   "type": "gap",
+   "q": "(usted) ___ todos los campos del formulario. (completar)",
+   "a": "Complete",
+   "ex": "usted of -ar verbs takes -e.",
+   "en": "Fill in all the fields of the form.",
+   "fromMistake": true
+  },
+  {
+   "id": "g3-002",
+   "type": "gap",
+   "q": "(usted) No ___ el móvil aquí. (utilizar)",
+   "a": "utilice",
+   "ex": "z→c before e: no utilice.",
+   "en": "Don't use your phone here.",
+   "fromMistake": true
+  },
+  {
+   "id": "g3-003",
+   "type": "gap",
+   "q": "(usted) ___ la salida de la izquierda. (utilizar)",
+   "a": "Utilice",
+   "ex": "usted of utilizar: utilice.",
+   "en": "Use the exit on the left.",
+   "fromMistake": true
+  },
+  {
+   "id": "g3-004",
+   "type": "gap",
+   "q": "(usted) No se ___ , todo va bien. (preocupar)",
+   "a": "preocupe",
+   "ex": "Negative: no se preocupe.",
+   "en": "Don't worry, everything's going well.",
+   "fromMistake": true
+  },
+  {
+   "id": "g3-005",
+   "type": "gap",
+   "q": "(usted) ___ por su salud. (preocuparse)",
+   "a": "Preocúpese",
+   "ex": "Positive: pronoun on the end, plus accent.",
+   "en": "Take care of your health.",
+   "fromMistake": true
+  },
+  {
+   "id": "g3-006",
+   "type": "mc",
+   "q": "(usted) ___ todos los campos, por favor.",
+   "opts": [
+    "Complete",
+    "Completa",
+    "Completad"
+   ],
+   "c": 0,
+   "ex": "Usted: complete. «Completa» is tú.",
+   "en": "Fill in all the fields, please.",
+   "fromMistake": true
+  },
+  {
+   "id": "g3-007",
+   "type": "mc",
+   "q": "(usted) No ___ este ascensor.",
+   "opts": [
+    "utilice",
+    "utilize",
+    "utiliza"
+   ],
+   "c": 0,
+   "ex": "Spelling: z→c before e.",
+   "en": "Don't use this lift.",
+   "fromMistake": true
+  },
+  {
+   "id": "g3-008",
+   "type": "mc",
+   "q": "(usted) ___ , no pasa nada.",
+   "opts": [
+    "No se preocupe",
+    "No preocupese",
+    "No se preocupa"
+   ],
+   "c": 0,
+   "ex": "Negative: pronoun in front.",
+   "en": "Don't worry, it's nothing.",
+   "fromMistake": true
+  },
+  {
+   "id": "g3-009",
+   "type": "spot",
+   "q": "Señor, completa el formulario, por favor.",
+   "wrong": 1,
+   "a": "complete",
+   "opts": [
+    "complete",
+    "Completad",
+    "Completo"
+   ],
+   "full": "Señor, complete el formulario, por favor.",
+   "ex": "Usted of completar: complete.",
+   "en": "Sir, fill in the form, please.",
+   "fromMistake": true
+  },
+  {
+   "id": "g3-010",
+   "type": "spot",
+   "q": "Señora, no utilize la puerta principal.",
+   "wrong": 2,
+   "a": "utilice",
+   "opts": [
+    "utilice",
+    "utiliza",
+    "utilizas"
+   ],
+   "full": "Señora, no utilice la puerta principal.",
+   "ex": "z→c before e: utilice.",
+   "en": "Madam, don't use the main door.",
+   "fromMistake": true
+  },
+  {
+   "id": "g3-011",
+   "type": "tiles",
+   "q": "Don't worry (usted)",
+   "a": "No se preocupe",
+   "distractors": [
+    "preocupese",
+    "te"
+   ],
+   "ex": "Negative usted: pronoun in front.",
+   "fromMistake": true
+  },
+  {
+   "id": "g3-012",
+   "type": "tiles",
+   "q": "Use the stairs (usted)",
+   "a": "Utilice las escaleras",
+   "distractors": [
+    "Utiliza",
+    "Usa"
+   ],
+   "ex": "utilizar → utilice for usted.",
+   "fromMistake": true
+  },
+  {
+   "id": "g3-013",
+   "type": "mc",
+   "q": "(usted) ___ , por favor.",
+   "opts": [
+    "Siéntese",
+    "Siéntate",
+    "Se siente"
+   ],
+   "c": 0,
+   "ex": "Positive usted: siéntese.",
+   "en": "Sit down, please."
+  },
+  {
+   "id": "g3-014",
+   "type": "mc",
+   "q": "(usted) No ___ , hay tiempo.",
+   "opts": [
+    "se levante",
+    "levántese",
+    "te levantes"
+   ],
+   "c": 0,
+   "ex": "Negative: pronoun in front.",
+   "en": "Don't get up, there's time."
+  },
+  {
+   "id": "g3-015",
+   "type": "mc",
+   "q": "(usted) ___ la primera calle a la derecha.",
+   "opts": [
+    "Coja",
+    "Coge",
+    "Cogéis"
+   ],
+   "c": 0,
+   "ex": "coger: g→j for usted: coja.",
+   "en": "Take the first street on the right."
+  },
+  {
+   "id": "g3-016",
+   "type": "mc",
+   "q": "(usted) ___ aquí mañana.",
+   "opts": [
+    "Venga",
+    "Ven",
+    "Viene"
+   ],
+   "c": 0,
+   "ex": "venir → venga for usted.",
+   "en": "Come here tomorrow."
+  },
+  {
+   "id": "g3-017",
+   "type": "mc",
+   "q": "(usted) ___ la cuenta, por favor.",
+   "opts": [
+    "Tráigame",
+    "Tráeme",
+    "Traes"
+   ],
+   "c": 0,
+   "ex": "traer → traiga + me.",
+   "en": "Bring me the bill, please."
+  },
+  {
+   "id": "g3-018",
+   "type": "mc",
+   "q": "(usted) ___ , no hay prisa.",
+   "opts": [
+    "Espere",
+    "Espera",
+    "Esperad"
+   ],
+   "c": 0,
+   "ex": "-ar takes -e: espere.",
+   "en": "Wait, there's no hurry."
+  },
+  {
+   "id": "g3-019",
+   "type": "mc",
+   "q": "(usted) ___ todo recto.",
+   "opts": [
+    "Siga",
+    "Sigue",
+    "Seguid"
+   ],
+   "c": 0,
+   "ex": "seguir → siga for usted.",
+   "en": "Go straight on."
+  },
+  {
+   "id": "g3-020",
+   "type": "mc",
+   "q": "(usted) ___ esto, por favor.",
+   "opts": [
+    "Firme",
+    "Firma",
+    "Firmad"
+   ],
+   "c": 0,
+   "ex": "-ar takes -e: firme.",
+   "en": "Sign this, please."
+  },
+  {
+   "id": "g3-021",
+   "type": "mc",
+   "q": "(ustedes) ___ , por favor.",
+   "opts": [
+    "Pasen",
+    "Pasad",
+    "Pasan"
+   ],
+   "c": 0,
+   "ex": "ustedes: pasen.",
+   "en": "Come in, please."
+  },
+  {
+   "id": "g3-022",
+   "type": "mc",
+   "q": "(ustedes) No ___ aquí.",
+   "opts": [
+    "aparquen",
+    "aparcan",
+    "aparquéis"
+   ],
+   "c": 0,
+   "ex": "c→qu before e.",
+   "en": "Don't park here."
+  },
+  {
+   "id": "g3-023",
+   "type": "gap",
+   "q": "(usted) ___ a la izquierda. (girar)",
+   "a": "Gire",
+   "ex": "-ar takes -e.",
+   "en": "Turn left."
+  },
+  {
+   "id": "g3-024",
+   "type": "gap",
+   "q": "(usted) ___ la calle. (cruzar)",
+   "a": "Cruce",
+   "ex": "z→c before e.",
+   "en": "Cross the street."
+  },
+  {
+   "id": "g3-025",
+   "type": "gap",
+   "q": "(usted) ___ el billete. (sacar)",
+   "a": "Saque",
+   "ex": "c→qu before e.",
+   "en": "Get the ticket."
+  },
+  {
+   "id": "g3-026",
+   "type": "gap",
+   "q": "(usted) ___ con tarjeta. (pagar)",
+   "a": "Pague",
+   "ex": "g→gu before e.",
+   "en": "Pay by card."
+  },
+  {
+   "id": "g3-027",
+   "type": "gap",
+   "q": "(usted) ___ la ventana. (abrir)",
+   "a": "Abra",
+   "ex": "-ir takes -a.",
+   "en": "Open the window."
+  },
+  {
+   "id": "g3-028",
+   "type": "gap",
+   "q": "(usted) ___ este documento. (leer)",
+   "a": "Lea",
+   "ex": "-er takes -a.",
+   "en": "Read this document."
+  },
+  {
+   "id": "g3-029",
+   "type": "gap",
+   "q": "(usted) ___ tranquilo. (estar)",
+   "a": "Esté",
+   "ex": "estar → esté.",
+   "en": "Stay calm."
+  },
+  {
+   "id": "g3-030",
+   "type": "gap",
+   "q": "(usted) ___ al hospital. (ir)",
+   "a": "Vaya",
+   "ex": "ir → vaya.",
+   "en": "Go to the hospital."
+  },
+  {
+   "id": "g3-031",
+   "type": "gap",
+   "q": "(usted) ___ puntual. (ser)",
+   "a": "Sea",
+   "ex": "ser → sea.",
+   "en": "Be on time."
+  },
+  {
+   "id": "g3-032",
+   "type": "gap",
+   "q": "(usted) ___ aquí. (sentarse)",
+   "a": "Siéntese",
+   "ex": "e→ie, pronoun on the end, plus accent.",
+   "en": "Sit here."
+  },
+  {
+   "id": "g3-033",
+   "type": "gap",
+   "q": "(usted) No se ___ . (sentar)",
+   "a": "siente",
+   "ex": "Negative: no se siente.",
+   "en": "Don't sit down."
+  },
+  {
+   "id": "g3-034",
+   "type": "gap",
+   "q": "(usted) ___ a las ocho. (levantarse)",
+   "a": "Levántese",
+   "ex": "Pronoun on the end, plus accent.",
+   "en": "Get up at eight."
+  },
+  {
+   "id": "g3-035",
+   "type": "gap",
+   "q": "(tú) ___ aquí ahora mismo. (venir)",
+   "a": "Ven",
+   "ex": "Irregular tú: ven.",
+   "en": "Come here right now."
+  },
+  {
+   "id": "g3-036",
+   "type": "gap",
+   "q": "(tú) ___ los deberes. (hacer)",
+   "a": "Haz",
+   "ex": "Irregular tú: haz.",
+   "en": "Do your homework."
+  },
+  {
+   "id": "g3-037",
+   "type": "gap",
+   "q": "(tú) ___ de aquí. (salir)",
+   "a": "Sal",
+   "ex": "Irregular tú: sal.",
+   "en": "Get out of here."
+  },
+  {
+   "id": "g3-038",
+   "type": "gap",
+   "q": "(tú) ___ la mesa, por favor. (poner)",
+   "a": "Pon",
+   "ex": "Irregular tú: pon.",
+   "en": "Set the table, please."
+  },
+  {
+   "id": "g3-039",
+   "type": "gap",
+   "q": "(tú) No ___ tarde. (llegar)",
+   "a": "llegues",
+   "ex": "Negative tú uses the subjunctive.",
+   "en": "Don't arrive late."
+  },
+  {
+   "id": "g3-040",
+   "type": "gap",
+   "q": "(vosotros) ___ la puerta. (cerrar)",
+   "a": "Cerrad",
+   "ex": "Vosotros: infinitive -r → -d.",
+   "en": "Close the door."
+  },
+  {
+   "id": "g3-041",
+   "type": "gap",
+   "q": "(vosotros) No ___ la puerta. (cerrar)",
+   "a": "cerréis",
+   "ex": "Negative vosotros uses the subjunctive.",
+   "en": "Don't close the door."
+  },
+  {
+   "id": "g3-042",
+   "type": "gap",
+   "q": "(vosotros) ___ pronto. (venir)",
+   "a": "Venid",
+   "ex": "Vosotros: venid.",
+   "en": "Come soon."
+  },
+  {
+   "id": "g3-043",
+   "type": "gapBank",
+   "q": "(tú) ___ la verdad y no ___ mentiras.",
+   "a": [
+    "Di",
+    "digas"
+   ],
+   "bank": [
+    "Di",
+    "digas",
+    "Dices",
+    "dices",
+    "Digas"
+   ],
+   "ex": "Positive: di. Negative: no digas.",
+   "en": "Tell the truth and don't tell lies."
+  },
+  {
+   "id": "g3-044",
+   "type": "gapBank",
+   "q": "(usted) ___ la maleta y ___ aquí.",
+   "a": [
+    "Deje",
+    "espere"
+   ],
+   "bank": [
+    "Deje",
+    "espere",
+    "Deja",
+    "espera"
+   ],
+   "ex": "Usted: deje, espere.",
+   "en": "Leave the suitcase and wait here."
+  },
+  {
+   "id": "g3-045",
+   "type": "gapBank",
+   "q": "(tú) No ___ el móvil en la mesa.",
+   "a": [
+    "dejes"
+   ],
+   "bank": [
+    "dejes",
+    "dejas",
+    "deja",
+    "deje"
+   ],
+   "ex": "Negative tú: no dejes.",
+   "en": "Don't leave your phone on the table."
+  },
+  {
+   "id": "g3-046",
+   "type": "tf",
+   "q": "(usted) Siéntate aquí, por favor.",
+   "a": false,
+   "ex": "Siéntate is tú; usted is siéntese.",
+   "en": "Sit here, please.",
+   "full": "Siéntese aquí, por favor."
+  },
+  {
+   "id": "g3-047",
+   "type": "tf",
+   "q": "(usted) No se preocupe.",
+   "a": true,
+   "ex": "Correct negative usted form.",
+   "en": "Don't worry."
+  },
+  {
+   "id": "g3-048",
+   "type": "tf",
+   "q": "(tú, a command) No vienes tarde.",
+   "a": false,
+   "ex": "Negative tú uses the subjunctive.",
+   "en": "Don't come late.",
+   "full": "No vengas tarde."
+  },
+  {
+   "id": "g3-049",
+   "type": "tf",
+   "q": "(vosotros) No habléis tan alto.",
+   "a": true,
+   "ex": "Correct negative vosotros form.",
+   "en": "Don't talk so loudly."
+  },
+  {
+   "id": "g3-050",
+   "type": "gap",
+   "q": "(tú) No me lo ___ , no quiero saberlo. (decir)",
+   "a": "digas",
+   "ex": "Negative: pronouns in front.",
+   "en": "Don't tell me, I don't want to know."
+  },
+  {
+   "id": "g3-051",
+   "type": "gap",
+   "q": "(tú) ___ ahora mismo. (decir + me + lo)",
+   "a": "Dímelo",
+   "ex": "Positive: joined on the end, plus accent.",
+   "en": "Tell me right now."
+  },
+  {
+   "id": "g3-052",
+   "type": "gap",
+   "q": "(usted) ___ , por favor. (traer + me + lo)",
+   "a": "Tráigamelo",
+   "ex": "Positive: joined on the end, plus accent.",
+   "en": "Bring it to me, please."
+  },
+  {
+   "id": "g3-053",
+   "type": "gap",
+   "q": "(usted) No ___ traiga. (me + lo)",
+   "a": "me lo",
+   "ex": "Negative: pronouns in front.",
+   "en": "Don't bring it to me."
+  },
+  {
+   "id": "g3-054",
+   "type": "mc",
+   "q": "(tú) ___ la sal, por favor.",
+   "opts": [
+    "Pásame",
+    "Me pasa",
+    "Pasarme"
+   ],
+   "c": 0,
+   "ex": "Positive tú: joined pronoun.",
+   "en": "Pass me the salt, please."
+  },
+  {
+   "id": "g3-055",
+   "type": "mc",
+   "q": "(tú) No ___ eso.",
+   "opts": [
+    "me digas",
+    "dime",
+    "dímelo"
+   ],
+   "c": 0,
+   "ex": "Negative: pronoun in front.",
+   "en": "Don't tell me that."
+  },
+  {
+   "id": "g3-056",
+   "type": "spot",
+   "q": "(tú) Dilome ahora.",
+   "wrong": 1,
+   "a": "Dímelo",
+   "opts": [
+    "Dímelo",
+    "Dímilo",
+    "Dimelo"
+   ],
+   "full": "(tú) Dímelo ahora.",
+   "ex": "Positive: pronouns joined on the end.",
+   "en": "Tell it to me now."
+  },
+  {
+   "id": "g3-057",
+   "type": "spot",
+   "q": "(usted) No preocúpese por nada.",
+   "wrong": 2,
+   "a": "se preocupe",
+   "opts": [
+    "se preocupe",
+    "preocupe",
+    "te preocupes"
+   ],
+   "full": "(usted) No se preocupe por nada.",
+   "ex": "Negative: pronoun in front, no accent.",
+   "en": "Don't worry about anything."
+  },
+  {
+   "id": "g3-058",
+   "type": "tiles",
+   "q": "Tell it to me now (tú)",
+   "a": "Dímelo ahora",
+   "distractors": [
+    "Me",
+    "lo"
+   ],
+   "ex": "Pronouns join the positive imperative."
+  },
+  {
+   "id": "g3-059",
+   "type": "tiles",
+   "q": "Bring it to me (usted), please",
+   "a": "Tráigamelo, por favor",
+   "distractors": [
+    "Tráemelo"
+   ],
+   "ex": "traer → traiga, plus me + lo."
+  },
+  {
+   "id": "g3-060",
+   "type": "type",
+   "q": "Sit down, please. (usted)",
+   "a": "Siéntese, por favor",
+   "ex": "Pronoun on the end, plus accent."
+  },
+  {
+   "id": "g3-061",
+   "type": "type",
+   "q": "Don't worry. (usted)",
+   "a": "No se preocupe",
+   "ex": "Pronoun in front."
+  }
+ ]
+}

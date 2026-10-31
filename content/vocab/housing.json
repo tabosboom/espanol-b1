@@ -1,0 +1,316 @@
+{
+ "id": "housing",
+ "title": "Housing & renting",
+ "es": "Vivienda y alquiler",
+ "priority": 11,
+ "packs": [
+  {
+   "id": "housing-1",
+   "title": "Finding a flat",
+   "entries": [
+    {
+     "id": "hou-001",
+     "es": "el alquiler",
+     "en": "the rent",
+     "pos": "noun",
+     "ex": "El alquiler es muy caro aquí.",
+     "exEn": "The rent is very expensive here."
+    },
+    {
+     "id": "hou-002",
+     "es": "alquilar",
+     "en": "to rent",
+     "pos": "verb",
+     "ex": "Queremos alquilar un piso en el centro.",
+     "exEn": "We want to rent a flat in the centre."
+    },
+    {
+     "id": "hou-003",
+     "es": "compartir piso",
+     "en": "to share a flat",
+     "pos": "verb",
+     "ex": "Voy a compartir piso con dos amigos.",
+     "exEn": "I'm going to share a flat with two friends."
+    },
+    {
+     "id": "hou-004",
+     "es": "el casero",
+     "en": "the landlord",
+     "pos": "noun",
+     "ex": "Mi casero vive en el mismo edificio.",
+     "exEn": "My landlord lives in the same building."
+    },
+    {
+     "id": "hou-005",
+     "es": "la fianza",
+     "en": "the deposit",
+     "pos": "noun",
+     "ex": "La fianza es de un mes.",
+     "exEn": "The deposit is one month's rent."
+    },
+    {
+     "id": "hou-006",
+     "es": "los gastos",
+     "en": "the bills",
+     "pos": "noun",
+     "ex": "Los gastos no están incluidos.",
+     "exEn": "The bills aren't included."
+    },
+    {
+     "id": "hou-007",
+     "es": "amueblado",
+     "en": "furnished",
+     "pos": "adj",
+     "ex": "El piso está amueblado.",
+     "exEn": "The flat is furnished."
+    },
+    {
+     "id": "hou-008",
+     "es": "luminoso",
+     "en": "bright",
+     "pos": "adj",
+     "ex": "Quiero un piso luminoso.",
+     "exEn": "I want a bright flat."
+    },
+    {
+     "id": "hou-009",
+     "es": "exterior",
+     "en": "facing the street",
+     "pos": "adj",
+     "ex": "Es un piso exterior y muy bonito.",
+     "exEn": "It's a very nice flat facing the street."
+    },
+    {
+     "id": "hou-010",
+     "es": "interior",
+     "en": "facing inwards",
+     "pos": "adj",
+     "ex": "La habitación es interior y oscura.",
+     "exEn": "The room faces inwards and is dark."
+    },
+    {
+     "id": "hou-011",
+     "es": "la zona",
+     "en": "the area",
+     "pos": "noun",
+     "ex": "Esta zona es muy tranquila.",
+     "exEn": "This area is very quiet."
+    },
+    {
+     "id": "hou-012",
+     "es": "el barrio",
+     "en": "the neighbourhood",
+     "pos": "noun",
+     "ex": "Me gusta este barrio.",
+     "exEn": "I like this neighbourhood."
+    }
+   ]
+  },
+  {
+   "id": "housing-2",
+   "title": "Signing and moving",
+   "entries": [
+    {
+     "id": "hou-013",
+     "es": "el contrato",
+     "en": "the contract",
+     "pos": "noun",
+     "ex": "Mañana firmo el contrato del piso.",
+     "exEn": "Tomorrow I sign the contract for the flat."
+    },
+    {
+     "id": "hou-014",
+     "es": "firmar",
+     "en": "to sign",
+     "pos": "verb",
+     "ex": "Tienes que firmar aquí.",
+     "exEn": "You have to sign here."
+    },
+    {
+     "id": "hou-015",
+     "es": "mudarse",
+     "en": "to move house",
+     "pos": "verb",
+     "ex": "Vamos a mudarnos en mayo.",
+     "exEn": "We're going to move in May.",
+     "cloze": "mudarnos"
+    },
+    {
+     "id": "hou-016",
+     "es": "la mudanza",
+     "en": "the move",
+     "pos": "noun",
+     "ex": "La mudanza es el sábado.",
+     "exEn": "The move is on Saturday."
+    },
+    {
+     "id": "hou-017",
+     "es": "el inquilino",
+     "en": "the tenant",
+     "pos": "noun",
+     "ex": "El inquilino paga los gastos.",
+     "exEn": "The tenant pays the bills."
+    },
+    {
+     "id": "hou-018",
+     "es": "la inmobiliaria",
+     "en": "the estate agency",
+     "pos": "noun",
+     "ex": "Voy a ir a una inmobiliaria.",
+     "exEn": "I'm going to go to an estate agency."
+    },
+    {
+     "id": "hou-019",
+     "es": "el metro cuadrado",
+     "en": "the square metre",
+     "pos": "noun",
+     "ex": "El piso tiene ochenta metros cuadrados.",
+     "exEn": "The flat has eighty square metres.",
+     "cloze": "metros cuadrados"
+    },
+    {
+     "id": "hou-020",
+     "es": "la visita",
+     "en": "the viewing",
+     "pos": "noun",
+     "ex": "La visita al piso es a las cinco.",
+     "exEn": "The viewing of the flat is at five."
+    },
+    {
+     "id": "hou-021",
+     "es": "de segunda mano",
+     "en": "second-hand",
+     "pos": "phrase",
+     "ex": "Compramos muebles de segunda mano.",
+     "exEn": "We bought second-hand furniture."
+    },
+    {
+     "id": "hou-022",
+     "es": "la hipoteca",
+     "en": "the mortgage",
+     "pos": "noun",
+     "ex": "Pago una hipoteca muy alta.",
+     "exEn": "I pay a very high mortgage."
+    },
+    {
+     "id": "hou-023",
+     "es": "los muebles",
+     "en": "the furniture",
+     "pos": "noun",
+     "ex": "Necesito comprar muebles nuevos.",
+     "exEn": "I need to buy new furniture."
+    },
+    {
+     "id": "hou-024",
+     "es": "las afueras",
+     "en": "the outskirts",
+     "pos": "noun",
+     "ex": "Vivimos en las afueras de Madrid.",
+     "exEn": "We live on the outskirts of Madrid."
+    }
+   ]
+  },
+  {
+   "id": "housing-3",
+   "title": "The flat itself",
+   "entries": [
+    {
+     "id": "hou-025",
+     "es": "el salón",
+     "en": "the living room",
+     "pos": "noun",
+     "ex": "El salón es muy grande.",
+     "exEn": "The living room is very big."
+    },
+    {
+     "id": "hou-026",
+     "es": "la cocina",
+     "en": "the kitchen",
+     "pos": "noun",
+     "ex": "La cocina tiene mucha luz.",
+     "exEn": "The kitchen has a lot of light."
+    },
+    {
+     "id": "hou-027",
+     "es": "el dormitorio",
+     "en": "the bedroom",
+     "pos": "noun",
+     "ex": "El piso tiene dos dormitorios.",
+     "exEn": "The flat has two bedrooms."
+    },
+    {
+     "id": "hou-028",
+     "es": "el baño",
+     "en": "the bathroom",
+     "pos": "noun",
+     "ex": "El baño está muy limpio.",
+     "exEn": "The bathroom is very clean."
+    },
+    {
+     "id": "hou-029",
+     "es": "la terraza",
+     "en": "the terrace",
+     "pos": "noun",
+     "ex": "Desayunamos en la terraza.",
+     "exEn": "We have breakfast on the terrace."
+    },
+    {
+     "id": "hou-030",
+     "es": "el trastero",
+     "en": "the storage room",
+     "pos": "noun",
+     "ex": "Guardo las bicis en el trastero.",
+     "exEn": "I keep the bikes in the storage room."
+    },
+    {
+     "id": "hou-031",
+     "es": "el garaje",
+     "en": "the garage",
+     "pos": "noun",
+     "ex": "El piso tiene garaje.",
+     "exEn": "The flat has a garage."
+    },
+    {
+     "id": "hou-032",
+     "es": "la luz",
+     "en": "the electricity; the light",
+     "pos": "noun",
+     "ex": "Este mes la luz es muy cara.",
+     "exEn": "This month the electricity is very expensive."
+    },
+    {
+     "id": "hou-033",
+     "es": "el gas",
+     "en": "the gas",
+     "pos": "noun",
+     "ex": "El gas no está incluido.",
+     "exEn": "The gas isn't included."
+    },
+    {
+     "id": "hou-034",
+     "es": "la humedad",
+     "en": "the damp",
+     "pos": "noun",
+     "ex": "Hay humedad en el baño.",
+     "exEn": "There's damp in the bathroom."
+    },
+    {
+     "id": "hou-035",
+     "es": "reformado",
+     "en": "renovated",
+     "pos": "adj",
+     "ex": "El edificio es viejo, pero el piso está reformado.",
+     "exEn": "The building is old, but the flat is renovated."
+    },
+    {
+     "id": "hou-036",
+     "es": "el problema de la vivienda",
+     "en": "the housing problem",
+     "pos": "noun",
+     "ex": "El problema de la vivienda es grave.",
+     "exEn": "The housing problem is serious."
+    }
+   ]
+  }
+ ]
+}

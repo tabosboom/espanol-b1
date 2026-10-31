@@ -1,0 +1,440 @@
+{
+ "id": "everyday",
+ "title": "Everyday life, home & routines",
+ "es": "Vida diaria y casa",
+ "priority": 8,
+ "packs": [
+  {
+   "id": "everyday-1",
+   "title": "Morning and evening",
+   "entries": [
+    {
+     "id": "eve-001",
+     "es": "despertarse",
+     "en": "to wake up",
+     "pos": "verb",
+     "ex": "Normalmente me despierto a las siete.",
+     "exEn": "I normally wake up at seven.",
+     "cloze": "me despierto"
+    },
+    {
+     "id": "eve-002",
+     "es": "levantarse",
+     "en": "to get up",
+     "pos": "verb",
+     "ex": "Hoy me he levantado tarde.",
+     "exEn": "I got up late today.",
+     "cloze": "me he levantado"
+    },
+    {
+     "id": "eve-003",
+     "es": "ducharse",
+     "en": "to have a shower",
+     "pos": "verb",
+     "ex": "Me ducho antes de desayunar.",
+     "exEn": "I have a shower before breakfast.",
+     "cloze": "Me ducho"
+    },
+    {
+     "id": "eve-004",
+     "es": "vestirse",
+     "en": "to get dressed",
+     "pos": "verb",
+     "ex": "Me visto y salgo de casa.",
+     "exEn": "I get dressed and leave the house.",
+     "cloze": "Me visto"
+    },
+    {
+     "id": "eve-005",
+     "es": "acostarse",
+     "en": "to go to bed",
+     "pos": "verb",
+     "ex": "Me acuesto a las once.",
+     "exEn": "I go to bed at eleven.",
+     "cloze": "Me acuesto"
+    },
+    {
+     "id": "eve-006",
+     "es": "llegar a casa",
+     "en": "to get home",
+     "pos": "verb",
+     "ex": "Hoy voy a llegar a casa tarde.",
+     "exEn": "Today I'm going to get home late."
+    },
+    {
+     "id": "eve-007",
+     "es": "echarse la siesta",
+     "en": "to have a nap",
+     "pos": "verb",
+     "ex": "Los domingos me gusta echarme la siesta.",
+     "exEn": "On Sundays I like having a nap.",
+     "cloze": "echarme la siesta"
+    },
+    {
+     "id": "eve-008",
+     "es": "ver una serie",
+     "en": "to watch a series",
+     "pos": "verb",
+     "ex": "Esta noche voy a ver una serie.",
+     "exEn": "Tonight I'm going to watch a series."
+    },
+    {
+     "id": "eve-009",
+     "es": "salir de fiesta",
+     "en": "to go out partying",
+     "pos": "verb",
+     "ex": "El sábado vamos a salir de fiesta.",
+     "exEn": "On Saturday we're going out partying."
+    },
+    {
+     "id": "eve-010",
+     "es": "desayunar",
+     "en": "to have breakfast",
+     "pos": "verb",
+     "ex": "Me gusta desayunar en casa.",
+     "exEn": "I like having breakfast at home."
+    },
+    {
+     "id": "eve-011",
+     "es": "hacer ejercicio",
+     "en": "to exercise",
+     "pos": "verb",
+     "ex": "Intento hacer ejercicio todos los días.",
+     "exEn": "I try to exercise every day."
+    },
+    {
+     "id": "eve-012",
+     "es": "ir al trabajo",
+     "en": "to go to work",
+     "pos": "verb",
+     "ex": "Hoy voy al trabajo en bici.",
+     "exEn": "Today I'm going to work by bike.",
+     "cloze": "voy al trabajo"
+    },
+    {
+     "id": "eve-013",
+     "es": "pasear al perro",
+     "en": "to walk the dog",
+     "pos": "verb",
+     "ex": "Tengo que pasear al perro.",
+     "exEn": "I have to walk the dog."
+    }
+   ]
+  },
+  {
+   "id": "everyday-2",
+   "title": "Housework",
+   "entries": [
+    {
+     "id": "eve-014",
+     "es": "hacer la compra",
+     "en": "to do the food shopping",
+     "pos": "verb",
+     "ex": "Tengo que hacer la compra hoy.",
+     "exEn": "I have to do the food shopping today."
+    },
+    {
+     "id": "eve-015",
+     "es": "hacer la cama",
+     "en": "to make the bed",
+     "pos": "verb",
+     "ex": "Nunca tengo tiempo para hacer la cama.",
+     "exEn": "I never have time to make the bed."
+    },
+    {
+     "id": "eve-016",
+     "es": "poner la lavadora",
+     "en": "to put the washing on",
+     "pos": "verb",
+     "ex": "Voy a poner la lavadora ahora.",
+     "exEn": "I'm going to put the washing on now."
+    },
+    {
+     "id": "eve-017",
+     "es": "tender la ropa",
+     "en": "to hang out the washing",
+     "pos": "verb",
+     "ex": "Hace sol; voy a tender la ropa.",
+     "exEn": "It's sunny; I'm going to hang out the washing."
+    },
+    {
+     "id": "eve-018",
+     "es": "fregar los platos",
+     "en": "to wash the dishes",
+     "pos": "verb",
+     "ex": "Hoy te toca fregar los platos.",
+     "exEn": "Today it's your turn to wash the dishes."
+    },
+    {
+     "id": "eve-019",
+     "es": "barrer",
+     "en": "to sweep",
+     "pos": "verb",
+     "ex": "Tengo que barrer la cocina.",
+     "exEn": "I have to sweep the kitchen."
+    },
+    {
+     "id": "eve-020",
+     "es": "sacar la basura",
+     "en": "to take out the rubbish",
+     "pos": "verb",
+     "ex": "¿Puedes sacar la basura, por favor?",
+     "exEn": "Can you take out the rubbish, please?"
+    },
+    {
+     "id": "eve-021",
+     "es": "recoger",
+     "en": "to tidy up; to clear (the table)",
+     "pos": "verb",
+     "ex": "Voy a recoger la mesa.",
+     "exEn": "I'm going to clear the table."
+    },
+    {
+     "id": "eve-022",
+     "es": "ordenar",
+     "en": "to tidy",
+     "pos": "verb",
+     "ex": "Tengo que ordenar mi habitación.",
+     "exEn": "I have to tidy my room."
+    },
+    {
+     "id": "eve-023",
+     "es": "cocinar",
+     "en": "to cook",
+     "pos": "verb",
+     "ex": "Me gusta cocinar los domingos.",
+     "exEn": "I like cooking on Sundays."
+    },
+    {
+     "id": "eve-024",
+     "es": "limpiar",
+     "en": "to clean",
+     "pos": "verb",
+     "ex": "Vamos a limpiar la casa hoy.",
+     "exEn": "We're going to clean the house today."
+    },
+    {
+     "id": "eve-025",
+     "es": "planchar",
+     "en": "to iron",
+     "pos": "verb",
+     "ex": "No me gusta nada planchar camisas.",
+     "exEn": "I really don't like ironing shirts."
+    },
+    {
+     "id": "eve-026",
+     "es": "la lavadora",
+     "en": "the washing machine",
+     "pos": "noun",
+     "ex": "La lavadora hace mucho ruido.",
+     "exEn": "The washing machine makes a lot of noise."
+    }
+   ]
+  },
+  {
+   "id": "everyday-3",
+   "title": "The building",
+   "entries": [
+    {
+     "id": "eve-027",
+     "es": "el vecino",
+     "en": "the neighbour",
+     "pos": "noun",
+     "ex": "Mi vecino es muy simpático.",
+     "exEn": "My neighbour is very friendly."
+    },
+    {
+     "id": "eve-028",
+     "es": "la comunidad",
+     "en": "the residents' association",
+     "pos": "noun",
+     "ex": "La comunidad paga la limpieza del edificio.",
+     "exEn": "The residents' association pays for cleaning the building."
+    },
+    {
+     "id": "eve-029",
+     "es": "el portero",
+     "en": "the doorman",
+     "pos": "noun",
+     "ex": "El portero tiene mis llaves.",
+     "exEn": "The doorman has my keys."
+    },
+    {
+     "id": "eve-030",
+     "es": "el portal",
+     "en": "the entrance hall",
+     "pos": "noun",
+     "ex": "Te espero en el portal.",
+     "exEn": "I'll wait for you in the entrance hall."
+    },
+    {
+     "id": "eve-031",
+     "es": "el ascensor",
+     "en": "the lift",
+     "pos": "noun",
+     "ex": "El ascensor está roto otra vez.",
+     "exEn": "The lift is broken again."
+    },
+    {
+     "id": "eve-032",
+     "es": "las escaleras",
+     "en": "the stairs",
+     "pos": "noun",
+     "ex": "Siempre subo por las escaleras.",
+     "exEn": "I always go up the stairs."
+    },
+    {
+     "id": "eve-033",
+     "es": "el timbre",
+     "en": "the doorbell",
+     "pos": "noun",
+     "ex": "El timbre de casa no funciona.",
+     "exEn": "The doorbell at home isn't working."
+    },
+    {
+     "id": "eve-034",
+     "es": "el piso",
+     "en": "the flat",
+     "pos": "noun",
+     "ex": "Mi piso está en la segunda planta.",
+     "exEn": "My flat is on the second floor."
+    },
+    {
+     "id": "eve-035",
+     "es": "el balcón",
+     "en": "the balcony",
+     "pos": "noun",
+     "ex": "Tengo plantas en el balcón.",
+     "exEn": "I have plants on the balcony."
+    },
+    {
+     "id": "eve-036",
+     "es": "la nevera",
+     "en": "the fridge",
+     "pos": "noun",
+     "ex": "No queda leche en la nevera.",
+     "exEn": "There's no milk left in the fridge."
+    },
+    {
+     "id": "eve-037",
+     "es": "el fregadero",
+     "en": "the kitchen sink",
+     "pos": "noun",
+     "ex": "Los platos están en el fregadero.",
+     "exEn": "The dishes are in the sink."
+    },
+    {
+     "id": "eve-038",
+     "es": "la basura",
+     "en": "the rubbish",
+     "pos": "noun",
+     "ex": "La basura huele mal.",
+     "exEn": "The rubbish smells bad."
+    }
+   ]
+  },
+  {
+   "id": "everyday-4",
+   "title": "Things that go wrong",
+   "entries": [
+    {
+     "id": "eve-039",
+     "es": "el enchufe",
+     "en": "the socket",
+     "pos": "noun",
+     "ex": "Este enchufe no funciona.",
+     "exEn": "This socket isn't working."
+    },
+    {
+     "id": "eve-040",
+     "es": "el cargador",
+     "en": "the charger",
+     "pos": "noun",
+     "ex": "¿Me dejas tu cargador?",
+     "exEn": "Can I borrow your charger?"
+    },
+    {
+     "id": "eve-041",
+     "es": "la batería",
+     "en": "the battery",
+     "pos": "noun",
+     "ex": "Mi móvil no tiene batería.",
+     "exEn": "My phone has no battery."
+    },
+    {
+     "id": "eve-042",
+     "es": "cargar el móvil",
+     "en": "to charge the phone",
+     "pos": "verb",
+     "ex": "Tengo que cargar el móvil.",
+     "exEn": "I have to charge my phone."
+    },
+    {
+     "id": "eve-043",
+     "es": "se me ha olvidado…",
+     "en": "I've forgotten…",
+     "pos": "phrase",
+     "ex": "Se me ha olvidado comprar leche.",
+     "exEn": "I've forgotten to buy milk."
+    },
+    {
+     "id": "eve-044",
+     "es": "se me ha roto…",
+     "en": "… has broken (on me)",
+     "pos": "phrase",
+     "ex": "Se me ha roto el móvil.",
+     "exEn": "My phone has broken."
+    },
+    {
+     "id": "eve-045",
+     "es": "se me ha caído…",
+     "en": "I've dropped…",
+     "pos": "phrase",
+     "ex": "Se me ha caído el vaso.",
+     "exEn": "I've dropped the glass."
+    },
+    {
+     "id": "eve-046",
+     "es": "se me ha perdido…",
+     "en": "I've lost…",
+     "pos": "phrase",
+     "ex": "Se me ha perdido la llave.",
+     "exEn": "I've lost the key."
+    },
+    {
+     "id": "eve-047",
+     "es": "no queda…",
+     "en": "there's no … left",
+     "pos": "phrase",
+     "ex": "En casa no queda pan.",
+     "exEn": "There's no bread left at home."
+    },
+    {
+     "id": "eve-048",
+     "es": "hace falta…",
+     "en": "… is needed",
+     "pos": "phrase",
+     "ex": "Hace falta comprar leche.",
+     "exEn": "We need to buy milk."
+    },
+    {
+     "id": "eve-049",
+     "es": "estar roto",
+     "en": "to be broken",
+     "pos": "verb",
+     "ex": "El ascensor está roto desde el lunes.",
+     "exEn": "The lift has been broken since Monday.",
+     "cloze": "está roto"
+    },
+    {
+     "id": "eve-050",
+     "es": "arreglar",
+     "en": "to fix",
+     "pos": "verb",
+     "ex": "Tengo que arreglar la puerta.",
+     "exEn": "I have to fix the door."
+    }
+   ]
+  }
+ ]
+}

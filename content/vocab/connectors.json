@@ -1,0 +1,260 @@
+{
+ "id": "connectors",
+ "title": "Connectors & discourse markers",
+ "es": "Conectores",
+ "priority": 21,
+ "packs": [
+  {
+   "id": "connectors-1",
+   "title": "Linking ideas",
+   "entries": [
+    {
+     "id": "con-001",
+     "es": "aunque",
+     "en": "although",
+     "pos": "connector",
+     "ex": "Aunque llueve, salgo.",
+     "exEn": "Although it's raining, I'm going out."
+    },
+    {
+     "id": "con-002",
+     "es": "sin embargo",
+     "en": "however",
+     "pos": "connector",
+     "ex": "Es caro; sin embargo, me gusta.",
+     "exEn": "It's expensive; however, I like it."
+    },
+    {
+     "id": "con-003",
+     "es": "a pesar de",
+     "en": "despite",
+     "pos": "connector",
+     "ex": "Salimos a pesar de la lluvia.",
+     "exEn": "We went out despite the rain."
+    },
+    {
+     "id": "con-004",
+     "es": "a pesar de que",
+     "en": "even though",
+     "pos": "connector",
+     "ex": "Fui a pesar de que estaba enfermo.",
+     "exEn": "I went even though I was ill."
+    },
+    {
+     "id": "con-005",
+     "es": "en cambio",
+     "en": "on the other hand",
+     "pos": "connector",
+     "ex": "Él come carne; yo, en cambio, no.",
+     "exEn": "He eats meat; I, on the other hand, don't."
+    },
+    {
+     "id": "con-006",
+     "es": "mientras",
+     "en": "while",
+     "pos": "connector",
+     "ex": "Leo mientras como.",
+     "exEn": "I read while I eat."
+    },
+    {
+     "id": "con-007",
+     "es": "mientras que",
+     "en": "whereas",
+     "pos": "connector",
+     "ex": "Yo trabajo, mientras que tú descansas.",
+     "exEn": "I work, whereas you rest."
+    },
+    {
+     "id": "con-008",
+     "es": "ya que",
+     "en": "since, as",
+     "pos": "connector",
+     "ex": "Ya que estás aquí, ayúdame.",
+     "exEn": "Since you're here, help me."
+    },
+    {
+     "id": "con-009",
+     "es": "como",
+     "en": "as, since",
+     "pos": "connector",
+     "ex": "Como no tengo coche, voy en tren.",
+     "exEn": "As I don't have a car, I go by train."
+    },
+    {
+     "id": "con-010",
+     "es": "porque",
+     "en": "because",
+     "pos": "connector",
+     "ex": "No voy porque estoy cansado.",
+     "exEn": "I'm not going because I'm tired."
+    },
+    {
+     "id": "con-011",
+     "es": "por eso",
+     "en": "that's why",
+     "pos": "connector",
+     "ex": "Estoy cansado; por eso no voy.",
+     "exEn": "I'm tired; that's why I'm not going."
+    },
+    {
+     "id": "con-012",
+     "es": "así que",
+     "en": "so",
+     "pos": "connector",
+     "ex": "Llueve, así que me quedo en casa.",
+     "exEn": "It's raining, so I'm staying at home."
+    },
+    {
+     "id": "con-013",
+     "es": "por lo tanto",
+     "en": "therefore",
+     "pos": "connector",
+     "ex": "No hay trenes; por lo tanto, voy en coche.",
+     "exEn": "There are no trains; therefore, I'm going by car."
+    },
+    {
+     "id": "con-014",
+     "es": "además",
+     "en": "also, on top of that",
+     "pos": "connector",
+     "ex": "Es barato y, además, es bonito.",
+     "exEn": "It's cheap and, on top of that, it's pretty."
+    },
+    {
+     "id": "con-015",
+     "es": "incluso",
+     "en": "even",
+     "pos": "connector",
+     "ex": "Vino todo el mundo, incluso mi jefe.",
+     "exEn": "Everyone came, even my boss."
+    }
+   ]
+  },
+  {
+   "id": "connectors-2",
+   "title": "Organising what you say",
+   "entries": [
+    {
+     "id": "con-016",
+     "es": "por un lado",
+     "en": "on the one hand",
+     "pos": "connector",
+     "ex": "Por un lado, me gusta la idea.",
+     "exEn": "On the one hand, I like the idea."
+    },
+    {
+     "id": "con-017",
+     "es": "por otro lado",
+     "en": "on the other hand",
+     "pos": "connector",
+     "ex": "Por otro lado, es muy caro.",
+     "exEn": "On the other hand, it's very expensive."
+    },
+    {
+     "id": "con-018",
+     "es": "en primer lugar",
+     "en": "firstly",
+     "pos": "connector",
+     "ex": "En primer lugar, muchas gracias.",
+     "exEn": "Firstly, thank you very much."
+    },
+    {
+     "id": "con-019",
+     "es": "al final",
+     "en": "in the end",
+     "pos": "connector",
+     "ex": "Al final no fuimos.",
+     "exEn": "In the end we didn't go."
+    },
+    {
+     "id": "con-020",
+     "es": "de hecho",
+     "en": "in fact",
+     "pos": "connector",
+     "ex": "De hecho, ya lo sabía.",
+     "exEn": "In fact, I already knew."
+    },
+    {
+     "id": "con-021",
+     "es": "es decir",
+     "en": "that is to say",
+     "pos": "connector",
+     "ex": "Llego el lunes, es decir, mañana.",
+     "exEn": "I arrive on Monday, that is to say, tomorrow."
+    },
+    {
+     "id": "con-022",
+     "es": "o sea",
+     "en": "in other words",
+     "pos": "connector",
+     "ex": "No tengo dinero, o sea, no voy.",
+     "exEn": "I have no money, in other words, I'm not going."
+    },
+    {
+     "id": "con-023",
+     "es": "por cierto",
+     "en": "by the way",
+     "pos": "connector",
+     "ex": "Por cierto, ¿cómo está tu madre?",
+     "exEn": "By the way, how's your mother?"
+    },
+    {
+     "id": "con-024",
+     "es": "por ejemplo",
+     "en": "for example",
+     "pos": "connector",
+     "ex": "Me gusta el sur, por ejemplo, Cádiz.",
+     "exEn": "I like the south, for example, Cádiz."
+    },
+    {
+     "id": "con-025",
+     "es": "sobre todo",
+     "en": "above all",
+     "pos": "connector",
+     "ex": "Me gusta el pescado, sobre todo el atún.",
+     "exEn": "I like fish, above all tuna."
+    },
+    {
+     "id": "con-026",
+     "es": "primero",
+     "en": "first",
+     "pos": "connector",
+     "ex": "Primero comemos y luego salimos.",
+     "exEn": "First we eat and then we go out."
+    },
+    {
+     "id": "con-027",
+     "es": "luego",
+     "en": "then",
+     "pos": "connector",
+     "ex": "Comemos y luego salimos.",
+     "exEn": "We eat and then we go out."
+    },
+    {
+     "id": "con-028",
+     "es": "de repente",
+     "en": "suddenly",
+     "pos": "connector",
+     "ex": "De repente, empezó a llover.",
+     "exEn": "Suddenly, it started to rain."
+    },
+    {
+     "id": "con-029",
+     "es": "en realidad",
+     "en": "actually",
+     "pos": "connector",
+     "ex": "En realidad, no tengo hambre.",
+     "exEn": "Actually, I'm not hungry."
+    },
+    {
+     "id": "con-030",
+     "es": "en general",
+     "en": "in general",
+     "pos": "connector",
+     "ex": "En general, estoy contento.",
+     "exEn": "In general, I'm happy."
+    }
+   ]
+  }
+ ]
+}

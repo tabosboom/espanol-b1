@@ -1,0 +1,756 @@
+{
+ "id": "g6",
+ "title": "Past tenses in a story",
+ "rule": {
+  "intro": "Indefinido tells what happened. Imperfecto describes the background. Perfecto links to now. Pluscuamperfecto goes further back, before another past event.",
+  "points": [
+   {
+    "title": "Indefinido",
+    "examples": [
+     [
+      "Ayer fui al cine.",
+      "finished events: ayer, el lunes, en 2020"
+     ]
+    ]
+   },
+   {
+    "title": "Imperfecto",
+    "examples": [
+     [
+      "Hacía sol y había mucha gente.",
+      "description and habits: siempre, antes, mientras"
+     ]
+    ]
+   },
+   {
+    "title": "Perfecto",
+    "examples": [
+     [
+      "Hoy he trabajado mucho.",
+      "linked to now: hoy, este año, ya, nunca"
+     ]
+    ]
+   },
+   {
+    "title": "Pluscuamperfecto",
+    "examples": [
+     [
+      "Nunca había vivido fuera antes de 2020.",
+      "before another past moment: había + participle"
+     ]
+    ]
+   },
+   {
+    "title": "Agreement",
+    "examples": [
+     [
+      "Marta y su amiga hicieron un curso.",
+      "plural subject: plural verb"
+     ],
+     [
+      "Vi que las calles estaban vacías.",
+      "vi que + clause; vi has no accent"
+     ]
+    ]
+   }
+  ],
+  "watch": "From your exam: nunca he vivido → nunca había vivido; me he preparado → me habían preparado; Vi las calles estaban → Vi que las calles estaban. Marta y su amiga → hicieron, aprendieron."
+ },
+ "items": [
+  {
+   "id": "g6-001",
+   "type": "gap",
+   "q": "Antes de 2020, nunca ___ vivido fuera de España.",
+   "a": "había",
+   "ex": "Before a past moment: había + participle.",
+   "en": "Before 2020, I had never lived outside Spain.",
+   "fromMistake": true
+  },
+  {
+   "id": "g6-002",
+   "type": "gap",
+   "q": "Las decisiones me ___ preparado para aquello.",
+   "a": "habían",
+   "ex": "Plural subject, earlier past: habían.",
+   "en": "The decisions had prepared me for that.",
+   "fromMistake": true
+  },
+  {
+   "id": "g6-003",
+   "type": "gap",
+   "q": "Vi ___ las calles estaban vacías.",
+   "a": "que",
+   "ex": "Vi que + clause.",
+   "en": "I saw that the streets were empty.",
+   "fromMistake": true
+  },
+  {
+   "id": "g6-004",
+   "type": "gap",
+   "q": "Marta y su amiga ___ un curso de cocina. (hacer)",
+   "a": "hicieron",
+   "ex": "Plural subject: hicieron.",
+   "en": "Marta and her friend did a cooking course.",
+   "fromMistake": true
+  },
+  {
+   "id": "g6-005",
+   "type": "gap",
+   "q": "Marta y su amiga ___ mucho. (aprender)",
+   "a": "aprendieron",
+   "ex": "Plural subject: aprendieron.",
+   "en": "Marta and her friend learned a lot.",
+   "fromMistake": true
+  },
+  {
+   "id": "g6-006",
+   "type": "spot",
+   "q": "Antes de ese viaje, nunca he vivido fuera.",
+   "wrong": 5,
+   "a": "había",
+   "opts": [
+    "había",
+    "ha",
+    "habían"
+   ],
+   "full": "Antes de ese viaje, nunca había vivido fuera.",
+   "ex": "Before a past moment: había.",
+   "en": "Before that trip, I had never lived abroad.",
+   "fromMistake": true
+  },
+  {
+   "id": "g6-007",
+   "type": "spot",
+   "q": "Marta y su amiga hizo un curso.",
+   "wrong": 4,
+   "a": "hicieron",
+   "opts": [
+    "hicieron",
+    "hicimos",
+    "hizó"
+   ],
+   "full": "Marta y su amiga hicieron un curso.",
+   "ex": "Plural subject: hicieron.",
+   "en": "Marta and her friend did a course.",
+   "fromMistake": true
+  },
+  {
+   "id": "g6-008",
+   "type": "spot",
+   "q": "Ví a Juan en la plaza.",
+   "wrong": 0,
+   "a": "Vi",
+   "opts": [
+    "Vi",
+    "Veo",
+    "Vio"
+   ],
+   "full": "Vi a Juan en la plaza.",
+   "ex": "Vi has no accent.",
+   "en": "I saw Juan in the square.",
+   "fromMistake": true
+  },
+  {
+   "id": "g6-009",
+   "type": "tiles",
+   "q": "I saw that the streets were empty",
+   "a": "Vi que las calles estaban vacías",
+   "distractors": [
+    "fueron"
+   ],
+   "ex": "Vi que + clause; estaban describes.",
+   "fromMistake": true
+  },
+  {
+   "id": "g6-010",
+   "type": "tiles",
+   "q": "I had never lived abroad",
+   "a": "Nunca había vivido fuera",
+   "distractors": [
+    "he",
+    "hubo"
+   ],
+   "ex": "había + participle.",
+   "fromMistake": true
+  },
+  {
+   "id": "g6-011",
+   "type": "mc",
+   "q": "Mi amiga y yo ___ a la playa ayer.",
+   "opts": [
+    "fuimos",
+    "fue",
+    "iba"
+   ],
+   "c": 0,
+   "ex": "Mi amiga y yo = nosotros: fuimos.",
+   "en": "My friend and I went to the beach yesterday.",
+   "fromMistake": true
+  },
+  {
+   "id": "g6-012",
+   "type": "mc",
+   "q": "La gente ___ muy amable en Japón.",
+   "opts": [
+    "era",
+    "fueron",
+    "estaban"
+   ],
+   "c": 0,
+   "ex": "Gente is singular; description: era.",
+   "en": "The people were very nice in Japan.",
+   "fromMistake": true
+  },
+  {
+   "id": "g6-013",
+   "type": "mc",
+   "q": "Ayer ___ al cine con Ana.",
+   "opts": [
+    "fui",
+    "iba",
+    "he ido"
+   ],
+   "c": 0,
+   "ex": "Ayer: indefinido.",
+   "en": "Yesterday I went to the cinema with Ana."
+  },
+  {
+   "id": "g6-014",
+   "type": "mc",
+   "q": "Hoy ___ al cine con Ana.",
+   "opts": [
+    "he ido",
+    "fui",
+    "iba"
+   ],
+   "c": 0,
+   "ex": "Hoy: perfecto.",
+   "en": "Today I went to the cinema with Ana."
+  },
+  {
+   "id": "g6-015",
+   "type": "mc",
+   "q": "Antes siempre ___ al cine los lunes.",
+   "opts": [
+    "iba",
+    "fui",
+    "he ido"
+   ],
+   "c": 0,
+   "ex": "Habit: imperfecto.",
+   "en": "I always used to go to the cinema on Mondays."
+  },
+  {
+   "id": "g6-016",
+   "type": "mc",
+   "q": "Cuando llegué, ya ___ el tren.",
+   "opts": [
+    "había salido",
+    "salió",
+    "ha salido"
+   ],
+   "c": 0,
+   "ex": "Earlier than llegué: pluscuamperfecto.",
+   "en": "When I arrived, the train had already left."
+  },
+  {
+   "id": "g6-017",
+   "type": "mc",
+   "q": "Mientras ___ , sonó el teléfono.",
+   "opts": [
+    "cenábamos",
+    "cenamos",
+    "hemos cenado"
+   ],
+   "c": 0,
+   "ex": "Background: imperfecto.",
+   "en": "While we were having dinner, the phone rang."
+  },
+  {
+   "id": "g6-018",
+   "type": "mc",
+   "q": "Cenábamos cuando ___ el teléfono.",
+   "opts": [
+    "sonó",
+    "sonaba",
+    "ha sonado"
+   ],
+   "c": 0,
+   "ex": "Interrupting event: indefinido.",
+   "en": "We were having dinner when the phone rang."
+  },
+  {
+   "id": "g6-019",
+   "type": "mc",
+   "q": "El sábado pasado ___ mucho calor.",
+   "opts": [
+    "hizo",
+    "ha hecho",
+    "hace"
+   ],
+   "c": 0,
+   "ex": "Finished time: indefinido.",
+   "en": "Last Saturday it was very hot."
+  },
+  {
+   "id": "g6-020",
+   "type": "mc",
+   "q": "¿___ alguna vez en Canarias?",
+   "opts": [
+    "Has estado",
+    "Estabas",
+    "Estuviste"
+   ],
+   "c": 0,
+   "ex": "Life experience: perfecto.",
+   "en": "Have you ever been to the Canaries?"
+  },
+  {
+   "id": "g6-021",
+   "type": "mc",
+   "q": "Esta mañana ___ tarde.",
+   "opts": [
+    "me he levantado",
+    "me levantaba",
+    "me levanto"
+   ],
+   "c": 0,
+   "ex": "Esta mañana: perfecto in Spain.",
+   "en": "I got up late this morning."
+  },
+  {
+   "id": "g6-022",
+   "type": "mc",
+   "q": "En 2020 ___ a vivir a Madrid.",
+   "opts": [
+    "me mudé",
+    "me mudaba",
+    "me he mudado"
+   ],
+   "c": 0,
+   "ex": "Year: indefinido.",
+   "en": "In 2020 I moved to Madrid."
+  },
+  {
+   "id": "g6-023",
+   "type": "mc",
+   "q": "De pequeño ___ muy tímido.",
+   "opts": [
+    "era",
+    "fui",
+    "he sido"
+   ],
+   "c": 0,
+   "ex": "Description of the past: imperfecto.",
+   "en": "As a child I was very shy."
+  },
+  {
+   "id": "g6-024",
+   "type": "mc",
+   "q": "Estaba cansado porque no ___ bien.",
+   "opts": [
+    "había dormido",
+    "he dormido",
+    "duermo"
+   ],
+   "c": 0,
+   "ex": "Earlier than estaba: pluscuamperfecto.",
+   "en": "I was tired because I hadn't slept well."
+  },
+  {
+   "id": "g6-025",
+   "type": "gap",
+   "q": "Ayer ___ a mi madre. (llamar, yo)",
+   "a": "llamé",
+   "ex": "Ayer: indefinido.",
+   "en": "I called my mother yesterday."
+  },
+  {
+   "id": "g6-026",
+   "type": "gap",
+   "q": "Ya ___ este libro. (leer, yo)",
+   "a": "he leído",
+   "ex": "Ya: perfecto.",
+   "en": "I've already read this book."
+  },
+  {
+   "id": "g6-027",
+   "type": "gap",
+   "q": "Cuando era joven, ___ mucho. (viajar, yo)",
+   "a": "viajaba|viajé",
+   "ex": "Habit: imperfecto.",
+   "en": "When I was young, I travelled a lot."
+  },
+  {
+   "id": "g6-028",
+   "type": "gap",
+   "q": "Hacía sol y los niños ___ en la calle. (jugar)",
+   "a": "jugaban",
+   "ex": "Description: imperfecto.",
+   "en": "It was sunny and the children were playing in the street."
+  },
+  {
+   "id": "g6-029",
+   "type": "gap",
+   "q": "El lunes ___ a trabajar tarde. (llegar, yo)",
+   "a": "llegué",
+   "ex": "El lunes: indefinido. g→gu.",
+   "en": "On Monday I got to work late."
+  },
+  {
+   "id": "g6-030",
+   "type": "gap",
+   "q": "Mis padres ___ a verme ayer. (venir)",
+   "a": "vinieron",
+   "ex": "Plural, irregular: vinieron.",
+   "en": "My parents came to see me yesterday."
+  },
+  {
+   "id": "g6-031",
+   "type": "gap",
+   "q": "Nosotros no ___ nada anoche. (hacer)",
+   "a": "hicimos",
+   "ex": "Anoche: indefinido.",
+   "en": "We didn't do anything last night."
+  },
+  {
+   "id": "g6-032",
+   "type": "gap",
+   "q": "Pedro ___ que no podía venir. (decir)",
+   "a": "dijo",
+   "ex": "Irregular: dijo.",
+   "en": "Pedro said he couldn't come."
+  },
+  {
+   "id": "g6-033",
+   "type": "gap",
+   "q": "¿Dónde ___ tú ayer? (estar)",
+   "a": "estuviste",
+   "ex": "Irregular: estuviste.",
+   "en": "Where were you yesterday?"
+  },
+  {
+   "id": "g6-034",
+   "type": "gap",
+   "q": "Ana no ___ venir el viernes. (poder)",
+   "a": "pudo|podía",
+   "ex": "Irregular: pudo.",
+   "en": "Ana couldn't come on Friday."
+  },
+  {
+   "id": "g6-035",
+   "type": "gap",
+   "q": "Los niños ya ___ cuando llegamos. (comer)",
+   "a": "habían comido",
+   "ex": "Earlier: habían + participle.",
+   "en": "The children had already eaten when we arrived."
+  },
+  {
+   "id": "g6-036",
+   "type": "gap",
+   "q": "Antes de aquel día, nunca ___ tanta gente en la calle. (ver, yo)",
+   "a": "había visto",
+   "ex": "Up to that past moment: había visto.",
+   "en": "Before that day, I had never seen so many people in the street."
+  },
+  {
+   "id": "g6-037",
+   "type": "gap",
+   "q": "Esta semana ___ mucho. (trabajar, yo)",
+   "a": "he trabajado",
+   "ex": "Esta semana: perfecto.",
+   "en": "I've worked a lot this week."
+  },
+  {
+   "id": "g6-038",
+   "type": "gap",
+   "q": "El año pasado ___ en Valencia. (vivir, yo)",
+   "a": "viví|vivía",
+   "ex": "Finished time: indefinido.",
+   "en": "Last year I lived in Valencia."
+  },
+  {
+   "id": "g6-039",
+   "type": "gapBank",
+   "q": "Cuando ___ a casa, mi hermano ___ .",
+   "a": [
+    "llegué",
+    "dormía"
+   ],
+   "bank": [
+    "llegué",
+    "dormía",
+    "llegaba",
+    "durmió"
+   ],
+   "ex": "Event: indefinido. Background: imperfecto.",
+   "en": "When I got home, my brother was sleeping."
+  },
+  {
+   "id": "g6-040",
+   "type": "gapBank",
+   "q": "___ mucho frío, así que no ___ .",
+   "a": [
+    "Hacía",
+    "salimos"
+   ],
+   "bank": [
+    "Hacía",
+    "salimos",
+    "Hace",
+    "salir"
+   ],
+   "ex": "Background, then event.",
+   "en": "It was very cold, so we didn't go out."
+  },
+  {
+   "id": "g6-041",
+   "type": "gapBank",
+   "q": "Ayer ___ a Ana, que ___ muy contenta.",
+   "a": [
+    "vi",
+    "estaba"
+   ],
+   "bank": [
+    "vi",
+    "estaba",
+    "veía",
+    "estuvo"
+   ],
+   "ex": "Event, then description.",
+   "en": "Yesterday I saw Ana, who was very happy."
+  },
+  {
+   "id": "g6-042",
+   "type": "gapBank",
+   "q": "Cuando llegamos, el concierto ya ___ .",
+   "a": [
+    "había empezado"
+   ],
+   "bank": [
+    "había empezado",
+    "empezó",
+    "empieza",
+    "ha empezado"
+   ],
+   "ex": "Earlier: pluscuamperfecto.",
+   "en": "When we arrived, the concert had already started."
+  },
+  {
+   "id": "g6-043",
+   "type": "tf",
+   "q": "Ayer he ido al médico.",
+   "a": false,
+   "ex": "Ayer takes the indefinido.",
+   "en": "I went to the doctor yesterday.",
+   "full": "Ayer fui al médico."
+  },
+  {
+   "id": "g6-044",
+   "type": "tf",
+   "q": "Hoy he ido al médico.",
+   "a": true,
+   "ex": "Hoy takes the perfecto in Spain.",
+   "en": "I went to the doctor today."
+  },
+  {
+   "id": "g6-045",
+   "type": "tf",
+   "q": "Cuando era pequeño, vivía en Utrecht.",
+   "a": true,
+   "ex": "Description: imperfecto.",
+   "en": "When I was little, I lived in Utrecht."
+  },
+  {
+   "id": "g6-046",
+   "type": "tf",
+   "q": "Mi amigo y yo fue a Madrid.",
+   "a": false,
+   "ex": "Mi amigo y yo = nosotros.",
+   "en": "My friend and I went to Madrid.",
+   "full": "Mi amigo y yo fuimos a Madrid."
+  },
+  {
+   "id": "g6-047",
+   "type": "gapBank",
+   "q": "El verano pasado ___ a Cádiz con mi novia. ___ mucho calor y la playa ___ llena. Un día ___ en barco y ___ delfines. Por la noche ___ pescado en un bar pequeño. ___ un viaje genial y nunca ___ algo así.",
+   "a": [
+    "fui",
+    "Hacía",
+    "estaba",
+    "salimos",
+    "vimos",
+    "cenamos",
+    "Fue",
+    "había visto"
+   ],
+   "bank": [
+    "fui",
+    "Hacía",
+    "estaba",
+    "salimos",
+    "vimos",
+    "cenamos",
+    "Fue",
+    "había visto",
+    "iba",
+    "Hace",
+    "veo",
+    "veíamos"
+   ],
+   "ex": "Events: indefinido. Background: imperfecto. Earlier: había visto.",
+   "en": "Last summer I went to Cádiz with my girlfriend. It was very hot and the beach was full. One day we went out in a boat and saw dolphins. In the evening we had fish in a small bar. It was a great trip and I had never seen anything like it.",
+   "fromMistake": true
+  },
+  {
+   "id": "g6-048",
+   "type": "gapBank",
+   "q": "Cuando ___ niño, ___ en un pueblo. Todos los días ___ al colegio andando. Un día ___ mucho y ___ el autobús. ___ muy contento porque nunca ___ en autobús.",
+   "a": [
+    "era",
+    "vivía",
+    "iba",
+    "llovió",
+    "cogí",
+    "Estaba",
+    "había ido"
+   ],
+   "bank": [
+    "era",
+    "vivía",
+    "iba",
+    "llovió",
+    "cogí",
+    "Estaba",
+    "había ido",
+    "fui",
+    "vivo",
+    "llueve",
+    "cogía"
+   ],
+   "ex": "Habits: imperfecto. One day: indefinido. Earlier: había ido.",
+   "en": "When I was a child, I lived in a village. Every day I walked to school. One day it rained a lot and I took the bus. I was very happy because I had never gone by bus."
+  },
+  {
+   "id": "g6-049",
+   "type": "gapBank",
+   "q": "Marta y su amiga ___ a Madrid en mayo. ___ un curso y ___ mucho. Las clases ___ por la mañana y por la tarde ___ . El último día ___ una fiesta. Nunca lo ___ tan bien. Después ___ a casa.",
+   "a": [
+    "fueron",
+    "Hicieron",
+    "aprendieron",
+    "eran",
+    "paseaban",
+    "hubo",
+    "habían pasado",
+    "volvieron"
+   ],
+   "bank": [
+    "fueron",
+    "Hicieron",
+    "aprendieron",
+    "eran",
+    "paseaban",
+    "hubo",
+    "habían pasado",
+    "volvieron",
+    "fue",
+    "hizo",
+    "aprendió",
+    "estaba"
+   ],
+   "ex": "Plural subject: plural verbs throughout.",
+   "en": "Marta and her friend went to Madrid in May. They did a course and learned a lot. Classes were in the morning and in the afternoon they went for walks. On the last day there was a party. They had never had such a good time. Then they went back home.",
+   "fromMistake": true
+  },
+  {
+   "id": "g6-050",
+   "type": "gapBank",
+   "q": "Ayer ___ un día horrible. ___ tarde porque no ___ el despertador. ___ mucho y no ___ paraguas. En la oficina ___ una reunión y mi jefe ___ muy enfadado. Por la noche ___ en el sofá.",
+   "a": [
+    "fue",
+    "Me levanté",
+    "oí",
+    "Llovía",
+    "llevaba",
+    "había",
+    "estaba",
+    "me dormí"
+   ],
+   "bank": [
+    "fue",
+    "Me levanté",
+    "oí",
+    "Llovía",
+    "llevaba",
+    "había",
+    "estaba",
+    "me dormí",
+    "era",
+    "levantaba",
+    "lloví"
+   ],
+   "ex": "Events: indefinido. Background: imperfecto.",
+   "en": "Yesterday was a horrible day. I got up late because I didn't hear the alarm. It was raining hard and I didn't have an umbrella. At the office there was a meeting and my boss was very angry. At night I fell asleep on the sofa."
+  },
+  {
+   "id": "g6-051",
+   "type": "gapBank",
+   "q": "Cuando ___ a Madrid, no ___ a nadie. ___ un piso pequeño y ___ mucho. Un día ___ a Ana, que ___ en mi edificio. Antes nunca ___ fuera de casa. Ahora ___ muy feliz aquí.",
+   "a": [
+    "llegué",
+    "conocía",
+    "Alquilé",
+    "trabajaba",
+    "conocí",
+    "vivía",
+    "había vivido",
+    "estoy"
+   ],
+   "bank": [
+    "llegué",
+    "conocía",
+    "Alquilé",
+    "trabajaba",
+    "conocí",
+    "vivía",
+    "había vivido",
+    "estoy",
+    "llegaba",
+    "conoció",
+    "vivió"
+   ],
+   "ex": "Event, background, earlier past, then now.",
+   "en": "When I arrived in Madrid, I didn't know anyone. I rented a small flat and worked a lot. One day I met Ana, who lived in my building. I had never lived away from home before. Now I'm very happy here."
+  },
+  {
+   "id": "g6-052",
+   "type": "gapBank",
+   "q": "El sábado ___ a la montaña. ___ sol y no ___ nadie. ___ tres horas y ___ junto a un río. Al volver, vi que ___ el coche abierto. Por suerte, nadie ___ nada.",
+   "a": [
+    "fuimos",
+    "Hacía",
+    "había",
+    "Anduvimos",
+    "comimos",
+    "había dejado",
+    "había robado"
+   ],
+   "bank": [
+    "fuimos",
+    "Hacía",
+    "había",
+    "Anduvimos",
+    "comimos",
+    "había dejado",
+    "había robado",
+    "íbamos",
+    "Hace",
+    "hubo",
+    "andamos"
+   ],
+   "ex": "Events: indefinido. Background: imperfecto. Earlier: pluscuamperfecto.",
+   "en": "On Saturday we went to the mountains. It was sunny and there was nobody there. We walked for three hours and ate by a river. On returning, I saw that I had left the car open. Luckily, nobody had stolen anything."
+  }
+ ]
+}

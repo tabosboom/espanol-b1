@@ -1,0 +1,351 @@
+{
+ "id": "problems",
+ "title": "Problems & emergencies",
+ "es": "Problemas y emergencias",
+ "priority": 9,
+ "packs": [
+  {
+   "id": "problems-1",
+   "title": "Help!",
+   "entries": [
+    {
+     "id": "prb-001",
+     "es": "¡Ayuda!",
+     "en": "Help!",
+     "pos": "phrase",
+     "ex": "¡Ayuda! ¡Mi amigo no puede respirar!",
+     "exEn": "Help! My friend can't breathe!"
+    },
+    {
+     "id": "prb-002",
+     "es": "He perdido…",
+     "en": "I've lost…",
+     "pos": "phrase",
+     "ex": "He perdido el pasaporte en el tren.",
+     "exEn": "I've lost my passport on the train."
+    },
+    {
+     "id": "prb-003",
+     "es": "Me han robado…",
+     "en": "… has been stolen from me",
+     "pos": "phrase",
+     "ex": "Me han robado el móvil en el metro.",
+     "exEn": "My phone was stolen on the metro."
+    },
+    {
+     "id": "prb-004",
+     "es": "la cartera",
+     "en": "the wallet",
+     "pos": "noun",
+     "ex": "No encuentro mi cartera.",
+     "exEn": "I can't find my wallet."
+    },
+    {
+     "id": "prb-005",
+     "es": "el pasaporte",
+     "en": "the passport",
+     "pos": "noun",
+     "ex": "Necesito mi pasaporte para volar.",
+     "exEn": "I need my passport to fly."
+    },
+    {
+     "id": "prb-006",
+     "es": "la comisaría",
+     "en": "the police station",
+     "pos": "noun",
+     "ex": "¿Dónde está la comisaría más cercana?",
+     "exEn": "Where is the nearest police station?"
+    },
+    {
+     "id": "prb-007",
+     "es": "poner una denuncia",
+     "en": "to report a crime",
+     "pos": "verb",
+     "ex": "Tengo que poner una denuncia por el robo.",
+     "exEn": "I have to report the theft."
+    },
+    {
+     "id": "prb-008",
+     "es": "la policía",
+     "en": "the police",
+     "pos": "noun",
+     "ex": "Vamos a llamar a la policía.",
+     "exEn": "Let's call the police."
+    },
+    {
+     "id": "prb-009",
+     "es": "el ladrón",
+     "en": "the thief",
+     "pos": "noun",
+     "ex": "El ladrón ha salido corriendo hacia la plaza.",
+     "exEn": "The thief ran off towards the square."
+    },
+    {
+     "id": "prb-010",
+     "es": "llamar al 112",
+     "en": "to call 112",
+     "pos": "verb",
+     "ex": "Tienes que llamar al 112 ahora.",
+     "exEn": "You have to call 112 now."
+    },
+    {
+     "id": "prb-011",
+     "es": "¿Me puede ayudar?",
+     "en": "Can you help me?",
+     "pos": "phrase",
+     "ex": "Perdone, ¿me puede ayudar?",
+     "exEn": "Excuse me, can you help me?"
+    },
+    {
+     "id": "prb-012",
+     "es": "Es urgente",
+     "en": "It's urgent",
+     "pos": "phrase",
+     "ex": "Necesito un médico; es urgente.",
+     "exEn": "I need a doctor; it's urgent."
+    },
+    {
+     "id": "prb-013",
+     "es": "el bombero",
+     "en": "the firefighter",
+     "pos": "noun",
+     "ex": "El bombero ha apagado el fuego.",
+     "exEn": "The firefighter has put out the fire."
+    }
+   ]
+  },
+  {
+   "id": "problems-2",
+   "title": "At the doctor's",
+   "entries": [
+    {
+     "id": "prb-014",
+     "es": "las urgencias",
+     "en": "the emergency department",
+     "pos": "noun",
+     "ex": "Vamos a urgencias ahora mismo.",
+     "exEn": "Let's go to the emergency department right now."
+    },
+    {
+     "id": "prb-015",
+     "es": "la ambulancia",
+     "en": "the ambulance",
+     "pos": "noun",
+     "ex": "Llama a una ambulancia, por favor.",
+     "exEn": "Call an ambulance, please."
+    },
+    {
+     "id": "prb-016",
+     "es": "Me encuentro mal",
+     "en": "I feel unwell",
+     "pos": "phrase",
+     "ex": "Me encuentro mal desde esta mañana.",
+     "exEn": "I've felt unwell since this morning."
+    },
+    {
+     "id": "prb-017",
+     "es": "Me duele…",
+     "en": "My … hurts",
+     "pos": "phrase",
+     "ex": "Me duele mucho la espalda.",
+     "exEn": "My back hurts a lot."
+    },
+    {
+     "id": "prb-018",
+     "es": "Estoy mareado/a",
+     "en": "I feel dizzy",
+     "pos": "phrase",
+     "ex": "Estoy mareado y quiero sentarme.",
+     "exEn": "I feel dizzy and want to sit down.",
+     "cloze": "Estoy mareado"
+    },
+    {
+     "id": "prb-019",
+     "es": "la farmacia de guardia",
+     "en": "the on-duty pharmacy",
+     "pos": "noun",
+     "ex": "¿Hay una farmacia de guardia por aquí?",
+     "exEn": "Is there an on-duty pharmacy around here?"
+    },
+    {
+     "id": "prb-020",
+     "es": "la receta",
+     "en": "the prescription",
+     "pos": "noun",
+     "ex": "Necesitas una receta para esta medicina.",
+     "exEn": "You need a prescription for this medicine."
+    },
+    {
+     "id": "prb-021",
+     "es": "el seguro de viaje",
+     "en": "the travel insurance",
+     "pos": "noun",
+     "ex": "Tengo seguro de viaje para dos semanas.",
+     "exEn": "I have travel insurance for two weeks."
+    },
+    {
+     "id": "prb-022",
+     "es": "la fiebre",
+     "en": "the fever",
+     "pos": "noun",
+     "ex": "El niño tiene fiebre.",
+     "exEn": "The child has a fever."
+    },
+    {
+     "id": "prb-023",
+     "es": "el dolor",
+     "en": "the pain",
+     "pos": "noun",
+     "ex": "Tengo un dolor fuerte aquí.",
+     "exEn": "I have a bad pain here."
+    },
+    {
+     "id": "prb-024",
+     "es": "la herida",
+     "en": "the wound",
+     "pos": "noun",
+     "ex": "Esta herida necesita puntos.",
+     "exEn": "This wound needs stitches."
+    },
+    {
+     "id": "prb-025",
+     "es": "romperse",
+     "en": "to break (a bone)",
+     "pos": "verb",
+     "ex": "Creo que me he roto el brazo.",
+     "exEn": "I think I've broken my arm.",
+     "cloze": "me he roto"
+    },
+    {
+     "id": "prb-026",
+     "es": "caerse",
+     "en": "to fall over",
+     "pos": "verb",
+     "ex": "Mi madre se ha caído en la calle.",
+     "exEn": "My mother has fallen over in the street.",
+     "cloze": "se ha caído"
+    },
+    {
+     "id": "prb-027",
+     "es": "vomitar",
+     "en": "to vomit",
+     "pos": "verb",
+     "ex": "He vomitado dos veces esta noche.",
+     "exEn": "I've vomited twice tonight.",
+     "cloze": "vomitado"
+    }
+   ]
+  },
+  {
+   "id": "problems-3",
+   "title": "Things that don't work",
+   "entries": [
+    {
+     "id": "prb-028",
+     "es": "No funciona",
+     "en": "It doesn't work",
+     "pos": "phrase",
+     "ex": "El ascensor no funciona.",
+     "exEn": "The lift doesn't work."
+    },
+    {
+     "id": "prb-029",
+     "es": "Se ha estropeado",
+     "en": "It has broken down",
+     "pos": "phrase",
+     "ex": "El coche se ha estropeado en la autopista.",
+     "exEn": "The car has broken down on the motorway."
+    },
+    {
+     "id": "prb-030",
+     "es": "el cajero no me devuelve la tarjeta",
+     "en": "the cash machine won't give my card back",
+     "pos": "phrase",
+     "ex": "Perdone, el cajero no me devuelve la tarjeta.",
+     "exEn": "Excuse me, the cash machine won't give my card back."
+    },
+    {
+     "id": "prb-031",
+     "es": "el cajero",
+     "en": "the cash machine",
+     "pos": "noun",
+     "ex": "¿Hay un cajero por aquí?",
+     "exEn": "Is there a cash machine around here?"
+    },
+    {
+     "id": "prb-032",
+     "es": "bloquear la tarjeta",
+     "en": "to block the card",
+     "pos": "verb",
+     "ex": "Tengo que bloquear la tarjeta ahora.",
+     "exEn": "I have to block my card now."
+    },
+    {
+     "id": "prb-033",
+     "es": "la avería",
+     "en": "the breakdown",
+     "pos": "noun",
+     "ex": "El tren tiene una avería.",
+     "exEn": "The train has a breakdown."
+    },
+    {
+     "id": "prb-034",
+     "es": "la grúa",
+     "en": "the tow truck",
+     "pos": "noun",
+     "ex": "Hemos llamado a la grúa.",
+     "exEn": "We've called the tow truck."
+    },
+    {
+     "id": "prb-035",
+     "es": "el pinchazo",
+     "en": "the flat tyre",
+     "pos": "noun",
+     "ex": "Tengo un pinchazo en la bici.",
+     "exEn": "I have a flat tyre on my bike."
+    },
+    {
+     "id": "prb-036",
+     "es": "el accidente",
+     "en": "the accident",
+     "pos": "noun",
+     "ex": "Ha habido un accidente en la carretera.",
+     "exEn": "There's been an accident on the road."
+    },
+    {
+     "id": "prb-037",
+     "es": "Estoy perdido/a",
+     "en": "I'm lost",
+     "pos": "phrase",
+     "ex": "Creo que estoy perdida.",
+     "exEn": "I think I'm lost.",
+     "cloze": "estoy perdida"
+    },
+    {
+     "id": "prb-038",
+     "es": "No encuentro…",
+     "en": "I can't find…",
+     "pos": "phrase",
+     "ex": "No encuentro mi hotel.",
+     "exEn": "I can't find my hotel."
+    },
+    {
+     "id": "prb-039",
+     "es": "Me he quedado sin…",
+     "en": "I've run out of…",
+     "pos": "phrase",
+     "ex": "Me he quedado sin batería.",
+     "exEn": "I've run out of battery."
+    },
+    {
+     "id": "prb-040",
+     "es": "el consulado",
+     "en": "the consulate",
+     "pos": "noun",
+     "ex": "Tengo que ir al consulado de mi país.",
+     "exEn": "I have to go to my country's consulate."
+    }
+   ]
+  }
+ ]
+}

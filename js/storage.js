@@ -1,7 +1,7 @@
 // Progress and settings in localStorage. Everything survives storage failures:
 // if localStorage throws, the app keeps running on the in-memory copy.
 
-import { addDays, applyAnswer, dateString, daysBetween, LEARNED_BOX } from './srs.js';
+import { addDays, applyAnswer, applyLearning, dateString, daysBetween, LEARNED_BOX } from './srs.js';
 
 const KEY = 'trainer-progress';
 const SCHEMA = 1;
@@ -22,6 +22,7 @@ function blank() {
     days: {},
     conversationsDone: {},
     rulesSeen: {},
+    checkpoints: {},
   };
 }
 
@@ -79,31 +80,55 @@ export function pruneMistakes() {
   }
 }
 
-// Records one answer for one item id. Returns true if this was the item's first answer.
-export function recordAnswer(id, moduleId, result, given) {
-  const day = dateString();
-  const previous = state.items[id];
-  const firstTime = !previous || previous.seen === 0;
-  state.items[id] = applyAnswer(previous, result, given, day);
-
-  const record = dayRecord(day);
-  record.answered += 1;
-  record.credit += result === 'correct' ? 1 : result === 'almost' ? 0.5 : 0;
-
-  if (result === 'wrong') {
-    state.mistakes[id] = { module: moduleId, at: day, streak: 0 };
+function trackMistake(id, moduleId, result, addOnWrong) {
+  if (result === 'wrong' && addOnWrong) {
+    state.mistakes[id] = { module: moduleId, at: dateString(), streak: 0 };
   } else if (result === 'correct' && state.mistakes[id]) {
     state.mistakes[id].streak += 1;
     if (state.mistakes[id].streak >= MISTAKE_CLEAR_STREAK) delete state.mistakes[id];
   }
+}
+
+function recordDay(result) {
+  const record = dayRecord(dateString());
+  record.answered += 1;
+  record.credit += result === 'correct' ? 1 : result === 'almost' ? 0.5 : 0;
+}
+
+// Records one answer for one item id. Returns true if this was the item's first answer.
+export function recordAnswer(id, moduleId, result, given) {
+  const previous = state.items[id];
+  const firstTime = !previous || previous.seen === 0;
+  state.items[id] = applyAnswer(previous, result, given, dateString());
+  recordDay(result);
+  trackMistake(id, moduleId, result, true);
   save();
   return firstTime;
+}
+
+// An answer in a learning round. Early rounds are for learning, so only a
+// miss in the sentence or writing round goes on the Mistakes list.
+export function recordLearning(id, moduleId, result, given, round) {
+  const previous = state.items[id];
+  const firstTime = !previous || previous.seen === 0;
+  state.items[id] = applyLearning(previous, result, given, dateString(), round);
+  recordDay(result);
+  trackMistake(id, moduleId, result, round >= 2);
+  save();
+  return firstTime;
+}
+
+// Saves one checkpoint attempt: { date, score, total, sections: [{ name, score, total }] }.
+export function saveCheckpoint(id, attempt) {
+  if (!state.checkpoints[id]) state.checkpoints[id] = [];
+  state.checkpoints[id].push(attempt);
+  flush();
 }
 
 // Queues an item for review without counting it as answered.
 export function queueItem(id) {
   if (state.items[id]) return;
-  state.items[id] = { box: 0, due: dateString(), seen: 0, correct: 0, wrong: 0, lastAnswer: '' };
+  state.items[id] = { box: 0, due: dateString(), seen: 0, correct: 0, wrong: 0, lastAnswer: '', stage: 0 };
   save();
 }
 

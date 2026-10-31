@@ -1,0 +1,315 @@
+{
+ "id": "technology",
+ "title": "Technology & media",
+ "es": "Tecnología y medios",
+ "priority": 17,
+ "packs": [
+  {
+   "id": "technology-1",
+   "title": "Phones and apps",
+   "entries": [
+    {
+     "id": "tec-001",
+     "es": "descargar",
+     "en": "to download",
+     "pos": "verb",
+     "ex": "Tengo que descargar esta aplicación.",
+     "exEn": "I have to download this app."
+    },
+    {
+     "id": "tec-002",
+     "es": "subir",
+     "en": "to upload",
+     "pos": "verb",
+     "ex": "Voy a subir las fotos ahora.",
+     "exEn": "I'm going to upload the photos now."
+    },
+    {
+     "id": "tec-003",
+     "es": "la aplicación",
+     "en": "the app",
+     "pos": "noun",
+     "ex": "Esta aplicación es gratis.",
+     "exEn": "This app is free."
+    },
+    {
+     "id": "tec-004",
+     "es": "la contraseña",
+     "en": "the password",
+     "pos": "noun",
+     "ex": "He olvidado la contraseña.",
+     "exEn": "I've forgotten the password."
+    },
+    {
+     "id": "tec-005",
+     "es": "la pantalla",
+     "en": "the screen",
+     "pos": "noun",
+     "ex": "La pantalla de mi móvil está rota.",
+     "exEn": "My phone screen is broken."
+    },
+    {
+     "id": "tec-006",
+     "es": "el cargador",
+     "en": "the charger",
+     "pos": "noun",
+     "ex": "Se me ha olvidado el cargador.",
+     "exEn": "I've forgotten my charger."
+    },
+    {
+     "id": "tec-007",
+     "es": "la señal",
+     "en": "the signal",
+     "pos": "noun",
+     "ex": "Aquí no hay señal.",
+     "exEn": "There's no signal here."
+    },
+    {
+     "id": "tec-008",
+     "es": "no hay cobertura",
+     "en": "there's no coverage",
+     "pos": "phrase",
+     "ex": "En la sierra no hay cobertura.",
+     "exEn": "In the mountains there's no coverage."
+    },
+    {
+     "id": "tec-009",
+     "es": "el wifi",
+     "en": "the wifi",
+     "pos": "noun",
+     "ex": "¿Tienen wifi en el hotel?",
+     "exEn": "Do they have wifi at the hotel?"
+    },
+    {
+     "id": "tec-010",
+     "es": "funcionar",
+     "en": "to work",
+     "pos": "verb",
+     "ex": "Mi móvil no funciona bien.",
+     "exEn": "My phone isn't working well.",
+     "cloze": "funciona"
+    },
+    {
+     "id": "tec-011",
+     "es": "actualizar",
+     "en": "to update",
+     "pos": "verb",
+     "ex": "Tengo que actualizar el móvil.",
+     "exEn": "I have to update my phone."
+    },
+    {
+     "id": "tec-012",
+     "es": "el ordenador",
+     "en": "the computer",
+     "pos": "noun",
+     "ex": "Mi ordenador es muy lento.",
+     "exEn": "My computer is very slow."
+    }
+   ]
+  },
+  {
+   "id": "technology-2",
+   "title": "Online",
+   "entries": [
+    {
+     "id": "tec-013",
+     "es": "la red social",
+     "en": "the social network",
+     "pos": "noun",
+     "ex": "No uso ninguna red social.",
+     "exEn": "I don't use any social network."
+    },
+    {
+     "id": "tec-014",
+     "es": "publicar",
+     "en": "to post",
+     "pos": "verb",
+     "ex": "Voy a publicar las fotos del viaje.",
+     "exEn": "I'm going to post the photos of the trip."
+    },
+    {
+     "id": "tec-015",
+     "es": "compartir",
+     "en": "to share",
+     "pos": "verb",
+     "ex": "¿Puedes compartir la ubicación?",
+     "exEn": "Can you share the location?"
+    },
+    {
+     "id": "tec-016",
+     "es": "el enlace",
+     "en": "the link",
+     "pos": "noun",
+     "ex": "Te mando el enlace ahora.",
+     "exEn": "I'll send you the link now."
+    },
+    {
+     "id": "tec-017",
+     "es": "el mensaje",
+     "en": "the message",
+     "pos": "noun",
+     "ex": "Te he enviado un mensaje.",
+     "exEn": "I've sent you a message."
+    },
+    {
+     "id": "tec-018",
+     "es": "el archivo",
+     "en": "the file",
+     "pos": "noun",
+     "ex": "Este archivo es muy grande.",
+     "exEn": "This file is very big."
+    },
+    {
+     "id": "tec-019",
+     "es": "la ubicación",
+     "en": "the location",
+     "pos": "noun",
+     "ex": "Mándame la ubicación del bar.",
+     "exEn": "Send me the location of the bar."
+    },
+    {
+     "id": "tec-020",
+     "es": "hacer clic",
+     "en": "to click",
+     "pos": "verb",
+     "ex": "Tienes que hacer clic aquí.",
+     "exEn": "You have to click here."
+    },
+    {
+     "id": "tec-021",
+     "es": "guardar",
+     "en": "to save",
+     "pos": "verb",
+     "ex": "No te olvides de guardar el documento.",
+     "exEn": "Don't forget to save the document."
+    },
+    {
+     "id": "tec-022",
+     "es": "borrar",
+     "en": "to delete",
+     "pos": "verb",
+     "ex": "Voy a borrar estas fotos.",
+     "exEn": "I'm going to delete these photos."
+    },
+    {
+     "id": "tec-023",
+     "es": "iniciar sesión",
+     "en": "to log in",
+     "pos": "verb",
+     "ex": "No puedo iniciar sesión.",
+     "exEn": "I can't log in."
+    },
+    {
+     "id": "tec-024",
+     "es": "la privacidad",
+     "en": "the privacy",
+     "pos": "noun",
+     "ex": "La privacidad es muy importante en internet.",
+     "exEn": "Privacy is very important on the internet."
+    }
+   ]
+  },
+  {
+   "id": "technology-3",
+   "title": "News and media",
+   "entries": [
+    {
+     "id": "tec-025",
+     "es": "las noticias",
+     "en": "the news",
+     "pos": "noun",
+     "ex": "Veo las noticias por la noche.",
+     "exEn": "I watch the news in the evening."
+    },
+    {
+     "id": "tec-026",
+     "es": "el periódico",
+     "en": "the newspaper",
+     "pos": "noun",
+     "ex": "Leo el periódico en el móvil.",
+     "exEn": "I read the newspaper on my phone."
+    },
+    {
+     "id": "tec-027",
+     "es": "el anuncio",
+     "en": "the advert",
+     "pos": "noun",
+     "ex": "Hay un anuncio en esta página.",
+     "exEn": "There's an advert on this page."
+    },
+    {
+     "id": "tec-028",
+     "es": "la revista",
+     "en": "the magazine",
+     "pos": "noun",
+     "ex": "Compro esta revista todos los meses.",
+     "exEn": "I buy this magazine every month."
+    },
+    {
+     "id": "tec-029",
+     "es": "el titular",
+     "en": "the headline",
+     "pos": "noun",
+     "ex": "He leído el titular esta mañana.",
+     "exEn": "I read the headline this morning."
+    },
+    {
+     "id": "tec-030",
+     "es": "la radio",
+     "en": "the radio",
+     "pos": "noun",
+     "ex": "Escucho la radio en el coche.",
+     "exEn": "I listen to the radio in the car."
+    },
+    {
+     "id": "tec-031",
+     "es": "la tele",
+     "en": "the TV",
+     "pos": "noun",
+     "ex": "Esta noche no hay nada en la tele.",
+     "exEn": "There's nothing on TV tonight."
+    },
+    {
+     "id": "tec-032",
+     "es": "el canal",
+     "en": "the channel",
+     "pos": "noun",
+     "ex": "Cambia de canal, por favor.",
+     "exEn": "Change the channel, please."
+    },
+    {
+     "id": "tec-033",
+     "es": "los subtítulos",
+     "en": "the subtitles",
+     "pos": "noun",
+     "ex": "Veo series con subtítulos en español.",
+     "exEn": "I watch series with Spanish subtitles."
+    },
+    {
+     "id": "tec-034",
+     "es": "el podcast",
+     "en": "the podcast",
+     "pos": "noun",
+     "ex": "Escucho un podcast en español.",
+     "exEn": "I listen to a podcast in Spanish."
+    },
+    {
+     "id": "tec-035",
+     "es": "la noticia falsa",
+     "en": "the fake news story",
+     "pos": "noun",
+     "ex": "Esta es una noticia falsa.",
+     "exEn": "This is a fake news story."
+    },
+    {
+     "id": "tec-036",
+     "es": "el auricular",
+     "en": "the earphone",
+     "pos": "noun",
+     "ex": "He perdido un auricular.",
+     "exEn": "I've lost an earphone."
+    }
+   ]
+  }
+ ]
+}

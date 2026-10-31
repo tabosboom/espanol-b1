@@ -1,0 +1,346 @@
+{
+ "id": "feelings",
+ "title": "Feelings & opinions",
+ "es": "Sentimientos y opiniones",
+ "priority": 15,
+ "packs": [
+  {
+   "id": "feelings-1",
+   "title": "Giving an opinion",
+   "entries": [
+    {
+     "id": "fee-001",
+     "es": "Creo que…",
+     "en": "I think that…",
+     "pos": "phrase",
+     "ex": "Creo que es una buena idea.",
+     "exEn": "I think it's a good idea."
+    },
+    {
+     "id": "fee-002",
+     "es": "Pienso que…",
+     "en": "I think that…",
+     "pos": "phrase",
+     "ex": "Pienso que tienes razón.",
+     "exEn": "I think you're right."
+    },
+    {
+     "id": "fee-003",
+     "es": "En mi opinión…",
+     "en": "In my opinion…",
+     "pos": "phrase",
+     "ex": "En mi opinión, es demasiado caro.",
+     "exEn": "In my opinion, it's too expensive."
+    },
+    {
+     "id": "fee-004",
+     "es": "Estoy de acuerdo con…",
+     "en": "I agree with…",
+     "pos": "phrase",
+     "ex": "Estoy de acuerdo con Ana.",
+     "exEn": "I agree with Ana."
+    },
+    {
+     "id": "fee-005",
+     "es": "No estoy de acuerdo con…",
+     "en": "I don't agree with…",
+     "pos": "phrase",
+     "ex": "No estoy de acuerdo con esa idea.",
+     "exEn": "I don't agree with that idea."
+    },
+    {
+     "id": "fee-006",
+     "es": "Tienes razón",
+     "en": "You're right",
+     "pos": "phrase",
+     "ex": "Tienes razón, es muy tarde.",
+     "exEn": "You're right, it's very late."
+    },
+    {
+     "id": "fee-007",
+     "es": "Me parece bien",
+     "en": "That seems fine to me",
+     "pos": "phrase",
+     "ex": "Me parece bien salir a las ocho.",
+     "exEn": "Leaving at eight seems fine to me."
+    },
+    {
+     "id": "fee-008",
+     "es": "Me parece fatal",
+     "en": "I think that's awful",
+     "pos": "phrase",
+     "ex": "Me parece fatal lo que ha hecho.",
+     "exEn": "I think what he did is awful."
+    },
+    {
+     "id": "fee-009",
+     "es": "Prefiero…",
+     "en": "I prefer…",
+     "pos": "phrase",
+     "ex": "Prefiero ir en tren.",
+     "exEn": "I prefer to go by train."
+    },
+    {
+     "id": "fee-010",
+     "es": "Para mí…",
+     "en": "For me…",
+     "pos": "phrase",
+     "ex": "Para mí, es el mejor barrio.",
+     "exEn": "For me, it's the best neighbourhood."
+    },
+    {
+     "id": "fee-011",
+     "es": "Yo diría que…",
+     "en": "I'd say that…",
+     "pos": "phrase",
+     "ex": "Yo diría que va a llover.",
+     "exEn": "I'd say it's going to rain."
+    },
+    {
+     "id": "fee-012",
+     "es": "No estoy seguro",
+     "en": "I'm not sure",
+     "pos": "phrase",
+     "ex": "No estoy seguro de la hora.",
+     "exEn": "I'm not sure about the time."
+    },
+    {
+     "id": "fee-013",
+     "es": "A mi modo de ver…",
+     "en": "The way I see it…",
+     "pos": "phrase",
+     "ex": "A mi modo de ver, es un error.",
+     "exEn": "The way I see it, it's a mistake."
+    }
+   ]
+  },
+  {
+   "id": "feelings-2",
+   "title": "What you feel",
+   "entries": [
+    {
+     "id": "fee-014",
+     "es": "Me preocupa que…",
+     "en": "It worries me that…",
+     "pos": "phrase",
+     "ex": "Me preocupa que no llame.",
+     "exEn": "It worries me that he doesn't call."
+    },
+    {
+     "id": "fee-015",
+     "es": "Me alegra que…",
+     "en": "I'm glad that…",
+     "pos": "phrase",
+     "ex": "Me alegra que estés aquí.",
+     "exEn": "I'm glad you're here."
+    },
+    {
+     "id": "fee-016",
+     "es": "Me molesta que…",
+     "en": "It bothers me that…",
+     "pos": "phrase",
+     "ex": "Me molesta que llegues tarde.",
+     "exEn": "It bothers me that you arrive late."
+    },
+    {
+     "id": "fee-017",
+     "es": "Me da miedo…",
+     "en": "… scares me",
+     "pos": "phrase",
+     "ex": "Me da miedo volar en avión.",
+     "exEn": "Flying scares me."
+    },
+    {
+     "id": "fee-018",
+     "es": "Me da pena…",
+     "en": "It makes me sad to…",
+     "pos": "phrase",
+     "ex": "Me da pena dejar esta ciudad.",
+     "exEn": "I'm sad to leave this city."
+    },
+    {
+     "id": "fee-019",
+     "es": "Me hace ilusión…",
+     "en": "I'm excited about…",
+     "pos": "phrase",
+     "ex": "Me hace ilusión este viaje.",
+     "exEn": "I'm excited about this trip."
+    },
+    {
+     "id": "fee-020",
+     "es": "Estoy harto de…",
+     "en": "I'm fed up with…",
+     "pos": "phrase",
+     "ex": "Estoy harto de este tiempo.",
+     "exEn": "I'm fed up with this weather."
+    },
+    {
+     "id": "fee-021",
+     "es": "Me apetece…",
+     "en": "I feel like…",
+     "pos": "phrase",
+     "ex": "Me apetece un café.",
+     "exEn": "I feel like a coffee."
+    },
+    {
+     "id": "fee-022",
+     "es": "Me encanta…",
+     "en": "I love…",
+     "pos": "phrase",
+     "ex": "Me encanta tu piso.",
+     "exEn": "I love your flat."
+    },
+    {
+     "id": "fee-023",
+     "es": "Odio…",
+     "en": "I hate…",
+     "pos": "phrase",
+     "ex": "Odio levantarme temprano.",
+     "exEn": "I hate getting up early."
+    },
+    {
+     "id": "fee-024",
+     "es": "Me siento…",
+     "en": "I feel…",
+     "pos": "phrase",
+     "ex": "Me siento muy cansado hoy.",
+     "exEn": "I feel very tired today."
+    },
+    {
+     "id": "fee-025",
+     "es": "Me da vergüenza…",
+     "en": "I'm embarrassed to…",
+     "pos": "phrase",
+     "ex": "Me da vergüenza hablar en público.",
+     "exEn": "I'm embarrassed to speak in public."
+    },
+    {
+     "id": "fee-026",
+     "es": "Tengo miedo de…",
+     "en": "I'm afraid of…",
+     "pos": "phrase",
+     "ex": "Tengo miedo de perder el vuelo.",
+     "exEn": "I'm afraid of missing the flight."
+    }
+   ]
+  },
+  {
+   "id": "feelings-3",
+   "title": "Moods",
+   "entries": [
+    {
+     "id": "fee-027",
+     "es": "agobiado",
+     "en": "overwhelmed",
+     "pos": "adj",
+     "ex": "Estoy agobiado con tanto trabajo.",
+     "exEn": "I'm overwhelmed with so much work."
+    },
+    {
+     "id": "fee-028",
+     "es": "ilusionado",
+     "en": "excited",
+     "pos": "adj",
+     "ex": "Estoy muy ilusionado con el viaje.",
+     "exEn": "I'm very excited about the trip."
+    },
+    {
+     "id": "fee-029",
+     "es": "decepcionado",
+     "en": "disappointed",
+     "pos": "adj",
+     "ex": "Estoy decepcionado con el hotel.",
+     "exEn": "I'm disappointed with the hotel."
+    },
+    {
+     "id": "fee-030",
+     "es": "orgulloso",
+     "en": "proud",
+     "pos": "adj",
+     "ex": "Estoy muy orgulloso de ti.",
+     "exEn": "I'm very proud of you."
+    },
+    {
+     "id": "fee-031",
+     "es": "tranquilo",
+     "en": "calm",
+     "pos": "adj",
+     "ex": "Hoy estoy muy tranquilo.",
+     "exEn": "I'm very calm today."
+    },
+    {
+     "id": "fee-032",
+     "es": "nervioso",
+     "en": "nervous",
+     "pos": "adj",
+     "ex": "Estoy nervioso por la entrevista.",
+     "exEn": "I'm nervous about the interview."
+    },
+    {
+     "id": "fee-033",
+     "es": "enfadado",
+     "en": "angry",
+     "pos": "adj",
+     "ex": "Mi jefe está muy enfadado.",
+     "exEn": "My boss is very angry."
+    },
+    {
+     "id": "fee-034",
+     "es": "sorprendido",
+     "en": "surprised",
+     "pos": "adj",
+     "ex": "Estoy sorprendido con el resultado.",
+     "exEn": "I'm surprised by the result."
+    },
+    {
+     "id": "fee-035",
+     "es": "de buen humor",
+     "en": "in a good mood",
+     "pos": "phrase",
+     "ex": "Hoy estoy de buen humor.",
+     "exEn": "Today I'm in a good mood."
+    },
+    {
+     "id": "fee-036",
+     "es": "de mal humor",
+     "en": "in a bad mood",
+     "pos": "phrase",
+     "ex": "Estás de mal humor esta mañana.",
+     "exEn": "You're in a bad mood this morning."
+    },
+    {
+     "id": "fee-037",
+     "es": "aliviado",
+     "en": "relieved",
+     "pos": "adj",
+     "ex": "Estoy aliviado porque ya ha terminado.",
+     "exEn": "I'm relieved because it's over."
+    },
+    {
+     "id": "fee-038",
+     "es": "cansado",
+     "en": "tired",
+     "pos": "adj",
+     "ex": "Hoy estoy muy cansado.",
+     "exEn": "I'm very tired today."
+    },
+    {
+     "id": "fee-039",
+     "es": "contento",
+     "en": "happy",
+     "pos": "adj",
+     "ex": "Estoy contento con mi trabajo.",
+     "exEn": "I'm happy with my job."
+    },
+    {
+     "id": "fee-040",
+     "es": "triste",
+     "en": "sad",
+     "pos": "adj",
+     "ex": "Mi amigo está triste hoy.",
+     "exEn": "My friend is sad today."
+    }
+   ]
+  }
+ ]
+}

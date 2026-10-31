@@ -1,1 +1,758 @@
-[]
+[
+ {
+  "id": "read-city",
+  "title": "Arriving in a new city",
+  "text": "Cuando Javier llegó a Valencia, no conocía a nadie. Tenía veintiocho años y acababa de encontrar un trabajo en una empresa de tecnología. El primer día se perdió dos veces buscando la oficina, porque todas las calles del centro le parecían iguales.\n\nDurante las primeras semanas vivió en un piso turístico cerca del puerto. Era caro y un poco ruidoso, pero tenía unas vistas preciosas. Por las tardes paseaba por el barrio y entraba en los bares para practicar su español, aunque al principio le daba vergüenza hablar.\n\nPoco a poco, todo empezó a cambiar. Un compañero del trabajo lo invitó a jugar al pádel y allí conoció a un grupo de amigos muy majos. También se apuntó a un curso de cocina. Dos meses después alquiló un piso más barato en otra zona y aprendió a moverse en metro sin mirar el mapa.\n\nAhora, cuando alguien le pregunta qué es lo más difícil de mudarse a otra ciudad, siempre contesta lo mismo: el primer mes. Después, si te apuntas a todo, la ciudad empieza a ser tuya.",
+  "questions": [
+   {
+    "type": "tf",
+    "q": "Javier conocía a mucha gente en Valencia cuando llegó.",
+    "a": false,
+    "ex": "The text says no conocía a nadie."
+   },
+   {
+    "type": "mc",
+    "q": "¿Cómo era su primer piso?",
+    "opts": [
+     "Caro y ruidoso, con buenas vistas",
+     "Barato y tranquilo",
+     "Sin vistas y lejos del puerto"
+    ],
+    "c": 0,
+    "ex": "Era caro y un poco ruidoso, pero tenía vistas preciosas."
+   },
+   {
+    "type": "tf",
+    "q": "Al principio le daba vergüenza hablar español.",
+    "a": true,
+    "ex": "Al principio le daba vergüenza hablar."
+   },
+   {
+    "type": "mc",
+    "q": "¿Dónde conoció a sus amigos?",
+    "opts": [
+     "Jugando al pádel",
+     "En su piso turístico",
+     "En el metro"
+    ],
+    "c": 0,
+    "ex": "Un compañero lo invitó a jugar al pádel y allí los conoció."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «se apuntó a» significa…",
+    "opts": [
+     "he signed up for",
+     "he pointed at",
+     "he noted down"
+    ],
+    "c": 0,
+    "ex": "Apuntarse a = to sign up for."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «moverse» significa…",
+    "opts": [
+     "to get around",
+     "to move house",
+     "to exercise"
+    ],
+    "c": 0,
+    "ex": "Moverse en metro = to get around by metro."
+   }
+  ]
+ },
+ {
+  "id": "read-trip",
+  "title": "A trip that went wrong",
+  "text": "El verano pasado, Laura y su novio decidieron pasar una semana en el norte de España. Lo habían planeado todo con mucho cuidado, pero desde el primer día nada salió como esperaban.\n\nPrimero, su vuelo a Bilbao salió con tres horas de retraso. Cuando por fin aterrizaron, descubrieron que la maleta de Laura no había llegado. Tuvieron que ir de compras esa misma noche porque ella no tenía ropa para el día siguiente.\n\nAl día siguiente alquilaron un coche para ir a la costa. A mitad de camino, tuvieron un pinchazo en una carretera sin cobertura, y tardaron casi dos horas en encontrar ayuda. Un agricultor muy amable paró y les ayudó a cambiar la rueda.\n\nSin embargo, gracias a él descubrieron la mejor parte del viaje. Les recomendó un pueblo pequeño que no aparecía en las guías, con un restaurante donde comieron el mejor pescado de su vida. Se quedaron allí tres días y cancelaron el resto del plan.\n\n«Fue un desastre y también el mejor viaje que hemos hecho», dice Laura. La maleta llegó a casa dos semanas después.",
+  "questions": [
+   {
+    "type": "tf",
+    "q": "El vuelo a Bilbao salió a tiempo.",
+    "a": false,
+    "ex": "Salió con tres horas de retraso."
+   },
+   {
+    "type": "mc",
+    "q": "¿Por qué fueron de compras?",
+    "opts": [
+     "La maleta de Laura no había llegado",
+     "Querían regalos",
+     "Iba a hacer mucho frío"
+    ],
+    "c": 0,
+    "ex": "Ella no tenía ropa para el día siguiente."
+   },
+   {
+    "type": "mc",
+    "q": "¿Qué problema tuvieron en la carretera?",
+    "opts": [
+     "Un pinchazo",
+     "Se quedaron sin gasolina",
+     "Un accidente"
+    ],
+    "c": 0,
+    "ex": "Tuvieron un pinchazo."
+   },
+   {
+    "type": "tf",
+    "q": "El agricultor les recomendó un pueblo.",
+    "a": true,
+    "ex": "Les recomendó un pueblo pequeño."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «sin cobertura» significa…",
+    "opts": [
+     "without phone signal",
+     "without a roof",
+     "without insurance"
+    ],
+    "c": 0,
+    "ex": "Cobertura here means phone coverage."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «salió como esperaban» significa…",
+    "opts": [
+     "turned out as they expected",
+     "left as they waited",
+     "went out as they hoped to"
+    ],
+    "c": 0,
+    "ex": "Salir here means to turn out."
+   }
+  ]
+ },
+ {
+  "id": "read-interview",
+  "title": "A job interview",
+  "text": "Hace un mes, Elena tuvo una entrevista de trabajo para un puesto en una consultoría de Madrid. Llevaba tres meses buscando trabajo y estaba muy nerviosa. La noche anterior apenas durmió y repitió sus respuestas muchas veces delante del espejo.\n\nLa entrevista empezó mal. Elena llegó diez minutos tarde por una avería en el metro. Pidió perdón y la directora le dijo que no se preocupara. Después le hizo muchas preguntas sobre su experiencia y sobre los proyectos en los que había trabajado.\n\nLo más difícil llegó al final. «¿Cuál es su mayor defecto?», le preguntó la directora. Elena pensó un momento y contestó con sinceridad que a veces le costaba pedir ayuda. Explicó que estaba aprendiendo a trabajar más en equipo.\n\nDos días después recibió una llamada. Le ofrecieron el puesto, con un contrato indefinido y un buen sueldo. La directora le explicó que su respuesta sincera les había gustado mucho. Además, podía trabajar en remoto dos días a la semana. Elena aceptó enseguida y empezó el lunes siguiente.",
+  "questions": [
+   {
+    "type": "tf",
+    "q": "Elena llevaba tres meses buscando trabajo.",
+    "a": true,
+    "ex": "Llevaba tres meses buscando trabajo."
+   },
+   {
+    "type": "mc",
+    "q": "¿Por qué llegó tarde?",
+    "opts": [
+     "Hubo una avería en el metro",
+     "Se despertó tarde",
+     "Se perdió"
+    ],
+    "c": 0,
+    "ex": "Por una avería en el metro."
+   },
+   {
+    "type": "mc",
+    "q": "¿Qué defecto mencionó?",
+    "opts": [
+     "Le costaba pedir ayuda",
+     "Llegaba siempre tarde",
+     "Hablaba demasiado"
+    ],
+    "c": 0,
+    "ex": "A veces le costaba pedir ayuda."
+   },
+   {
+    "type": "tf",
+    "q": "Le ofrecieron un contrato temporal.",
+    "a": false,
+    "ex": "Un contrato indefinido."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «apenas» significa…",
+    "opts": [
+     "hardly",
+     "only",
+     "again"
+    ],
+    "c": 0,
+    "ex": "Apenas durmió = she hardly slept."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «le costaba» significa…",
+    "opts": [
+     "she found it hard",
+     "it cost her money",
+     "it was expensive"
+    ],
+    "c": 0,
+    "ex": "Costar here means to find difficult."
+   }
+  ]
+ },
+ {
+  "id": "read-flat",
+  "title": "Flat-hunting in Madrid",
+  "text": "Encontrar piso en Madrid no es fácil, y Marcos lo sabe muy bien. Cuando se mudó a la capital, pensaba que tardaría una semana. Al final tardó casi tres meses.\n\nLos anuncios desaparecían en pocas horas. A veces llamaba por la mañana y el piso ya estaba alquilado. Otras veces iba a una visita y encontraba a veinte personas esperando en el portal. Además, los precios eran mucho más altos de lo que esperaba. Por un estudio pequeño e interior pedían novecientos euros al mes, sin gastos.\n\nLas inmobiliarias tampoco ayudaban mucho. Pedían una fianza de dos meses, un contrato de trabajo y, a menudo, un aval. Como Marcos acababa de llegar, le faltaban algunos papeles.\n\nAl final, encontró la solución gracias a una compañera de trabajo. Ella sabía que un amigo suyo buscaba a alguien para compartir piso en el barrio de Lavapiés. El piso es antiguo, pero luminoso, y Marcos paga quinientos euros al mes. «No es el piso de mis sueños», dice, «pero estoy contento: mi compañero de piso es muy majo y puedo ir andando al trabajo».",
+  "questions": [
+   {
+    "type": "tf",
+    "q": "Marcos encontró piso en una semana.",
+    "a": false,
+    "ex": "Tardó casi tres meses."
+   },
+   {
+    "type": "mc",
+    "q": "¿Qué problema tenían los anuncios?",
+    "opts": [
+     "Desaparecían muy rápido",
+     "Eran falsos",
+     "No tenían fotos"
+    ],
+    "c": 0,
+    "ex": "Desaparecían en pocas horas."
+   },
+   {
+    "type": "mc",
+    "q": "¿Cómo encontró el piso?",
+    "opts": [
+     "Por una compañera de trabajo",
+     "En una inmobiliaria",
+     "En un periódico"
+    ],
+    "c": 0,
+    "ex": "Gracias a una compañera de trabajo."
+   },
+   {
+    "type": "tf",
+    "q": "Marcos vive solo.",
+    "a": false,
+    "ex": "Comparte piso."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «sin gastos» significa…",
+    "opts": [
+     "bills not included",
+     "no expense spared",
+     "free of charge"
+    ],
+    "c": 0,
+    "ex": "Gastos here means the bills."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «luminoso» significa…",
+    "opts": [
+     "bright",
+     "noisy",
+     "furnished"
+    ],
+    "c": 0,
+    "ex": "Luminoso = gets a lot of light."
+   }
+  ]
+ },
+ {
+  "id": "read-race",
+  "title": "A running race",
+  "text": "Hace un año, Ana no podía correr más de diez minutos sin parar. Hoy acaba de terminar su primera media maratón en Sevilla. «Nunca había hecho tanto deporte», cuenta riendo.\n\nTodo empezó porque su médico le dijo que tenía que ponerse en forma. Se apuntó a un grupo del barrio que entrenaba dos veces por semana. Al principio se cansaba mucho y le dolían las piernas, pero los compañeros la animaban y poco a poco fue mejorando.\n\nTres meses antes de la carrera, se lesionó la rodilla. Tuvo que dejar de correr durante tres semanas y pensó en abandonar. Sin embargo, un fisio le enseñó varios ejercicios y estirar se convirtió en parte de su rutina.\n\nEl día de la carrera hacía calor y había miles de personas en las calles. En el kilómetro dieciocho, Ana estaba hecha polvo, pero oyó a su familia gritando su nombre y siguió adelante. Terminó en dos horas y cuarto. «No fue rápido, pero me da igual», dice. «Ahora me siento capaz de cualquier cosa». Ya está pensando en su próxima carrera.",
+  "questions": [
+   {
+    "type": "tf",
+    "q": "Ana empezó a correr porque se lo recomendó su médico.",
+    "a": true,
+    "ex": "Su médico le dijo que tenía que ponerse en forma."
+   },
+   {
+    "type": "mc",
+    "q": "¿Qué pasó tres meses antes?",
+    "opts": [
+     "Se lesionó la rodilla",
+     "Se mudó a Sevilla",
+     "Dejó el grupo"
+    ],
+    "c": 0,
+    "ex": "Se lesionó la rodilla."
+   },
+   {
+    "type": "mc",
+    "q": "¿Quién la ayudó con la lesión?",
+    "opts": [
+     "Un fisio",
+     "Su familia",
+     "Su jefe"
+    ],
+    "c": 0,
+    "ex": "Un fisio le enseñó varios ejercicios."
+   },
+   {
+    "type": "tf",
+    "q": "Hacía frío el día de la carrera.",
+    "a": false,
+    "ex": "Hacía calor."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «hecha polvo» significa…",
+    "opts": [
+     "exhausted",
+     "covered in dust",
+     "very excited"
+    ],
+    "c": 0,
+    "ex": "Estar hecho polvo = to be exhausted."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «animaban» significa…",
+    "opts": [
+     "encouraged",
+     "made fun of",
+     "tired out"
+    ],
+    "c": 0,
+    "ex": "Animar = to encourage."
+   }
+  ]
+ },
+ {
+  "id": "read-market",
+  "title": "A food market",
+  "text": "El mercado de mi barrio abre a las ocho de la mañana, y a esa hora ya hay gente en todos los puestos. Voy cada sábado desde que me mudé aquí. Al principio iba solo a mirar. Ahora, la mitad de los vendedores me conocen por mi nombre.\n\nPaco, el de la frutería, siempre me pregunta qué voy a cocinar y me recomienda algo. Su hermana Lola vende pescado en el puesto de al lado. Ella me enseñó a elegir el pescado fresco: hay que mirarle los ojos. Y en la panadería de la entrada venden la mejor barra de pan de toda la ciudad, aunque hay que llegar antes de las diez porque se acaba.\n\nComprar aquí no siempre es más barato que en el supermercado, pero merece la pena. Las verduras saben a algo, y nadie me pregunta si necesito una bolsa de plástico: llevo la mía. Además, siempre aprendo una palabra nueva.\n\nCuando termino, me tomo un café con leche en el bar del mercado y escucho las conversaciones. Es la mejor clase de español que he tenido nunca, y además es gratis.",
+  "questions": [
+   {
+    "type": "tf",
+    "q": "El narrador va al mercado todos los sábados.",
+    "a": true,
+    "ex": "Voy cada sábado."
+   },
+   {
+    "type": "mc",
+    "q": "¿Qué vende Lola?",
+    "opts": [
+     "Pescado",
+     "Fruta",
+     "Pan"
+    ],
+    "c": 0,
+    "ex": "Su hermana Lola vende pescado."
+   },
+   {
+    "type": "mc",
+    "q": "¿Por qué hay que llegar antes de las diez a la panadería?",
+    "opts": [
+     "Porque el pan se acaba",
+     "Porque cierra",
+     "Porque hay cola"
+    ],
+    "c": 0,
+    "ex": "Hay que llegar antes de las diez porque se acaba."
+   },
+   {
+    "type": "tf",
+    "q": "El mercado es siempre más barato que el supermercado.",
+    "a": false,
+    "ex": "No siempre es más barato."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «puestos» significa…",
+    "opts": [
+     "stalls",
+     "jobs",
+     "seats"
+    ],
+    "c": 0,
+    "ex": "A market puesto is a stall."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «merece la pena» significa…",
+    "opts": [
+     "it is worth it",
+     "it is a pity",
+     "it is painful"
+    ],
+    "c": 0,
+    "ex": "Merecer la pena = to be worth it."
+   }
+  ]
+ },
+ {
+  "id": "read-canaries",
+  "title": "A weekend in the Canaries",
+  "text": "Si tienes solo un fin de semana y quieres sol en noviembre, Tenerife es una buena opción. Fuimos desde Madrid en un vuelo de dos horas y media y, al bajar del avión, ya hacía veinticuatro grados.\n\nEl sábado por la mañana alquilamos un coche y subimos al Teide, el volcán más alto de España. La carretera es larga, pero el paisaje cambia todo el tiempo: primero bosques, luego rocas de colores. Arriba hacía bastante frío, así que menos mal que llevábamos chaqueta. Hicimos un sendero corto y comimos unos bocadillos con vistas a las nubes.\n\nPor la tarde bajamos a la costa, a un pueblo de pescadores llamado Garachico. Allí nos bañamos en unas piscinas naturales de roca volcánica. Las olas eran grandes, pero el agua estaba tranquila dentro de las piscinas. Cenamos pescado con las famosas papas arrugadas, unas patatas pequeñas con salsa picante.\n\nEl domingo solo tuvimos tiempo de pasear por La Laguna, una ciudad antigua con casas de colores, antes de volver al aeropuerto. Dos días no son suficientes, así que volvimos con ganas de regresar.",
+  "questions": [
+   {
+    "type": "tf",
+    "q": "En noviembre hacía calor en Tenerife.",
+    "a": true,
+    "ex": "Hacía veinticuatro grados."
+   },
+   {
+    "type": "mc",
+    "q": "¿Qué tiempo hacía arriba, en el Teide?",
+    "opts": [
+     "Bastante frío",
+     "Mucho calor",
+     "Llovía"
+    ],
+    "c": 0,
+    "ex": "Arriba hacía bastante frío."
+   },
+   {
+    "type": "mc",
+    "q": "¿Qué son las papas arrugadas?",
+    "opts": [
+     "Patatas pequeñas con salsa",
+     "Un tipo de pescado",
+     "Un postre"
+    ],
+    "c": 0,
+    "ex": "Unas patatas pequeñas con salsa picante."
+   },
+   {
+    "type": "tf",
+    "q": "Se quedaron una semana.",
+    "a": false,
+    "ex": "Solo un fin de semana."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «menos mal que» significa…",
+    "opts": [
+     "thank goodness",
+     "less bad than",
+     "unfortunately"
+    ],
+    "c": 0,
+    "ex": "Menos mal que = thank goodness."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «con ganas de regresar» significa…",
+    "opts": [
+     "keen to come back",
+     "winning the return",
+     "tired of returning"
+    ],
+    "c": 0,
+    "ex": "Tener ganas de = to be keen to."
+   }
+  ]
+ },
+ {
+  "id": "read-email",
+  "title": "An email from a friend",
+  "text": "¡Hola, Tim!\n\n¿Qué tal todo por ahí? Perdona que no te haya escrito antes, pero he estado muy liada con la mudanza. Por fin me he ido a vivir a Sevilla, como te conté en verano. Llevo aquí tres semanas y estoy encantada, aunque todavía tengo cajas por todo el piso.\n\nEl barrio es muy tranquilo y tengo una panadería buenísima justo debajo de casa. Mis vecinos son muy majos: el otro día me invitaron a cenar y acabamos hablando hasta las dos de la mañana. El único problema es el calor. Me han dicho que en julio es horrible, así que ya estoy pensando en comprar un aire acondicionado.\n\nEn el trabajo también estoy contenta. Mi jefa me deja trabajar desde casa los viernes, y eso me viene genial.\n\n¿Y tú? ¿Sigues con las clases de español? Me encantaría que vinieras a verme. Hay una habitación libre y te puedo enseñar la ciudad. ¿Qué te parece en primavera? Avísame cuando tengas fechas y lo organizamos.\n\nUn abrazo muy fuerte,\n\nCarmen",
+  "questions": [
+   {
+    "type": "tf",
+    "q": "Carmen acaba de mudarse a Sevilla.",
+    "a": true,
+    "ex": "Llevo aquí tres semanas."
+   },
+   {
+    "type": "mc",
+    "q": "¿Qué problema menciona?",
+    "opts": [
+     "El calor",
+     "Los vecinos",
+     "Su jefa"
+    ],
+    "c": 0,
+    "ex": "El único problema es el calor."
+   },
+   {
+    "type": "mc",
+    "q": "¿Qué día trabaja desde casa?",
+    "opts": [
+     "Los viernes",
+     "Los lunes",
+     "Nunca"
+    ],
+    "c": 0,
+    "ex": "Los viernes."
+   },
+   {
+    "type": "tf",
+    "q": "Carmen invita a Tim a visitarla.",
+    "a": true,
+    "ex": "Me encantaría que vinieras a verme."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «liada» significa…",
+    "opts": [
+     "very busy",
+     "tied to a rope",
+     "confused"
+    ],
+    "c": 0,
+    "ex": "Estar liado/a = to be very busy."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «me viene genial» significa…",
+    "opts": [
+     "it suits me perfectly",
+     "it comes to me easily",
+     "I am brilliant"
+    ],
+    "c": 0,
+    "ex": "Venir bien = to suit."
+   }
+  ]
+ },
+ {
+  "id": "read-review",
+  "title": "A hotel review",
+  "text": "Pasamos tres noches en este hotel de Granada y, en general, quedamos contentos, aunque no todo fue perfecto.\n\nLo mejor es la ubicación: está en pleno centro histórico, a cinco minutos andando de la catedral, y desde la terraza se ve la Alhambra. El personal de recepción fue muy amable. Nos dejaron guardar las maletas el último día y nos recomendaron varios bares de tapas que no conocíamos.\n\nLa habitación era pequeña, pero estaba muy limpia, y la cama era cómoda. El desayuno estaba incluido en el precio, con fruta fresca y buen café, aunque el comedor se llenaba mucho a partir de las nueve.\n\nLos problemas: la primera noche el aire acondicionado no funcionaba y hacía mucho calor. Bajamos a recepción y lo arreglaron por la mañana, pero dormimos muy mal. Además, nuestra habitación daba a una calle con bares y era bastante ruidosa hasta las dos. Si vais, pedid una habitación interior.\n\nTampoco es fácil llegar en coche: hay que dejarlo en un aparcamiento a diez minutos.\n\nPor este precio, lo recomendaría. Le doy cuatro estrellas de cinco.",
+  "questions": [
+   {
+    "type": "tf",
+    "q": "El hotel está lejos de la catedral.",
+    "a": false,
+    "ex": "A cinco minutos andando."
+   },
+   {
+    "type": "mc",
+    "q": "¿Qué problema tuvieron la primera noche?",
+    "opts": [
+     "El aire acondicionado no funcionaba",
+     "No había agua caliente",
+     "Perdieron la llave"
+    ],
+    "c": 0,
+    "ex": "El aire acondicionado no funcionaba."
+   },
+   {
+    "type": "mc",
+    "q": "¿Qué recomienda pedir?",
+    "opts": [
+     "Una habitación interior",
+     "Un desayuno extra",
+     "Una cama más grande"
+    ],
+    "c": 0,
+    "ex": "Pedid una habitación interior."
+   },
+   {
+    "type": "tf",
+    "q": "El desayuno se pagaba aparte.",
+    "a": false,
+    "ex": "Estaba incluido."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «daba a» significa…",
+    "opts": [
+     "faced onto",
+     "gave to",
+     "was given by"
+    ],
+    "c": 0,
+    "ex": "Dar a = to face onto."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «personal» significa…",
+    "opts": [
+     "the staff",
+     "private",
+     "personal belongings"
+    ],
+    "c": 0,
+    "ex": "El personal = the staff."
+   }
+  ]
+ },
+ {
+  "id": "read-housing",
+  "title": "The housing problem",
+  "text": "En muchas ciudades españolas, los jóvenes tienen cada vez más dificultades para encontrar una vivienda. Según datos recientes, más de la mitad de las personas de entre veinticinco y treinta y cuatro años siguen viviendo con sus padres.\n\nLas razones son varias. Por un lado, los alquileres han subido mucho en los últimos diez años, especialmente en Madrid, Barcelona y las islas. Por otro lado, los sueldos no han subido al mismo ritmo, y muchos jóvenes tienen contratos temporales. Además, comprar un piso es casi imposible sin ahorros, porque los bancos piden una entrada alta.\n\nUna parte del problema es el turismo. En algunos barrios, muchos propietarios prefieren alquilar sus pisos a turistas porque ganan más dinero. Como consecuencia, los vecinos tienen que irse a las afueras.\n\nEl Gobierno ha aprobado algunas medidas, como limitar el precio del alquiler en ciertas zonas y construir más vivienda pública. Sin embargo, no todos están de acuerdo. Algunos propietarios creen que estas medidas reducen la oferta. Mientras tanto, compartir piso se ha convertido en la solución habitual, también para personas de más de treinta años.",
+  "questions": [
+   {
+    "type": "tf",
+    "q": "Más de la mitad de los jóvenes viven con sus padres.",
+    "a": true,
+    "ex": "Más de la mitad siguen viviendo con sus padres."
+   },
+   {
+    "type": "mc",
+    "q": "¿Por qué es difícil comprar un piso?",
+    "opts": [
+     "Los bancos piden una entrada alta",
+     "No hay bancos",
+     "Los pisos son muy grandes"
+    ],
+    "c": 0,
+    "ex": "Los bancos piden una entrada alta."
+   },
+   {
+    "type": "mc",
+    "q": "¿Por qué prefieren algunos propietarios a los turistas?",
+    "opts": [
+     "Ganan más dinero",
+     "Son más limpios",
+     "Se quedan más tiempo"
+    ],
+    "c": 0,
+    "ex": "Porque ganan más dinero."
+   },
+   {
+    "type": "tf",
+    "q": "Todos están de acuerdo con las medidas.",
+    "a": false,
+    "ex": "No todos están de acuerdo."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «propietarios» significa…",
+    "opts": [
+     "owners",
+     "tenants",
+     "neighbours"
+    ],
+    "c": 0,
+    "ex": "Propietario = owner."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «las afueras» significa…",
+    "opts": [
+     "the outskirts",
+     "abroad",
+     "the outdoors"
+    ],
+    "c": 0,
+    "ex": "Las afueras = the outskirts."
+   }
+  ]
+ },
+ {
+  "id": "read-remote",
+  "title": "Working remotely",
+  "text": "Desde hace dos años, Sara trabaja desde casa para una empresa de Ámsterdam. Vive en un pueblo de la costa de Málaga, a cinco minutos de la playa, y solo va a la oficina una vez cada tres meses.\n\nDice que trabajar en remoto tiene grandes ventajas. No pierde tiempo en el transporte, puede organizar su horario y, a la hora de comer, sale a correr por el paseo marítimo. Además, la vida es más barata que en Holanda, y paga mucho menos de alquiler.\n\nPero no todo es perfecto. Al principio se sentía muy sola. Echaba de menos las conversaciones con sus compañeros en la máquina de café. También le costaba separar la vida privada del trabajo: a veces contestaba correos a las diez de la noche.\n\nPara resolverlo, tomó varias decisiones. Se apuntó a un espacio de trabajo compartido dos días a la semana, donde ha conocido a otras personas que trabajan como ella. También apaga el móvil del trabajo a las seis en punto. «Si tuviera que volver a la oficina, no sé si podría», dice. «Pero hay que tener cuidado: trabajar desde casa no significa estar disponible siempre».",
+  "questions": [
+   {
+    "type": "tf",
+    "q": "Sara trabaja en una oficina de Málaga todos los días.",
+    "a": false,
+    "ex": "Trabaja desde casa."
+   },
+   {
+    "type": "mc",
+    "q": "¿Qué echaba de menos?",
+    "opts": [
+     "Las conversaciones con compañeros",
+     "La lluvia de Holanda",
+     "Su coche"
+    ],
+    "c": 0,
+    "ex": "Las conversaciones en la máquina de café."
+   },
+   {
+    "type": "mc",
+    "q": "¿Qué hace a las seis?",
+    "opts": [
+     "Apaga el móvil del trabajo",
+     "Empieza a trabajar",
+     "Va a la oficina"
+    ],
+    "c": 0,
+    "ex": "Apaga el móvil del trabajo."
+   },
+   {
+    "type": "tf",
+    "q": "Sara ha conocido a gente en un espacio de trabajo compartido.",
+    "a": true,
+    "ex": "Ha conocido a otras personas allí."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «ventajas» significa…",
+    "opts": [
+     "advantages",
+     "windows",
+     "sales"
+    ],
+    "c": 0,
+    "ex": "Ventaja = advantage."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «disponible» significa…",
+    "opts": [
+     "available",
+     "disposable",
+     "agreeable"
+    ],
+    "c": 0,
+    "ex": "Disponible = available."
+   }
+  ]
+ },
+ {
+  "id": "read-volunteer",
+  "title": "A volunteering year abroad",
+  "text": "Cuando terminó la universidad, Pablo no sabía qué hacer con su vida. Tenía veintidós años y ninguna oferta de trabajo interesante, así que decidió irse un año como voluntario a Perú, a una escuela en un pueblo de los Andes.\n\nLos primeros días fueron muy duros. A casi cuatro mil metros de altura, se mareaba al subir las escaleras y le costaba dormir. No había agua caliente y la señal del móvil solo llegaba a un punto de la plaza. Pensó seriamente en volver a casa.\n\nPero los niños lo cambiaron todo. Les daba clases de inglés por la mañana y, por la tarde, jugaban al fútbol. Las familias lo invitaban a comer aunque tenían muy poco. Aprendió a cocinar y a tener paciencia, y también unas cuantas palabras de quechua.\n\nCuando volvió a España, ya no era la misma persona. Decidió estudiar para ser profesor, y ahora trabaja en un colegio de Zaragoza. «Fui para ayudar», dice, «pero fueron ellos los que me ayudaron a mí». Todos los años escribe a las familias, y este verano piensa volver con sus alumnos.",
+  "questions": [
+   {
+    "type": "tf",
+    "q": "Pablo tenía muchas ofertas de trabajo.",
+    "a": false,
+    "ex": "Ninguna oferta interesante."
+   },
+   {
+    "type": "mc",
+    "q": "¿Qué le pasaba al subir las escaleras?",
+    "opts": [
+     "Se mareaba",
+     "Se caía",
+     "Cantaba"
+    ],
+    "c": 0,
+    "ex": "Se mareaba al subir las escaleras."
+   },
+   {
+    "type": "mc",
+    "q": "¿Qué hacía por la tarde?",
+    "opts": [
+     "Jugaba al fútbol con los niños",
+     "Daba clases de inglés",
+     "Dormía"
+    ],
+    "c": 0,
+    "ex": "Por la tarde, jugaban al fútbol."
+   },
+   {
+    "type": "tf",
+    "q": "Ahora Pablo es profesor.",
+    "a": true,
+    "ex": "Trabaja en un colegio."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «le costaba dormir» significa…",
+    "opts": [
+     "he found it hard to sleep",
+     "sleeping cost money",
+     "he slept a lot"
+    ],
+    "c": 0,
+    "ex": "Costar = to find hard."
+   },
+   {
+    "type": "mc",
+    "q": "En este texto, «paciencia» significa…",
+    "opts": [
+     "patience",
+     "a patient",
+     "peace"
+    ],
+    "c": 0,
+    "ex": "Paciencia = patience."
+   }
+  ]
+ }
+]

@@ -1,5 +1,5 @@
 // Cache-first service worker. Bump VERSION whenever any app or content file changes.
-const VERSION = 1;
+const VERSION = 2;
 const CACHE = `trainer-v${VERSION}`;
 
 const FILES = [
@@ -21,10 +21,36 @@ const FILES = [
   './content/reading.json',
   './content/checkpoints.json',
   './content/grammar/g1.json',
+  './content/grammar/g2.json',
+  './content/grammar/g3.json',
+  './content/grammar/g4.json',
+  './content/grammar/g5.json',
+  './content/grammar/g6.json',
+  './content/grammar/g7.json',
+  './content/grammar/g8.json',
+  './content/grammar/fix.json',
   './content/vocab/smalltalk.json',
   './content/vocab/directions.json',
   './content/vocab/transport.json',
+  './content/vocab/accommodation.json',
   './content/vocab/restaurants.json',
+  './content/vocab/shops.json',
+  './content/vocab/plans.json',
+  './content/vocab/everyday.json',
+  './content/vocab/problems.json',
+  './content/vocab/work.json',
+  './content/vocab/housing.json',
+  './content/vocab/money.json',
+  './content/vocab/personality.json',
+  './content/vocab/health.json',
+  './content/vocab/feelings.json',
+  './content/vocab/nature.json',
+  './content/vocab/technology.json',
+  './content/vocab/verbs.json',
+  './content/vocab/expressions.json',
+  './content/vocab/falsefriends.json',
+  './content/vocab/connectors.json',
+  './content/vocab/repaso.json',
 ];
 
 self.addEventListener('install', (event) => {
@@ -56,11 +82,13 @@ self.addEventListener('fetch', (event) => {
     caches.open(CACHE).then(async (cache) => {
       const hit = await cache.match(request, { ignoreSearch: true });
       if (hit) return hit;
-      if (request.mode === 'navigate') {
-        const shell = await cache.match('./index.html');
+      try {
+        return await fetch(request);
+      } catch (error) {
+        const shell = request.mode === 'navigate' && (await cache.match('./index.html'));
         if (shell) return shell;
+        throw error;
       }
-      return fetch(request);
     })
   );
 });

@@ -1,0 +1,348 @@
+{
+ "id": "plans",
+ "title": "Making plans & arrangements",
+ "es": "Hacer planes",
+ "priority": 7,
+ "packs": [
+  {
+   "id": "plans-1",
+   "title": "Meeting up",
+   "entries": [
+    {
+     "id": "pln-001",
+     "es": "quedar con",
+     "en": "to meet up with",
+     "pos": "verb",
+     "ex": "Hoy he quedado con Marta.",
+     "exEn": "I'm meeting up with Marta today.",
+     "cloze": "he quedado con"
+    },
+    {
+     "id": "pln-002",
+     "es": "¿Quedamos?",
+     "en": "Shall we meet up?",
+     "pos": "phrase",
+     "ex": "Tengo libre el sábado, ¿quedamos?",
+     "exEn": "I'm free on Saturday, shall we meet up?"
+    },
+    {
+     "id": "pln-003",
+     "es": "¿Te viene bien…?",
+     "en": "Does … suit you?",
+     "pos": "phrase",
+     "ex": "¿Te viene bien el jueves?",
+     "exEn": "Does Thursday suit you?"
+    },
+    {
+     "id": "pln-004",
+     "es": "¿Te apetece…?",
+     "en": "Do you feel like…?",
+     "pos": "phrase",
+     "ex": "¿Te apetece tomar algo?",
+     "exEn": "Do you feel like having a drink?"
+    },
+    {
+     "id": "pln-005",
+     "es": "¿A qué hora quedamos?",
+     "en": "What time shall we meet?",
+     "pos": "phrase",
+     "ex": "Vale, ¿a qué hora quedamos?",
+     "exEn": "OK, what time shall we meet?"
+    },
+    {
+     "id": "pln-006",
+     "es": "¿Dónde quedamos?",
+     "en": "Where shall we meet?",
+     "pos": "phrase",
+     "ex": "Perfecto, ¿dónde quedamos?",
+     "exEn": "Perfect, where shall we meet?"
+    },
+    {
+     "id": "pln-007",
+     "es": "Nos vemos a las…",
+     "en": "See you at…",
+     "pos": "phrase",
+     "ex": "Nos vemos a las ocho en el bar.",
+     "exEn": "See you at eight at the bar."
+    },
+    {
+     "id": "pln-008",
+     "es": "Me viene fatal",
+     "en": "It's really bad for me",
+     "pos": "phrase",
+     "ex": "El lunes me viene fatal, lo siento.",
+     "exEn": "Monday is really bad for me, sorry."
+    },
+    {
+     "id": "pln-009",
+     "es": "Me viene bien",
+     "en": "It suits me",
+     "pos": "phrase",
+     "ex": "El martes me viene bien.",
+     "exEn": "Tuesday suits me."
+    },
+    {
+     "id": "pln-010",
+     "es": "Mejor otro día",
+     "en": "Better another day",
+     "pos": "phrase",
+     "ex": "Hoy estoy cansado; mejor otro día.",
+     "exEn": "I'm tired today; better another day."
+    },
+    {
+     "id": "pln-011",
+     "es": "Vale, perfecto",
+     "en": "OK, perfect",
+     "pos": "phrase",
+     "ex": "Vale, perfecto, nos vemos mañana.",
+     "exEn": "OK, perfect, see you tomorrow."
+    },
+    {
+     "id": "pln-012",
+     "es": "Tengo un plan",
+     "en": "I have plans",
+     "pos": "phrase",
+     "ex": "Esta noche tengo un plan con amigos.",
+     "exEn": "Tonight I have plans with friends."
+    },
+    {
+     "id": "pln-013",
+     "es": "¿Tienes planes?",
+     "en": "Do you have plans?",
+     "pos": "phrase",
+     "ex": "¿Tienes planes para esta noche?",
+     "exEn": "Do you have plans for tonight?"
+    }
+   ]
+  },
+  {
+   "id": "plans-2",
+   "title": "Changing plans",
+   "entries": [
+    {
+     "id": "pln-014",
+     "es": "cancelar",
+     "en": "to cancel",
+     "pos": "verb",
+     "ex": "Tengo que cancelar la cena.",
+     "exEn": "I have to cancel the dinner."
+    },
+    {
+     "id": "pln-015",
+     "es": "cambiar de plan",
+     "en": "to change plans",
+     "pos": "verb",
+     "ex": "Llueve, así que vamos a cambiar de plan.",
+     "exEn": "It's raining, so we're going to change plans."
+    },
+    {
+     "id": "pln-016",
+     "es": "llegar tarde",
+     "en": "to arrive late",
+     "pos": "verb",
+     "ex": "No quiero llegar tarde otra vez.",
+     "exEn": "I don't want to arrive late again."
+    },
+    {
+     "id": "pln-017",
+     "es": "Te aviso",
+     "en": "I'll let you know",
+     "pos": "phrase",
+     "ex": "Cuando llegue, te aviso.",
+     "exEn": "When I arrive, I'll let you know."
+    },
+    {
+     "id": "pln-018",
+     "es": "Avísame",
+     "en": "Let me know",
+     "pos": "phrase",
+     "ex": "Avísame cuando estés en casa.",
+     "exEn": "Let me know when you're home."
+    },
+    {
+     "id": "pln-019",
+     "es": "Te escribo luego",
+     "en": "I'll write to you later",
+     "pos": "phrase",
+     "ex": "Ahora no puedo; te escribo luego.",
+     "exEn": "I can't right now; I'll write to you later."
+    },
+    {
+     "id": "pln-020",
+     "es": "Me apunto",
+     "en": "I'm in",
+     "pos": "phrase",
+     "ex": "¿Vais a la playa? ¡Me apunto!",
+     "exEn": "You're going to the beach? I'm in!"
+    },
+    {
+     "id": "pln-021",
+     "es": "¿Te apuntas?",
+     "en": "Are you in?",
+     "pos": "phrase",
+     "ex": "Vamos al cine, ¿te apuntas?",
+     "exEn": "We're going to the cinema, are you in?"
+    },
+    {
+     "id": "pln-022",
+     "es": "No puedo, tengo…",
+     "en": "I can't, I have…",
+     "pos": "phrase",
+     "ex": "No puedo, tengo una reunión.",
+     "exEn": "I can't, I have a meeting."
+    },
+    {
+     "id": "pln-023",
+     "es": "Quizás",
+     "en": "Maybe",
+     "pos": "phrase",
+     "ex": "Quizás vaya al cine mañana.",
+     "exEn": "Maybe I'll go to the cinema tomorrow."
+    },
+    {
+     "id": "pln-024",
+     "es": "A lo mejor",
+     "en": "Perhaps",
+     "pos": "phrase",
+     "ex": "A lo mejor vamos a la playa.",
+     "exEn": "Perhaps we'll go to the beach."
+    },
+    {
+     "id": "pln-025",
+     "es": "Ya veremos",
+     "en": "We'll see",
+     "pos": "phrase",
+     "ex": "¿Vienes mañana? No sé, ya veremos.",
+     "exEn": "Are you coming tomorrow? I don't know, we'll see."
+    },
+    {
+     "id": "pln-026",
+     "es": "Lo dejamos para otro día",
+     "en": "Let's leave it for another day",
+     "pos": "phrase",
+     "ex": "Llueve mucho; lo dejamos para otro día.",
+     "exEn": "It's raining hard; let's leave it for another day."
+    }
+   ]
+  },
+  {
+   "id": "plans-3",
+   "title": "When and what",
+   "entries": [
+    {
+     "id": "pln-027",
+     "es": "esta noche",
+     "en": "tonight",
+     "pos": "phrase",
+     "ex": "Esta noche ceno con unos amigos.",
+     "exEn": "Tonight I'm having dinner with some friends."
+    },
+    {
+     "id": "pln-028",
+     "es": "mañana por la tarde",
+     "en": "tomorrow afternoon",
+     "pos": "phrase",
+     "ex": "Te llamo mañana por la tarde.",
+     "exEn": "I'll call you tomorrow afternoon."
+    },
+    {
+     "id": "pln-029",
+     "es": "el próximo fin de semana",
+     "en": "next weekend",
+     "pos": "phrase",
+     "ex": "El próximo fin de semana estoy libre.",
+     "exEn": "I'm free next weekend."
+    },
+    {
+     "id": "pln-030",
+     "es": "dentro de una hora",
+     "en": "in an hour",
+     "pos": "phrase",
+     "ex": "Llego dentro de una hora.",
+     "exEn": "I'll be there in an hour."
+    },
+    {
+     "id": "pln-031",
+     "es": "sobre las ocho",
+     "en": "around eight",
+     "pos": "phrase",
+     "ex": "Llego sobre las ocho, más o menos.",
+     "exEn": "I'll arrive around eight, more or less."
+    },
+    {
+     "id": "pln-032",
+     "es": "estar libre",
+     "en": "to be free",
+     "pos": "verb",
+     "ex": "¿Estás libre el viernes?",
+     "exEn": "Are you free on Friday?",
+     "cloze": "Estás libre"
+    },
+    {
+     "id": "pln-033",
+     "es": "estar ocupado",
+     "en": "to be busy",
+     "pos": "verb",
+     "ex": "Mañana voy a estar ocupado todo el día.",
+     "exEn": "Tomorrow I'm going to be busy all day."
+    },
+    {
+     "id": "pln-034",
+     "es": "tomar algo",
+     "en": "to have a drink",
+     "pos": "verb",
+     "ex": "¿Vamos a tomar algo después del trabajo?",
+     "exEn": "Shall we have a drink after work?"
+    },
+    {
+     "id": "pln-035",
+     "es": "ir de cañas",
+     "en": "to go for some beers",
+     "pos": "verb",
+     "ex": "Los viernes solemos ir de cañas.",
+     "exEn": "On Fridays we usually go for some beers."
+    },
+    {
+     "id": "pln-036",
+     "es": "dar una vuelta",
+     "en": "to go for a walk",
+     "pos": "verb",
+     "ex": "¿Vamos a dar una vuelta por el centro?",
+     "exEn": "Shall we go for a walk around the centre?"
+    },
+    {
+     "id": "pln-037",
+     "es": "ir al cine",
+     "en": "to go to the cinema",
+     "pos": "verb",
+     "ex": "Esta tarde quiero ir al cine.",
+     "exEn": "This afternoon I want to go to the cinema."
+    },
+    {
+     "id": "pln-038",
+     "es": "la cita",
+     "en": "the appointment; the date",
+     "pos": "noun",
+     "ex": "Tengo una cita con el médico.",
+     "exEn": "I have an appointment with the doctor."
+    },
+    {
+     "id": "pln-039",
+     "es": "invitar a",
+     "en": "to invite",
+     "pos": "verb",
+     "ex": "Quiero invitar a mis amigos a cenar.",
+     "exEn": "I want to invite my friends to dinner."
+    },
+    {
+     "id": "pln-040",
+     "es": "Me encantaría",
+     "en": "I'd love to",
+     "pos": "phrase",
+     "ex": "¿Quieres venir a la fiesta? Me encantaría.",
+     "exEn": "Do you want to come to the party? I'd love to."
+    }
+   ]
+  }
+ ]
+}

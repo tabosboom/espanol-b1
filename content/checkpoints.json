@@ -1,1 +1,465 @@
-[]
+[
+ {
+  "id": "cp1",
+  "title": "Checkpoint 1",
+  "when": "Week 1, after about 7 days",
+  "sections": [
+   {
+    "name": "Verbs + prepositions",
+    "items": [
+     {
+      "id": "cp1-01",
+      "type": "gap",
+      "q": "Mi hermana sueña ___ vivir en Italia.",
+      "a": "con",
+      "ex": "soñar con.",
+      "en": "My sister dreams of living in Italy."
+     },
+     {
+      "id": "cp1-02",
+      "type": "gap",
+      "q": "No estoy de acuerdo ___ mi jefe.",
+      "a": "con",
+      "ex": "de acuerdo con.",
+      "en": "I do not agree with my boss."
+     },
+     {
+      "id": "cp1-03",
+      "type": "gap",
+      "q": "¿Estás interesado ___ este curso?",
+      "a": "en",
+      "ex": "interesado en.",
+      "en": "Are you interested in this course?"
+     },
+     {
+      "id": "cp1-04",
+      "type": "mc",
+      "q": "Voy a aprender ___ conducir.",
+      "opts": [
+       "a",
+       "de",
+       "en"
+      ],
+      "c": 0,
+      "ex": "aprender a.",
+      "en": "I am going to learn to drive."
+     }
+    ]
+   },
+   {
+    "name": "Subjunctive",
+    "items": [
+     {
+      "id": "cp1-05",
+      "type": "gap",
+      "q": "Espero que ___ un buen hotel. (encontrar, nosotros)",
+      "a": "encontremos",
+      "ex": "encontrar + nosotros: no stem change.",
+      "en": "I hope we find a good hotel."
+     },
+     {
+      "id": "cp1-06",
+      "type": "gap",
+      "q": "Quiero que ___ a mis amigos. (conocer, tú)",
+      "a": "conozcas",
+      "ex": "conocer → conozcas.",
+      "en": "I want you to meet my friends."
+     },
+     {
+      "id": "cp1-07",
+      "type": "mc",
+      "q": "No creo que ___ hoy.",
+      "opts": [
+       "llueva",
+       "llueve",
+       "llova"
+      ],
+      "c": 0,
+      "ex": "llover → llueva.",
+      "en": "I don't think it will rain today."
+     },
+     {
+      "id": "cp1-08",
+      "type": "mc",
+      "q": "Antes de ___ , quiero ducharme.",
+      "opts": [
+       "salir",
+       "que salir",
+       "salga"
+      ],
+      "c": 0,
+      "ex": "Same subject: infinitive.",
+      "en": "Before going out, I want to have a shower."
+     }
+    ]
+   },
+   {
+    "name": "Imperative",
+    "items": [
+     {
+      "id": "cp1-09",
+      "type": "gap",
+      "q": "(usted) ___ este formulario. (completar)",
+      "a": "Complete",
+      "ex": "usted of -ar takes -e.",
+      "en": "Fill in this form."
+     },
+     {
+      "id": "cp1-10",
+      "type": "mc",
+      "q": "(usted) No ___ , por favor.",
+      "opts": [
+       "se preocupe",
+       "preocupese",
+       "te preocupes"
+      ],
+      "c": 0,
+      "ex": "Pronoun in front.",
+      "en": "Don't worry, please."
+     },
+     {
+      "id": "cp1-11",
+      "type": "gap",
+      "q": "(usted) ___ aquí, por favor. (sentarse)",
+      "a": "Siéntese",
+      "ex": "Pronoun on the end, plus accent.",
+      "en": "Sit here, please."
+     }
+    ]
+   },
+   {
+    "name": "Connectors",
+    "items": [
+     {
+      "id": "cp1-12",
+      "type": "mc",
+      "q": "Hace frío; ___ , voy a nadar.",
+      "opts": [
+       "sin embargo",
+       "aunque",
+       "mientras que"
+      ],
+      "c": 0,
+      "ex": "After a semicolon: sin embargo.",
+      "en": "It's cold; however, I'm going swimming."
+     },
+     {
+      "id": "cp1-13",
+      "type": "mc",
+      "q": "___ estoy cansado, salgo.",
+      "opts": [
+       "Aunque",
+       "Sin embargo",
+       "Por eso"
+      ],
+      "c": 0,
+      "ex": "Aunque + clause.",
+      "en": "Although I'm tired, I'm going out."
+     },
+     {
+      "id": "cp1-14",
+      "type": "mc",
+      "q": "___ tú cocinas, yo pongo la mesa.",
+      "opts": [
+       "Mientras",
+       "Mientras que",
+       "Además"
+      ],
+      "c": 0,
+      "ex": "Same time: mientras.",
+      "en": "While you cook, I'll set the table."
+     }
+    ]
+   },
+   {
+    "name": "Ser, estar, haber",
+    "items": [
+     {
+      "id": "cp1-15",
+      "type": "mc",
+      "q": "Ayer ___ un concierto en la plaza.",
+      "opts": [
+       "hubo",
+       "fue",
+       "estuvo"
+      ],
+      "c": 0,
+      "ex": "Existence: hubo.",
+      "en": "There was a concert in the square yesterday."
+     },
+     {
+      "id": "cp1-16",
+      "type": "gap",
+      "q": "La reunión ___ en la sala tres.",
+      "a": "es",
+      "ex": "Events take ser.",
+      "en": "The meeting is in room three."
+     }
+    ]
+   },
+   {
+    "name": "Past tenses",
+    "items": [
+     {
+      "id": "cp1-17",
+      "type": "gap",
+      "q": "Marta y Ana ___ a Sevilla ayer. (ir)",
+      "a": "fueron",
+      "ex": "Plural subject: fueron.",
+      "en": "Marta and Ana went to Seville yesterday."
+     },
+     {
+      "id": "cp1-18",
+      "type": "mc",
+      "q": "Cuando llegué, ya ___ la película.",
+      "opts": [
+       "había empezado",
+       "empezó",
+       "ha empezado"
+      ],
+      "c": 0,
+      "ex": "Earlier past.",
+      "en": "When I arrived, the film had already started."
+     }
+    ]
+   },
+   {
+    "name": "Vocabulary",
+    "vocab": 16
+   },
+   {
+    "name": "Reading",
+    "reading": "read-city"
+   }
+  ]
+ },
+ {
+  "id": "cp2",
+  "title": "Checkpoint 2",
+  "when": "Week 2, after about 14 days",
+  "sections": [
+   {
+    "name": "Verbs + prepositions",
+    "items": [
+     {
+      "id": "cp2-19",
+      "type": "gap",
+      "q": "Mi amigo se casó ___ una chica de Bilbao.",
+      "a": "con",
+      "ex": "casarse con.",
+      "en": "My friend married a girl from Bilbao."
+     },
+     {
+      "id": "cp2-20",
+      "type": "gap",
+      "q": "He trabajado ___ muchos proyectos este año.",
+      "a": "en",
+      "ex": "trabajar en.",
+      "en": "I have worked on many projects this year."
+     },
+     {
+      "id": "cp2-21",
+      "type": "gap",
+      "q": "Ayer conocí ___ tus padres.",
+      "a": "a",
+      "ex": "Personal a.",
+      "en": "I met your parents yesterday."
+     },
+     {
+      "id": "cp2-22",
+      "type": "mc",
+      "q": "Salgo a correr ___ la tarde.",
+      "opts": [
+       "por",
+       "a",
+       "en"
+      ],
+      "c": 0,
+      "ex": "por la tarde.",
+      "en": "I go running in the afternoon."
+     }
+    ]
+   },
+   {
+    "name": "Subjunctive",
+    "items": [
+     {
+      "id": "cp2-23",
+      "type": "gap",
+      "q": "Es importante que ___ la verdad. (decir, tú)",
+      "a": "digas",
+      "ex": "decir → digas.",
+      "en": "It's important that you tell the truth."
+     },
+     {
+      "id": "cp2-24",
+      "type": "gap",
+      "q": "Cuando ___ a casa, te llamo. (llegar, yo)",
+      "a": "llegue",
+      "ex": "Cuando + future idea.",
+      "en": "When I get home, I'll call you."
+     },
+     {
+      "id": "cp2-25",
+      "type": "mc",
+      "q": "Creo que Ana ___ razón.",
+      "opts": [
+       "tiene",
+       "tenga",
+       "tengo"
+      ],
+      "c": 0,
+      "ex": "Creo que + indicative.",
+      "en": "I think Ana is right."
+     },
+     {
+      "id": "cp2-26",
+      "type": "gap",
+      "q": "Te mando el correo para que lo ___ . (leer, tú)",
+      "a": "leas",
+      "ex": "Para que + subjunctive.",
+      "en": "I am sending you the email so that you read it."
+     }
+    ]
+   },
+   {
+    "name": "Imperative",
+    "items": [
+     {
+      "id": "cp2-27",
+      "type": "gap",
+      "q": "(usted) No ___ esa puerta. (utilizar)",
+      "a": "utilice",
+      "ex": "z→c before e.",
+      "en": "Don't use that door."
+     },
+     {
+      "id": "cp2-28",
+      "type": "mc",
+      "q": "(usted) ___ por su salud.",
+      "opts": [
+       "Preocúpese",
+       "Preocupase",
+       "Se preocupe"
+      ],
+      "c": 0,
+      "ex": "Pronoun on the end.",
+      "en": "Take care of your health."
+     },
+     {
+      "id": "cp2-29",
+      "type": "gap",
+      "q": "(tú) ___ ahora. (decir + me + lo)",
+      "a": "Dímelo",
+      "ex": "Pronouns join on the end.",
+      "en": "Tell me now."
+     }
+    ]
+   },
+   {
+    "name": "Connectors",
+    "items": [
+     {
+      "id": "cp2-30",
+      "type": "mc",
+      "q": "___ la lluvia, fuimos a la playa.",
+      "opts": [
+       "A pesar de",
+       "Aunque",
+       "Sin embargo"
+      ],
+      "c": 0,
+      "ex": "A pesar de + noun.",
+      "en": "Despite the rain, we went to the beach."
+     },
+     {
+      "id": "cp2-31",
+      "type": "mc",
+      "q": "Yo vivo en Madrid, ___ mi hermano vive en Bilbao.",
+      "opts": [
+       "mientras que",
+       "por eso",
+       "aunque"
+      ],
+      "c": 0,
+      "ex": "Contrast: mientras que.",
+      "en": "I live in Madrid, whereas my brother lives in Bilbao."
+     },
+     {
+      "id": "cp2-32",
+      "type": "mc",
+      "q": "No tengo coche, ___ voy en tren.",
+      "opts": [
+       "así que",
+       "porque",
+       "como"
+      ],
+      "c": 0,
+      "ex": "Result: así que.",
+      "en": "I don't have a car, so I go by train."
+     }
+    ]
+   },
+   {
+    "name": "Ser, estar, haber",
+    "items": [
+     {
+      "id": "cp2-33",
+      "type": "mc",
+      "q": "Cuando era niño, ___ un parque aquí.",
+      "opts": [
+       "había",
+       "hubo",
+       "estaba"
+      ],
+      "c": 0,
+      "ex": "Past description: había.",
+      "en": "When I was a child, there was a park here."
+     },
+     {
+      "id": "cp2-34",
+      "type": "gap",
+      "q": "Mis padres ___ estado en Madrid.",
+      "a": "han",
+      "ex": "Plural: han.",
+      "en": "My parents have been in Madrid."
+     }
+    ]
+   },
+   {
+    "name": "Past tenses",
+    "items": [
+     {
+      "id": "cp2-35",
+      "type": "gap",
+      "q": "Vi ___ el restaurante estaba cerrado.",
+      "a": "que",
+      "ex": "Vi que + clause.",
+      "en": "I saw that the restaurant was closed."
+     },
+     {
+      "id": "cp2-36",
+      "type": "mc",
+      "q": "Antes de ese viaje, nunca ___ en avión.",
+      "opts": [
+       "había viajado",
+       "he viajado",
+       "viajé"
+      ],
+      "c": 0,
+      "ex": "Earlier past.",
+      "en": "Before that trip, I had never travelled by plane."
+     }
+    ]
+   },
+   {
+    "name": "Vocabulary",
+    "vocab": 16
+   },
+   {
+    "name": "Reading",
+    "reading": "read-housing"
+   }
+  ]
+ }
+]

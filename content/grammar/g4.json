@@ -1,0 +1,633 @@
+{
+ "id": "g4",
+ "title": "Connectors",
+ "rule": {
+  "intro": "Connectors link ideas, and some of them change the punctuation. Aunque joins two clauses in one sentence. Sin embargo starts a new clause after a semicolon or full stop.",
+  "points": [
+   {
+    "title": "Although, however",
+    "examples": [
+     [
+      "Aunque llovía, salimos.",
+      "aunque joins clauses"
+     ],
+     [
+      "Llovía; sin embargo, salimos.",
+      "sin embargo, with ; before and a comma after"
+     ],
+     [
+      "A pesar de la lluvia, salimos.",
+      "a pesar de + noun or infinitive"
+     ]
+    ]
+   },
+   {
+    "title": "While, whereas",
+    "examples": [
+     [
+      "Mientras limpias, yo cocino.",
+      "mientras: at the same time"
+     ],
+     [
+      "Yo cocino, mientras que tú limpias.",
+      "mientras que: contrast"
+     ]
+    ]
+   },
+   {
+    "title": "Because, so",
+    "examples": [
+     [
+      "Ya que estás aquí, ayúdame.",
+      "ya que, como: cause first"
+     ],
+     [
+      "Como llueve, no salgo.",
+      "como always comes first"
+     ],
+     [
+      "No salgo porque llueve.",
+      "porque comes in the middle"
+     ],
+     [
+      "Llueve, así que no salgo.",
+      "así que, por eso, por lo tanto: result"
+     ]
+    ]
+   },
+   {
+    "title": "And also",
+    "examples": [
+     [
+      "Además, es barato.",
+      "además: on top of that"
+     ],
+     [
+      "Incluso mi madre vino.",
+      "incluso: even"
+     ],
+     [
+      "A mí me gusta; en cambio, a él no.",
+      "en cambio: on the other hand"
+     ]
+    ]
+   }
+  ],
+  "watch": "From your exam: «; aunque empezó a llover» → «; sin embargo, empezó a llover». «Sin embargo, el viaje fue largo, disfrutamos» → «Aunque el viaje fue largo, disfrutamos». «Mientras que tú limpias» → «Mientras tú limpias». Además has an accent."
+ },
+ "items": [
+  {
+   "id": "g4-001",
+   "type": "mc",
+   "q": "Quería salir a correr; ___ , empezó a llover.",
+   "opts": [
+    "sin embargo",
+    "aunque",
+    "mientras"
+   ],
+   "c": 0,
+   "ex": "After a semicolon, use sin embargo.",
+   "en": "I wanted to go for a run; however, it started to rain.",
+   "fromMistake": true
+  },
+  {
+   "id": "g4-002",
+   "type": "mc",
+   "q": "___ el viaje fue largo, disfrutamos mucho.",
+   "opts": [
+    "Aunque",
+    "Sin embargo",
+    "Mientras que"
+   ],
+   "c": 0,
+   "ex": "Aunque joins two clauses in one sentence.",
+   "en": "Although the trip was long, we enjoyed it a lot.",
+   "fromMistake": true
+  },
+  {
+   "id": "g4-003",
+   "type": "mc",
+   "q": "___ tú limpias, yo voy a comprar.",
+   "opts": [
+    "Mientras",
+    "Mientras que",
+    "Sin embargo"
+   ],
+   "c": 0,
+   "ex": "Mientras = while, at the same time.",
+   "en": "While you clean, I'll go shopping.",
+   "fromMistake": true
+  },
+  {
+   "id": "g4-004",
+   "type": "spot",
+   "q": "Quería salir; aunque, empezó a llover.",
+   "wrong": 2,
+   "a": "sin embargo,",
+   "opts": [
+    "sin embargo,",
+    "mientras,",
+    "además,"
+   ],
+   "full": "Quería salir; sin embargo, empezó a llover.",
+   "ex": "After a semicolon, use sin embargo.",
+   "en": "I wanted to go out; however, it started to rain.",
+   "fromMistake": true
+  },
+  {
+   "id": "g4-005",
+   "type": "tf",
+   "q": "Sin embargo, el viaje fue largo, disfrutamos mucho.",
+   "a": false,
+   "ex": "One sentence with two clauses needs aunque.",
+   "en": "Although the trip was long, we enjoyed it a lot.",
+   "full": "Aunque el viaje fue largo, disfrutamos mucho.",
+   "fromMistake": true
+  },
+  {
+   "id": "g4-006",
+   "type": "tf",
+   "q": "Escucho música mientras que cocino.",
+   "a": false,
+   "ex": "For time, use mientras without que.",
+   "en": "I listen to music while I cook.",
+   "full": "Escucho música mientras cocino.",
+   "fromMistake": true
+  },
+  {
+   "id": "g4-007",
+   "type": "gap",
+   "q": "El piso es bonito. ___ , es barato.",
+   "a": "Además",
+   "ex": "Además has an accent; it means on top of that.",
+   "en": "The flat is nice. On top of that, it's cheap.",
+   "fromMistake": true
+  },
+  {
+   "id": "g4-008",
+   "type": "tiles",
+   "q": "Although it was raining, we went out",
+   "a": "Aunque llovía, salimos",
+   "distractors": [
+    "Sin",
+    "embargo"
+   ],
+   "ex": "Aunque joins two clauses.",
+   "fromMistake": true
+  },
+  {
+   "id": "g4-009",
+   "type": "mc",
+   "q": "Estoy cansado; ___ , voy a ir al gimnasio.",
+   "opts": [
+    "sin embargo",
+    "aunque",
+    "como"
+   ],
+   "c": 0,
+   "ex": "After a semicolon, use sin embargo.",
+   "en": "I'm tired; however, I'm going to the gym."
+  },
+  {
+   "id": "g4-010",
+   "type": "mc",
+   "q": "___ estoy cansado, voy al gimnasio.",
+   "opts": [
+    "Aunque",
+    "Sin embargo",
+    "Por eso"
+   ],
+   "c": 0,
+   "ex": "Aunque + clause.",
+   "en": "Although I'm tired, I'm going to the gym."
+  },
+  {
+   "id": "g4-011",
+   "type": "mc",
+   "q": "___ la lluvia, salimos.",
+   "opts": [
+    "A pesar de",
+    "Aunque",
+    "Sin embargo"
+   ],
+   "c": 0,
+   "ex": "A pesar de + noun.",
+   "en": "Despite the rain, we went out."
+  },
+  {
+   "id": "g4-012",
+   "type": "mc",
+   "q": "___ estar enfermo, fue a trabajar.",
+   "opts": [
+    "A pesar de",
+    "Aunque",
+    "Sin embargo"
+   ],
+   "c": 0,
+   "ex": "A pesar de + infinitive.",
+   "en": "Despite being ill, he went to work."
+  },
+  {
+   "id": "g4-013",
+   "type": "mc",
+   "q": "Yo trabajo en casa, ___ mi hermana trabaja en una oficina.",
+   "opts": [
+    "mientras que",
+    "por eso",
+    "aunque"
+   ],
+   "c": 0,
+   "ex": "Contrast: mientras que.",
+   "en": "I work at home, whereas my sister works in an office."
+  },
+  {
+   "id": "g4-014",
+   "type": "mc",
+   "q": "Escucho música ___ cocino.",
+   "opts": [
+    "mientras",
+    "mientras que",
+    "sin embargo"
+   ],
+   "c": 0,
+   "ex": "Same time: mientras.",
+   "en": "I listen to music while I cook."
+  },
+  {
+   "id": "g4-015",
+   "type": "mc",
+   "q": "___ no tengo coche, voy en tren.",
+   "opts": [
+    "Como",
+    "Porque",
+    "Por eso"
+   ],
+   "c": 0,
+   "ex": "Cause first: como.",
+   "en": "As I don't have a car, I go by train."
+  },
+  {
+   "id": "g4-016",
+   "type": "mc",
+   "q": "Voy en tren ___ no tengo coche.",
+   "opts": [
+    "porque",
+    "como",
+    "así que"
+   ],
+   "c": 0,
+   "ex": "Porque comes after the main idea.",
+   "en": "I go by train because I don't have a car."
+  },
+  {
+   "id": "g4-017",
+   "type": "mc",
+   "q": "No tengo coche, ___ voy en tren.",
+   "opts": [
+    "así que",
+    "porque",
+    "como"
+   ],
+   "c": 0,
+   "ex": "Result: así que.",
+   "en": "I don't have a car, so I go by train."
+  },
+  {
+   "id": "g4-018",
+   "type": "mc",
+   "q": "___ estás aquí, ¿me ayudas?",
+   "opts": [
+    "Ya que",
+    "Por eso",
+    "Sin embargo"
+   ],
+   "c": 0,
+   "ex": "Ya que gives the cause.",
+   "en": "Since you're here, will you help me?"
+  },
+  {
+   "id": "g4-019",
+   "type": "mc",
+   "q": "Llovía mucho; ___ , nos quedamos en casa.",
+   "opts": [
+    "por lo tanto",
+    "aunque",
+    "como"
+   ],
+   "c": 0,
+   "ex": "Result: por lo tanto.",
+   "en": "It was raining hard; therefore, we stayed at home."
+  },
+  {
+   "id": "g4-020",
+   "type": "mc",
+   "q": "Trabaja mucho. ___ gana poco.",
+   "opts": [
+    "Sin embargo,",
+    "Por lo tanto,",
+    "Por eso"
+   ],
+   "c": 0,
+   "ex": "Contrast: sin embargo.",
+   "en": "He works a lot. However, he earns little."
+  },
+  {
+   "id": "g4-021",
+   "type": "mc",
+   "q": "Vino todo el mundo, ___ mi jefe.",
+   "opts": [
+    "incluso",
+    "además",
+    "sin embargo"
+   ],
+   "c": 0,
+   "ex": "Incluso = even.",
+   "en": "Everyone came, even my boss."
+  },
+  {
+   "id": "g4-022",
+   "type": "mc",
+   "q": "A mí me encanta Madrid; a Ana, ___ , no le gusta.",
+   "opts": [
+    "en cambio",
+    "además",
+    "por eso"
+   ],
+   "c": 0,
+   "ex": "En cambio = on the other hand.",
+   "en": "I love Madrid; Ana, on the other hand, doesn't like it."
+  },
+  {
+   "id": "g4-023",
+   "type": "mc",
+   "q": "Es caro. ___ , está lejos.",
+   "opts": [
+    "Además",
+    "Aunque",
+    "Mientras"
+   ],
+   "c": 0,
+   "ex": "Additional point: además.",
+   "en": "It's expensive. On top of that, it's far away."
+  },
+  {
+   "id": "g4-024",
+   "type": "gap",
+   "q": "___ hace frío, voy a nadar.",
+   "a": "Aunque|A pesar de que",
+   "ex": "Aunque + clause.",
+   "en": "Although it's cold, I'm going swimming."
+  },
+  {
+   "id": "g4-025",
+   "type": "gap",
+   "q": "Hace frío; sin ___ , voy a nadar.",
+   "a": "embargo",
+   "ex": "Sin embargo.",
+   "en": "It's cold; however, I'm going swimming."
+  },
+  {
+   "id": "g4-026",
+   "type": "gap",
+   "q": "Vamos a salir a ___ de la lluvia.",
+   "a": "pesar",
+   "ex": "A pesar de.",
+   "en": "We're going out despite the rain."
+  },
+  {
+   "id": "g4-027",
+   "type": "gap",
+   "q": "Me gusta el té, ___ que a mi novia le gusta el café.",
+   "a": "mientras",
+   "ex": "Contrast: mientras que.",
+   "en": "I like tea, whereas my girlfriend likes coffee."
+  },
+  {
+   "id": "g4-028",
+   "type": "gap",
+   "q": "Estudio ___ mi hijo duerme.",
+   "a": "mientras|cuando",
+   "ex": "Same time: mientras.",
+   "en": "I study while my son sleeps."
+  },
+  {
+   "id": "g4-029",
+   "type": "gap",
+   "q": "___ tengo tiempo, te ayudo. (cause first)",
+   "a": "Como|Ya que|Puesto que",
+   "ex": "Cause first: como.",
+   "en": "As I have time, I'll help you."
+  },
+  {
+   "id": "g4-030",
+   "type": "gap",
+   "q": "Estoy enfermo; por ___ , no voy a clase.",
+   "a": "eso|tanto|lo tanto|ello",
+   "ex": "Result: por eso.",
+   "en": "I'm ill; that's why I'm not going to class."
+  },
+  {
+   "id": "g4-031",
+   "type": "gap",
+   "q": "Llegó tarde, así ___ perdió el tren.",
+   "a": "que",
+   "ex": "Result: así que.",
+   "en": "He arrived late, so he missed the train."
+  },
+  {
+   "id": "g4-032",
+   "type": "gap",
+   "q": "Por un ___ me gusta; por otro, es muy caro.",
+   "a": "lado",
+   "ex": "Por un lado… por otro lado.",
+   "en": "On the one hand I like it; on the other, it's very expensive."
+  },
+  {
+   "id": "g4-033",
+   "type": "gap",
+   "q": "Llego a las diez, o ___ , dentro de una hora.",
+   "a": "sea",
+   "ex": "O sea = in other words.",
+   "en": "I'll arrive at ten, in other words, in an hour."
+  },
+  {
+   "id": "g4-034",
+   "type": "gap",
+   "q": "Por ___ , ¿qué tal tu madre?",
+   "a": "cierto",
+   "ex": "Por cierto = by the way.",
+   "en": "By the way, how's your mother?"
+  },
+  {
+   "id": "g4-035",
+   "type": "gap",
+   "q": "De ___ , ya lo sabía.",
+   "a": "hecho",
+   "ex": "De hecho = in fact.",
+   "en": "In fact, I already knew."
+  },
+  {
+   "id": "g4-036",
+   "type": "gapBank",
+   "q": "___ llueve, salgo; ___ , no llevo paraguas.",
+   "a": [
+    "Aunque",
+    "sin embargo"
+   ],
+   "bank": [
+    "Aunque",
+    "sin embargo",
+    "Como",
+    "mientras"
+   ],
+   "ex": "Aunque + clause; sin embargo after a semicolon.",
+   "en": "Although it's raining, I'm going out; however, I'm not taking an umbrella."
+  },
+  {
+   "id": "g4-037",
+   "type": "gapBank",
+   "q": "No tengo dinero, ___ no voy.",
+   "a": [
+    "así que"
+   ],
+   "bank": [
+    "así que",
+    "aunque",
+    "como",
+    "mientras"
+   ],
+   "ex": "Result: así que.",
+   "en": "I don't have money, so I'm not going."
+  },
+  {
+   "id": "g4-038",
+   "type": "gapBank",
+   "q": "___ que no vienes, cenamos solos.",
+   "a": [
+    "Ya"
+   ],
+   "bank": [
+    "Ya",
+    "Por",
+    "Sin",
+    "Como"
+   ],
+   "ex": "Ya que = since.",
+   "en": "Since you're not coming, we'll have dinner alone."
+  },
+  {
+   "id": "g4-039",
+   "type": "gapBank",
+   "q": "Mi padre es alto, ___ mi madre es baja.",
+   "a": [
+    "mientras que"
+   ],
+   "bank": [
+    "mientras que",
+    "aunque",
+    "además",
+    "por eso"
+   ],
+   "ex": "Contrast: mientras que.",
+   "en": "My father is tall, whereas my mother is short."
+  },
+  {
+   "id": "g4-040",
+   "type": "tf",
+   "q": "Como tengo hambre, voy a comer.",
+   "a": true,
+   "ex": "Como comes first.",
+   "en": "As I'm hungry, I'm going to eat."
+  },
+  {
+   "id": "g4-041",
+   "type": "tf",
+   "q": "Voy a comer como tengo hambre.",
+   "a": false,
+   "ex": "In the middle, use porque.",
+   "en": "I'm going to eat because I'm hungry.",
+   "full": "Voy a comer porque tengo hambre."
+  },
+  {
+   "id": "g4-042",
+   "type": "tf",
+   "q": "Aunque hace sol, tengo frío.",
+   "a": true,
+   "ex": "Aunque joins two clauses.",
+   "en": "Although it's sunny, I'm cold."
+  },
+  {
+   "id": "g4-043",
+   "type": "tf",
+   "q": "A pesar de hace sol, tengo frío.",
+   "a": false,
+   "ex": "Before a clause: a pesar de que.",
+   "en": "Although it's sunny, I'm cold.",
+   "full": "A pesar de que hace sol, tengo frío."
+  },
+  {
+   "id": "g4-044",
+   "type": "spot",
+   "q": "Como voy a comer porque tengo hambre.",
+   "wrong": 0,
+   "a": "(delete)",
+   "opts": [
+    "(delete)",
+    "Aunque",
+    "Además"
+   ],
+   "full": "Voy a comer porque tengo hambre.",
+   "ex": "Porque already gives the reason.",
+   "en": "I'm going to eat because I'm hungry."
+  },
+  {
+   "id": "g4-045",
+   "type": "spot",
+   "q": "Estudio mientras que mi hijo duerme.",
+   "wrong": 2,
+   "a": "(delete)",
+   "opts": [
+    "(delete)",
+    "y",
+    "y que"
+   ],
+   "full": "Estudio mientras mi hijo duerme.",
+   "ex": "Same time: mientras, without que.",
+   "en": "I study while my son sleeps."
+  },
+  {
+   "id": "g4-046",
+   "type": "tiles",
+   "q": "It's expensive; however, it's good",
+   "a": "Es caro; sin embargo, es bueno",
+   "distractors": [
+    "aunque"
+   ],
+   "ex": "Punctuation: ; before and a comma after."
+  },
+  {
+   "id": "g4-047",
+   "type": "tiles",
+   "q": "I have no car, so I walk",
+   "a": "No tengo coche, así que voy andando",
+   "distractors": [
+    "como"
+   ],
+   "ex": "Result: así que."
+  },
+  {
+   "id": "g4-048",
+   "type": "type",
+   "q": "however",
+   "a": "sin embargo",
+   "ex": "Starts a new clause."
+  },
+  {
+   "id": "g4-049",
+   "type": "type",
+   "q": "although",
+   "a": "aunque",
+   "ex": "Joins two clauses."
+  }
+ ]
+}

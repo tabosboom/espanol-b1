@@ -1,0 +1,1852 @@
+{
+ "id": "repaso",
+ "title": "Repaso (words you know)",
+ "es": "Repaso",
+ "priority": 99,
+ "packs": [
+  {
+   "id": "repaso-1",
+   "title": "Emotions",
+   "entries": [
+    {
+     "id": "rep-001",
+     "es": "feliz",
+     "en": "happy",
+     "pos": "adj",
+     "ex": "Estoy muy feliz aquí.",
+     "exEn": "I'm very happy here.",
+     "accept": "contento|alegre"
+    },
+    {
+     "id": "rep-002",
+     "es": "preocupado",
+     "en": "worried",
+     "pos": "adj",
+     "ex": "Mi madre está preocupada.",
+     "exEn": "My mother is worried.",
+     "cloze": "preocupada"
+    },
+    {
+     "id": "rep-003",
+     "es": "asustado",
+     "en": "scared",
+     "pos": "adj",
+     "ex": "El niño está asustado.",
+     "exEn": "The child is scared."
+    },
+    {
+     "id": "rep-004",
+     "es": "emocionado",
+     "en": "excited",
+     "pos": "adj",
+     "ex": "Estoy emocionado con el viaje.",
+     "exEn": "I'm excited about the trip.",
+     "accept": "entusiasmado|ilusionado"
+    },
+    {
+     "id": "rep-005",
+     "es": "relajado",
+     "en": "relaxed",
+     "pos": "adj",
+     "ex": "En la playa estoy muy relajado.",
+     "exEn": "I'm very relaxed at the beach.",
+     "accept": "tranquilo"
+    },
+    {
+     "id": "rep-006",
+     "es": "confundido",
+     "en": "confused",
+     "pos": "adj",
+     "ex": "Estoy un poco confundido.",
+     "exEn": "I'm a bit confused."
+    },
+    {
+     "id": "rep-007",
+     "es": "aburrido",
+     "en": "bored",
+     "pos": "adj",
+     "ex": "Estoy aburrido en casa.",
+     "exEn": "I'm bored at home."
+    },
+    {
+     "id": "rep-008",
+     "es": "agradecido",
+     "en": "grateful",
+     "pos": "adj",
+     "ex": "Estoy muy agradecido por tu ayuda.",
+     "exEn": "I'm very grateful for your help."
+    },
+    {
+     "id": "rep-009",
+     "es": "estresado",
+     "en": "stressed",
+     "pos": "adj",
+     "ex": "Estoy estresado por el trabajo.",
+     "exEn": "I'm stressed because of work.",
+     "accept": "agobiado"
+    },
+    {
+     "id": "rep-010",
+     "es": "enfermo",
+     "en": "ill",
+     "pos": "adj",
+     "ex": "Hoy estoy enfermo.",
+     "exEn": "I'm ill today."
+    },
+    {
+     "id": "rep-011",
+     "es": "sentirse",
+     "en": "to feel",
+     "pos": "verb",
+     "ex": "Hoy me siento mejor.",
+     "exEn": "Today I feel better.",
+     "cloze": "me siento"
+    },
+    {
+     "id": "rep-012",
+     "es": "tener miedo",
+     "en": "to be afraid",
+     "pos": "verb",
+     "ex": "No debes tener miedo.",
+     "exEn": "You mustn't be afraid."
+    },
+    {
+     "id": "rep-013",
+     "es": "tener sueño",
+     "en": "to be sleepy",
+     "pos": "verb",
+     "ex": "Tengo sueño; me voy a la cama.",
+     "exEn": "I'm sleepy; I'm going to bed.",
+     "cloze": "Tengo sueño"
+    },
+    {
+     "id": "rep-014",
+     "es": "sonreír",
+     "en": "to smile",
+     "pos": "verb",
+     "ex": "Me gusta verte sonreír.",
+     "exEn": "I like seeing you smile."
+    },
+    {
+     "id": "rep-015",
+     "es": "reírse",
+     "en": "to laugh",
+     "pos": "verb",
+     "ex": "Vamos a reírnos mucho.",
+     "exEn": "We're going to laugh a lot.",
+     "cloze": "reírnos",
+     "accept": "reír"
+    },
+    {
+     "id": "rep-016",
+     "es": "llorar",
+     "en": "to cry",
+     "pos": "verb",
+     "ex": "El bebé empieza a llorar.",
+     "exEn": "The baby starts to cry."
+    }
+   ]
+  },
+  {
+   "id": "repaso-2",
+   "title": "People",
+   "entries": [
+    {
+     "id": "rep-017",
+     "es": "el hombre",
+     "en": "the man",
+     "pos": "noun",
+     "ex": "El hombre lleva gafas.",
+     "exEn": "The man is wearing glasses."
+    },
+    {
+     "id": "rep-018",
+     "es": "la mujer",
+     "en": "the woman",
+     "pos": "noun",
+     "ex": "La mujer lee un libro.",
+     "exEn": "The woman is reading a book."
+    },
+    {
+     "id": "rep-019",
+     "es": "el chico",
+     "en": "the boy, young man",
+     "pos": "noun",
+     "ex": "El chico juega al fútbol.",
+     "exEn": "The boy is playing football."
+    },
+    {
+     "id": "rep-020",
+     "es": "la chica",
+     "en": "the girl, young woman",
+     "pos": "noun",
+     "ex": "La chica vive en mi calle.",
+     "exEn": "The girl lives on my street."
+    },
+    {
+     "id": "rep-021",
+     "es": "el niño",
+     "en": "the child",
+     "pos": "noun",
+     "ex": "El niño come un helado.",
+     "exEn": "The child is eating an ice cream."
+    },
+    {
+     "id": "rep-022",
+     "es": "el bebé",
+     "en": "the baby",
+     "pos": "noun",
+     "ex": "El bebé duerme mucho.",
+     "exEn": "The baby sleeps a lot."
+    },
+    {
+     "id": "rep-023",
+     "es": "los abuelos",
+     "en": "the grandparents",
+     "pos": "noun",
+     "ex": "Mis abuelos viven en un pueblo.",
+     "exEn": "My grandparents live in a village."
+    },
+    {
+     "id": "rep-024",
+     "es": "los padres",
+     "en": "the parents",
+     "pos": "noun",
+     "ex": "Mis padres vienen mañana.",
+     "exEn": "My parents are coming tomorrow."
+    },
+    {
+     "id": "rep-025",
+     "es": "el hijo",
+     "en": "the son",
+     "pos": "noun",
+     "ex": "Su hijo tiene diez años.",
+     "exEn": "Their son is ten years old."
+    },
+    {
+     "id": "rep-026",
+     "es": "la hija",
+     "en": "the daughter",
+     "pos": "noun",
+     "ex": "Su hija estudia en Madrid.",
+     "exEn": "Their daughter studies in Madrid."
+    },
+    {
+     "id": "rep-027",
+     "es": "el primo",
+     "en": "the cousin",
+     "pos": "noun",
+     "ex": "Mi primo trabaja en Bilbao.",
+     "exEn": "My cousin works in Bilbao."
+    },
+    {
+     "id": "rep-028",
+     "es": "el médico",
+     "en": "the doctor",
+     "pos": "noun",
+     "ex": "Mañana voy al médico.",
+     "exEn": "Tomorrow I'm going to the doctor."
+    },
+    {
+     "id": "rep-029",
+     "es": "la enfermera",
+     "en": "the nurse",
+     "pos": "noun",
+     "ex": "La enfermera es muy amable.",
+     "exEn": "The nurse is very kind."
+    },
+    {
+     "id": "rep-030",
+     "es": "el turista",
+     "en": "the tourist",
+     "pos": "noun",
+     "ex": "Hay muchos turistas en verano.",
+     "exEn": "There are many tourists in summer.",
+     "cloze": "turistas"
+    },
+    {
+     "id": "rep-031",
+     "es": "la gente",
+     "en": "people",
+     "pos": "noun",
+     "ex": "Hay mucha gente en la calle.",
+     "exEn": "There are a lot of people in the street."
+    },
+    {
+     "id": "rep-032",
+     "es": "el desconocido",
+     "en": "the stranger",
+     "pos": "noun",
+     "ex": "Un desconocido me ha ayudado.",
+     "exEn": "A stranger helped me."
+    }
+   ]
+  },
+  {
+   "id": "repaso-3",
+   "title": "Appearance",
+   "entries": [
+    {
+     "id": "rep-033",
+     "es": "alto",
+     "en": "tall",
+     "pos": "adj",
+     "ex": "Mi padre es muy alto.",
+     "exEn": "My father is very tall."
+    },
+    {
+     "id": "rep-034",
+     "es": "bajo",
+     "en": "short",
+     "pos": "adj",
+     "ex": "Mi madre es baja.",
+     "exEn": "My mother is short.",
+     "cloze": "baja"
+    },
+    {
+     "id": "rep-035",
+     "es": "delgado",
+     "en": "slim",
+     "pos": "adj",
+     "ex": "Mi hermano es muy delgado.",
+     "exEn": "My brother is very slim."
+    },
+    {
+     "id": "rep-036",
+     "es": "fuerte",
+     "en": "strong",
+     "pos": "adj",
+     "ex": "Este chico es muy fuerte.",
+     "exEn": "This boy is very strong."
+    },
+    {
+     "id": "rep-037",
+     "es": "joven",
+     "en": "young",
+     "pos": "adj",
+     "ex": "Mi jefe es muy joven.",
+     "exEn": "My boss is very young."
+    },
+    {
+     "id": "rep-038",
+     "es": "mayor",
+     "en": "old (a person)",
+     "pos": "adj",
+     "ex": "Mi abuelo es muy mayor.",
+     "exEn": "My grandfather is very old."
+    },
+    {
+     "id": "rep-039",
+     "es": "rubio",
+     "en": "blond",
+     "pos": "adj",
+     "ex": "Tengo el pelo rubio.",
+     "exEn": "I have blond hair."
+    },
+    {
+     "id": "rep-040",
+     "es": "moreno",
+     "en": "dark-haired",
+     "pos": "adj",
+     "ex": "Mi novia es morena.",
+     "exEn": "My girlfriend is dark-haired.",
+     "cloze": "morena"
+    },
+    {
+     "id": "rep-041",
+     "es": "castaño",
+     "en": "brown-haired",
+     "pos": "adj",
+     "ex": "Mi hermana tiene el pelo castaño.",
+     "exEn": "My sister has brown hair."
+    },
+    {
+     "id": "rep-042",
+     "es": "pelirrojo",
+     "en": "red-haired",
+     "pos": "adj",
+     "ex": "Ese niño es pelirrojo.",
+     "exEn": "That boy is red-haired."
+    },
+    {
+     "id": "rep-043",
+     "es": "rizado",
+     "en": "curly",
+     "pos": "adj",
+     "ex": "Tiene el pelo rizado.",
+     "exEn": "She has curly hair."
+    },
+    {
+     "id": "rep-044",
+     "es": "corto",
+     "en": "short (length)",
+     "pos": "adj",
+     "ex": "Llevo el pelo corto.",
+     "exEn": "I have short hair."
+    },
+    {
+     "id": "rep-045",
+     "es": "calvo",
+     "en": "bald",
+     "pos": "adj",
+     "ex": "Mi tío es calvo.",
+     "exEn": "My uncle is bald."
+    },
+    {
+     "id": "rep-046",
+     "es": "la barba",
+     "en": "the beard",
+     "pos": "noun",
+     "ex": "Mi padre tiene barba.",
+     "exEn": "My father has a beard."
+    },
+    {
+     "id": "rep-047",
+     "es": "las gafas",
+     "en": "the glasses",
+     "pos": "noun",
+     "ex": "No encuentro mis gafas.",
+     "exEn": "I can't find my glasses."
+    },
+    {
+     "id": "rep-048",
+     "es": "llevar",
+     "en": "to wear",
+     "pos": "verb",
+     "ex": "Hoy voy a llevar un abrigo.",
+     "exEn": "Today I'm going to wear a coat."
+    }
+   ]
+  },
+  {
+   "id": "repaso-4",
+   "title": "Clothes",
+   "entries": [
+    {
+     "id": "rep-049",
+     "es": "la camiseta",
+     "en": "the T-shirt",
+     "pos": "noun",
+     "ex": "Esta camiseta es muy barata.",
+     "exEn": "This T-shirt is very cheap."
+    },
+    {
+     "id": "rep-050",
+     "es": "la camisa",
+     "en": "the shirt",
+     "pos": "noun",
+     "ex": "Llevo una camisa blanca.",
+     "exEn": "I'm wearing a white shirt."
+    },
+    {
+     "id": "rep-051",
+     "es": "el jersey",
+     "en": "the sweater",
+     "pos": "noun",
+     "ex": "Hace frío; ponte un jersey.",
+     "exEn": "It's cold; put on a sweater."
+    },
+    {
+     "id": "rep-052",
+     "es": "la chaqueta",
+     "en": "the jacket",
+     "pos": "noun",
+     "ex": "Me gusta tu chaqueta.",
+     "exEn": "I like your jacket."
+    },
+    {
+     "id": "rep-053",
+     "es": "el abrigo",
+     "en": "the coat",
+     "pos": "noun",
+     "ex": "Necesito un abrigo para el invierno.",
+     "exEn": "I need a coat for winter."
+    },
+    {
+     "id": "rep-054",
+     "es": "el vestido",
+     "en": "the dress",
+     "pos": "noun",
+     "ex": "Es un vestido muy bonito.",
+     "exEn": "It's a very pretty dress."
+    },
+    {
+     "id": "rep-055",
+     "es": "la falda",
+     "en": "the skirt",
+     "pos": "noun",
+     "ex": "Esta falda es muy corta.",
+     "exEn": "This skirt is very short."
+    },
+    {
+     "id": "rep-056",
+     "es": "los pantalones",
+     "en": "the trousers",
+     "pos": "noun",
+     "ex": "Estos pantalones son grandes.",
+     "exEn": "These trousers are big."
+    },
+    {
+     "id": "rep-057",
+     "es": "los vaqueros",
+     "en": "the jeans",
+     "pos": "noun",
+     "ex": "Llevo vaqueros casi siempre.",
+     "exEn": "I wear jeans almost always."
+    },
+    {
+     "id": "rep-058",
+     "es": "las zapatillas",
+     "en": "the trainers",
+     "pos": "noun",
+     "ex": "Necesito zapatillas para correr.",
+     "exEn": "I need trainers for running."
+    },
+    {
+     "id": "rep-059",
+     "es": "la gorra",
+     "en": "the cap",
+     "pos": "noun",
+     "ex": "Lleva una gorra roja.",
+     "exEn": "He's wearing a red cap."
+    },
+    {
+     "id": "rep-060",
+     "es": "la bufanda",
+     "en": "the scarf",
+     "pos": "noun",
+     "ex": "Hace frío; coge la bufanda.",
+     "exEn": "It's cold; take your scarf."
+    },
+    {
+     "id": "rep-061",
+     "es": "el bañador",
+     "en": "the swimsuit",
+     "pos": "noun",
+     "ex": "No olvides el bañador.",
+     "exEn": "Don't forget your swimsuit."
+    },
+    {
+     "id": "rep-062",
+     "es": "el bolso",
+     "en": "the handbag",
+     "pos": "noun",
+     "ex": "Mi bolso es negro.",
+     "exEn": "My handbag is black."
+    }
+   ]
+  },
+  {
+   "id": "repaso-5",
+   "title": "Places",
+   "entries": [
+    {
+     "id": "rep-063",
+     "es": "la playa",
+     "en": "the beach",
+     "pos": "noun",
+     "ex": "Vamos a la playa el domingo.",
+     "exEn": "We're going to the beach on Sunday."
+    },
+    {
+     "id": "rep-064",
+     "es": "el mar",
+     "en": "the sea",
+     "pos": "noun",
+     "ex": "Me encanta el mar.",
+     "exEn": "I love the sea."
+    },
+    {
+     "id": "rep-065",
+     "es": "la montaña",
+     "en": "the mountain",
+     "pos": "noun",
+     "ex": "La montaña está muy cerca.",
+     "exEn": "The mountain is very near."
+    },
+    {
+     "id": "rep-066",
+     "es": "el parque",
+     "en": "the park",
+     "pos": "noun",
+     "ex": "Corro por el parque.",
+     "exEn": "I run in the park."
+    },
+    {
+     "id": "rep-067",
+     "es": "el lago",
+     "en": "the lake",
+     "pos": "noun",
+     "ex": "El lago está muy frío.",
+     "exEn": "The lake is very cold."
+    },
+    {
+     "id": "rep-068",
+     "es": "el campo",
+     "en": "the countryside",
+     "pos": "noun",
+     "ex": "Mis padres viven en el campo.",
+     "exEn": "My parents live in the countryside."
+    },
+    {
+     "id": "rep-069",
+     "es": "la ciudad",
+     "en": "the city",
+     "pos": "noun",
+     "ex": "Esta ciudad es muy grande.",
+     "exEn": "This city is very big."
+    },
+    {
+     "id": "rep-070",
+     "es": "el pueblo",
+     "en": "the village",
+     "pos": "noun",
+     "ex": "Mi pueblo es muy pequeño.",
+     "exEn": "My village is very small."
+    },
+    {
+     "id": "rep-071",
+     "es": "la tienda",
+     "en": "the shop",
+     "pos": "noun",
+     "ex": "La tienda abre a las diez.",
+     "exEn": "The shop opens at ten."
+    },
+    {
+     "id": "rep-072",
+     "es": "el hospital",
+     "en": "the hospital",
+     "pos": "noun",
+     "ex": "El hospital está cerca.",
+     "exEn": "The hospital is near."
+    },
+    {
+     "id": "rep-073",
+     "es": "la sala de espera",
+     "en": "the waiting room",
+     "pos": "noun",
+     "ex": "Estoy en la sala de espera.",
+     "exEn": "I'm in the waiting room."
+    },
+    {
+     "id": "rep-074",
+     "es": "la estación de tren",
+     "en": "the train station",
+     "pos": "noun",
+     "ex": "Te espero en la estación de tren.",
+     "exEn": "I'll wait for you at the train station.",
+     "accept": "la estación"
+    },
+    {
+     "id": "rep-075",
+     "es": "el hotel",
+     "en": "the hotel",
+     "pos": "noun",
+     "ex": "Mi hotel está en el centro.",
+     "exEn": "My hotel is in the centre."
+    },
+    {
+     "id": "rep-076",
+     "es": "el colegio",
+     "en": "the school",
+     "pos": "noun",
+     "ex": "Mi hijo va al colegio aquí.",
+     "exEn": "My son goes to school here."
+    },
+    {
+     "id": "rep-077",
+     "es": "la piscina",
+     "en": "the swimming pool",
+     "pos": "noun",
+     "ex": "El hotel tiene piscina.",
+     "exEn": "The hotel has a pool."
+    },
+    {
+     "id": "rep-078",
+     "es": "el cine",
+     "en": "the cinema",
+     "pos": "noun",
+     "ex": "Vamos al cine esta noche.",
+     "exEn": "We're going to the cinema tonight."
+    },
+    {
+     "id": "rep-079",
+     "es": "el museo",
+     "en": "the museum",
+     "pos": "noun",
+     "ex": "El museo cierra los lunes.",
+     "exEn": "The museum closes on Mondays."
+    },
+    {
+     "id": "rep-080",
+     "es": "el jardín",
+     "en": "the garden",
+     "pos": "noun",
+     "ex": "Mis padres tienen un jardín.",
+     "exEn": "My parents have a garden."
+    }
+   ]
+  },
+  {
+   "id": "repaso-6",
+   "title": "Things at home 1",
+   "entries": [
+    {
+     "id": "rep-081",
+     "es": "la mesa",
+     "en": "the table",
+     "pos": "noun",
+     "ex": "La comida está en la mesa.",
+     "exEn": "The food is on the table."
+    },
+    {
+     "id": "rep-082",
+     "es": "la silla",
+     "en": "the chair",
+     "pos": "noun",
+     "ex": "Esta silla está rota.",
+     "exEn": "This chair is broken."
+    },
+    {
+     "id": "rep-083",
+     "es": "el sofá",
+     "en": "the sofa",
+     "pos": "noun",
+     "ex": "Me duermo en el sofá.",
+     "exEn": "I fall asleep on the sofa."
+    },
+    {
+     "id": "rep-084",
+     "es": "la cama",
+     "en": "the bed",
+     "pos": "noun",
+     "ex": "La cama es muy cómoda.",
+     "exEn": "The bed is very comfortable."
+    },
+    {
+     "id": "rep-085",
+     "es": "el armario",
+     "en": "the wardrobe",
+     "pos": "noun",
+     "ex": "Mi ropa está en el armario.",
+     "exEn": "My clothes are in the wardrobe."
+    },
+    {
+     "id": "rep-086",
+     "es": "la estantería",
+     "en": "the bookshelf",
+     "pos": "noun",
+     "ex": "Los libros están en la estantería.",
+     "exEn": "The books are on the shelf."
+    },
+    {
+     "id": "rep-087",
+     "es": "la lámpara",
+     "en": "the lamp",
+     "pos": "noun",
+     "ex": "Enciende la lámpara, por favor.",
+     "exEn": "Turn on the lamp, please."
+    },
+    {
+     "id": "rep-088",
+     "es": "la ventana",
+     "en": "the window",
+     "pos": "noun",
+     "ex": "Abre la ventana, por favor.",
+     "exEn": "Open the window, please."
+    },
+    {
+     "id": "rep-089",
+     "es": "la puerta",
+     "en": "the door",
+     "pos": "noun",
+     "ex": "Cierra la puerta, por favor.",
+     "exEn": "Close the door, please."
+    },
+    {
+     "id": "rep-090",
+     "es": "el espejo",
+     "en": "the mirror",
+     "pos": "noun",
+     "ex": "Me miro en el espejo.",
+     "exEn": "I look at myself in the mirror."
+    },
+    {
+     "id": "rep-091",
+     "es": "el horno",
+     "en": "the oven",
+     "pos": "noun",
+     "ex": "La pizza está en el horno.",
+     "exEn": "The pizza is in the oven."
+    },
+    {
+     "id": "rep-092",
+     "es": "el portátil",
+     "en": "the laptop",
+     "pos": "noun",
+     "ex": "Trabajo con mi portátil.",
+     "exEn": "I work on my laptop."
+    },
+    {
+     "id": "rep-093",
+     "es": "el móvil",
+     "en": "the mobile phone",
+     "pos": "noun",
+     "ex": "No encuentro mi móvil.",
+     "exEn": "I can't find my phone."
+    }
+   ]
+  },
+  {
+   "id": "repaso-7",
+   "title": "Things at home 2",
+   "entries": [
+    {
+     "id": "rep-094",
+     "es": "el reloj",
+     "en": "the clock, the watch",
+     "pos": "noun",
+     "ex": "Mi reloj no funciona.",
+     "exEn": "My watch isn't working."
+    },
+    {
+     "id": "rep-095",
+     "es": "el billete",
+     "en": "the ticket",
+     "pos": "noun",
+     "ex": "Tengo el billete en el móvil.",
+     "exEn": "I have the ticket on my phone."
+    },
+    {
+     "id": "rep-096",
+     "es": "la toalla",
+     "en": "the towel",
+     "pos": "noun",
+     "ex": "Llevo una toalla a la playa.",
+     "exEn": "I'm taking a towel to the beach."
+    },
+    {
+     "id": "rep-097",
+     "es": "la sombrilla",
+     "en": "the beach umbrella",
+     "pos": "noun",
+     "ex": "Ponemos la sombrilla aquí.",
+     "exEn": "We'll put the beach umbrella here."
+    },
+    {
+     "id": "rep-098",
+     "es": "el paraguas",
+     "en": "the umbrella",
+     "pos": "noun",
+     "ex": "Coge el paraguas, va a llover.",
+     "exEn": "Take your umbrella, it's going to rain."
+    },
+    {
+     "id": "rep-099",
+     "es": "la pelota",
+     "en": "the ball",
+     "pos": "noun",
+     "ex": "Los niños juegan con la pelota.",
+     "exEn": "The children are playing with the ball."
+    },
+    {
+     "id": "rep-100",
+     "es": "el coche",
+     "en": "the car",
+     "pos": "noun",
+     "ex": "Mi coche es muy viejo.",
+     "exEn": "My car is very old."
+    },
+    {
+     "id": "rep-101",
+     "es": "la guitarra",
+     "en": "the guitar",
+     "pos": "noun",
+     "ex": "Mi hermano toca la guitarra.",
+     "exEn": "My brother plays the guitar."
+    },
+    {
+     "id": "rep-102",
+     "es": "la tarta",
+     "en": "the cake",
+     "pos": "noun",
+     "ex": "He hecho una tarta de manzana.",
+     "exEn": "I've made an apple cake."
+    },
+    {
+     "id": "rep-103",
+     "es": "las velas",
+     "en": "the candles",
+     "pos": "noun",
+     "ex": "La tarta tiene treinta velas.",
+     "exEn": "The cake has thirty candles."
+    },
+    {
+     "id": "rep-104",
+     "es": "los globos",
+     "en": "the balloons",
+     "pos": "noun",
+     "ex": "Hay globos en la fiesta.",
+     "exEn": "There are balloons at the party."
+    },
+    {
+     "id": "rep-105",
+     "es": "el regalo",
+     "en": "the present",
+     "pos": "noun",
+     "ex": "Este regalo es para ti.",
+     "exEn": "This present is for you."
+    },
+    {
+     "id": "rep-106",
+     "es": "la copa",
+     "en": "the wine glass",
+     "pos": "noun",
+     "ex": "Una copa de vino, por favor.",
+     "exEn": "A glass of wine, please."
+    },
+    {
+     "id": "rep-107",
+     "es": "la taza",
+     "en": "the cup",
+     "pos": "noun",
+     "ex": "Quiero una taza de té.",
+     "exEn": "I want a cup of tea."
+    }
+   ]
+  },
+  {
+   "id": "repaso-8",
+   "title": "Food",
+   "entries": [
+    {
+     "id": "rep-108",
+     "es": "el desayuno",
+     "en": "breakfast",
+     "pos": "noun",
+     "ex": "El desayuno es a las ocho.",
+     "exEn": "Breakfast is at eight."
+    },
+    {
+     "id": "rep-109",
+     "es": "la comida",
+     "en": "lunch; food",
+     "pos": "noun",
+     "ex": "La comida está lista.",
+     "exEn": "Lunch is ready.",
+     "accept": "el almuerzo"
+    },
+    {
+     "id": "rep-110",
+     "es": "la cena",
+     "en": "dinner",
+     "pos": "noun",
+     "ex": "La cena es a las nueve.",
+     "exEn": "Dinner is at nine."
+    },
+    {
+     "id": "rep-111",
+     "es": "cenar",
+     "en": "to have dinner",
+     "pos": "verb",
+     "ex": "Vamos a cenar fuera.",
+     "exEn": "We're going to have dinner out."
+    },
+    {
+     "id": "rep-112",
+     "es": "pedir",
+     "en": "to order",
+     "pos": "verb",
+     "ex": "Voy a pedir una ensalada.",
+     "exEn": "I'm going to order a salad."
+    },
+    {
+     "id": "rep-113",
+     "es": "la cuenta",
+     "en": "the bill",
+     "pos": "noun",
+     "ex": "¿Nos trae la cuenta?",
+     "exEn": "Can you bring us the bill?"
+    },
+    {
+     "id": "rep-114",
+     "es": "el agua",
+     "en": "water",
+     "pos": "noun",
+     "ex": "Quiero agua, por favor.",
+     "exEn": "I want water, please."
+    },
+    {
+     "id": "rep-115",
+     "es": "el vino",
+     "en": "wine",
+     "pos": "noun",
+     "ex": "Este vino es muy bueno.",
+     "exEn": "This wine is very good."
+    },
+    {
+     "id": "rep-116",
+     "es": "la cerveza",
+     "en": "beer",
+     "pos": "noun",
+     "ex": "Una cerveza, por favor.",
+     "exEn": "A beer, please."
+    },
+    {
+     "id": "rep-117",
+     "es": "el queso",
+     "en": "cheese",
+     "pos": "noun",
+     "ex": "Me encanta el queso manchego.",
+     "exEn": "I love Manchego cheese."
+    },
+    {
+     "id": "rep-118",
+     "es": "el jamón",
+     "en": "ham",
+     "pos": "noun",
+     "ex": "Quiero un bocadillo de jamón.",
+     "exEn": "I want a ham sandwich."
+    },
+    {
+     "id": "rep-119",
+     "es": "el pollo",
+     "en": "chicken",
+     "pos": "noun",
+     "ex": "Hoy comemos pollo con arroz.",
+     "exEn": "Today we're having chicken with rice."
+    },
+    {
+     "id": "rep-120",
+     "es": "la ensalada",
+     "en": "salad",
+     "pos": "noun",
+     "ex": "La ensalada lleva tomate.",
+     "exEn": "The salad has tomato in it."
+    },
+    {
+     "id": "rep-121",
+     "es": "la fruta",
+     "en": "fruit",
+     "pos": "noun",
+     "ex": "Como mucha fruta en verano.",
+     "exEn": "I eat a lot of fruit in summer."
+    },
+    {
+     "id": "rep-122",
+     "es": "el postre",
+     "en": "dessert",
+     "pos": "noun",
+     "ex": "¿Qué hay de postre?",
+     "exEn": "What's for dessert?"
+    },
+    {
+     "id": "rep-123",
+     "es": "el helado",
+     "en": "ice cream",
+     "pos": "noun",
+     "ex": "Quiero un helado de chocolate.",
+     "exEn": "I want a chocolate ice cream."
+    },
+    {
+     "id": "rep-124",
+     "es": "el bocadillo",
+     "en": "the baguette sandwich",
+     "pos": "noun",
+     "ex": "Como un bocadillo en el tren.",
+     "exEn": "I eat a sandwich on the train."
+    },
+    {
+     "id": "rep-125",
+     "es": "rico",
+     "en": "tasty",
+     "pos": "adj",
+     "ex": "Este arroz está muy rico.",
+     "exEn": "This rice is very tasty.",
+     "accept": "delicioso"
+    }
+   ]
+  },
+  {
+   "id": "repaso-9",
+   "title": "Free time 1",
+   "entries": [
+    {
+     "id": "rep-126",
+     "es": "el viaje",
+     "en": "the trip",
+     "pos": "noun",
+     "ex": "El viaje dura dos semanas.",
+     "exEn": "The trip lasts two weeks."
+    },
+    {
+     "id": "rep-127",
+     "es": "las vacaciones",
+     "en": "the holidays",
+     "pos": "noun",
+     "ex": "Mis vacaciones empiezan el lunes.",
+     "exEn": "My holidays start on Monday."
+    },
+    {
+     "id": "rep-128",
+     "es": "el avión",
+     "en": "the plane",
+     "pos": "noun",
+     "ex": "El avión sale a las cinco.",
+     "exEn": "The plane leaves at five."
+    },
+    {
+     "id": "rep-129",
+     "es": "el tren",
+     "en": "the train",
+     "pos": "noun",
+     "ex": "El tren llega a las tres.",
+     "exEn": "The train arrives at three."
+    },
+    {
+     "id": "rep-130",
+     "es": "el autobús",
+     "en": "the bus",
+     "pos": "noun",
+     "ex": "El autobús llega tarde.",
+     "exEn": "The bus is late."
+    },
+    {
+     "id": "rep-131",
+     "es": "alojarse",
+     "en": "to stay (at a hotel)",
+     "pos": "verb",
+     "ex": "Vamos a alojarnos en un hotel.",
+     "exEn": "We're going to stay in a hotel.",
+     "cloze": "alojarnos"
+    },
+    {
+     "id": "rep-132",
+     "es": "la excursión",
+     "en": "the day trip",
+     "pos": "noun",
+     "ex": "Mañana hacemos una excursión.",
+     "exEn": "Tomorrow we're going on a day trip."
+    },
+    {
+     "id": "rep-133",
+     "es": "hacer fotos",
+     "en": "to take photos",
+     "pos": "verb",
+     "ex": "Me gusta hacer fotos.",
+     "exEn": "I like taking photos.",
+     "accept": "sacar fotos"
+    },
+    {
+     "id": "rep-134",
+     "es": "tomar el sol",
+     "en": "to sunbathe",
+     "pos": "verb",
+     "ex": "Me gusta tomar el sol en la playa.",
+     "exEn": "I like sunbathing on the beach."
+    },
+    {
+     "id": "rep-135",
+     "es": "nadar",
+     "en": "to swim",
+     "pos": "verb",
+     "ex": "Vamos a nadar al lago.",
+     "exEn": "We're going swimming in the lake."
+    },
+    {
+     "id": "rep-136",
+     "es": "pasear",
+     "en": "to go for a walk",
+     "pos": "verb",
+     "ex": "Me gusta pasear por la tarde.",
+     "exEn": "I like going for a walk in the afternoon.",
+     "accept": "dar un paseo"
+    }
+   ]
+  },
+  {
+   "id": "repaso-10",
+   "title": "Free time 2",
+   "entries": [
+    {
+     "id": "rep-137",
+     "es": "descansar",
+     "en": "to rest",
+     "pos": "verb",
+     "ex": "Hoy quiero descansar.",
+     "exEn": "Today I want to rest."
+    },
+    {
+     "id": "rep-138",
+     "es": "disfrutar",
+     "en": "to enjoy",
+     "pos": "verb",
+     "ex": "Vamos a disfrutar del sol.",
+     "exEn": "We're going to enjoy the sun."
+    },
+    {
+     "id": "rep-139",
+     "es": "salir",
+     "en": "to go out",
+     "pos": "verb",
+     "ex": "Esta noche quiero salir.",
+     "exEn": "Tonight I want to go out."
+    },
+    {
+     "id": "rep-140",
+     "es": "ir de compras",
+     "en": "to go shopping",
+     "pos": "verb",
+     "ex": "Mañana voy a ir de compras.",
+     "exEn": "Tomorrow I'm going to go shopping."
+    },
+    {
+     "id": "rep-141",
+     "es": "bailar",
+     "en": "to dance",
+     "pos": "verb",
+     "ex": "Me encanta bailar.",
+     "exEn": "I love dancing."
+    },
+    {
+     "id": "rep-142",
+     "es": "cantar",
+     "en": "to sing",
+     "pos": "verb",
+     "ex": "Mi hermana sabe cantar muy bien.",
+     "exEn": "My sister can sing very well."
+    },
+    {
+     "id": "rep-143",
+     "es": "tocar la guitarra",
+     "en": "to play the guitar",
+     "pos": "verb",
+     "ex": "Quiero tocar la guitarra.",
+     "exEn": "I want to play the guitar."
+    },
+    {
+     "id": "rep-144",
+     "es": "jugar al fútbol",
+     "en": "to play football",
+     "pos": "verb",
+     "ex": "Los niños van a jugar al fútbol.",
+     "exEn": "The children are going to play football."
+    },
+    {
+     "id": "rep-145",
+     "es": "montar en bicicleta",
+     "en": "to ride a bike",
+     "pos": "verb",
+     "ex": "Me gusta montar en bicicleta.",
+     "exEn": "I like riding a bike.",
+     "accept": "montar en bici"
+    },
+    {
+     "id": "rep-146",
+     "es": "ver una película",
+     "en": "to watch a film",
+     "pos": "verb",
+     "ex": "Vamos a ver una película.",
+     "exEn": "Let's watch a film."
+    },
+    {
+     "id": "rep-147",
+     "es": "leer",
+     "en": "to read",
+     "pos": "verb",
+     "ex": "Me gusta leer en la cama.",
+     "exEn": "I like reading in bed."
+    },
+    {
+     "id": "rep-148",
+     "es": "hacer deporte",
+     "en": "to do sport",
+     "pos": "verb",
+     "ex": "Quiero hacer deporte todos los días.",
+     "exEn": "I want to do sport every day."
+    }
+   ]
+  },
+  {
+   "id": "repaso-11",
+   "title": "Weather",
+   "entries": [
+    {
+     "id": "rep-149",
+     "es": "hace sol",
+     "en": "it's sunny",
+     "pos": "phrase",
+     "ex": "Hoy hace sol en Madrid.",
+     "exEn": "It's sunny in Madrid today."
+    },
+    {
+     "id": "rep-150",
+     "es": "hace calor",
+     "en": "it's hot",
+     "pos": "phrase",
+     "ex": "Hoy hace calor.",
+     "exEn": "It's hot today."
+    },
+    {
+     "id": "rep-151",
+     "es": "hace frío",
+     "en": "it's cold",
+     "pos": "phrase",
+     "ex": "En enero hace frío.",
+     "exEn": "It's cold in January."
+    },
+    {
+     "id": "rep-152",
+     "es": "hace viento",
+     "en": "it's windy",
+     "pos": "phrase",
+     "ex": "Aquí siempre hace viento.",
+     "exEn": "It's always windy here."
+    },
+    {
+     "id": "rep-153",
+     "es": "hace buen tiempo",
+     "en": "the weather is nice",
+     "pos": "phrase",
+     "ex": "Hoy hace buen tiempo.",
+     "exEn": "The weather is nice today."
+    },
+    {
+     "id": "rep-154",
+     "es": "hace mal tiempo",
+     "en": "the weather is bad",
+     "pos": "phrase",
+     "ex": "Si hace mal tiempo, no salgo.",
+     "exEn": "If the weather is bad, I won't go out."
+    },
+    {
+     "id": "rep-155",
+     "es": "está nublado",
+     "en": "it's cloudy",
+     "pos": "phrase",
+     "ex": "Hoy está nublado.",
+     "exEn": "It's cloudy today."
+    },
+    {
+     "id": "rep-156",
+     "es": "está lloviendo",
+     "en": "it's raining",
+     "pos": "phrase",
+     "ex": "Mira, está lloviendo.",
+     "exEn": "Look, it's raining.",
+     "accept": "llueve"
+    },
+    {
+     "id": "rep-157",
+     "es": "está nevando",
+     "en": "it's snowing",
+     "pos": "phrase",
+     "ex": "En la sierra está nevando.",
+     "exEn": "It's snowing in the mountains.",
+     "accept": "nieva"
+    },
+    {
+     "id": "rep-158",
+     "es": "el cielo está despejado",
+     "en": "the sky is clear",
+     "pos": "phrase",
+     "ex": "Hoy el cielo está despejado.",
+     "exEn": "The sky is clear today."
+    },
+    {
+     "id": "rep-159",
+     "es": "la nieve",
+     "en": "the snow",
+     "pos": "noun",
+     "ex": "Me encanta la nieve.",
+     "exEn": "I love the snow."
+    },
+    {
+     "id": "rep-160",
+     "es": "la primavera",
+     "en": "spring",
+     "pos": "noun",
+     "ex": "La primavera es muy bonita aquí.",
+     "exEn": "Spring is very beautiful here."
+    },
+    {
+     "id": "rep-161",
+     "es": "el verano",
+     "en": "summer",
+     "pos": "noun",
+     "ex": "En verano vamos a la playa.",
+     "exEn": "In summer we go to the beach."
+    },
+    {
+     "id": "rep-162",
+     "es": "el otoño",
+     "en": "autumn",
+     "pos": "noun",
+     "ex": "Me gusta el otoño.",
+     "exEn": "I like autumn."
+    },
+    {
+     "id": "rep-163",
+     "es": "el invierno",
+     "en": "winter",
+     "pos": "noun",
+     "ex": "El invierno es muy frío.",
+     "exEn": "Winter is very cold."
+    }
+   ]
+  },
+  {
+   "id": "repaso-12",
+   "title": "Body",
+   "entries": [
+    {
+     "id": "rep-164",
+     "es": "la cabeza",
+     "en": "the head",
+     "pos": "noun",
+     "ex": "Me duele la cabeza.",
+     "exEn": "My head hurts."
+    },
+    {
+     "id": "rep-165",
+     "es": "la cara",
+     "en": "the face",
+     "pos": "noun",
+     "ex": "Lávate la cara.",
+     "exEn": "Wash your face."
+    },
+    {
+     "id": "rep-166",
+     "es": "los ojos",
+     "en": "the eyes",
+     "pos": "noun",
+     "ex": "Tiene los ojos azules.",
+     "exEn": "She has blue eyes."
+    },
+    {
+     "id": "rep-167",
+     "es": "la nariz",
+     "en": "the nose",
+     "pos": "noun",
+     "ex": "Me duele la nariz.",
+     "exEn": "My nose hurts."
+    },
+    {
+     "id": "rep-168",
+     "es": "la boca",
+     "en": "the mouth",
+     "pos": "noun",
+     "ex": "Abre la boca, por favor.",
+     "exEn": "Open your mouth, please."
+    },
+    {
+     "id": "rep-169",
+     "es": "los dientes",
+     "en": "the teeth",
+     "pos": "noun",
+     "ex": "Me lavo los dientes.",
+     "exEn": "I brush my teeth."
+    },
+    {
+     "id": "rep-170",
+     "es": "las orejas",
+     "en": "the ears",
+     "pos": "noun",
+     "ex": "Tiene las orejas grandes.",
+     "exEn": "He has big ears."
+    },
+    {
+     "id": "rep-171",
+     "es": "el cuello",
+     "en": "the neck",
+     "pos": "noun",
+     "ex": "Me duele el cuello.",
+     "exEn": "My neck hurts."
+    },
+    {
+     "id": "rep-172",
+     "es": "los hombros",
+     "en": "the shoulders",
+     "pos": "noun",
+     "ex": "Me duelen los hombros.",
+     "exEn": "My shoulders hurt."
+    },
+    {
+     "id": "rep-173",
+     "es": "el brazo",
+     "en": "the arm",
+     "pos": "noun",
+     "ex": "Me he roto el brazo.",
+     "exEn": "I've broken my arm."
+    },
+    {
+     "id": "rep-174",
+     "es": "la mano",
+     "en": "the hand",
+     "pos": "noun",
+     "ex": "Me duele la mano.",
+     "exEn": "My hand hurts.",
+     "note": "Feminine, despite the -o."
+    },
+    {
+     "id": "rep-175",
+     "es": "los dedos",
+     "en": "the fingers",
+     "pos": "noun",
+     "ex": "Tengo los dedos fríos.",
+     "exEn": "My fingers are cold."
+    },
+    {
+     "id": "rep-176",
+     "es": "el estómago",
+     "en": "the stomach",
+     "pos": "noun",
+     "ex": "Me duele el estómago.",
+     "exEn": "My stomach hurts."
+    },
+    {
+     "id": "rep-177",
+     "es": "la pierna",
+     "en": "the leg",
+     "pos": "noun",
+     "ex": "Me duele la pierna.",
+     "exEn": "My leg hurts."
+    },
+    {
+     "id": "rep-178",
+     "es": "el pie",
+     "en": "the foot",
+     "pos": "noun",
+     "ex": "Me duele el pie.",
+     "exEn": "My foot hurts."
+    },
+    {
+     "id": "rep-179",
+     "es": "tener fiebre",
+     "en": "to have a fever",
+     "pos": "verb",
+     "ex": "Creo que tengo fiebre.",
+     "exEn": "I think I have a fever.",
+     "cloze": "tengo fiebre"
+    },
+    {
+     "id": "rep-180",
+     "es": "tener tos",
+     "en": "to have a cough",
+     "pos": "verb",
+     "ex": "Mi hijo suele tener tos.",
+     "exEn": "My son often has a cough."
+    },
+    {
+     "id": "rep-181",
+     "es": "tener un resfriado",
+     "en": "to have a cold",
+     "pos": "verb",
+     "ex": "Creo que tengo un resfriado.",
+     "exEn": "I think I have a cold.",
+     "accept": "tener un constipado",
+     "cloze": "tengo un resfriado"
+    },
+    {
+     "id": "rep-182",
+     "es": "pedir una cita",
+     "en": "to make an appointment",
+     "pos": "verb",
+     "ex": "Tengo que pedir una cita.",
+     "exEn": "I have to make an appointment."
+    },
+    {
+     "id": "rep-183",
+     "es": "la pastilla",
+     "en": "the pill",
+     "pos": "noun",
+     "ex": "Toma esta pastilla por la noche.",
+     "exEn": "Take this pill at night."
+    }
+   ]
+  },
+  {
+   "id": "repaso-13",
+   "title": "Key verbs",
+   "entries": [
+    {
+     "id": "rep-184",
+     "es": "cumplir años",
+     "en": "to have a birthday",
+     "pos": "verb",
+     "ex": "Mañana cumplo años.",
+     "exEn": "My birthday is tomorrow.",
+     "cloze": "cumplo años"
+    },
+    {
+     "id": "rep-185",
+     "es": "celebrar",
+     "en": "to celebrate",
+     "pos": "verb",
+     "ex": "Vamos a celebrar tu cumpleaños.",
+     "exEn": "We're going to celebrate your birthday."
+    },
+    {
+     "id": "rep-186",
+     "es": "las ventajas",
+     "en": "the advantages",
+     "pos": "noun",
+     "ex": "Este trabajo tiene muchas ventajas.",
+     "exEn": "This job has many advantages."
+    },
+    {
+     "id": "rep-187",
+     "es": "los inconvenientes",
+     "en": "the disadvantages",
+     "pos": "noun",
+     "ex": "Esta casa tiene inconvenientes.",
+     "exEn": "This house has disadvantages.",
+     "accept": "las desventajas"
+    },
+    {
+     "id": "rep-188",
+     "es": "aprobar",
+     "en": "to pass (an exam)",
+     "pos": "verb",
+     "ex": "Quiero aprobar el examen.",
+     "exEn": "I want to pass the exam."
+    },
+    {
+     "id": "rep-189",
+     "es": "suspender",
+     "en": "to fail (an exam)",
+     "pos": "verb",
+     "ex": "No quiero suspender otra vez.",
+     "exEn": "I don't want to fail again."
+    },
+    {
+     "id": "rep-190",
+     "es": "buscar",
+     "en": "to look for",
+     "pos": "verb",
+     "ex": "Estoy buscando mis llaves.",
+     "exEn": "I'm looking for my keys.",
+     "cloze": "buscando"
+    },
+    {
+     "id": "rep-191",
+     "es": "encontrar",
+     "en": "to find",
+     "pos": "verb",
+     "ex": "No encuentro el hotel.",
+     "exEn": "I can't find the hotel.",
+     "cloze": "encuentro"
+    },
+    {
+     "id": "rep-192",
+     "es": "perder",
+     "en": "to lose",
+     "pos": "verb",
+     "ex": "No quiero perder las llaves.",
+     "exEn": "I don't want to lose the keys."
+    },
+    {
+     "id": "rep-193",
+     "es": "elegir",
+     "en": "to choose",
+     "pos": "verb",
+     "ex": "Tienes que elegir uno.",
+     "exEn": "You have to choose one."
+    },
+    {
+     "id": "rep-194",
+     "es": "conocer",
+     "en": "to meet (for the first time)",
+     "pos": "verb",
+     "ex": "Quiero conocer a tus padres.",
+     "exEn": "I want to meet your parents."
+    },
+    {
+     "id": "rep-195",
+     "es": "volver",
+     "en": "to come back",
+     "pos": "verb",
+     "ex": "Voy a volver el lunes.",
+     "exEn": "I'm going to come back on Monday.",
+     "accept": "regresar"
+    },
+    {
+     "id": "rep-196",
+     "es": "traer",
+     "en": "to bring",
+     "pos": "verb",
+     "ex": "¿Puedes traer el pan?",
+     "exEn": "Can you bring the bread?"
+    },
+    {
+     "id": "rep-197",
+     "es": "esperar",
+     "en": "to wait, to hope",
+     "pos": "verb",
+     "ex": "Te voy a esperar aquí.",
+     "exEn": "I'm going to wait for you here."
+    }
+   ]
+  },
+  {
+   "id": "repaso-14",
+   "title": "Time words",
+   "entries": [
+    {
+     "id": "rep-198",
+     "es": "ayer",
+     "en": "yesterday",
+     "pos": "adv",
+     "ex": "Ayer fui al médico.",
+     "exEn": "Yesterday I went to the doctor."
+    },
+    {
+     "id": "rep-199",
+     "es": "anoche",
+     "en": "last night",
+     "pos": "adv",
+     "ex": "Anoche dormí muy mal.",
+     "exEn": "Last night I slept very badly."
+    },
+    {
+     "id": "rep-200",
+     "es": "anteayer",
+     "en": "the day before yesterday",
+     "pos": "adv",
+     "ex": "Anteayer llovió mucho.",
+     "exEn": "It rained a lot the day before yesterday."
+    },
+    {
+     "id": "rep-201",
+     "es": "el fin de semana pasado",
+     "en": "last weekend",
+     "pos": "phrase",
+     "ex": "El fin de semana pasado fui a Toledo.",
+     "exEn": "Last weekend I went to Toledo."
+    },
+    {
+     "id": "rep-202",
+     "es": "la semana pasada",
+     "en": "last week",
+     "pos": "phrase",
+     "ex": "La semana pasada estuve enfermo.",
+     "exEn": "Last week I was ill."
+    },
+    {
+     "id": "rep-203",
+     "es": "hace dos días",
+     "en": "two days ago",
+     "pos": "phrase",
+     "ex": "Llegué hace dos días.",
+     "exEn": "I arrived two days ago."
+    },
+    {
+     "id": "rep-204",
+     "es": "esta mañana",
+     "en": "this morning",
+     "pos": "phrase",
+     "ex": "Esta mañana he corrido.",
+     "exEn": "I went running this morning."
+    },
+    {
+     "id": "rep-205",
+     "es": "esta semana",
+     "en": "this week",
+     "pos": "phrase",
+     "ex": "Esta semana trabajo mucho.",
+     "exEn": "I'm working a lot this week."
+    },
+    {
+     "id": "rep-206",
+     "es": "mañana",
+     "en": "tomorrow",
+     "pos": "adv",
+     "ex": "Mañana voy a Madrid.",
+     "exEn": "Tomorrow I'm going to Madrid."
+    },
+    {
+     "id": "rep-207",
+     "es": "pasado mañana",
+     "en": "the day after tomorrow",
+     "pos": "adv",
+     "ex": "Pasado mañana es mi cumpleaños.",
+     "exEn": "The day after tomorrow is my birthday."
+    },
+    {
+     "id": "rep-208",
+     "es": "la semana que viene",
+     "en": "next week",
+     "pos": "phrase",
+     "ex": "La semana que viene voy a Bilbao.",
+     "exEn": "Next week I'm going to Bilbao.",
+     "accept": "la próxima semana"
+    },
+    {
+     "id": "rep-209",
+     "es": "el mes que viene",
+     "en": "next month",
+     "pos": "phrase",
+     "ex": "El mes que viene empiezo a trabajar.",
+     "exEn": "Next month I start work.",
+     "accept": "el próximo mes"
+    },
+    {
+     "id": "rep-210",
+     "es": "dentro de dos años",
+     "en": "in two years' time",
+     "pos": "phrase",
+     "ex": "Dentro de dos años quiero vivir aquí.",
+     "exEn": "In two years' time I want to live here."
+    },
+    {
+     "id": "rep-211",
+     "es": "después",
+     "en": "afterwards",
+     "pos": "adv",
+     "ex": "Después vamos al cine.",
+     "exEn": "Afterwards we're going to the cinema."
+    },
+    {
+     "id": "rep-212",
+     "es": "a veces",
+     "en": "sometimes",
+     "pos": "adv",
+     "ex": "A veces cocino yo.",
+     "exEn": "Sometimes I cook."
+    },
+    {
+     "id": "rep-213",
+     "es": "a menudo",
+     "en": "often",
+     "pos": "adv",
+     "ex": "Voy a menudo a la playa.",
+     "exEn": "I often go to the beach."
+    },
+    {
+     "id": "rep-214",
+     "es": "casi nunca",
+     "en": "hardly ever",
+     "pos": "adv",
+     "ex": "Casi nunca veo la tele.",
+     "exEn": "I hardly ever watch TV."
+    },
+    {
+     "id": "rep-215",
+     "es": "lo antes posible",
+     "en": "as soon as possible",
+     "pos": "phrase",
+     "ex": "Llámame lo antes posible.",
+     "exEn": "Call me as soon as possible."
+    },
+    {
+     "id": "rep-216",
+     "es": "a tiempo",
+     "en": "on time",
+     "pos": "phrase",
+     "ex": "El tren llegó a tiempo.",
+     "exEn": "The train arrived on time."
+    }
+   ]
+  }
+ ]
+}

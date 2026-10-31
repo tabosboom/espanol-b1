@@ -33,6 +33,7 @@ export const es = (text, cls = '') => el('span', { lang: 'es', class: `es ${cls}
 
 function promptBlock(q) {
   const block = el('div', { class: 'prompt' });
+  if (q.round) block.append(el('p', { class: 'tag round' }, q.round));
   if (q.tag) block.append(el('p', { class: 'tag' }, q.tag));
   if (q.instruction) block.append(el('p', { class: 'instruction' }, q.instruction));
   if (q.prompt) {
@@ -80,9 +81,9 @@ function renderMc(q, root, done) {
   root.append(promptBlock(q));
   const correct = q.opts[q.c];
   const options = el('div', { class: 'options' });
+  let rightButton = null;
   shuffle(q.opts).forEach((opt) => {
-    options.append(
-      el(
+    const button = el(
         'button',
         {
           class: 'option',
@@ -91,12 +92,14 @@ function renderMc(q, root, done) {
             const isRight = opt === correct;
             lockAll(root);
             event.currentTarget.classList.add(isRight ? 'picked-right' : 'picked-wrong');
+            if (!isRight) rightButton?.classList.add('picked-right');
             done({ result: isRight ? 'correct' : 'wrong', given: opt, answer: correct });
           },
         },
         q.optsLang === 'en' ? opt : es(opt)
-      )
-    );
+      );
+    if (opt === correct) rightButton = button;
+    options.append(button);
   });
   root.append(options);
 }
@@ -137,17 +140,42 @@ function typedOutcome(input, q) {
   return { ...outcome, given: input.value.trim(), answer: q.display || outcome.answer };
 }
 
+// First letter of each word, the rest as dots: "qué tal" -> "q·· t··".
+function hintFor(answer) {
+  const words = normalise(answer).replace(/\/\p{L}+/gu, '').split(' ');
+  return words.map((word) => word[0] + '·'.repeat(Math.max(word.length - 1, 0))).join(' ');
+}
+
+// Writing help: a first-letter hint, and a way out without typing a wrong guess.
+function writingHelp(q, input, giveUp) {
+  if (q.exam) return null;
+  const hint = el('button', {
+    class: 'link-btn',
+    type: 'button',
+    onclick: () => {
+      input.placeholder = hintFor(q.display || q.accepted[0]);
+      hint.disabled = true;
+      input.focus({ preventScroll: true });
+    },
+  }, 'Hint');
+  return el('div', { class: 'help-row' }, hint, el('button', { class: 'link-btn', type: 'button', onclick: giveUp }, "I don't know"));
+}
+
 function renderType(q, root, done) {
   root.append(promptBlock(q));
-  const check = () => {
-    if (!input.value.trim()) return;
-    const outcome = typedOutcome(input, q);
+  const finish = (outcome) => {
     lockAll(root);
     input.blur();
     done(outcome);
   };
+  const check = () => {
+    if (input.value.trim()) finish(typedOutcome(input, q));
+  };
   const input = answerInput(check);
-  root.append(el('div', { class: 'answer-row' }, input, checkButton(check)));
+  root.append(
+    el('div', { class: 'answer-row' }, input, checkButton(check)),
+    writingHelp(q, input, () => finish({ result: 'wrong', given: '', answer: q.display || q.accepted[0] }))
+  );
   input.focus({ preventScroll: true });
 }
 
@@ -160,16 +188,20 @@ function renderGap(q, root, done) {
   const parts = splitBlanks(q.sentence);
   const sentence = el('p', { class: 'sentence', lang: 'es' }, parts[0], el('span', { class: 'blank' }, '___'), parts[1]);
   root.append(sentence);
-  const check = () => {
-    if (!input.value.trim()) return;
-    const outcome = typedOutcome(input, q);
+  const finish = (outcome) => {
     lockAll(root);
     input.blur();
     sentence.querySelector('.blank').textContent = outcome.answer;
     done(outcome);
   };
+  const check = () => {
+    if (input.value.trim()) finish(typedOutcome(input, q));
+  };
   const input = answerInput(check);
-  root.append(el('div', { class: 'answer-row' }, input, checkButton(check)));
+  root.append(
+    el('div', { class: 'answer-row' }, input, checkButton(check)),
+    writingHelp(q, input, () => finish({ result: 'wrong', given: '', answer: q.display || q.accepted[0] }))
+  );
   input.focus({ preventScroll: true });
 }
 
@@ -455,9 +487,11 @@ function renderDialogue(q, root, done) {
         {
           class: 'option',
           type: 'button',
+          'data-right': opt.correct ? 'true' : null,
           onclick: (event) => {
             lockAll(options);
             event.currentTarget.classList.add(opt.correct ? 'picked-right' : 'picked-wrong');
+            if (!opt.correct) options.querySelector('[data-right]')?.classList.add('picked-right');
             chat.append(bubble(q.turn));
             done({
               result: opt.correct ? 'correct' : 'wrong',

@@ -1,0 +1,892 @@
+{
+ "id": "g8",
+ "title": "B1 extras",
+ "rule": {
+  "intro": "Four things B1 expects: object pronouns, verbs that work like gustar, comparisons, and «si» sentences.",
+  "points": [
+   {
+    "title": "Pronouns",
+    "examples": [
+     [
+      "Lo veo. La veo.",
+      "direct object: lo, la, los, las"
+     ],
+     [
+      "Le doy el libro.",
+      "indirect object: le, les"
+     ],
+     [
+      "Se lo doy.",
+      "le + lo becomes se lo"
+     ]
+    ]
+   },
+   {
+    "title": "Like gustar",
+    "examples": [
+     [
+      "Me gusta ver películas.",
+      "one thing or an infinitive"
+     ],
+     [
+      "Me gustan las películas.",
+      "plural: gustan"
+     ],
+     [
+      "Me preocupa, me molesta, me apetece, me parece",
+      "same pattern"
+     ]
+    ]
+   },
+   {
+    "title": "Comparing",
+    "examples": [
+     [
+      "más alto que; menos caro que",
+      "more, less"
+     ],
+     [
+      "tan alto como",
+      "as … as"
+     ],
+     [
+      "el más alto de",
+      "the most … of"
+     ],
+     [
+      "mejor, peor, mayor, menor",
+      "irregular"
+     ]
+    ]
+   },
+   {
+    "title": "Si sentences",
+    "examples": [
+     [
+      "Si tengo tiempo, iré.",
+      "a real possibility"
+     ],
+     [
+      "Me gustaría ir.",
+      "conditional: wishes, polite requests"
+     ],
+     [
+      "Si tuviera tiempo, iría.",
+      "imagined"
+     ]
+    ]
+   }
+  ],
+  "watch": "From your exam: me gusta ver películas, not quiero ver películas, when you mean you like it."
+ },
+ "items": [
+  {
+   "id": "g8-001",
+   "type": "mc",
+   "q": "¿Ves a Marta? Sí, ___ veo.",
+   "opts": [
+    "la",
+    "le",
+    "lo"
+   ],
+   "c": 0,
+   "ex": "Marta: direct object, feminine.",
+   "en": "Do you see Marta? Yes, I see her."
+  },
+  {
+   "id": "g8-002",
+   "type": "mc",
+   "q": "¿Tienes el libro? Sí, ___ tengo.",
+   "opts": [
+    "lo",
+    "la",
+    "le"
+   ],
+   "c": 0,
+   "ex": "El libro: lo.",
+   "en": "Do you have the book? Yes, I have it."
+  },
+  {
+   "id": "g8-003",
+   "type": "mc",
+   "q": "¿Compras las entradas? Sí, ___ compro.",
+   "opts": [
+    "las",
+    "los",
+    "les"
+   ],
+   "c": 0,
+   "ex": "Las entradas: las.",
+   "en": "Are you buying the tickets? Yes, I'm buying them."
+  },
+  {
+   "id": "g8-004",
+   "type": "mc",
+   "q": "¿Conoces a mis padres? No, no ___ conozco.",
+   "opts": [
+    "los",
+    "les",
+    "lo"
+   ],
+   "c": 0,
+   "ex": "Mis padres: los.",
+   "en": "Do you know my parents? No, I don't know them."
+  },
+  {
+   "id": "g8-005",
+   "type": "mc",
+   "q": "___ doy el dinero a Juan.",
+   "opts": [
+    "Le",
+    "Lo",
+    "La"
+   ],
+   "c": 0,
+   "ex": "To Juan: indirect object, le.",
+   "en": "I'm giving the money to Juan."
+  },
+  {
+   "id": "g8-006",
+   "type": "mc",
+   "q": "___ escribo a mis padres cada semana.",
+   "opts": [
+    "Les",
+    "Los",
+    "Le"
+   ],
+   "c": 0,
+   "ex": "To them: les.",
+   "en": "I write to my parents every week."
+  },
+  {
+   "id": "g8-007",
+   "type": "mc",
+   "q": "¿Le das el libro? Sí, ___ doy.",
+   "opts": [
+    "se lo",
+    "le lo",
+    "lo le"
+   ],
+   "c": 0,
+   "ex": "Le + lo becomes se lo.",
+   "en": "Are you giving him the book? Yes, I'm giving it to him."
+  },
+  {
+   "id": "g8-008",
+   "type": "mc",
+   "q": "¿Le mandas las fotos? Sí, ___ mando.",
+   "opts": [
+    "se las",
+    "le las",
+    "las se"
+   ],
+   "c": 0,
+   "ex": "Le + las becomes se las.",
+   "en": "Are you sending her the photos? Yes, I'm sending them to her."
+  },
+  {
+   "id": "g8-009",
+   "type": "mc",
+   "q": "¿Me das tu número? Sí, ___ doy.",
+   "opts": [
+    "te lo",
+    "lo te",
+    "te le"
+   ],
+   "c": 0,
+   "ex": "Te comes before lo.",
+   "en": "Will you give me your number? Yes, I'll give it to you."
+  },
+  {
+   "id": "g8-010",
+   "type": "mc",
+   "q": "¿Me traes un café? Sí, ahora ___ traigo.",
+   "opts": [
+    "te lo",
+    "lo te",
+    "se lo"
+   ],
+   "c": 0,
+   "ex": "Te comes before lo.",
+   "en": "Will you bring me a coffee? Yes, I'll bring it to you now."
+  },
+  {
+   "id": "g8-011",
+   "type": "gap",
+   "q": "Quiero ver a Ana. Voy a llamar___ .",
+   "a": "la",
+   "ex": "The pronoun can join the infinitive.",
+   "en": "I want to see Ana. I'm going to call her."
+  },
+  {
+   "id": "g8-012",
+   "type": "gap",
+   "q": "Este libro es bueno. ___ recomiendo. (to you, it)",
+   "a": "Te lo",
+   "ex": "Te + lo.",
+   "en": "This book is good. I recommend it to you."
+  },
+  {
+   "id": "g8-013",
+   "type": "gap",
+   "q": "Las llaves: ¿___ tienes tú?",
+   "a": "las",
+   "ex": "Las llaves: las.",
+   "en": "The keys: do you have them?"
+  },
+  {
+   "id": "g8-014",
+   "type": "gap",
+   "q": "El vino: ___ he comprado yo.",
+   "a": "lo",
+   "ex": "El vino: lo.",
+   "en": "The wine: I've bought it."
+  },
+  {
+   "id": "g8-015",
+   "type": "gap",
+   "q": "A Pedro ___ encanta el fútbol.",
+   "a": "le",
+   "ex": "A Pedro: le.",
+   "en": "Pedro loves football."
+  },
+  {
+   "id": "g8-016",
+   "type": "gap",
+   "q": "No ___ digas nada a Ana.",
+   "a": "le",
+   "ex": "To Ana: le.",
+   "en": "Don't say anything to Ana."
+  },
+  {
+   "id": "g8-017",
+   "type": "gap",
+   "q": "Mis amigos no lo saben. ___ lo voy a decir.",
+   "a": "Se",
+   "ex": "Les + lo becomes se lo.",
+   "en": "My friends don't know. I'm going to tell them."
+  },
+  {
+   "id": "g8-018",
+   "type": "gap",
+   "q": "La cuenta: ¿me ___ trae, por favor?",
+   "a": "la",
+   "ex": "La cuenta: la.",
+   "en": "The bill: can you bring it to me, please?"
+  },
+  {
+   "id": "g8-019",
+   "type": "spot",
+   "q": "¿El libro? Sí, le lo doy mañana.",
+   "wrong": 3,
+   "a": "se",
+   "opts": [
+    "se",
+    "te",
+    "la"
+   ],
+   "full": "¿El libro? Sí, se lo doy mañana.",
+   "ex": "Le + lo becomes se lo.",
+   "en": "The book? Yes, I'll give it to him tomorrow."
+  },
+  {
+   "id": "g8-020",
+   "type": "spot",
+   "q": "A mis padres los escribo mucho.",
+   "wrong": 3,
+   "a": "les",
+   "opts": [
+    "les",
+    "le",
+    "las"
+   ],
+   "full": "A mis padres les escribo mucho.",
+   "ex": "Indirect plural: les.",
+   "en": "I write to my parents a lot."
+  },
+  {
+   "id": "g8-021",
+   "type": "tiles",
+   "q": "I'm giving it to him",
+   "a": "Se lo doy",
+   "distractors": [
+    "Le",
+    "la"
+   ],
+   "ex": "Le + lo becomes se lo."
+  },
+  {
+   "id": "g8-022",
+   "type": "tiles",
+   "q": "I'm going to tell her",
+   "a": "Se lo voy a decir",
+   "distractors": [
+    "Le"
+   ],
+   "ex": "Le + lo becomes se lo."
+  },
+  {
+   "id": "g8-023",
+   "type": "tiles",
+   "q": "I don't know them",
+   "a": "No los conozco",
+   "distractors": [
+    "les"
+   ],
+   "ex": "Direct object: los."
+  },
+  {
+   "id": "g8-024",
+   "type": "gapBank",
+   "q": "¿Le has dado ___ regalo a Ana? Sí, ___ he dado.",
+   "a": [
+    "el",
+    "se lo"
+   ],
+   "bank": [
+    "el",
+    "se lo",
+    "la",
+    "le lo"
+   ],
+   "ex": "Le + lo becomes se lo.",
+   "en": "Have you given Ana the present? Yes, I've given it to her."
+  },
+  {
+   "id": "g8-025",
+   "type": "type",
+   "q": "I see her.",
+   "a": "La veo",
+   "ex": "Direct object feminine: la."
+  },
+  {
+   "id": "g8-026",
+   "type": "mc",
+   "q": "Me ___ ver películas por la noche.",
+   "opts": [
+    "gusta",
+    "gustan",
+    "quiero"
+   ],
+   "c": 0,
+   "ex": "Infinitive: gusta. Also, you like it, not «quiero».",
+   "en": "I like watching films at night.",
+   "fromMistake": true
+  },
+  {
+   "id": "g8-027",
+   "type": "tiles",
+   "q": "I like watching films",
+   "a": "Me gusta ver películas",
+   "distractors": [
+    "quiero",
+    "gustan"
+   ],
+   "ex": "Like = me gusta, not quiero.",
+   "fromMistake": true
+  },
+  {
+   "id": "g8-028",
+   "type": "mc",
+   "q": "Me ___ las películas españolas.",
+   "opts": [
+    "gustan",
+    "gusta",
+    "gusto"
+   ],
+   "c": 0,
+   "ex": "Plural: gustan.",
+   "en": "I like Spanish films."
+  },
+  {
+   "id": "g8-029",
+   "type": "mc",
+   "q": "¿Te ___ este plan?",
+   "opts": [
+    "parece bien",
+    "parecen bien",
+    "pareces bien"
+   ],
+   "c": 0,
+   "ex": "One thing: parece.",
+   "en": "Does this plan sound good to you?"
+  },
+  {
+   "id": "g8-030",
+   "type": "mc",
+   "q": "Me ___ que no llame.",
+   "opts": [
+    "preocupa",
+    "preocupan",
+    "preocupo"
+   ],
+   "c": 0,
+   "ex": "One idea: preocupa.",
+   "en": "It worries me that he doesn't call."
+  },
+  {
+   "id": "g8-031",
+   "type": "mc",
+   "q": "Me ___ los ruidos de noche.",
+   "opts": [
+    "molestan",
+    "molesta",
+    "molesto"
+   ],
+   "c": 0,
+   "ex": "Plural: molestan.",
+   "en": "Noises at night bother me."
+  },
+  {
+   "id": "g8-032",
+   "type": "mc",
+   "q": "¿Te ___ un café?",
+   "opts": [
+    "apetece",
+    "apeteces",
+    "apetezco"
+   ],
+   "c": 0,
+   "ex": "Un café: apetece.",
+   "en": "Do you feel like a coffee?"
+  },
+  {
+   "id": "g8-033",
+   "type": "mc",
+   "q": "A mis padres ___ gusta viajar.",
+   "opts": [
+    "les",
+    "los",
+    "le"
+   ],
+   "c": 0,
+   "ex": "To them: les.",
+   "en": "My parents like travelling."
+  },
+  {
+   "id": "g8-034",
+   "type": "mc",
+   "q": "A mí ___ encanta Madrid.",
+   "opts": [
+    "me",
+    "mí",
+    "yo"
+   ],
+   "c": 0,
+   "ex": "A mí me encanta.",
+   "en": "I love Madrid."
+  },
+  {
+   "id": "g8-035",
+   "type": "mc",
+   "q": "¿A ti ___ duele la cabeza?",
+   "opts": [
+    "te",
+    "ti",
+    "tú"
+   ],
+   "c": 0,
+   "ex": "A ti te duele.",
+   "en": "Does your head hurt?"
+  },
+  {
+   "id": "g8-036",
+   "type": "gap",
+   "q": "Me ___ los pies. (doler)",
+   "a": "duelen",
+   "ex": "Plural: duelen.",
+   "en": "My feet hurt."
+  },
+  {
+   "id": "g8-037",
+   "type": "gap",
+   "q": "Me ___ la cabeza. (doler)",
+   "a": "duele",
+   "ex": "One thing: duele.",
+   "en": "My head hurts."
+  },
+  {
+   "id": "g8-038",
+   "type": "gap",
+   "q": "Nos ___ mucho este barrio. (gustar)",
+   "a": "gusta",
+   "ex": "One thing: gusta.",
+   "en": "We like this neighbourhood a lot."
+  },
+  {
+   "id": "g8-039",
+   "type": "gap",
+   "q": "No me ___ nada salir hoy. (apetecer)",
+   "a": "apetece",
+   "ex": "Infinitive: apetece.",
+   "en": "I don't feel like going out at all today."
+  },
+  {
+   "id": "g8-040",
+   "type": "gap",
+   "q": "Me ___ que hables así. (molestar)",
+   "a": "molesta",
+   "ex": "One idea: molesta.",
+   "en": "It bothers me that you talk like that."
+  },
+  {
+   "id": "g8-041",
+   "type": "gap",
+   "q": "¿Qué te ___ estos zapatos? (parecer)",
+   "a": "parecen",
+   "ex": "Plural: parecen.",
+   "en": "What do you think of these shoes?"
+  },
+  {
+   "id": "g8-042",
+   "type": "gap",
+   "q": "A Ana le ___ los gatos. (encantar)",
+   "a": "encantan",
+   "ex": "Plural: encantan.",
+   "en": "Ana loves cats."
+  },
+  {
+   "id": "g8-043",
+   "type": "gap",
+   "q": "Nos ___ que estés enfermo. (preocupar)",
+   "a": "preocupa",
+   "ex": "One idea: preocupa.",
+   "en": "It worries us that you're ill."
+  },
+  {
+   "id": "g8-044",
+   "type": "tf",
+   "q": "Yo gusto el café.",
+   "a": false,
+   "ex": "The thing is the subject: me gusta.",
+   "en": "I like coffee.",
+   "full": "Me gusta el café."
+  },
+  {
+   "id": "g8-045",
+   "type": "tf",
+   "q": "Me encantan los perros.",
+   "a": true,
+   "ex": "Plural: encantan.",
+   "en": "I love dogs."
+  },
+  {
+   "id": "g8-046",
+   "type": "tiles",
+   "q": "My feet hurt",
+   "a": "Me duelen los pies",
+   "distractors": [
+    "duele",
+    "Mi"
+   ],
+   "ex": "Plural: duelen. Body parts use los, not mis."
+  },
+  {
+   "id": "g8-047",
+   "type": "mc",
+   "q": "Madrid es ___ grande que Toledo.",
+   "opts": [
+    "más",
+    "tan",
+    "muy"
+   ],
+   "c": 0,
+   "ex": "Comparison: más … que.",
+   "en": "Madrid is bigger than Toledo."
+  },
+  {
+   "id": "g8-048",
+   "type": "mc",
+   "q": "Este piso es ___ caro como el otro.",
+   "opts": [
+    "tan",
+    "más",
+    "tanto"
+   ],
+   "c": 0,
+   "ex": "Tan … como.",
+   "en": "This flat is as expensive as the other one."
+  },
+  {
+   "id": "g8-049",
+   "type": "mc",
+   "q": "Mi hermano es ___ que yo. (older)",
+   "opts": [
+    "mayor",
+    "mejor",
+    "más mayor"
+   ],
+   "c": 0,
+   "ex": "Irregular: mayor.",
+   "en": "My brother is older than me."
+  },
+  {
+   "id": "g8-050",
+   "type": "mc",
+   "q": "Este café es ___ que el otro.",
+   "opts": [
+    "mejor",
+    "más mejor",
+    "bien"
+   ],
+   "c": 0,
+   "ex": "Irregular: mejor.",
+   "en": "This coffee is better than the other one."
+  },
+  {
+   "id": "g8-051",
+   "type": "mc",
+   "q": "Este es el bar ___ barato del barrio.",
+   "opts": [
+    "más",
+    "muy",
+    "tan"
+   ],
+   "c": 0,
+   "ex": "Superlative: el más … de.",
+   "en": "This is the cheapest bar in the neighbourhood."
+  },
+  {
+   "id": "g8-052",
+   "type": "mc",
+   "q": "Tengo ___ libros como tú.",
+   "opts": [
+    "tantos",
+    "tan",
+    "tanto"
+   ],
+   "c": 0,
+   "ex": "Tantos + plural noun.",
+   "en": "I have as many books as you."
+  },
+  {
+   "id": "g8-053",
+   "type": "mc",
+   "q": "Es el mejor restaurante ___ la ciudad.",
+   "opts": [
+    "de",
+    "en",
+    "que"
+   ],
+   "c": 0,
+   "ex": "Superlative: de.",
+   "en": "It's the best restaurant in the city."
+  },
+  {
+   "id": "g8-054",
+   "type": "gap",
+   "q": "Hoy hace ___ calor que ayer.",
+   "a": "más",
+   "ex": "más … que.",
+   "en": "It's hotter today than yesterday."
+  },
+  {
+   "id": "g8-055",
+   "type": "gap",
+   "q": "Ana es más alta ___ Pedro.",
+   "a": "que",
+   "ex": "más … que.",
+   "en": "Ana is taller than Pedro."
+  },
+  {
+   "id": "g8-056",
+   "type": "gap",
+   "q": "Esta película es ___ que la otra. (worse)",
+   "a": "peor",
+   "ex": "Irregular: peor.",
+   "en": "This film is worse than the other one."
+  },
+  {
+   "id": "g8-057",
+   "type": "gap",
+   "q": "Mi hermana es ___ que yo. (younger)",
+   "a": "menor|más joven",
+   "ex": "Irregular: menor.",
+   "en": "My sister is younger than me."
+  },
+  {
+   "id": "g8-058",
+   "type": "gap",
+   "q": "No es ___ difícil como crees.",
+   "a": "tan",
+   "ex": "Tan … como.",
+   "en": "It's not as hard as you think."
+  },
+  {
+   "id": "g8-059",
+   "type": "tf",
+   "q": "Este bar es más mejor.",
+   "a": false,
+   "ex": "Mejor needs no más.",
+   "en": "This bar is better.",
+   "full": "Este bar es mejor."
+  },
+  {
+   "id": "g8-060",
+   "type": "tiles",
+   "q": "It's the tallest building in the city",
+   "a": "Es el edificio más alto de la ciudad",
+   "distractors": [
+    "en",
+    "que"
+   ],
+   "ex": "Superlative: de."
+  },
+  {
+   "id": "g8-061",
+   "type": "gapBank",
+   "q": "Este hotel es ___ caro ___ el otro.",
+   "a": [
+    "más",
+    "que"
+   ],
+   "bank": [
+    "más",
+    "que",
+    "como",
+    "tan"
+   ],
+   "ex": "más … que.",
+   "en": "This hotel is more expensive than the other one."
+  },
+  {
+   "id": "g8-062",
+   "type": "mc",
+   "q": "Si tengo tiempo, te ___ .",
+   "opts": [
+    "llamaré",
+    "llamaría",
+    "llamara"
+   ],
+   "c": 0,
+   "ex": "Si + present, future.",
+   "en": "If I have time, I'll call you."
+  },
+  {
+   "id": "g8-063",
+   "type": "mc",
+   "q": "Si tuviera tiempo, te ___ .",
+   "opts": [
+    "llamaría",
+    "llamaré",
+    "llamo"
+   ],
+   "c": 0,
+   "ex": "Si + imperfect subjunctive, conditional.",
+   "en": "If I had time, I would call you."
+  },
+  {
+   "id": "g8-064",
+   "type": "mc",
+   "q": "Si ___ dinero, viajaría más.",
+   "opts": [
+    "tuviera",
+    "tengo",
+    "tendría"
+   ],
+   "c": 0,
+   "ex": "Imagined: si tuviera.",
+   "en": "If I had money, I'd travel more."
+  },
+  {
+   "id": "g8-065",
+   "type": "mc",
+   "q": "Me ___ vivir en Madrid. (a wish)",
+   "opts": [
+    "gustaría",
+    "gustará",
+    "gusta"
+   ],
+   "c": 0,
+   "ex": "Wish: me gustaría.",
+   "en": "I'd like to live in Madrid."
+  },
+  {
+   "id": "g8-066",
+   "type": "mc",
+   "q": "¿___ abrir la ventana, por favor?",
+   "opts": [
+    "Podría",
+    "Podré",
+    "Pude"
+   ],
+   "c": 0,
+   "ex": "Polite request: podría.",
+   "en": "Could you open the window, please?"
+  },
+  {
+   "id": "g8-067",
+   "type": "gap",
+   "q": "Yo que tú, ___ al médico. (ir)",
+   "a": "iría",
+   "ex": "Advice: conditional.",
+   "en": "If I were you, I'd go to the doctor."
+  },
+  {
+   "id": "g8-068",
+   "type": "gap",
+   "q": "Si llueve, no ___ . (salir, nosotros)",
+   "a": "saldremos|salimos",
+   "ex": "Si + present, future.",
+   "en": "If it rains, we won't go out."
+  },
+  {
+   "id": "g8-069",
+   "type": "gap",
+   "q": "Si fuera rico, ___ una casa. (comprar, yo)",
+   "a": "compraría",
+   "ex": "Imagined: conditional.",
+   "en": "If I were rich, I would buy a house."
+  },
+  {
+   "id": "g8-070",
+   "type": "gap",
+   "q": "Si ___ más tiempo, aprendería más. (tener, yo)",
+   "a": "tuviera",
+   "ex": "Imagined: si tuviera.",
+   "en": "If I had more time, I would learn more."
+  },
+  {
+   "id": "g8-071",
+   "type": "gap",
+   "q": "Me ___ un café, por favor. (gustar)",
+   "a": "gustaría",
+   "ex": "Polite: me gustaría.",
+   "en": "I'd like a coffee, please."
+  },
+  {
+   "id": "g8-072",
+   "type": "tf",
+   "q": "Si tendría tiempo, iría.",
+   "a": false,
+   "ex": "Never conditional after si.",
+   "en": "If I had time, I would go.",
+   "full": "Si tuviera tiempo, iría."
+  },
+  {
+   "id": "g8-073",
+   "type": "tf",
+   "q": "Si tengo tiempo, iré.",
+   "a": true,
+   "ex": "Si + present, future.",
+   "en": "If I have time, I'll go."
+  },
+  {
+   "id": "g8-074",
+   "type": "tiles",
+   "q": "If I had time, I would go",
+   "a": "Si tuviera tiempo, iría",
+   "distractors": [
+    "tendría"
+   ],
+   "ex": "Never conditional after si."
+  },
+  {
+   "id": "g8-075",
+   "type": "type",
+   "q": "I would like to go.",
+   "a": "Me gustaría ir",
+   "ex": "Wish: me gustaría."
+  }
+ ]
+}

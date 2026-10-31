@@ -1,0 +1,496 @@
+{
+ "id": "g5",
+ "title": "Ser, estar, haber",
+ "rule": {
+  "intro": "Hay says that something exists. Está says where a known thing is. Es gives the place of an event. Haber in the past: había describes, hubo reports one event.",
+  "points": [
+   {
+    "title": "Existence",
+    "examples": [
+     [
+      "Hay un banco cerca.",
+      "hay: a, some, numbers"
+     ],
+     [
+      "El año pasado hubo una exposición.",
+      "hubo: one finished event"
+     ],
+     [
+      "Había mucha gente.",
+      "había: description"
+     ]
+    ]
+   },
+   {
+    "title": "Location",
+    "examples": [
+     [
+      "El banco está aquí.",
+      "estar: a known thing"
+     ],
+     [
+      "La fiesta es en mi casa.",
+      "ser: where an event takes place"
+     ]
+    ]
+   },
+   {
+    "title": "Agreement",
+    "examples": [
+     [
+      "Marta ha estado enferma.",
+      "ella: ha"
+     ],
+     [
+      "Mis padres han estado aquí.",
+      "ellos: han"
+     ]
+    ]
+   }
+  ],
+  "watch": "From your exam: «fue una exposición» → hubo una exposición; «Marta he estado» → Marta ha estado."
+ },
+ "items": [
+  {
+   "id": "g5-001",
+   "type": "gap",
+   "q": "El año pasado ___ una exposición en el museo.",
+   "a": "hubo",
+   "ex": "One finished event that existed: hubo.",
+   "en": "Last year there was an exhibition in the museum.",
+   "fromMistake": true
+  },
+  {
+   "id": "g5-002",
+   "type": "gap",
+   "q": "Marta ___ estado enferma.",
+   "a": "ha",
+   "ex": "Marta = ella: ha.",
+   "en": "Marta has been ill.",
+   "fromMistake": true
+  },
+  {
+   "id": "g5-003",
+   "type": "mc",
+   "q": "El año pasado ___ una exposición en el museo.",
+   "opts": [
+    "hubo",
+    "fue",
+    "estuvo"
+   ],
+   "c": 0,
+   "ex": "Existence takes haber: hubo.",
+   "en": "Last year there was an exhibition in the museum.",
+   "fromMistake": true
+  },
+  {
+   "id": "g5-004",
+   "type": "spot",
+   "q": "Marta he estado enferma esta semana.",
+   "wrong": 1,
+   "a": "ha",
+   "opts": [
+    "ha",
+    "han",
+    "has"
+   ],
+   "full": "Marta ha estado enferma esta semana.",
+   "ex": "Third person: ha.",
+   "en": "Marta has been ill this week.",
+   "fromMistake": true
+  },
+  {
+   "id": "g5-005",
+   "type": "spot",
+   "q": "El año pasado fue una exposición muy buena.",
+   "wrong": 3,
+   "a": "hubo",
+   "opts": [
+    "hubo",
+    "estuvo",
+    "era"
+   ],
+   "full": "El año pasado hubo una exposición muy buena.",
+   "ex": "Existence takes haber: hubo.",
+   "en": "Last year there was a very good exhibition.",
+   "fromMistake": true
+  },
+  {
+   "id": "g5-006",
+   "type": "tf",
+   "q": "Marta ha estado en Madrid.",
+   "a": true,
+   "ex": "Correct: ha for third person.",
+   "en": "Marta has been in Madrid.",
+   "fromMistake": true
+  },
+  {
+   "id": "g5-007",
+   "type": "mc",
+   "q": "___ una farmacia en esta calle.",
+   "opts": [
+    "Hay",
+    "Está",
+    "Es"
+   ],
+   "c": 0,
+   "ex": "A new thing: hay.",
+   "en": "There's a pharmacy on this street."
+  },
+  {
+   "id": "g5-008",
+   "type": "mc",
+   "q": "La farmacia ___ en esta calle.",
+   "opts": [
+    "está",
+    "hay",
+    "es"
+   ],
+   "c": 0,
+   "ex": "A known thing: está.",
+   "en": "The pharmacy is on this street."
+  },
+  {
+   "id": "g5-009",
+   "type": "mc",
+   "q": "La fiesta ___ en mi casa.",
+   "opts": [
+    "es",
+    "está",
+    "hay"
+   ],
+   "c": 0,
+   "ex": "The place of an event: es.",
+   "en": "The party is at my house."
+  },
+  {
+   "id": "g5-010",
+   "type": "mc",
+   "q": "El concierto ___ en el parque.",
+   "opts": [
+    "es",
+    "está",
+    "hay"
+   ],
+   "c": 0,
+   "ex": "The place of an event: es.",
+   "en": "The concert is in the park."
+  },
+  {
+   "id": "g5-011",
+   "type": "mc",
+   "q": "Mis llaves ___ en la mesa.",
+   "opts": [
+    "están",
+    "hay",
+    "son"
+   ],
+   "c": 0,
+   "ex": "Known things: están.",
+   "en": "My keys are on the table."
+  },
+  {
+   "id": "g5-012",
+   "type": "mc",
+   "q": "___ unas llaves en la mesa.",
+   "opts": [
+    "Hay",
+    "Están",
+    "Son"
+   ],
+   "c": 0,
+   "ex": "«Unas» introduces something new: hay.",
+   "en": "There are some keys on the table."
+  },
+  {
+   "id": "g5-013",
+   "type": "mc",
+   "q": "Ayer ___ un accidente en la autopista.",
+   "opts": [
+    "hubo",
+    "había",
+    "estuvo"
+   ],
+   "c": 0,
+   "ex": "One finished event: hubo.",
+   "en": "Yesterday there was an accident on the motorway."
+  },
+  {
+   "id": "g5-014",
+   "type": "mc",
+   "q": "Cuando llegué, ___ mucha gente en la plaza.",
+   "opts": [
+    "había",
+    "hubo",
+    "estaba"
+   ],
+   "c": 0,
+   "ex": "Description in the past: había.",
+   "en": "When I arrived, there were a lot of people in the square."
+  },
+  {
+   "id": "g5-015",
+   "type": "mc",
+   "q": "En mi pueblo antes ___ un cine.",
+   "opts": [
+    "había",
+    "hubo",
+    "era"
+   ],
+   "c": 0,
+   "ex": "Past description: había.",
+   "en": "There used to be a cinema in my village."
+  },
+  {
+   "id": "g5-016",
+   "type": "mc",
+   "q": "Ayer ___ muy cansado.",
+   "opts": [
+    "estaba",
+    "era",
+    "había"
+   ],
+   "c": 0,
+   "ex": "State in the past: estaba.",
+   "en": "I was very tired yesterday."
+  },
+  {
+   "id": "g5-017",
+   "type": "mc",
+   "q": "Mi abuelo ___ médico.",
+   "opts": [
+    "era",
+    "estaba",
+    "había"
+   ],
+   "c": 0,
+   "ex": "Profession in the past: era.",
+   "en": "My grandfather was a doctor."
+  },
+  {
+   "id": "g5-018",
+   "type": "mc",
+   "q": "La gente ___ muy amable.",
+   "opts": [
+    "era",
+    "fueron",
+    "eran"
+   ],
+   "c": 0,
+   "ex": "Characteristic: era. Gente is singular.",
+   "en": "The people were very nice."
+  },
+  {
+   "id": "g5-019",
+   "type": "mc",
+   "q": "El hotel ___ cerca de la playa.",
+   "opts": [
+    "estaba",
+    "era",
+    "había"
+   ],
+   "c": 0,
+   "ex": "Location in the past: estaba.",
+   "en": "The hotel was near the beach."
+  },
+  {
+   "id": "g5-020",
+   "type": "mc",
+   "q": "La película ___ muy aburrida.",
+   "opts": [
+    "fue",
+    "había",
+    "hubo"
+   ],
+   "c": 0,
+   "ex": "A judgement of a finished event: fue.",
+   "en": "The film was very boring."
+  },
+  {
+   "id": "g5-021",
+   "type": "gap",
+   "q": "¿___ un cajero por aquí?",
+   "a": "Hay",
+   "ex": "Asking whether one exists: hay.",
+   "en": "Is there a cash machine around here?"
+  },
+  {
+   "id": "g5-022",
+   "type": "gap",
+   "q": "¿Dónde ___ el cajero?",
+   "a": "está",
+   "ex": "A known thing: está.",
+   "en": "Where is the cash machine?"
+  },
+  {
+   "id": "g5-023",
+   "type": "gap",
+   "q": "La reunión ___ en la sala dos.",
+   "a": "es",
+   "ex": "Event: es.",
+   "en": "The meeting is in room two."
+  },
+  {
+   "id": "g5-024",
+   "type": "gap",
+   "q": "No ___ nadie en casa.",
+   "a": "hay",
+   "ex": "Existence: hay.",
+   "en": "There's nobody at home."
+  },
+  {
+   "id": "g5-025",
+   "type": "gap",
+   "q": "Ayer no ___ clase.",
+   "a": "hubo|había",
+   "ex": "One finished event: hubo.",
+   "en": "There was no class yesterday."
+  },
+  {
+   "id": "g5-026",
+   "type": "gap",
+   "q": "Antes ___ muchos árboles aquí.",
+   "a": "había",
+   "ex": "Past description: había.",
+   "en": "There used to be many trees here."
+  },
+  {
+   "id": "g5-027",
+   "type": "gap",
+   "q": "Mis padres ___ estado en Sevilla.",
+   "a": "han",
+   "ex": "Ellos: han.",
+   "en": "My parents have been in Seville."
+  },
+  {
+   "id": "g5-028",
+   "type": "gap",
+   "q": "Marta y Ana ___ muy contentas.",
+   "a": "están",
+   "ex": "Plural subject, a state: están.",
+   "en": "Marta and Ana are very happy."
+  },
+  {
+   "id": "g5-029",
+   "type": "gap",
+   "q": "Hoy ___ nublado.",
+   "a": "está",
+   "ex": "Weather state: está.",
+   "en": "It's cloudy today."
+  },
+  {
+   "id": "g5-030",
+   "type": "gap",
+   "q": "Este café ___ frío.",
+   "a": "está",
+   "ex": "A state: está.",
+   "en": "This coffee is cold."
+  },
+  {
+   "id": "g5-031",
+   "type": "gap",
+   "q": "Mi novia ___ holandesa.",
+   "a": "es",
+   "ex": "Nationality: es.",
+   "en": "My girlfriend is Dutch."
+  },
+  {
+   "id": "g5-032",
+   "type": "gap",
+   "q": "Las tiendas ___ cerradas los domingos.",
+   "a": "están",
+   "ex": "A state: están.",
+   "en": "The shops are closed on Sundays."
+  },
+  {
+   "id": "g5-033",
+   "type": "gapBank",
+   "q": "___ un bar en la esquina, pero ___ cerrado.",
+   "a": [
+    "Hay",
+    "está"
+   ],
+   "bank": [
+    "Hay",
+    "está",
+    "Está",
+    "hay",
+    "es"
+   ],
+   "ex": "New thing: hay. Its state: está.",
+   "en": "There's a bar on the corner, but it's closed."
+  },
+  {
+   "id": "g5-034",
+   "type": "gapBank",
+   "q": "La boda ___ en junio y ___ en Sevilla.",
+   "a": [
+    "es",
+    "es"
+   ],
+   "bank": [
+    "es",
+    "es",
+    "está",
+    "hay"
+   ],
+   "ex": "Events: es, for both time and place.",
+   "en": "The wedding is in June and it's in Seville."
+  },
+  {
+   "id": "g5-035",
+   "type": "gapBank",
+   "q": "Cuando era niño, ___ un parque cerca de casa.",
+   "a": [
+    "había"
+   ],
+   "bank": [
+    "había",
+    "hubo",
+    "estaba",
+    "era"
+   ],
+   "ex": "Past description: había.",
+   "en": "When I was a child, there was a park near home."
+  },
+  {
+   "id": "g5-036",
+   "type": "tf",
+   "q": "El concierto está en el parque.",
+   "a": false,
+   "ex": "Events take ser.",
+   "en": "The concert is in the park.",
+   "full": "El concierto es en el parque."
+  },
+  {
+   "id": "g5-037",
+   "type": "tf",
+   "q": "Hay la farmacia en esta calle.",
+   "a": false,
+   "ex": "With la, use estar.",
+   "en": "The pharmacy is on this street.",
+   "full": "La farmacia está en esta calle."
+  },
+  {
+   "id": "g5-038",
+   "type": "tiles",
+   "q": "There were many people",
+   "a": "Había mucha gente",
+   "distractors": [
+    "Estaba",
+    "Hay"
+   ],
+   "ex": "Past description: había."
+  },
+  {
+   "id": "g5-039",
+   "type": "tiles",
+   "q": "The party is at my house",
+   "a": "La fiesta es en mi casa",
+   "distractors": [
+    "está"
+   ],
+   "ex": "Events take ser."
+  }
+ ]
+}

@@ -1,0 +1,315 @@
+{
+ "id": "nature",
+ "title": "Nature, weather & environment",
+ "es": "Naturaleza y clima",
+ "priority": 16,
+ "packs": [
+  {
+   "id": "nature-1",
+   "title": "The landscape",
+   "entries": [
+    {
+     "id": "nat-001",
+     "es": "el paisaje",
+     "en": "the landscape",
+     "pos": "noun",
+     "ex": "El paisaje aquí es precioso.",
+     "exEn": "The landscape here is beautiful."
+    },
+    {
+     "id": "nat-002",
+     "es": "la costa",
+     "en": "the coast",
+     "pos": "noun",
+     "ex": "Vivimos en la costa.",
+     "exEn": "We live on the coast."
+    },
+    {
+     "id": "nat-003",
+     "es": "la sierra",
+     "en": "the mountain range",
+     "pos": "noun",
+     "ex": "Este fin de semana vamos a la sierra.",
+     "exEn": "This weekend we're going to the mountains."
+    },
+    {
+     "id": "nat-004",
+     "es": "el valle",
+     "en": "the valley",
+     "pos": "noun",
+     "ex": "El pueblo está en un valle.",
+     "exEn": "The village is in a valley."
+    },
+    {
+     "id": "nat-005",
+     "es": "el río",
+     "en": "the river",
+     "pos": "noun",
+     "ex": "Hay un río cerca de casa.",
+     "exEn": "There's a river near home."
+    },
+    {
+     "id": "nat-006",
+     "es": "la isla",
+     "en": "the island",
+     "pos": "noun",
+     "ex": "Tenerife es una isla muy bonita.",
+     "exEn": "Tenerife is a very pretty island."
+    },
+    {
+     "id": "nat-007",
+     "es": "el volcán",
+     "en": "the volcano",
+     "pos": "noun",
+     "ex": "Subimos al volcán por la mañana.",
+     "exEn": "We climbed the volcano in the morning."
+    },
+    {
+     "id": "nat-008",
+     "es": "el sendero",
+     "en": "the path",
+     "pos": "noun",
+     "ex": "Este sendero llega hasta el lago.",
+     "exEn": "This path goes as far as the lake."
+    },
+    {
+     "id": "nat-009",
+     "es": "hacer senderismo",
+     "en": "to go hiking",
+     "pos": "verb",
+     "ex": "Me gusta hacer senderismo en la sierra.",
+     "exEn": "I like going hiking in the mountains."
+    },
+    {
+     "id": "nat-010",
+     "es": "la ola",
+     "en": "the wave",
+     "pos": "noun",
+     "ex": "Esta ola es muy grande.",
+     "exEn": "This wave is very big."
+    },
+    {
+     "id": "nat-011",
+     "es": "la marea",
+     "en": "the tide",
+     "pos": "noun",
+     "ex": "La marea sube por la tarde.",
+     "exEn": "The tide comes in in the afternoon."
+    },
+    {
+     "id": "nat-012",
+     "es": "el bosque",
+     "en": "the forest",
+     "pos": "noun",
+     "ex": "Paseamos por el bosque.",
+     "exEn": "We're walking through the forest."
+    }
+   ]
+  },
+  {
+   "id": "nature-2",
+   "title": "The weather",
+   "entries": [
+    {
+     "id": "nat-013",
+     "es": "el clima",
+     "en": "the climate",
+     "pos": "noun",
+     "ex": "El clima de Canarias es muy suave.",
+     "exEn": "The climate in the Canaries is very mild."
+    },
+    {
+     "id": "nat-014",
+     "es": "el calor",
+     "en": "the heat",
+     "pos": "noun",
+     "ex": "En agosto hace mucho calor.",
+     "exEn": "It's very hot in August."
+    },
+    {
+     "id": "nat-015",
+     "es": "el frío",
+     "en": "the cold",
+     "pos": "noun",
+     "ex": "No me gusta el frío.",
+     "exEn": "I don't like the cold."
+    },
+    {
+     "id": "nat-016",
+     "es": "la ola de calor",
+     "en": "the heat wave",
+     "pos": "noun",
+     "ex": "Esta semana hay una ola de calor.",
+     "exEn": "There's a heat wave this week."
+    },
+    {
+     "id": "nat-017",
+     "es": "húmedo",
+     "en": "humid",
+     "pos": "adj",
+     "ex": "El aire aquí es muy húmedo.",
+     "exEn": "The air here is very humid."
+    },
+    {
+     "id": "nat-018",
+     "es": "seco",
+     "en": "dry",
+     "pos": "adj",
+     "ex": "El clima es muy seco.",
+     "exEn": "The climate is very dry."
+    },
+    {
+     "id": "nat-019",
+     "es": "la niebla",
+     "en": "the fog",
+     "pos": "noun",
+     "ex": "Hay mucha niebla en la carretera.",
+     "exEn": "There's a lot of fog on the road."
+    },
+    {
+     "id": "nat-020",
+     "es": "la tormenta",
+     "en": "the storm",
+     "pos": "noun",
+     "ex": "Esta noche hay tormenta.",
+     "exEn": "There's a storm tonight."
+    },
+    {
+     "id": "nat-021",
+     "es": "la lluvia",
+     "en": "the rain",
+     "pos": "noun",
+     "ex": "La lluvia no para.",
+     "exEn": "The rain isn't stopping."
+    },
+    {
+     "id": "nat-022",
+     "es": "el viento",
+     "en": "the wind",
+     "pos": "noun",
+     "ex": "Hoy hace mucho viento.",
+     "exEn": "It's very windy today."
+    },
+    {
+     "id": "nat-023",
+     "es": "la temperatura",
+     "en": "the temperature",
+     "pos": "noun",
+     "ex": "La temperatura baja esta noche.",
+     "exEn": "The temperature drops tonight."
+    },
+    {
+     "id": "nat-024",
+     "es": "la previsión",
+     "en": "the forecast",
+     "pos": "noun",
+     "ex": "He visto la previsión para mañana.",
+     "exEn": "I've seen the forecast for tomorrow."
+    }
+   ]
+  },
+  {
+   "id": "nature-3",
+   "title": "The environment",
+   "entries": [
+    {
+     "id": "nat-025",
+     "es": "el medio ambiente",
+     "en": "the environment",
+     "pos": "noun",
+     "ex": "Hay que cuidar el medio ambiente.",
+     "exEn": "We have to look after the environment."
+    },
+    {
+     "id": "nat-026",
+     "es": "reciclar",
+     "en": "to recycle",
+     "pos": "verb",
+     "ex": "En casa intentamos reciclar todo.",
+     "exEn": "At home we try to recycle everything."
+    },
+    {
+     "id": "nat-027",
+     "es": "contaminar",
+     "en": "to pollute",
+     "pos": "verb",
+     "ex": "Los coches viejos contaminan mucho.",
+     "exEn": "Old cars pollute a lot.",
+     "cloze": "contaminan"
+    },
+    {
+     "id": "nat-028",
+     "es": "la basura",
+     "en": "the rubbish",
+     "pos": "noun",
+     "ex": "Hay mucha basura en la playa.",
+     "exEn": "There's a lot of rubbish on the beach."
+    },
+    {
+     "id": "nat-029",
+     "es": "la contaminación",
+     "en": "the pollution",
+     "pos": "noun",
+     "ex": "La contaminación es un problema aquí.",
+     "exEn": "Pollution is a problem here."
+    },
+    {
+     "id": "nat-030",
+     "es": "el cambio climático",
+     "en": "climate change",
+     "pos": "noun",
+     "ex": "El cambio climático nos preocupa mucho.",
+     "exEn": "Climate change worries us a lot."
+    },
+    {
+     "id": "nat-031",
+     "es": "la sequía",
+     "en": "the drought",
+     "pos": "noun",
+     "ex": "Este año hay sequía en el sur.",
+     "exEn": "There's a drought in the south this year."
+    },
+    {
+     "id": "nat-032",
+     "es": "el incendio",
+     "en": "the fire",
+     "pos": "noun",
+     "ex": "Ha habido un incendio en la sierra.",
+     "exEn": "There's been a fire in the mountains."
+    },
+    {
+     "id": "nat-033",
+     "es": "el plástico",
+     "en": "the plastic",
+     "pos": "noun",
+     "ex": "Usamos demasiado plástico.",
+     "exEn": "We use too much plastic."
+    },
+    {
+     "id": "nat-034",
+     "es": "ahorrar agua",
+     "en": "to save water",
+     "pos": "verb",
+     "ex": "Tenemos que ahorrar agua.",
+     "exEn": "We have to save water."
+    },
+    {
+     "id": "nat-035",
+     "es": "la energía",
+     "en": "the energy",
+     "pos": "noun",
+     "ex": "Esta casa usa poca energía.",
+     "exEn": "This house uses little energy."
+    },
+    {
+     "id": "nat-036",
+     "es": "el contenedor",
+     "en": "the bin (street)",
+     "pos": "noun",
+     "ex": "El contenedor está en la esquina.",
+     "exEn": "The bin is on the corner."
+    }
+   ]
+  }
+ ]
+}

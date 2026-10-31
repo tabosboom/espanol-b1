@@ -13,109 +13,124 @@
      "es": "¿Qué tal?",
      "en": "How's it going?",
      "pos": "phrase",
-     "ex": "Hola, Marta, ¿qué tal? Hace mucho que no hablamos."
+     "ex": "Hola, Marta, ¿qué tal?",
+     "exEn": "Hi, Marta, how's it going?"
     },
     {
      "id": "st-002",
      "es": "¿Qué tal el día?",
      "en": "How's your day going?",
      "pos": "phrase",
-     "ex": "¿Qué tal el día? ¿Has tenido mucho trabajo hoy?"
+     "ex": "¿Qué tal el día hoy?",
+     "exEn": "How's your day going today?"
     },
     {
      "id": "st-003",
      "es": "¿Qué tal te va?",
      "en": "How's it going for you?",
      "pos": "phrase",
-     "ex": "Me han dicho que tienes trabajo nuevo, ¿qué tal te va?"
+     "ex": "Tienes un trabajo nuevo, ¿qué tal te va?",
+     "exEn": "You have a new job, how's it going?"
     },
     {
      "id": "st-004",
      "es": "¿Cómo va todo?",
      "en": "How's everything going?",
      "pos": "phrase",
-     "ex": "Hola, Pablo, ¿cómo va todo por tu barrio nuevo?"
+     "ex": "Hola, Pablo, ¿cómo va todo?",
+     "exEn": "Hi, Pablo, how's everything going?"
     },
     {
      "id": "st-005",
      "es": "¿Qué haces?",
      "en": "What are you doing? (these days, later)",
      "pos": "phrase",
-     "ex": "¿Qué haces esta tarde? Yo estoy libre después de las cinco."
+     "ex": "¿Qué haces esta tarde?",
+     "exEn": "What are you doing this afternoon?"
     },
     {
      "id": "st-006",
      "es": "¿Qué estás haciendo?",
      "en": "What are you doing right now?",
      "pos": "phrase",
-     "ex": "Te llamo luego, ¿qué estás haciendo ahora mismo?"
+     "ex": "Te llamo, ¿qué estás haciendo?",
+     "exEn": "I'm calling you, what are you doing?"
     },
     {
      "id": "st-007",
      "es": "¿En qué andas?",
      "en": "What are you up to?",
      "pos": "phrase",
-     "ex": "Hace tiempo que no hablamos, ¿en qué andas últimamente?"
+     "ex": "Hola, Ana, ¿en qué andas?",
+     "exEn": "Hi, Ana, what are you up to?"
     },
     {
      "id": "st-008",
      "es": "¿Qué tal el fin de semana?",
      "en": "How was your weekend?",
      "pos": "phrase",
-     "ex": "Hola, Ana, ¿qué tal el fin de semana en la playa?"
+     "ex": "¿Qué tal el fin de semana en la playa?",
+     "exEn": "How was your weekend at the beach?"
     },
     {
      "id": "st-009",
      "es": "¿Qué planes tienes?",
      "en": "What plans do you have?",
      "pos": "phrase",
-     "ex": "¿Qué planes tienes para estas vacaciones de verano?"
+     "ex": "¿Qué planes tienes para el verano?",
+     "exEn": "What plans do you have for the summer?"
     },
     {
      "id": "st-010",
      "es": "¿Qué me cuentas?",
      "en": "So, tell me, what is new?",
      "pos": "phrase",
-     "ex": "Cuánto tiempo sin verte, ¿qué me cuentas de tu vida?"
+     "ex": "Hola, Luis, ¿qué me cuentas?",
+     "exEn": "Hi, Luis, what's new with you?"
     },
     {
      "id": "st-011",
      "es": "Bien, ¿y tú?",
      "en": "Fine, and you?",
      "pos": "phrase",
-     "ex": "—¿Qué tal, Pablo? —Bien, ¿y tú? ¿Qué tal el trabajo?",
-     "cloze": "Bien, ¿y tú?"
+     "ex": "—¿Qué tal, Pablo? —Bien, ¿y tú?",
+     "cloze": "Bien, ¿y tú?",
+     "exEn": "\"How's it going, Pablo?\" \"Fine, and you?\""
     },
     {
      "id": "st-012",
      "es": "Muy bien, gracias",
      "en": "Very well, thanks",
      "pos": "phrase",
-     "ex": "Estoy muy bien, gracias; este mes tengo poco trabajo."
+     "ex": "Estoy muy bien, gracias.",
+     "exEn": "I'm very well, thanks."
     },
     {
      "id": "st-013",
      "es": "Tirando",
      "en": "Getting by",
      "pos": "phrase",
-     "ex": "Voy tirando, aunque estoy un poco cansado últimamente.",
-     "note": "Also: voy tirando."
+     "ex": "Voy tirando, pero estoy un poco cansado.",
+     "note": "Also: voy tirando.",
+     "exEn": "I'm getting by, but I'm a bit tired."
     },
     {
      "id": "st-014",
      "es": "Liado/a",
      "en": "Busy, tied up",
      "pos": "phrase",
-     "ex": "Esta semana estoy muy liada con el trabajo.",
+     "ex": "Hoy estoy muy liada con el trabajo.",
      "cloze": "liada",
-     "note": "Very common in Spain: estoy liado/a."
+     "note": "Very common in Spain: estoy liado/a.",
+     "exEn": "Today I'm very busy with work."
     },
     {
      "id": "st-015",
      "es": "Nada especial",
      "en": "Nothing special",
      "pos": "phrase",
-     "ex": "No hemos hecho nada especial este fin de semana."
+     "ex": "No hemos hecho nada especial hoy.",
+     "exEn": "We haven't done anything special today."
     }
    ]
   },
@@ -128,105 +143,120 @@
      "es": "Lo de siempre",
      "en": "The usual",
      "pos": "phrase",
-     "ex": "¿Qué hay por casa? Nada, lo de siempre: trabajo y más trabajo."
+     "ex": "En casa, lo de siempre: trabajo y más trabajo.",
+     "exEn": "At home, the usual: work and more work."
     },
     {
      "id": "st-017",
      "es": "Bastante bien",
      "en": "Pretty good",
      "pos": "phrase",
-     "ex": "Mi español va bastante bien, pero necesito practicar más."
+     "ex": "Mi español va bastante bien.",
+     "exEn": "My Spanish is going pretty well."
     },
     {
      "id": "st-018",
      "es": "Regular",
      "en": "So-so",
      "pos": "phrase",
-     "ex": "¿Qué tal el examen? Regular, creo que podía haberlo hecho mejor."
+     "ex": "¿Qué tal el examen? Regular.",
+     "exEn": "How was the exam? So-so."
     },
     {
      "id": "st-019",
      "es": "Fatal",
      "en": "Terrible, awful",
      "pos": "phrase",
-     "ex": "He dormido fatal porque los vecinos tenían una fiesta."
+     "ex": "He dormido fatal esta noche.",
+     "exEn": "I slept terribly last night."
     },
     {
      "id": "st-020",
      "es": "¡Qué bien!",
      "en": "How nice!",
      "pos": "phrase",
-     "ex": "¡Qué bien! Por fin tienes unos días de vacaciones."
+     "ex": "¡Qué bien! Tienes vacaciones.",
+     "exEn": "How nice! You have a holiday."
     },
     {
      "id": "st-021",
      "es": "¡Qué pena!",
      "en": "What a pity!",
      "pos": "phrase",
-     "ex": "¡Qué pena! No puedo ir a tu fiesta el sábado."
+     "ex": "¡Qué pena! No puedo ir a tu fiesta.",
+     "exEn": "What a pity! I can't go to your party."
     },
     {
      "id": "st-022",
      "es": "¡No me digas!",
      "en": "You don't say!",
      "pos": "phrase",
-     "ex": "¿Os vais a vivir a Madrid? ¡No me digas!"
+     "ex": "¿Os vais a Madrid? ¡No me digas!",
+     "exEn": "You're going to Madrid? You don't say!"
     },
     {
      "id": "st-023",
      "es": "¿En serio?",
      "en": "Really? Seriously?",
      "pos": "phrase",
-     "ex": "¿En serio? No sabía que hablabas tan bien japonés."
+     "ex": "¿En serio? No lo sabía.",
+     "exEn": "Really? I didn't know that."
     },
     {
      "id": "st-024",
      "es": "Me alegro",
      "en": "I'm glad",
      "pos": "phrase",
-     "ex": "Me alegro mucho de verte otra vez por aquí."
+     "ex": "Me alegro mucho de verte.",
+     "exEn": "I'm very glad to see you."
     },
     {
      "id": "st-025",
      "es": "Vaya",
      "en": "Oh dear; wow",
      "pos": "phrase",
-     "ex": "Vaya, se me ha olvidado el móvil en casa."
+     "ex": "Vaya, no tengo el móvil.",
+     "exEn": "Oh dear, I don't have my phone."
     },
     {
      "id": "st-026",
      "es": "Ya veo",
      "en": "I see",
      "pos": "phrase",
-     "ex": "Ya veo que has tenido un día muy complicado."
+     "ex": "Ya veo que tienes mucho trabajo.",
+     "exEn": "I see that you have a lot of work."
     },
     {
      "id": "st-027",
      "es": "Claro",
      "en": "Sure",
      "pos": "phrase",
-     "ex": "Claro, te ayudo con la maleta ahora mismo."
+     "ex": "Claro, te ayudo con la maleta.",
+     "exEn": "Sure, I'll help you with the suitcase."
     },
     {
      "id": "st-028",
      "es": "Por supuesto",
      "en": "Of course",
      "pos": "phrase",
-     "ex": "Por supuesto, puedes quedarte en mi casa esta noche."
+     "ex": "Por supuesto, puedes venir a mi casa.",
+     "exEn": "Of course, you can come to my house."
     },
     {
      "id": "st-029",
      "es": "Bueno…",
      "en": "Well… (moving on)",
      "pos": "phrase",
-     "ex": "Bueno, creo que ya es hora de irme a casa."
+     "ex": "Bueno, me voy a casa.",
+     "exEn": "Well, I'm going home."
     },
     {
      "id": "st-030",
      "es": "Pues…",
      "en": "Well… (thinking)",
      "pos": "phrase",
-     "ex": "Pues no sé, tengo que pensarlo un poco más."
+     "ex": "Pues no sé, voy a pensarlo.",
+     "exEn": "Well, I don't know, I'll think about it."
     }
    ]
   },
@@ -239,106 +269,121 @@
      "es": "O sea",
      "en": "I mean; in other words",
      "pos": "phrase",
-     "ex": "Llego a las diez, o sea, dentro de una hora."
+     "ex": "Llego a las diez, o sea, en una hora.",
+     "exEn": "I'll arrive at ten, I mean, in an hour."
     },
     {
      "id": "st-032",
      "es": "¡Venga!",
      "en": "Come on! OK then!",
      "pos": "phrase",
-     "ex": "¡Venga! Si salimos ahora, llegamos a tiempo al cine."
+     "ex": "¡Venga! Vamos al cine.",
+     "exEn": "Come on! Let's go to the cinema."
     },
     {
      "id": "st-033",
      "es": "¡Nos vemos!",
      "en": "See you!",
      "pos": "phrase",
-     "ex": "Me voy ya, ¡nos vemos el lunes en la oficina!"
+     "ex": "Me voy, ¡nos vemos el lunes!",
+     "exEn": "I'm off, see you on Monday!"
     },
     {
      "id": "st-034",
      "es": "Hasta luego",
      "en": "See you later",
      "pos": "phrase",
-     "ex": "Hasta luego, Marta, te llamo cuando salga del trabajo."
+     "ex": "Hasta luego, Marta, te llamo mañana.",
+     "exEn": "See you later, Marta, I'll call you tomorrow."
     },
     {
      "id": "st-035",
      "es": "Que te vaya bien",
      "en": "All the best",
      "pos": "phrase",
-     "ex": "Adiós, Luis, que te vaya bien en tu nuevo trabajo."
+     "ex": "Adiós, Luis, que te vaya bien.",
+     "exEn": "Goodbye, Luis, all the best."
     },
     {
      "id": "st-036",
      "es": "Cuídate",
      "en": "Take care",
      "pos": "phrase",
-     "ex": "Buen viaje y cuídate mucho durante estos meses fuera."
+     "ex": "Buen viaje y cuídate mucho.",
+     "exEn": "Have a good trip and take good care of yourself."
     },
     {
      "id": "st-037",
      "es": "¡Que lo pases bien!",
      "en": "Have a good time!",
      "pos": "phrase",
-     "ex": "Te vas a la fiesta, ¿no? ¡Que lo pases bien!"
+     "ex": "¿Te vas a la fiesta? ¡Que lo pases bien!",
+     "exEn": "Are you going to the party? Have a good time!"
     },
     {
      "id": "st-038",
      "es": "Encantado/a de conocerte",
      "en": "Nice to meet you",
      "pos": "phrase",
-     "ex": "Hola, soy Tim; encantado de conocerte por fin, Laura.",
-     "cloze": "encantado de conocerte"
+     "ex": "Hola, soy Tim; encantado de conocerte.",
+     "cloze": "encantado de conocerte",
+     "exEn": "Hi, I'm Tim; nice to meet you."
     },
     {
      "id": "st-039",
      "es": "¿De dónde eres?",
      "en": "Where are you from?",
      "pos": "phrase",
-     "ex": "Hablas muy bien español, ¿de dónde eres exactamente?"
+     "ex": "Hablas muy bien, ¿de dónde eres?",
+     "exEn": "You speak very well, where are you from?"
     },
     {
      "id": "st-040",
      "es": "¿A qué te dedicas?",
      "en": "What do you do for a living?",
      "pos": "phrase",
-     "ex": "Y tú, ¿a qué te dedicas ahora que vives aquí?"
+     "ex": "Y tú, ¿a qué te dedicas?",
+     "exEn": "And you, what do you do for a living?"
     },
     {
      "id": "st-041",
      "es": "¿Cuánto tiempo llevas aquí?",
      "en": "How long have you been here?",
      "pos": "phrase",
-     "ex": "Tu español es muy bueno, ¿cuánto tiempo llevas aquí en España?"
+     "ex": "Hablas muy bien, ¿cuánto tiempo llevas aquí?",
+     "exEn": "You speak very well, how long have you been here?"
     },
     {
      "id": "st-042",
      "es": "¿Hablas inglés?",
      "en": "Do you speak English?",
      "pos": "phrase",
-     "ex": "Perdona, ¿hablas inglés? Mi español todavía no es muy bueno."
+     "ex": "Perdona, ¿hablas inglés?",
+     "exEn": "Excuse me, do you speak English?"
     },
     {
      "id": "st-043",
      "es": "¿Puedes repetir?",
      "en": "Can you repeat that?",
      "pos": "phrase",
-     "ex": "Lo siento, no te he entendido, ¿puedes repetir?"
+     "ex": "No te he entendido, ¿puedes repetir?",
+     "exEn": "I didn't understand you, can you repeat that?"
     },
     {
      "id": "st-044",
      "es": "Más despacio, por favor",
      "en": "More slowly, please",
      "pos": "phrase",
-     "ex": "No entiendo todo; habla más despacio, por favor, que soy extranjero."
+     "ex": "Habla más despacio, por favor.",
+     "exEn": "Speak more slowly, please."
     },
     {
      "id": "st-045",
      "es": "¿Cómo se dice…?",
      "en": "How do you say…?",
      "pos": "phrase",
-     "ex": "¿Cómo se dice \"charger\" en español? Lo necesito para el móvil."
+     "ex": "¿Cómo se dice \"charger\" en español?",
+     "exEn": "How do you say \"charger\" in Spanish?"
     }
    ]
   },
@@ -351,108 +396,123 @@
      "es": "¿Qué significa…?",
      "en": "What does … mean?",
      "pos": "phrase",
-     "ex": "¿Qué significa \"estar liado\"? No lo he oído nunca."
+     "ex": "¿Qué significa esta palabra?",
+     "exEn": "What does this word mean?"
     },
     {
      "id": "st-047",
      "es": "No lo sé",
      "en": "I don't know",
      "pos": "phrase",
-     "ex": "No lo sé todavía; te digo algo mañana por la mañana.",
-     "note": "Never «estoy sabiendo»."
+     "ex": "No lo sé, te digo algo mañana.",
+     "note": "Never «estoy sabiendo».",
+     "exEn": "I don't know, I'll let you know tomorrow."
     },
     {
      "id": "st-048",
      "es": "Depende",
      "en": "It depends",
      "pos": "phrase",
-     "ex": "Depende del tiempo; si llueve, nos quedamos en casa.",
-     "note": "depender de"
+     "ex": "¿Vamos a la playa? Depende del tiempo.",
+     "note": "depender de",
+     "exEn": "Shall we go to the beach? It depends on the weather."
     },
     {
      "id": "st-049",
      "es": "Da igual",
      "en": "It doesn't matter",
      "pos": "phrase",
-     "ex": "Da igual el restaurante; lo importante es cenar juntos."
+     "ex": "Da igual el restaurante, vamos a cenar.",
+     "exEn": "The restaurant doesn't matter, let's have dinner."
     },
     {
      "id": "st-050",
      "es": "Me da igual",
      "en": "I don't mind",
      "pos": "phrase",
-     "ex": "Me da igual ir hoy o mañana, tú decides."
+     "ex": "Me da igual ir hoy o mañana.",
+     "exEn": "I don't mind going today or tomorrow."
     },
     {
      "id": "st-051",
      "es": "Tengo prisa",
      "en": "I'm in a hurry",
      "pos": "phrase",
-     "ex": "No puedo hablar ahora porque tengo prisa, te llamo luego."
+     "ex": "No puedo hablar porque tengo prisa.",
+     "exEn": "I can't talk because I'm in a hurry."
     },
     {
      "id": "st-052",
      "es": "Llego tarde",
      "en": "I'm running late",
      "pos": "phrase",
-     "ex": "Perdona, llego tarde porque el metro se ha parado."
+     "ex": "Perdona, llego tarde por el metro.",
+     "exEn": "Sorry, I'm running late because of the metro."
     },
     {
      "id": "st-053",
      "es": "¿Qué hay de nuevo?",
      "en": "What's new?",
      "pos": "phrase",
-     "ex": "Hola, Ana, ¿qué hay de nuevo en la oficina?"
+     "ex": "Hola, Ana, ¿qué hay de nuevo?",
+     "exEn": "Hi, Ana, what's new?"
     },
     {
      "id": "st-054",
      "es": "¿Cómo estás?",
      "en": "How are you?",
      "pos": "phrase",
-     "ex": "Hola, Carmen, ¿cómo estás? ¿Ya estás mejor del resfriado?",
-     "note": "Two accents: cómo, estás."
+     "ex": "Hola, Carmen, ¿cómo estás?",
+     "note": "Two accents: cómo, estás.",
+     "exEn": "Hi, Carmen, how are you?"
     },
     {
      "id": "st-055",
      "es": "¿Cómo te va?",
      "en": "How are things going?",
      "pos": "phrase",
-     "ex": "Hace mucho que no hablamos, ¿cómo te va en Madrid?"
+     "ex": "Hola, Juan, ¿cómo te va en Madrid?",
+     "exEn": "Hi, Juan, how are things going in Madrid?"
     },
     {
      "id": "st-056",
      "es": "Hace mucho que no te veo",
      "en": "I haven't seen you for ages",
      "pos": "phrase",
-     "ex": "¡Hola, Pedro! Hace mucho que no te veo por aquí."
+     "ex": "¡Hola, Pedro! Hace mucho que no te veo.",
+     "exEn": "Hi, Pedro! I haven't seen you for ages."
     },
     {
      "id": "st-057",
      "es": "¡Cuánto tiempo!",
      "en": "Long time no see!",
      "pos": "phrase",
-     "ex": "¡Cuánto tiempo! ¿Sigues viviendo en el mismo piso?"
+     "ex": "¡Cuánto tiempo! ¿Cómo estás?",
+     "exEn": "Long time no see! How are you?"
     },
     {
      "id": "st-058",
      "es": "Mucho gusto",
      "en": "Pleased to meet you",
      "pos": "phrase",
-     "ex": "Mucho gusto, señora García; soy el nuevo vecino del tercero."
+     "ex": "Mucho gusto, soy el nuevo vecino.",
+     "exEn": "Pleased to meet you, I'm the new neighbour."
     },
     {
      "id": "st-059",
      "es": "Igualmente",
      "en": "Likewise; same to you",
      "pos": "phrase",
-     "ex": "Encantado de conocerte. —Igualmente, espero verte pronto por aquí."
+     "ex": "—Encantado de conocerte. —Igualmente.",
+     "exEn": "\"Nice to meet you.\" \"Likewise.\""
     },
     {
      "id": "st-060",
      "es": "Un abrazo",
      "en": "A hug; best wishes",
      "pos": "phrase",
-     "ex": "Dale un abrazo a tu madre de mi parte."
+     "ex": "Dale un abrazo a tu madre.",
+     "exEn": "Give your mother a hug from me."
     }
    ]
   },
@@ -465,110 +525,125 @@
      "es": "¿Y a ti?",
      "en": "What about you?",
      "pos": "phrase",
-     "ex": "Me encanta esta ciudad, ¿y a ti qué te parece?",
-     "note": "After «me gusta», «me encanta»."
+     "ex": "Me encanta esta ciudad, ¿y a ti?",
+     "note": "After «me gusta», «me encanta».",
+     "exEn": "I love this city, what about you?"
     },
     {
      "id": "st-062",
      "es": "Soy de los Países Bajos",
      "en": "I'm from the Netherlands",
      "pos": "phrase",
-     "ex": "Soy de los Países Bajos, pero ahora vivo en Madrid.",
-     "accept": "soy de holanda"
+     "ex": "Soy de los Países Bajos, pero vivo en Madrid.",
+     "accept": "soy de holanda",
+     "exEn": "I'm from the Netherlands, but I live in Madrid."
     },
     {
      "id": "st-063",
      "es": "Trabajo en…",
      "en": "I work in…",
      "pos": "phrase",
-     "ex": "Trabajo en una empresa pequeña de consultoría en el centro.",
-     "note": "trabajar en"
+     "ex": "Trabajo en una empresa pequeña.",
+     "note": "trabajar en",
+     "exEn": "I work in a small company."
     },
     {
      "id": "st-064",
      "es": "Estoy de vacaciones",
      "en": "I'm on holiday",
      "pos": "phrase",
-     "ex": "Estoy de vacaciones dos semanas y quiero practicar mi español."
+     "ex": "Estoy de vacaciones dos semanas.",
+     "exEn": "I'm on holiday for two weeks."
     },
     {
      "id": "st-065",
      "es": "Estoy aprendiendo español",
      "en": "I'm learning Spanish",
      "pos": "phrase",
-     "ex": "Estoy aprendiendo español porque quiero trabajar en España algún día."
+     "ex": "Estoy aprendiendo español en una escuela.",
+     "exEn": "I'm learning Spanish at a school."
     },
     {
      "id": "st-066",
      "es": "Llevo dos semanas aquí",
      "en": "I've been here for two weeks",
      "pos": "phrase",
-     "ex": "Llevo dos semanas aquí y ya conozco bien el barrio."
+     "ex": "Llevo dos semanas aquí y me gusta.",
+     "exEn": "I've been here for two weeks and I like it."
     },
     {
      "id": "st-067",
      "es": "Me gusta mucho",
      "en": "I like it a lot",
      "pos": "phrase",
-     "ex": "Me gusta mucho esta zona porque hay muchos bares tranquilos."
+     "ex": "Me gusta mucho este barrio.",
+     "exEn": "I like this neighbourhood a lot."
     },
     {
      "id": "st-068",
      "es": "Me encanta",
      "en": "I love it",
      "pos": "phrase",
-     "ex": "Me encanta pasear por esta ciudad cuando hace sol."
+     "ex": "Me encanta pasear por esta ciudad.",
+     "exEn": "I love walking around this city."
     },
     {
      "id": "st-069",
      "es": "¿Te gusta…?",
      "en": "Do you like…?",
      "pos": "phrase",
-     "ex": "¿Te gusta vivir aquí o prefieres tu ciudad de antes?"
+     "ex": "¿Te gusta vivir aquí?",
+     "exEn": "Do you like living here?"
     },
     {
      "id": "st-070",
      "es": "¿Tienes hermanos?",
      "en": "Do you have brothers or sisters?",
      "pos": "phrase",
-     "ex": "¿Tienes hermanos o eres hijo único?"
+     "ex": "¿Tienes hermanos o eres hijo único?",
+     "exEn": "Do you have brothers or sisters, or are you an only child?"
     },
     {
      "id": "st-071",
      "es": "¿Dónde vives?",
      "en": "Where do you live?",
      "pos": "phrase",
-     "ex": "¿Dónde vives ahora? ¿Sigues en el centro de la ciudad?",
-     "note": "Verb right after the question word; not «¿Dónde tú vives?»."
+     "ex": "¿Dónde vives ahora?",
+     "note": "Verb right after the question word; not «¿Dónde tú vives?».",
+     "exEn": "Where do you live now?"
     },
     {
      "id": "st-072",
      "es": "No te preocupes",
      "en": "Don't worry",
      "pos": "phrase",
-     "ex": "No te preocupes, no pasa nada; yo te espero aquí."
+     "ex": "No te preocupes, yo te espero.",
+     "exEn": "Don't worry, I'll wait for you."
     },
     {
      "id": "st-073",
      "es": "No pasa nada",
      "en": "It's OK, no problem",
      "pos": "phrase",
-     "ex": "Si llegas un poco tarde, no pasa nada, te esperamos."
+     "ex": "Si llegas tarde, no pasa nada.",
+     "exEn": "If you arrive late, it's no problem."
     },
     {
      "id": "st-074",
      "es": "Perdona",
      "en": "Sorry; excuse me",
      "pos": "phrase",
-     "ex": "Perdona, no te he visto; ¿te he hecho daño?",
-     "accept": "perdón"
+     "ex": "Perdona, no te he visto.",
+     "accept": "perdón",
+     "exEn": "Sorry, I didn't see you."
     },
     {
      "id": "st-075",
      "es": "Lo siento",
      "en": "I'm sorry",
      "pos": "phrase",
-     "ex": "Lo siento, pero hoy no puedo quedarme hasta tan tarde."
+     "ex": "Lo siento, hoy no puedo.",
+     "exEn": "I'm sorry, I can't today."
     }
    ]
   },
@@ -581,105 +656,120 @@
      "es": "¿Qué te parece?",
      "en": "What do you think?",
      "pos": "phrase",
-     "ex": "He reservado una mesa para las nueve, ¿qué te parece?"
+     "ex": "Cenamos a las nueve, ¿qué te parece?",
+     "exEn": "We'll have dinner at nine, what do you think?"
     },
     {
      "id": "st-077",
      "es": "Me parece bien",
      "en": "That sounds fine",
      "pos": "phrase",
-     "ex": "Me parece bien quedar a las ocho delante del cine."
+     "ex": "Me parece bien quedar a las ocho.",
+     "exEn": "Meeting at eight sounds fine."
     },
     {
      "id": "st-078",
      "es": "¿Y eso?",
      "en": "How come?",
      "pos": "phrase",
-     "ex": "¿Y eso? ¿Por qué has cambiado de trabajo tan de repente?"
+     "ex": "¿Y eso? ¿Por qué no vienes?",
+     "exEn": "How come? Why aren't you coming?"
     },
     {
      "id": "st-079",
      "es": "¿Ah, sí?",
      "en": "Oh, really?",
      "pos": "phrase",
-     "ex": "¿Ah, sí? No sabía que tu hermana vivía en Valencia."
+     "ex": "¿Ah, sí? No lo sabía.",
+     "exEn": "Oh, really? I didn't know that."
     },
     {
      "id": "st-080",
      "es": "Es verdad",
      "en": "That's true",
      "pos": "phrase",
-     "ex": "Es verdad, hoy hace mucho más calor que ayer."
+     "ex": "Es verdad, hoy hace mucho calor.",
+     "exEn": "That's true, it's very hot today."
     },
     {
      "id": "st-081",
      "es": "A ver",
      "en": "Let's see",
      "pos": "phrase",
-     "ex": "A ver, ¿qué hora es? Creo que ya tenemos que irnos."
+     "ex": "A ver, ¿qué hora es?",
+     "exEn": "Let's see, what time is it?"
     },
     {
      "id": "st-082",
      "es": "Un momento",
      "en": "Just a moment",
      "pos": "phrase",
-     "ex": "Un momento, por favor, que busco las llaves en el bolso."
+     "ex": "Un momento, por favor, busco las llaves.",
+     "exEn": "Just a moment, please, I'm looking for the keys."
     },
     {
      "id": "st-083",
      "es": "Por cierto",
      "en": "By the way",
      "pos": "phrase",
-     "ex": "Por cierto, ¿has hablado ya con Marta sobre la cena?"
+     "ex": "Por cierto, ¿has hablado con Marta?",
+     "exEn": "By the way, have you talked to Marta?"
     },
     {
      "id": "st-084",
      "es": "¡Qué suerte!",
      "en": "How lucky!",
      "pos": "phrase",
-     "ex": "¿Te vas a Canarias en noviembre? ¡Qué suerte!"
+     "ex": "¿Te vas a Canarias? ¡Qué suerte!",
+     "exEn": "You're going to the Canaries? How lucky!"
     },
     {
      "id": "st-085",
      "es": "¡Qué raro!",
      "en": "How strange!",
      "pos": "phrase",
-     "ex": "¡Qué raro! Normalmente Juan contesta los mensajes enseguida."
+     "ex": "¡Qué raro! Juan no contesta.",
+     "exEn": "How strange! Juan isn't answering."
     },
     {
      "id": "st-086",
      "es": "¡Enhorabuena!",
      "en": "Congratulations!",
      "pos": "phrase",
-     "ex": "¡Enhorabuena por el trabajo nuevo! Tenemos que celebrarlo pronto."
+     "ex": "¡Enhorabuena por el trabajo nuevo!",
+     "exEn": "Congratulations on the new job!"
     },
     {
      "id": "st-087",
      "es": "¡Buen viaje!",
      "en": "Have a good trip!",
      "pos": "phrase",
-     "ex": "Os vais mañana, ¿no? ¡Buen viaje y escribidme al llegar!"
+     "ex": "Os vais mañana, ¿no? ¡Buen viaje!",
+     "exEn": "You're leaving tomorrow, aren't you? Have a good trip!"
     },
     {
      "id": "st-088",
      "es": "¡Buen fin de semana!",
      "en": "Have a good weekend!",
      "pos": "phrase",
-     "ex": "Hasta el lunes, chicos, ¡buen fin de semana a todos!"
+     "ex": "Hasta el lunes, ¡buen fin de semana!",
+     "exEn": "See you on Monday, have a good weekend!"
     },
     {
      "id": "st-089",
      "es": "Hasta pronto",
      "en": "See you soon",
      "pos": "phrase",
-     "ex": "Gracias por todo y hasta pronto, espero volver el año próximo."
+     "ex": "Gracias por todo y hasta pronto.",
+     "exEn": "Thanks for everything and see you soon."
     },
     {
      "id": "st-090",
      "es": "Muchas gracias",
      "en": "Thank you very much",
      "pos": "phrase",
-     "ex": "Muchas gracias por ayudarme a encontrar la estación de tren."
+     "ex": "Muchas gracias por tu ayuda.",
+     "exEn": "Thank you very much for your help."
     }
    ]
   }

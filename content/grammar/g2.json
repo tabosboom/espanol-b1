@@ -1,0 +1,1377 @@
+{
+ "id": "g2",
+ "title": "Present subjunctive",
+ "rule": {
+  "intro": "You choose the subjunctive correctly. The forms are the weak point. Start from the yo form of the present, drop -o, and swap the ending: -ar verbs take -e, -er and -ir verbs take -a.",
+  "points": [
+   {
+    "title": "Regular",
+    "examples": [
+     [
+      "hablar → hable, hables, hable, hablemos, habléis, hablen",
+      "-ar takes -e"
+     ],
+     [
+      "comer → coma; vivir → viva",
+      "-er and -ir take -a"
+     ]
+    ]
+   },
+   {
+    "title": "Stem changes",
+    "examples": [
+     [
+      "encontrar → encuentre; poder → pueda",
+      "o→ue"
+     ],
+     [
+      "llover → llueva",
+      "o→ue, -er takes -a"
+     ],
+     [
+      "pensar → piense; pedir → pida",
+      "e→ie, e→i"
+     ]
+    ]
+   },
+   {
+    "title": "-zc- and -g- verbs",
+    "examples": [
+     [
+      "conocer → conozca; conducir → conduzca",
+      "yo conozco keeps its zc"
+     ],
+     [
+      "tener → tenga; venir → venga; hacer → haga",
+      "yo tengo keeps its g"
+     ]
+    ]
+   },
+   {
+    "title": "Spelling changes",
+    "examples": [
+     [
+      "buscar → busque; llegar → llegue; utilizar → utilice",
+      "c→qu, g→gu, z→c"
+     ],
+     [
+      "enviar → envíe",
+      "keeps the accent on í"
+     ]
+    ]
+   },
+   {
+    "title": "Irregulars",
+    "examples": [
+     [
+      "ser → sea; estar → esté; ir → vaya",
+      "learn these six"
+     ],
+     [
+      "saber → sepa; haber → haya; dar → dé",
+      "learn these six"
+     ]
+    ]
+   },
+   {
+    "title": "When to use it",
+    "examples": [
+     [
+      "Quiero que vengas.",
+      "wish, with a new subject"
+     ],
+     [
+      "Creo que viene.",
+      "creo que takes the indicative"
+     ],
+     [
+      "Quiero venir.",
+      "same subject takes the infinitive"
+     ]
+    ]
+   }
+  ],
+  "watch": "From your exam: conocan → conozcan, encontré → encuentre, envié → envíe, llova → llueva."
+ },
+ "items": [
+  {
+   "id": "g2-001",
+   "type": "gap",
+   "q": "Espero que mis hijos ___ a tus padres. (conocer)",
+   "a": "conozcan",
+   "ex": "conocer: yo conozco → conozcan. Keep the zc.",
+   "en": "I hope my children meet your parents.",
+   "fromMistake": true
+  },
+  {
+   "id": "g2-002",
+   "type": "gap",
+   "q": "Espero que ___ un buen trabajo. (encontrar, tú)",
+   "a": "encuentres",
+   "ex": "encontrar: o→ue, and -ar takes -e.",
+   "en": "I hope you find a good job.",
+   "fromMistake": true
+  },
+  {
+   "id": "g2-003",
+   "type": "gap",
+   "q": "Quiero que me ___ el documento hoy. (enviar, tú)",
+   "a": "envíes",
+   "ex": "enviar keeps the accent: envíes.",
+   "en": "I want you to send me the document today.",
+   "fromMistake": true
+  },
+  {
+   "id": "g2-004",
+   "type": "gap",
+   "q": "No creo que ___ mañana. (llover)",
+   "a": "llueva",
+   "ex": "llover: o→ue, and -er takes -a.",
+   "en": "I don't think it will rain tomorrow.",
+   "fromMistake": true
+  },
+  {
+   "id": "g2-005",
+   "type": "mc",
+   "q": "Ojalá ___ a personas interesantes en el curso.",
+   "opts": [
+    "conozcas",
+    "conoces",
+    "conocas"
+   ],
+   "c": 0,
+   "ex": "conocer → conozcas, with -zc-.",
+   "en": "I hope you meet interesting people on the course.",
+   "fromMistake": true
+  },
+  {
+   "id": "g2-006",
+   "type": "mc",
+   "q": "Espero que Marta ___ las llaves.",
+   "opts": [
+    "encuentre",
+    "encontré",
+    "encuentra"
+   ],
+   "c": 0,
+   "ex": "encontrar → encuentre. «Encontré» is the past tense.",
+   "en": "I hope Marta finds the keys.",
+   "fromMistake": true
+  },
+  {
+   "id": "g2-007",
+   "type": "mc",
+   "q": "Es importante que ___ el correo hoy.",
+   "opts": [
+    "envíe",
+    "envié",
+    "envia"
+   ],
+   "c": 0,
+   "ex": "envíe (subjunctive) is not envié (past).",
+   "en": "It's important that I send the email today.",
+   "fromMistake": true
+  },
+  {
+   "id": "g2-008",
+   "type": "mc",
+   "q": "Es posible que ___ esta tarde.",
+   "opts": [
+    "llueva",
+    "llova",
+    "llueve"
+   ],
+   "c": 0,
+   "ex": "llover → llueva.",
+   "en": "It may rain this afternoon.",
+   "fromMistake": true
+  },
+  {
+   "id": "g2-009",
+   "type": "spot",
+   "q": "Espero que tus padres conocan a mi familia.",
+   "wrong": 4,
+   "a": "conozcan",
+   "opts": [
+    "conozcan",
+    "conocen",
+    "conozcen"
+   ],
+   "full": "Espero que tus padres conozcan a mi familia.",
+   "ex": "-cer verbs take -zc-: conozcan.",
+   "en": "I hope your parents meet my family.",
+   "fromMistake": true
+  },
+  {
+   "id": "g2-010",
+   "type": "spot",
+   "q": "Ojalá llova este fin de semana.",
+   "wrong": 1,
+   "a": "llueva",
+   "opts": [
+    "llueva",
+    "llueve",
+    "lluevo"
+   ],
+   "full": "Ojalá llueva este fin de semana.",
+   "ex": "llover → llueva.",
+   "en": "I hope it rains this weekend.",
+   "fromMistake": true
+  },
+  {
+   "id": "g2-011",
+   "type": "spot",
+   "q": "Espero que tú vayas aquí pronto.",
+   "wrong": 3,
+   "a": "vengas",
+   "opts": [
+    "vengas",
+    "vienes",
+    "vengues"
+   ],
+   "full": "Espero que tú vengas aquí pronto.",
+   "ex": "Towards the speaker use venir: vengas.",
+   "en": "I hope you come here soon.",
+   "fromMistake": true
+  },
+  {
+   "id": "g2-012",
+   "type": "tiles",
+   "q": "I hope you come soon",
+   "a": "Espero que vengas pronto",
+   "distractors": [
+    "vayas",
+    "vienes"
+   ],
+   "ex": "venir → vengas; coming here is venir, not ir.",
+   "fromMistake": true
+  },
+  {
+   "id": "g2-013",
+   "type": "gap",
+   "q": "Quiero que ___ a la fiesta. (venir, tú)",
+   "a": "vengas",
+   "ex": "venir: yo vengo → vengas.",
+   "en": "I want you to come to the party."
+  },
+  {
+   "id": "g2-014",
+   "type": "gap",
+   "q": "Es mejor que ___ pronto. (salir, nosotros)",
+   "a": "salgamos",
+   "ex": "salir: yo salgo → salgamos.",
+   "en": "It's better for us to leave early."
+  },
+  {
+   "id": "g2-015",
+   "type": "gap",
+   "q": "Necesito que me ___ un favor. (hacer, tú)",
+   "a": "hagas",
+   "ex": "hacer: yo hago → hagas.",
+   "en": "I need you to do me a favour."
+  },
+  {
+   "id": "g2-016",
+   "type": "gap",
+   "q": "No quiero que ___ el coche aquí. (poner, vosotros)",
+   "a": "pongáis",
+   "ex": "poner: yo pongo → pongáis.",
+   "en": "I don't want you to put the car here."
+  },
+  {
+   "id": "g2-017",
+   "type": "gap",
+   "q": "Espero que me ___ la verdad. (decir, tú)",
+   "a": "digas",
+   "ex": "decir: yo digo → digas.",
+   "en": "I hope you tell me the truth."
+  },
+  {
+   "id": "g2-018",
+   "type": "gap",
+   "q": "Es raro que no ___ tiempo. (tener, ellos)",
+   "a": "tengan",
+   "ex": "tener: yo tengo → tengan.",
+   "en": "It's strange that they don't have time."
+  },
+  {
+   "id": "g2-019",
+   "type": "gap",
+   "q": "Te pido que ___ con cuidado. (conducir, tú)",
+   "a": "conduzcas",
+   "ex": "conducir: yo conduzco → conduzcas.",
+   "en": "I'm asking you to drive carefully."
+  },
+  {
+   "id": "g2-020",
+   "type": "gap",
+   "q": "Busco un piso que ___ luminoso. (ser)",
+   "a": "sea",
+   "ex": "ser → sea, irregular.",
+   "en": "I'm looking for a flat that is bright."
+  },
+  {
+   "id": "g2-021",
+   "type": "gap",
+   "q": "Espero que ___ bien mañana. (estar, tú)",
+   "a": "estés",
+   "ex": "estar → estés, with an accent.",
+   "en": "I hope you are well tomorrow."
+  },
+  {
+   "id": "g2-022",
+   "type": "gap",
+   "q": "No creo que ___ a la reunión. (ir, ella)",
+   "a": "vaya",
+   "ex": "ir → vaya, irregular.",
+   "en": "I don't think she'll go to the meeting."
+  },
+  {
+   "id": "g2-023",
+   "type": "gap",
+   "q": "Dudo que ___ la respuesta. (saber, él)",
+   "a": "sepa",
+   "ex": "saber → sepa, irregular.",
+   "en": "I doubt he knows the answer."
+  },
+  {
+   "id": "g2-024",
+   "type": "gap",
+   "q": "Es posible que ___ mucha gente. (haber)",
+   "a": "haya",
+   "ex": "haber → haya, irregular.",
+   "en": "There may be a lot of people."
+  },
+  {
+   "id": "g2-025",
+   "type": "gap",
+   "q": "Quiero que me ___ tu número. (dar, tú)",
+   "a": "des",
+   "ex": "dar → des.",
+   "en": "I want you to give me your number."
+  },
+  {
+   "id": "g2-026",
+   "type": "gap",
+   "q": "Espero que ___ pronto al hotel. (llegar, nosotros)",
+   "a": "lleguemos",
+   "ex": "llegar: g→gu before e.",
+   "en": "I hope we get to the hotel soon."
+  },
+  {
+   "id": "g2-027",
+   "type": "gap",
+   "q": "Quiero que ___ otro restaurante. (buscar, tú)",
+   "a": "busques",
+   "ex": "buscar: c→qu before e.",
+   "en": "I want you to look for another restaurant."
+  },
+  {
+   "id": "g2-028",
+   "type": "gap",
+   "q": "No quiero que ___ el móvil en clase. (utilizar, tú)",
+   "a": "utilices",
+   "ex": "utilizar: z→c before e.",
+   "en": "I don't want you to use your phone in class."
+  },
+  {
+   "id": "g2-029",
+   "type": "gap",
+   "q": "Es mejor que ___ por tarjeta. (pagar, usted)",
+   "a": "pague",
+   "ex": "pagar: g→gu before e.",
+   "en": "It's better if you pay by card."
+  },
+  {
+   "id": "g2-030",
+   "type": "gap",
+   "q": "Espero que ___ bien esta noche. (dormir, tú)",
+   "a": "duermas",
+   "ex": "dormir: o→ue.",
+   "en": "I hope you sleep well tonight."
+  },
+  {
+   "id": "g2-031",
+   "type": "gap",
+   "q": "Quiero que ___ en mí. (pensar, tú)",
+   "a": "pienses",
+   "ex": "pensar: e→ie.",
+   "en": "I want you to think about me."
+  },
+  {
+   "id": "g2-032",
+   "type": "gap",
+   "q": "No quiero que me ___ dinero. (pedir, él)",
+   "a": "pida",
+   "ex": "pedir: e→i.",
+   "en": "I don't want him to ask me for money."
+  },
+  {
+   "id": "g2-033",
+   "type": "mc",
+   "q": "Espero que ___ un buen viaje.",
+   "opts": [
+    "tengas",
+    "tienes",
+    "tenas"
+   ],
+   "c": 0,
+   "ex": "tener → tengas.",
+   "en": "I hope you have a good trip."
+  },
+  {
+   "id": "g2-034",
+   "type": "mc",
+   "q": "Quiero que ___ a mi casa.",
+   "opts": [
+    "vengáis",
+    "venís",
+    "veníais"
+   ],
+   "c": 0,
+   "ex": "venir → vengáis.",
+   "en": "I want you all to come to my house."
+  },
+  {
+   "id": "g2-035",
+   "type": "mc",
+   "q": "Es necesario que ___ la verdad.",
+   "opts": [
+    "sepas",
+    "sabes",
+    "sabas"
+   ],
+   "c": 0,
+   "ex": "saber → sepas.",
+   "en": "It's necessary for you to know the truth."
+  },
+  {
+   "id": "g2-036",
+   "type": "mc",
+   "q": "No creo que ___ abierto hoy.",
+   "opts": [
+    "esté",
+    "está",
+    "estea"
+   ],
+   "c": 0,
+   "ex": "estar → esté.",
+   "en": "I don't think it's open today."
+  },
+  {
+   "id": "g2-037",
+   "type": "mc",
+   "q": "Ojalá ___ buen tiempo el domingo.",
+   "opts": [
+    "haga",
+    "hace",
+    "hacia"
+   ],
+   "c": 0,
+   "ex": "hacer → haga.",
+   "en": "I hope the weather is good on Sunday."
+  },
+  {
+   "id": "g2-038",
+   "type": "mc",
+   "q": "Espero que ___ muy feliz.",
+   "opts": [
+    "seas",
+    "eres",
+    "eras"
+   ],
+   "c": 0,
+   "ex": "ser → seas.",
+   "en": "I hope you are very happy."
+  },
+  {
+   "id": "g2-039",
+   "type": "mc",
+   "q": "Quiero que ___ al médico.",
+   "opts": [
+    "vayas",
+    "vas",
+    "ves"
+   ],
+   "c": 0,
+   "ex": "ir → vayas.",
+   "en": "I want you to go to the doctor."
+  },
+  {
+   "id": "g2-040",
+   "type": "mc",
+   "q": "Me alegra que ___ aquí.",
+   "opts": [
+    "estéis",
+    "estáis",
+    "estaríais"
+   ],
+   "c": 0,
+   "ex": "estar → estéis.",
+   "en": "I'm glad you're all here."
+  },
+  {
+   "id": "g2-041",
+   "type": "gapBank",
+   "q": "Espero que ___ pronto y que ___ la cena.",
+   "a": [
+    "lleguéis",
+    "preparéis"
+   ],
+   "bank": [
+    "lleguéis",
+    "preparéis",
+    "llegáis",
+    "preparáis"
+   ],
+   "ex": "Both verbs are subjunctive after «espero que».",
+   "en": "I hope you arrive soon and that you make dinner."
+  },
+  {
+   "id": "g2-042",
+   "type": "gapBank",
+   "q": "No creo que ___ tiempo.",
+   "a": [
+    "haya"
+   ],
+   "bank": [
+    "haya",
+    "hay",
+    "había",
+    "hubo"
+   ],
+   "ex": "No creo que + subjunctive: haya.",
+   "en": "I don't think there's time."
+  },
+  {
+   "id": "g2-043",
+   "type": "gapBank",
+   "q": "Ojalá me ___ el puesto.",
+   "a": [
+    "den"
+   ],
+   "bank": [
+    "den",
+    "dan",
+    "dieron",
+    "darán"
+   ],
+   "ex": "dar → den.",
+   "en": "I hope they give me the job."
+  },
+  {
+   "id": "g2-044",
+   "type": "tiles",
+   "q": "I want you to drive",
+   "a": "Quiero que conduzcas",
+   "distractors": [
+    "conduces",
+    "conducir"
+   ],
+   "ex": "conducir → conduzcas."
+  },
+  {
+   "id": "g2-045",
+   "type": "tiles",
+   "q": "I hope it doesn't rain",
+   "a": "Espero que no llueva",
+   "distractors": [
+    "llueve",
+    "llova"
+   ],
+   "ex": "llover → llueva."
+  },
+  {
+   "id": "g2-046",
+   "type": "tiles",
+   "q": "It's better if you leave now",
+   "a": "Es mejor que salgas ahora",
+   "distractors": [
+    "sales"
+   ],
+   "ex": "salir → salgas."
+  },
+  {
+   "id": "g2-047",
+   "type": "type",
+   "q": "that they know (conocer) — subjunctive",
+   "a": "que conozcan|conozcan",
+   "ex": "conocer → conozcan."
+  },
+  {
+   "id": "g2-048",
+   "type": "type",
+   "q": "that you find (encontrar, tú) — subjunctive",
+   "a": "que encuentres|encuentres",
+   "ex": "encontrar → encuentres."
+  },
+  {
+   "id": "g2-049",
+   "type": "type",
+   "q": "that I send (enviar) — subjunctive",
+   "a": "que envíe|envíe",
+   "ex": "enviar → envíe."
+  },
+  {
+   "id": "g2-050",
+   "type": "gapBank",
+   "q": "Antes de ___, quiero ducharme.",
+   "a": [
+    "cenar"
+   ],
+   "bank": [
+    "cenar",
+    "que cenar",
+    "cenemos"
+   ],
+   "ex": "Same subject: antes de + infinitive.",
+   "en": "Before having dinner, I want to have a shower.",
+   "fromMistake": true
+  },
+  {
+   "id": "g2-051",
+   "type": "spot",
+   "q": "Quiero ducharme antes de que cenar.",
+   "wrong": 4,
+   "a": "(delete)",
+   "opts": [
+    "(delete)",
+    "(keep it)",
+    "y"
+   ],
+   "full": "Quiero ducharme antes de cenar.",
+   "ex": "Same subject: antes de + infinitive, no «que».",
+   "en": "I want to have a shower before having dinner.",
+   "fromMistake": true
+  },
+  {
+   "id": "g2-052",
+   "type": "gap",
+   "q": "Espero ___ un trabajo pronto. (tener, yo)",
+   "a": "tener",
+   "ex": "Same subject: espero + infinitive.",
+   "en": "I hope to have a job soon.",
+   "fromMistake": true
+  },
+  {
+   "id": "g2-053",
+   "type": "mc",
+   "q": "Mi jefe quiere hablar conmigo antes de que ___ .",
+   "opts": [
+    "me vaya",
+    "me voy",
+    "irme"
+   ],
+   "c": 0,
+   "ex": "Antes de que takes the subjunctive.",
+   "en": "My boss wants to talk to me before I leave."
+  },
+  {
+   "id": "g2-054",
+   "type": "mc",
+   "q": "Creo que Pablo ___ razón.",
+   "opts": [
+    "tiene",
+    "tenga",
+    "tenías"
+   ],
+   "c": 0,
+   "ex": "Creo que + indicative.",
+   "en": "I think Pablo is right."
+  },
+  {
+   "id": "g2-055",
+   "type": "mc",
+   "q": "No creo que Pablo ___ razón.",
+   "opts": [
+    "tenga",
+    "tiene",
+    "tenía"
+   ],
+   "c": 0,
+   "ex": "No creo que + subjunctive.",
+   "en": "I don't think Pablo is right."
+  },
+  {
+   "id": "g2-056",
+   "type": "mc",
+   "q": "Pienso que este piso ___ caro.",
+   "opts": [
+    "es",
+    "sea",
+    "seas"
+   ],
+   "c": 0,
+   "ex": "Pienso que + indicative.",
+   "en": "I think this flat is expensive."
+  },
+  {
+   "id": "g2-057",
+   "type": "mc",
+   "q": "No pienso que este piso ___ caro.",
+   "opts": [
+    "sea",
+    "es",
+    "está"
+   ],
+   "c": 0,
+   "ex": "No pienso que + subjunctive.",
+   "en": "I don't think this flat is expensive."
+  },
+  {
+   "id": "g2-058",
+   "type": "mc",
+   "q": "Es verdad que ___ mucho aquí.",
+   "opts": [
+    "llueve",
+    "llueva",
+    "llover"
+   ],
+   "c": 0,
+   "ex": "Es verdad que + indicative.",
+   "en": "It's true that it rains a lot here."
+  },
+  {
+   "id": "g2-059",
+   "type": "mc",
+   "q": "No es verdad que ___ mucho aquí.",
+   "opts": [
+    "llueva",
+    "llueve",
+    "llover"
+   ],
+   "c": 0,
+   "ex": "No es verdad que + subjunctive.",
+   "en": "It's not true that it rains a lot here."
+  },
+  {
+   "id": "g2-060",
+   "type": "mc",
+   "q": "Está claro que ___ cansado.",
+   "opts": [
+    "estás",
+    "estés",
+    "estar"
+   ],
+   "c": 0,
+   "ex": "Está claro que + indicative.",
+   "en": "It's clear that you're tired."
+  },
+  {
+   "id": "g2-061",
+   "type": "mc",
+   "q": "Es importante que ___ cada día.",
+   "opts": [
+    "practiques",
+    "practicas",
+    "practicar"
+   ],
+   "c": 0,
+   "ex": "Es importante que + subjunctive.",
+   "en": "It's important that you practise every day."
+  },
+  {
+   "id": "g2-062",
+   "type": "mc",
+   "q": "Es importante ___ cada día.",
+   "opts": [
+    "practicar",
+    "practiques",
+    "practicas"
+   ],
+   "c": 0,
+   "ex": "No new subject: es importante + infinitive.",
+   "en": "It's important to practise every day."
+  },
+  {
+   "id": "g2-063",
+   "type": "mc",
+   "q": "Me alegro de que ___ bien.",
+   "opts": [
+    "estés",
+    "estás",
+    "estar"
+   ],
+   "c": 0,
+   "ex": "Emotion + que: subjunctive.",
+   "en": "I'm glad you're well."
+  },
+  {
+   "id": "g2-064",
+   "type": "mc",
+   "q": "Me alegro de ___ aquí.",
+   "opts": [
+    "estar",
+    "esté",
+    "estoy"
+   ],
+   "c": 0,
+   "ex": "Same subject: infinitive.",
+   "en": "I'm glad to be here."
+  },
+  {
+   "id": "g2-065",
+   "type": "mc",
+   "q": "Quiero ___ a Madrid este año.",
+   "opts": [
+    "ir",
+    "vaya",
+    "voy"
+   ],
+   "c": 0,
+   "ex": "Same subject: querer + infinitive.",
+   "en": "I want to go to Madrid this year."
+  },
+  {
+   "id": "g2-066",
+   "type": "mc",
+   "q": "Quiero que tú ___ a Madrid conmigo.",
+   "opts": [
+    "vayas",
+    "vas",
+    "ir"
+   ],
+   "c": 0,
+   "ex": "New subject: querer que + subjunctive.",
+   "en": "I want you to go to Madrid with me."
+  },
+  {
+   "id": "g2-067",
+   "type": "mc",
+   "q": "Ojalá ___ suerte mañana.",
+   "opts": [
+    "tengas",
+    "tienes",
+    "tener"
+   ],
+   "c": 0,
+   "ex": "Ojalá always takes the subjunctive.",
+   "en": "I hope you're lucky tomorrow."
+  },
+  {
+   "id": "g2-068",
+   "type": "mc",
+   "q": "Me molesta que mis vecinos ___ tanto ruido.",
+   "opts": [
+    "hagan",
+    "hacen",
+    "hacer"
+   ],
+   "c": 0,
+   "ex": "Me molesta que + subjunctive.",
+   "en": "It annoys me that my neighbours make so much noise."
+  },
+  {
+   "id": "g2-069",
+   "type": "mc",
+   "q": "Me preocupa que no ___ dinero.",
+   "opts": [
+    "tengamos",
+    "tenemos",
+    "tener"
+   ],
+   "c": 0,
+   "ex": "Me preocupa que + subjunctive.",
+   "en": "It worries me that we don't have money."
+  },
+  {
+   "id": "g2-070",
+   "type": "mc",
+   "q": "Dudo que ___ tarde.",
+   "opts": [
+    "lleguen",
+    "llegan",
+    "llegar"
+   ],
+   "c": 0,
+   "ex": "Dudo que + subjunctive.",
+   "en": "I doubt they'll arrive late."
+  },
+  {
+   "id": "g2-071",
+   "type": "mc",
+   "q": "Sé que ___ tarde.",
+   "opts": [
+    "llegan",
+    "lleguen",
+    "llegar"
+   ],
+   "c": 0,
+   "ex": "Saber que + indicative.",
+   "en": "I know they're arriving late."
+  },
+  {
+   "id": "g2-072",
+   "type": "tf",
+   "q": "Creo que venga mañana.",
+   "a": false,
+   "ex": "Creo que takes the indicative.",
+   "en": "I think he's coming tomorrow.",
+   "full": "Creo que viene mañana."
+  },
+  {
+   "id": "g2-073",
+   "type": "tf",
+   "q": "No creo que venga mañana.",
+   "a": true,
+   "ex": "No creo que takes the subjunctive.",
+   "en": "I don't think he's coming tomorrow."
+  },
+  {
+   "id": "g2-074",
+   "type": "tf",
+   "q": "Quiero que vienes conmigo.",
+   "a": false,
+   "ex": "Querer que takes the subjunctive.",
+   "en": "I want you to come with me.",
+   "full": "Quiero que vengas conmigo."
+  },
+  {
+   "id": "g2-075",
+   "type": "tf",
+   "q": "Es verdad que tengo prisa.",
+   "a": true,
+   "ex": "Es verdad que takes the indicative.",
+   "en": "It's true that I'm in a hurry."
+  },
+  {
+   "id": "g2-076",
+   "type": "tf",
+   "q": "Espero que estás bien.",
+   "a": false,
+   "ex": "Esperar que takes the subjunctive.",
+   "en": "I hope you're well.",
+   "full": "Espero que estés bien."
+  },
+  {
+   "id": "g2-077",
+   "type": "tf",
+   "q": "Espero aprobar el examen.",
+   "a": true,
+   "ex": "Same subject: infinitive.",
+   "en": "I hope to pass the exam."
+  },
+  {
+   "id": "g2-078",
+   "type": "gap",
+   "q": "Me encanta que ___ a verme. (venir, vosotros)",
+   "a": "vengáis",
+   "ex": "Emotion + que: subjunctive.",
+   "en": "I love that you come to see me."
+  },
+  {
+   "id": "g2-079",
+   "type": "gap",
+   "q": "Pienso que Ana ___ en casa. (estar)",
+   "a": "está",
+   "ex": "Pienso que: indicative.",
+   "en": "I think Ana is at home."
+  },
+  {
+   "id": "g2-080",
+   "type": "gap",
+   "q": "No pienso que Ana ___ en casa. (estar)",
+   "a": "esté",
+   "ex": "No pienso que: subjunctive.",
+   "en": "I don't think Ana is at home."
+  },
+  {
+   "id": "g2-081",
+   "type": "gap",
+   "q": "Es probable que ___ tarde. (llegar, ellos)",
+   "a": "lleguen",
+   "ex": "Es probable que: subjunctive.",
+   "en": "They'll probably arrive late."
+  },
+  {
+   "id": "g2-082",
+   "type": "gap",
+   "q": "Es evidente que ___ prisa. (tener, tú)",
+   "a": "tienes",
+   "ex": "Es evidente que: indicative.",
+   "en": "It's obvious that you're in a hurry."
+  },
+  {
+   "id": "g2-083",
+   "type": "gap",
+   "q": "Es una pena que no ___ venir. (poder, tú)",
+   "a": "puedas",
+   "ex": "Valuation: subjunctive. poder: o→ue.",
+   "en": "It's a pity you can't come."
+  },
+  {
+   "id": "g2-084",
+   "type": "gap",
+   "q": "Me gusta que ___ conmigo. (hablar, tú)",
+   "a": "hables",
+   "ex": "Me gusta que: subjunctive.",
+   "en": "I like that you talk to me."
+  },
+  {
+   "id": "g2-085",
+   "type": "gap",
+   "q": "Prefiero que ___ en tren. (ir, nosotros)",
+   "a": "vayamos",
+   "ex": "Preferir que: subjunctive.",
+   "en": "I prefer that we go by train."
+  },
+  {
+   "id": "g2-086",
+   "type": "gap",
+   "q": "Prefiero ___ en tren. (ir, yo)",
+   "a": "ir",
+   "ex": "Same subject: infinitive.",
+   "en": "I prefer to go by train."
+  },
+  {
+   "id": "g2-087",
+   "type": "gap",
+   "q": "Te recomiendo que ___ esta película. (ver, tú)",
+   "a": "veas",
+   "ex": "Recomendar que: subjunctive.",
+   "en": "I recommend that you see this film."
+  },
+  {
+   "id": "g2-088",
+   "type": "gap",
+   "q": "No me parece que ___ una buena idea. (ser)",
+   "a": "sea",
+   "ex": "No me parece que: subjunctive.",
+   "en": "I don't think it's a good idea."
+  },
+  {
+   "id": "g2-089",
+   "type": "gap",
+   "q": "Me parece que ___ una buena idea. (ser)",
+   "a": "es",
+   "ex": "Me parece que: indicative.",
+   "en": "I think it's a good idea."
+  },
+  {
+   "id": "g2-090",
+   "type": "spot",
+   "q": "Creo que sea demasiado tarde.",
+   "wrong": 2,
+   "a": "es",
+   "opts": [
+    "es",
+    "está",
+    "esté"
+   ],
+   "full": "Creo que es demasiado tarde.",
+   "ex": "Creo que takes the indicative.",
+   "en": "I think it's too late."
+  },
+  {
+   "id": "g2-091",
+   "type": "spot",
+   "q": "No creo que es demasiado tarde.",
+   "wrong": 3,
+   "a": "sea",
+   "opts": [
+    "sea",
+    "está",
+    "son"
+   ],
+   "full": "No creo que sea demasiado tarde.",
+   "ex": "No creo que takes the subjunctive.",
+   "en": "I don't think it's too late."
+  },
+  {
+   "id": "g2-092",
+   "type": "spot",
+   "q": "Es importante que tienes paciencia.",
+   "wrong": 3,
+   "a": "tengas",
+   "opts": [
+    "tengas",
+    "tener",
+    "tienen"
+   ],
+   "full": "Es importante que tengas paciencia.",
+   "ex": "Es importante que takes the subjunctive.",
+   "en": "It's important that you're patient."
+  },
+  {
+   "id": "g2-093",
+   "type": "spot",
+   "q": "Quiero que me dices la verdad.",
+   "wrong": 3,
+   "a": "digas",
+   "opts": [
+    "digas",
+    "decir",
+    "dije"
+   ],
+   "full": "Quiero que me digas la verdad.",
+   "ex": "Querer que takes the subjunctive.",
+   "en": "I want you to tell me the truth."
+  },
+  {
+   "id": "g2-094",
+   "type": "tiles",
+   "q": "I don't think she knows",
+   "a": "No creo que lo sepa",
+   "distractors": [
+    "sabe"
+   ],
+   "ex": "No creo que + subjunctive."
+  },
+  {
+   "id": "g2-095",
+   "type": "tiles",
+   "q": "I think she knows",
+   "a": "Creo que lo sabe",
+   "distractors": [
+    "sepa"
+   ],
+   "ex": "Creo que + indicative."
+  },
+  {
+   "id": "g2-096",
+   "type": "type",
+   "q": "I want to go (no change of subject).",
+   "a": "quiero ir",
+   "ex": "Same subject: infinitive."
+  },
+  {
+   "id": "g2-097",
+   "type": "type",
+   "q": "I want you to go.",
+   "a": "quiero que vayas",
+   "ex": "New subject: subjunctive."
+  },
+  {
+   "id": "g2-098",
+   "type": "mc",
+   "q": "Antes de ___, llámame.",
+   "opts": [
+    "salir",
+    "que salir",
+    "saliendo"
+   ],
+   "c": 0,
+   "ex": "Same subject: antes de + infinitive.",
+   "en": "Before leaving, call me.",
+   "fromMistake": true
+  },
+  {
+   "id": "g2-099",
+   "type": "mc",
+   "q": "Llámame antes de que ___ .",
+   "opts": [
+    "salga",
+    "salir",
+    "salgo"
+   ],
+   "c": 0,
+   "ex": "New subject: antes de que + subjunctive.",
+   "en": "Call me before I leave."
+  },
+  {
+   "id": "g2-100",
+   "type": "mc",
+   "q": "Te lo explico para que lo ___ .",
+   "opts": [
+    "entiendas",
+    "entiendes",
+    "entender"
+   ],
+   "c": 0,
+   "ex": "Para que + subjunctive.",
+   "en": "I'm explaining it so that you understand it."
+  },
+  {
+   "id": "g2-101",
+   "type": "mc",
+   "q": "Estudio para ___ un buen trabajo.",
+   "opts": [
+    "tener",
+    "tenga",
+    "que tener"
+   ],
+   "c": 0,
+   "ex": "Same subject: para + infinitive.",
+   "en": "I study to get a good job."
+  },
+  {
+   "id": "g2-102",
+   "type": "mc",
+   "q": "Cuando ___ a casa, te llamo.",
+   "opts": [
+    "llegue",
+    "llego",
+    "llegaré"
+   ],
+   "c": 0,
+   "ex": "Cuando + future idea: subjunctive.",
+   "en": "When I get home, I'll call you."
+  },
+  {
+   "id": "g2-103",
+   "type": "mc",
+   "q": "Cuando ___ a casa, siempre ceno.",
+   "opts": [
+    "llego",
+    "llegue",
+    "llegaré"
+   ],
+   "c": 0,
+   "ex": "Cuando + a habit: indicative.",
+   "en": "When I get home, I always have dinner."
+  },
+  {
+   "id": "g2-104",
+   "type": "mc",
+   "q": "Cuando ___ a Madrid, te escribí.",
+   "opts": [
+    "llegué",
+    "llegue",
+    "llegaré"
+   ],
+   "c": 0,
+   "ex": "Cuando + past: indicative.",
+   "en": "When I arrived in Madrid, I wrote to you."
+  },
+  {
+   "id": "g2-105",
+   "type": "mc",
+   "q": "Aunque ___ cansado, voy a salir. (I am tired: a fact)",
+   "opts": [
+    "estoy",
+    "esté",
+    "estar"
+   ],
+   "c": 0,
+   "ex": "Aunque + known fact: indicative.",
+   "en": "Although I'm tired, I'm going to go out."
+  },
+  {
+   "id": "g2-106",
+   "type": "mc",
+   "q": "Aunque ___ mañana, iremos a la playa. (it may rain)",
+   "opts": [
+    "llueva",
+    "llueve",
+    "llover"
+   ],
+   "c": 0,
+   "ex": "Aunque + uncertain future: subjunctive.",
+   "en": "Even if it rains tomorrow, we'll go to the beach."
+  },
+  {
+   "id": "g2-107",
+   "type": "gap",
+   "q": "Te llamo cuando ___ el trabajo. (terminar, yo)",
+   "a": "termine",
+   "ex": "Cuando + future idea: subjunctive.",
+   "en": "I'll call you when I finish work."
+  },
+  {
+   "id": "g2-108",
+   "type": "gap",
+   "q": "Cuando ___ dinero, compraré un coche. (tener, yo)",
+   "a": "tenga",
+   "ex": "Cuando + future idea: subjunctive.",
+   "en": "When I have money, I'll buy a car."
+  },
+  {
+   "id": "g2-109",
+   "type": "gap",
+   "q": "Cuando ___ pequeño, vivía en Utrecht. (ser, yo)",
+   "a": "era",
+   "ex": "Cuando + past: indicative.",
+   "en": "When I was little, I lived in Utrecht."
+  },
+  {
+   "id": "g2-110",
+   "type": "gap",
+   "q": "Te dejo la llave para que ___ entrar. (poder, tú)",
+   "a": "puedas",
+   "ex": "Para que + subjunctive.",
+   "en": "I'm leaving you the key so that you can get in."
+  },
+  {
+   "id": "g2-111",
+   "type": "gap",
+   "q": "Salimos antes de que ___ . (llover)",
+   "a": "llueva",
+   "ex": "Antes de que + subjunctive.",
+   "en": "We're leaving before it rains."
+  },
+  {
+   "id": "g2-112",
+   "type": "gap",
+   "q": "Después de que ___ , cenamos. (llegar, ellos)",
+   "a": "lleguen",
+   "ex": "Después de que + future idea: subjunctive.",
+   "en": "After they arrive, we'll have dinner."
+  },
+  {
+   "id": "g2-113",
+   "type": "gap",
+   "q": "Después de ___ , duermo un poco. (comer, yo)",
+   "a": "comer",
+   "ex": "Same subject: después de + infinitive.",
+   "en": "After eating, I sleep for a bit."
+  },
+  {
+   "id": "g2-114",
+   "type": "gapBank",
+   "q": "Aunque ___ poco dinero, viajamos mucho. (a fact)",
+   "a": [
+    "tenemos"
+   ],
+   "bank": [
+    "tenemos",
+    "tengamos",
+    "tener",
+    "tuviéramos"
+   ],
+   "ex": "Aunque + known fact: indicative.",
+   "en": "Although we have little money, we travel a lot."
+  },
+  {
+   "id": "g2-115",
+   "type": "gapBank",
+   "q": "Hablo despacio para que me ___ .",
+   "a": [
+    "entiendas"
+   ],
+   "bank": [
+    "entiendas",
+    "entiendes",
+    "entender",
+    "entendí"
+   ],
+   "ex": "Para que + subjunctive.",
+   "en": "I speak slowly so that you understand me."
+  },
+  {
+   "id": "g2-116",
+   "type": "gapBank",
+   "q": "Cuando ___ mayor, viviré en la costa.",
+   "a": [
+    "sea"
+   ],
+   "bank": [
+    "sea",
+    "soy",
+    "seré",
+    "ser"
+   ],
+   "ex": "Cuando + future idea: subjunctive.",
+   "en": "When I'm older, I'll live on the coast."
+  },
+  {
+   "id": "g2-117",
+   "type": "tiles",
+   "q": "When I arrive, I'll call you",
+   "a": "Cuando llegue, te llamo",
+   "distractors": [
+    "llego"
+   ],
+   "ex": "Cuando + future idea: subjunctive."
+  }
+ ]
+}

@@ -13,91 +13,104 @@
      "es": "¿Tienen mesa para dos?",
      "en": "Do you have a table for two?",
      "pos": "phrase",
-     "ex": "Buenas noches, ¿tienen mesa para dos en la terraza?"
+     "ex": "Buenas noches, ¿tienen mesa para dos?",
+     "exEn": "Good evening, do you have a table for two?"
     },
     {
      "id": "res-002",
      "es": "reservar mesa",
      "en": "to book a table",
      "pos": "verb",
-     "ex": "Es mejor reservar mesa porque los sábados se llena mucho."
+     "ex": "Es mejor reservar mesa el sábado.",
+     "exEn": "It's better to book a table on Saturday."
     },
     {
      "id": "res-003",
      "es": "la terraza",
      "en": "the terrace",
      "pos": "noun",
-     "ex": "Si hace sol, preferimos sentarnos en la terraza del bar."
+     "ex": "Comemos en la terraza si hace sol.",
+     "exEn": "We'll eat on the terrace if it's sunny."
     },
     {
      "id": "res-004",
      "es": "la carta",
      "en": "the menu",
      "pos": "noun",
-     "ex": "¿Nos puede traer la carta, por favor? Aún no hemos decidido."
+     "ex": "¿Nos trae la carta, por favor?",
+     "exEn": "Can you bring us the menu, please?"
     },
     {
      "id": "res-005",
      "es": "el menú del día",
      "en": "the set lunch menu",
      "pos": "noun",
-     "ex": "El menú del día cuesta catorce euros e incluye bebida."
+     "ex": "El menú del día cuesta catorce euros.",
+     "exEn": "The set lunch menu costs fourteen euros."
     },
     {
      "id": "res-006",
      "es": "el camarero",
      "en": "the waiter",
      "pos": "noun",
-     "ex": "El camarero nos ha recomendado el pescado de hoy."
+     "ex": "El camarero es muy simpático.",
+     "exEn": "The waiter is very friendly."
     },
     {
      "id": "res-007",
      "es": "de primero",
      "en": "for the first course",
      "pos": "phrase",
-     "ex": "De primero quiero la ensalada mixta, por favor."
+     "ex": "De primero quiero una ensalada.",
+     "exEn": "For the first course I want a salad."
     },
     {
      "id": "res-008",
      "es": "de segundo",
      "en": "for the main course",
      "pos": "phrase",
-     "ex": "De segundo voy a tomar pollo con patatas."
+     "ex": "De segundo voy a tomar pollo.",
+     "exEn": "For the main course I'll have chicken."
     },
     {
      "id": "res-009",
      "es": "de postre",
      "en": "for dessert",
      "pos": "phrase",
-     "ex": "De postre, ¿qué tienen hoy? ¿Hay flan casero?"
+     "ex": "De postre, ¿qué tienen hoy?",
+     "exEn": "For dessert, what do you have today?"
     },
     {
      "id": "res-010",
      "es": "¿Qué me recomienda?",
      "en": "What do you recommend?",
      "pos": "phrase",
-     "ex": "No conozco estos platos, ¿qué me recomienda usted?"
+     "ex": "No conozco este plato, ¿qué me recomienda?",
+     "exEn": "I don't know this dish, what do you recommend?"
     },
     {
      "id": "res-011",
      "es": "Quería…",
      "en": "I'd like…",
      "pos": "phrase",
-     "ex": "Quería una mesa cerca de la ventana, si es posible."
+     "ex": "Quería una mesa cerca de la ventana.",
+     "exEn": "I'd like a table near the window."
     },
     {
      "id": "res-012",
      "es": "Para mí…",
      "en": "For me…",
      "pos": "phrase",
-     "ex": "Para mí, una cerveza y una ración de croquetas."
+     "ex": "Para mí, una cerveza, por favor.",
+     "exEn": "For me, a beer, please."
     },
     {
      "id": "res-013",
      "es": "¿Me pone…?",
      "en": "Can I have…? (at a bar)",
      "pos": "phrase",
-     "ex": "Buenas tardes, ¿me pone una caña y unas aceitunas?"
+     "ex": "Buenas tardes, ¿me pone una caña?",
+     "exEn": "Good afternoon, can I have a small beer?"
     }
    ]
   },
@@ -110,92 +123,105 @@
      "es": "la ración",
      "en": "the portion (to share)",
      "pos": "noun",
-     "ex": "Pedimos una ración de calamares para compartir entre todos."
+     "ex": "Pedimos una ración de calamares.",
+     "exEn": "We're ordering a portion of squid."
     },
     {
      "id": "res-015",
      "es": "la media ración",
      "en": "the half portion",
      "pos": "noun",
-     "ex": "Para mí solo, mejor una media ración de tortilla."
+     "ex": "Para mí, una media ración de tortilla.",
+     "exEn": "For me, a half portion of omelette."
     },
     {
      "id": "res-016",
      "es": "la tapa",
      "en": "the tapa",
      "pos": "noun",
-     "ex": "En Granada te ponen una tapa gratis con cada bebida."
+     "ex": "En Granada la tapa es gratis.",
+     "exEn": "In Granada the tapa is free."
     },
     {
      "id": "res-017",
      "es": "el pincho",
      "en": "the bar snack on bread",
      "pos": "noun",
-     "ex": "Este bar tiene un pincho de tortilla buenísimo."
+     "ex": "Quiero un pincho de tortilla.",
+     "exEn": "I want a piece of omelette on bread."
     },
     {
      "id": "res-018",
      "es": "la caña",
      "en": "the small draught beer",
      "pos": "noun",
-     "ex": "Una caña bien fría es perfecta después de andar tanto."
+     "ex": "Una caña, por favor, que hace calor.",
+     "exEn": "A small beer, please, it's hot."
     },
     {
      "id": "res-019",
      "es": "el tinto de verano",
      "en": "red wine with lemonade",
      "pos": "noun",
-     "ex": "En verano prefiero un tinto de verano a una cerveza."
+     "ex": "En verano tomo tinto de verano.",
+     "exEn": "In summer I drink red wine with lemonade."
     },
     {
      "id": "res-020",
      "es": "el café con leche",
      "en": "the white coffee",
      "pos": "noun",
-     "ex": "Por las mañanas tomo un café con leche y una tostada."
+     "ex": "Tomo un café con leche por la mañana.",
+     "exEn": "I have a white coffee in the morning."
     },
     {
      "id": "res-021",
      "es": "el cortado",
      "en": "the espresso with a dash of milk",
      "pos": "noun",
-     "ex": "Ponme un cortado y la cuenta, que tengo prisa."
+     "ex": "Ponme un cortado, por favor.",
+     "exEn": "I'll have an espresso with a dash of milk, please."
     },
     {
      "id": "res-022",
      "es": "para llevar",
      "en": "to take away",
      "pos": "phrase",
-     "ex": "Quiero dos cafés para llevar, por favor, que vamos tarde."
+     "ex": "Dos cafés para llevar, por favor.",
+     "exEn": "Two coffees to take away, please."
     },
     {
      "id": "res-023",
      "es": "para tomar aquí",
      "en": "to have here",
      "pos": "phrase",
-     "ex": "¿Es para tomar aquí o se lo pongo para llevar?"
+     "ex": "¿Es para tomar aquí?",
+     "exEn": "Is it to have here?"
     },
     {
      "id": "res-024",
      "es": "el zumo de naranja",
      "en": "the orange juice",
      "pos": "noun",
-     "ex": "De desayuno quiero un zumo de naranja natural y pan."
+     "ex": "Quiero un zumo de naranja.",
+     "exEn": "I want an orange juice."
     },
     {
      "id": "res-025",
      "es": "el agua con gas",
      "en": "the sparkling water",
      "pos": "noun",
-     "ex": "Prefiero agua con gas porque la del grifo no me gusta.",
-     "note": "el agua, but feminine: el agua fría."
+     "ex": "Prefiero agua con gas.",
+     "note": "el agua, but feminine: el agua fría.",
+     "exEn": "I prefer sparkling water."
     },
     {
      "id": "res-026",
      "es": "la tostada",
      "en": "the toast",
      "pos": "noun",
-     "ex": "Una tostada con tomate y aceite es mi desayuno favorito."
+     "ex": "Tomo una tostada con tomate.",
+     "exEn": "I have toast with tomato."
     }
    ]
   },
@@ -208,93 +234,106 @@
      "es": "sin gluten",
      "en": "gluten-free",
      "pos": "phrase",
-     "ex": "¿Tienen pan sin gluten? Mi hermana no puede comerlo."
+     "ex": "¿Tienen pan sin gluten?",
+     "exEn": "Do you have gluten-free bread?"
     },
     {
      "id": "res-028",
      "es": "Soy vegetariano/a",
      "en": "I'm vegetarian",
      "pos": "phrase",
-     "ex": "Soy vegetariana, así que no como carne ni pescado.",
-     "cloze": "Soy vegetariana"
+     "ex": "Soy vegetariana y no como carne.",
+     "cloze": "Soy vegetariana",
+     "exEn": "I'm vegetarian and I don't eat meat."
     },
     {
      "id": "res-029",
      "es": "Soy alérgico/a a…",
      "en": "I'm allergic to…",
      "pos": "phrase",
-     "ex": "Soy alérgico a los frutos secos; ¿este postre lleva nueces?",
-     "cloze": "Soy alérgico a"
+     "ex": "Soy alérgico a los frutos secos.",
+     "cloze": "Soy alérgico a",
+     "exEn": "I'm allergic to nuts."
     },
     {
      "id": "res-030",
      "es": "picante",
      "en": "spicy",
      "pos": "adj",
-     "ex": "¿Esta salsa es muy picante? No me gusta demasiado."
+     "ex": "Esta salsa es muy picante.",
+     "exEn": "This sauce is very spicy."
     },
     {
      "id": "res-031",
      "es": "poco hecho",
      "en": "rare (meat)",
      "pos": "adj",
-     "ex": "Quiero el filete poco hecho, por favor, con patatas."
+     "ex": "Quiero el filete poco hecho.",
+     "exEn": "I want the steak rare."
     },
     {
      "id": "res-032",
      "es": "al punto",
      "en": "medium (meat)",
      "pos": "phrase",
-     "ex": "La carne al punto es como más me gusta a mí."
+     "ex": "Me gusta la carne al punto.",
+     "exEn": "I like my meat medium."
     },
     {
      "id": "res-033",
      "es": "muy hecho",
      "en": "well done (meat)",
      "pos": "adj",
-     "ex": "A mi padre le gusta el filete muy hecho."
+     "ex": "Mi padre quiere el filete muy hecho.",
+     "exEn": "My father wants the steak well done."
     },
     {
      "id": "res-034",
      "es": "¿Qué lleva?",
      "en": "What's in it?",
      "pos": "phrase",
-     "ex": "Esta ensalada parece muy buena, ¿qué lleva exactamente?"
+     "ex": "Esta ensalada, ¿qué lleva?",
+     "exEn": "This salad, what's in it?"
     },
     {
      "id": "res-035",
      "es": "¿Lleva carne?",
      "en": "Does it have meat in it?",
      "pos": "phrase",
-     "ex": "Perdone, ¿lleva carne esta sopa? Es que no como."
+     "ex": "Perdone, ¿lleva carne esta sopa?",
+     "exEn": "Excuse me, does this soup have meat in it?"
     },
     {
      "id": "res-036",
      "es": "la carne",
      "en": "the meat",
      "pos": "noun",
-     "ex": "No como carne roja, pero sí pollo de vez en cuando."
+     "ex": "No como carne roja.",
+     "exEn": "I don't eat red meat."
     },
     {
      "id": "res-037",
      "es": "el pescado",
      "en": "the fish",
      "pos": "noun",
-     "ex": "El pescado de este restaurante es fresco y muy barato."
+     "ex": "El pescado está muy fresco.",
+     "exEn": "The fish is very fresh."
     },
     {
      "id": "res-038",
      "es": "las verduras",
      "en": "the vegetables",
      "pos": "noun",
-     "ex": "De primero tomamos una crema de verduras muy rica."
+     "ex": "Me gusta la crema de verduras.",
+     "exEn": "I like vegetable soup."
     },
     {
      "id": "res-039",
      "es": "el marisco",
      "en": "the seafood",
      "pos": "noun",
-     "ex": "En la costa gallega el marisco es excelente, pero caro."
+     "ex": "El marisco aquí es muy bueno.",
+     "exEn": "The seafood here is very good."
     }
    ]
   },
@@ -307,91 +346,104 @@
      "es": "Está buenísimo",
      "en": "It's delicious",
      "pos": "phrase",
-     "ex": "Prueba este arroz, está buenísimo; ¿quieres un poco más?"
+     "ex": "Prueba este arroz, está buenísimo.",
+     "exEn": "Try this rice, it's delicious."
     },
     {
      "id": "res-041",
      "es": "Estaba todo muy rico",
      "en": "It was all very good",
      "pos": "phrase",
-     "ex": "Gracias, estaba todo muy rico, sobre todo el postre."
+     "ex": "Gracias, estaba todo muy rico.",
+     "exEn": "Thank you, it was all very good."
     },
     {
      "id": "res-042",
      "es": "la cuchara",
      "en": "the spoon",
      "pos": "noun",
-     "ex": "¿Me trae otra cuchara, por favor? Esta se me ha caído."
+     "ex": "¿Me trae otra cuchara, por favor?",
+     "exEn": "Can you bring me another spoon, please?"
     },
     {
      "id": "res-043",
      "es": "el tenedor",
      "en": "the fork",
      "pos": "noun",
-     "ex": "Perdone, me falta un tenedor en esta mesa."
+     "ex": "Perdone, me falta un tenedor.",
+     "exEn": "Excuse me, I don't have a fork."
     },
     {
      "id": "res-044",
      "es": "el cuchillo",
      "en": "the knife",
      "pos": "noun",
-     "ex": "Este cuchillo no corta bien; ¿me puede traer otro?"
+     "ex": "Este cuchillo no corta bien.",
+     "exEn": "This knife doesn't cut well."
     },
     {
      "id": "res-045",
      "es": "la servilleta",
      "en": "the napkin",
      "pos": "noun",
-     "ex": "¿Me pasas una servilleta? Me he manchado la camisa."
+     "ex": "¿Me pasas una servilleta?",
+     "exEn": "Can you pass me a napkin?"
     },
     {
      "id": "res-046",
      "es": "el vaso",
      "en": "the glass",
      "pos": "noun",
-     "ex": "¿Me trae un vaso de agua, por favor? Tengo sed."
+     "ex": "¿Me trae un vaso de agua?",
+     "exEn": "Can you bring me a glass of water?"
     },
     {
      "id": "res-047",
      "es": "la botella",
      "en": "the bottle",
      "pos": "noun",
-     "ex": "Nos trae una botella de vino tinto de la casa."
+     "ex": "Una botella de vino tinto, por favor.",
+     "exEn": "A bottle of red wine, please."
     },
     {
      "id": "res-048",
      "es": "el plato",
      "en": "the dish; the plate",
      "pos": "noun",
-     "ex": "Este plato es típico de aquí y lleva mucho ajo."
+     "ex": "Este plato es típico de aquí.",
+     "exEn": "This dish is typical of this area."
     },
     {
      "id": "res-049",
      "es": "la bebida",
      "en": "the drink",
      "pos": "noun",
-     "ex": "La bebida no está incluida en el precio del menú."
+     "ex": "La bebida no está incluida.",
+     "exEn": "The drink isn't included."
     },
     {
      "id": "res-050",
      "es": "el pan",
      "en": "the bread",
      "pos": "noun",
-     "ex": "¿Nos trae más pan, por favor? Está muy bueno."
+     "ex": "¿Nos trae más pan, por favor?",
+     "exEn": "Can you bring us more bread, please?"
     },
     {
      "id": "res-051",
      "es": "Tengo hambre",
      "en": "I'm hungry",
      "pos": "phrase",
-     "ex": "Tengo hambre; ¿paramos a comer algo en aquel bar?"
+     "ex": "Tengo hambre, ¿comemos algo?",
+     "exEn": "I'm hungry, shall we eat something?"
     },
     {
      "id": "res-052",
      "es": "Tengo sed",
      "en": "I'm thirsty",
      "pos": "phrase",
-     "ex": "Hace mucho calor y tengo sed; vamos a tomar algo."
+     "ex": "Hace calor y tengo sed.",
+     "exEn": "It's hot and I'm thirsty."
     }
    ]
   },
@@ -404,91 +456,104 @@
      "es": "¿Me trae la cuenta?",
      "en": "Can you bring me the bill?",
      "pos": "phrase",
-     "ex": "Perdone, ¿me trae la cuenta? Tenemos un poco de prisa."
+     "ex": "Perdone, ¿me trae la cuenta?",
+     "exEn": "Excuse me, can you bring me the bill?"
     },
     {
      "id": "res-054",
      "es": "La cuenta, por favor",
      "en": "The bill, please",
      "pos": "phrase",
-     "ex": "Cuando pueda, la cuenta, por favor; ya hemos terminado."
+     "ex": "Ya hemos terminado; la cuenta, por favor.",
+     "exEn": "We've finished; the bill, please."
     },
     {
      "id": "res-055",
      "es": "¿Se puede pagar con tarjeta?",
      "en": "Can I pay by card?",
      "pos": "phrase",
-     "ex": "¿Se puede pagar con tarjeta o solo en efectivo?"
+     "ex": "¿Se puede pagar con tarjeta aquí?",
+     "exEn": "Can I pay by card here?"
     },
     {
      "id": "res-056",
      "es": "Invito yo",
      "en": "It's on me",
      "pos": "phrase",
-     "ex": "Hoy invito yo, que ayer pagaste tú la cena."
+     "ex": "Hoy invito yo, de verdad.",
+     "exEn": "It's on me today, really."
     },
     {
      "id": "res-057",
      "es": "pagar a medias",
      "en": "to split the bill",
      "pos": "verb",
-     "ex": "Si te parece, podemos pagar a medias la comida de hoy."
+     "ex": "Podemos pagar a medias la cena.",
+     "exEn": "We can split the bill for dinner."
     },
     {
      "id": "res-058",
      "es": "la propina",
      "en": "the tip",
      "pos": "noun",
-     "ex": "En España la propina no es obligatoria, pero se agradece."
+     "ex": "En España la propina no es obligatoria.",
+     "exEn": "In Spain a tip isn't compulsory."
     },
     {
      "id": "res-059",
      "es": "en efectivo",
      "en": "in cash",
      "pos": "phrase",
-     "ex": "Este bar solo acepta pagos en efectivo, no tarjetas."
+     "ex": "Aquí solo se puede pagar en efectivo.",
+     "exEn": "Here you can only pay in cash."
     },
     {
      "id": "res-060",
      "es": "¿Está incluido?",
      "en": "Is it included?",
      "pos": "phrase",
-     "ex": "El pan aparece en la cuenta, ¿está incluido en el menú?"
+     "ex": "El pan, ¿está incluido?",
+     "exEn": "The bread, is it included?"
     },
     {
      "id": "res-061",
      "es": "el cambio",
      "en": "the change",
      "pos": "noun",
-     "ex": "Quédese con el cambio, ha sido todo muy amable."
+     "ex": "Quédese con el cambio.",
+     "exEn": "Keep the change."
     },
     {
      "id": "res-062",
      "es": "¿Cuánto es?",
      "en": "How much is it?",
      "pos": "phrase",
-     "ex": "Ya hemos terminado, ¿cuánto es en total, por favor?"
+     "ex": "Ya hemos terminado, ¿cuánto es?",
+     "exEn": "We've finished, how much is it?"
     },
     {
      "id": "res-063",
      "es": "¿Me cobra?",
      "en": "Can I pay? (to the waiter)",
      "pos": "phrase",
-     "ex": "Perdone, ¿me cobra? Tengo que irme ya al trabajo."
+     "ex": "Perdone, ¿me cobra?",
+     "exEn": "Excuse me, can I pay?"
     },
     {
      "id": "res-064",
      "es": "Nos vamos",
      "en": "We're off",
      "pos": "phrase",
-     "ex": "Gracias por todo, nos vamos ya; hasta la próxima."
+     "ex": "Gracias por todo, nos vamos ya.",
+     "exEn": "Thanks for everything, we're off now."
     },
     {
      "id": "res-065",
      "es": "Hasta la próxima",
      "en": "Until next time",
      "pos": "phrase",
-     "ex": "Todo muy bueno, gracias y hasta la próxima, de verdad."
+     "ex": "Gracias y hasta la próxima.",
+     "exEn": "Thank you and until next time."
     }
    ]
   }

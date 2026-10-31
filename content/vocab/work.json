@@ -1,0 +1,514 @@
+{
+ "id": "work",
+ "title": "Work & job hunting",
+ "es": "Trabajo",
+ "priority": 10,
+ "packs": [
+  {
+   "id": "work-1",
+   "title": "Looking for a job",
+   "entries": [
+    {
+     "id": "wrk-001",
+     "es": "la entrevista",
+     "en": "the interview",
+     "pos": "noun",
+     "ex": "Mañana tengo una entrevista de trabajo.",
+     "exEn": "Tomorrow I have a job interview."
+    },
+    {
+     "id": "wrk-002",
+     "es": "el currículum",
+     "en": "the CV",
+     "pos": "noun",
+     "ex": "He enviado mi currículum a tres empresas.",
+     "exEn": "I've sent my CV to three companies."
+    },
+    {
+     "id": "wrk-003",
+     "es": "la oferta de trabajo",
+     "en": "the job offer",
+     "pos": "noun",
+     "ex": "He visto una oferta de trabajo interesante.",
+     "exEn": "I've seen an interesting job offer."
+    },
+    {
+     "id": "wrk-004",
+     "es": "el puesto",
+     "en": "the position",
+     "pos": "noun",
+     "ex": "El puesto es en Madrid.",
+     "exEn": "The position is in Madrid."
+    },
+    {
+     "id": "wrk-005",
+     "es": "solicitar un puesto",
+     "en": "to apply for a position",
+     "pos": "verb",
+     "ex": "Quiero solicitar un puesto en tu empresa.",
+     "exEn": "I want to apply for a position at your company."
+    },
+    {
+     "id": "wrk-006",
+     "es": "buscar trabajo",
+     "en": "to look for work",
+     "pos": "verb",
+     "ex": "Estoy empezando a buscar trabajo en España.",
+     "exEn": "I'm starting to look for work in Spain."
+    },
+    {
+     "id": "wrk-007",
+     "es": "estar en paro",
+     "en": "to be unemployed",
+     "pos": "verb",
+     "ex": "Mi hermano está en paro desde enero.",
+     "exEn": "My brother has been unemployed since January.",
+     "cloze": "está en paro"
+    },
+    {
+     "id": "wrk-008",
+     "es": "contratar",
+     "en": "to hire",
+     "pos": "verb",
+     "ex": "La empresa va a contratar a cinco personas.",
+     "exEn": "The company is going to hire five people."
+    },
+    {
+     "id": "wrk-009",
+     "es": "despedir",
+     "en": "to fire",
+     "pos": "verb",
+     "ex": "No quieren despedir a nadie este año.",
+     "exEn": "They don't want to fire anyone this year."
+    },
+    {
+     "id": "wrk-010",
+     "es": "dimitir",
+     "en": "to resign",
+     "pos": "verb",
+     "ex": "Mi jefa va a dimitir en enero.",
+     "exEn": "My boss is going to resign in January."
+    },
+    {
+     "id": "wrk-011",
+     "es": "la experiencia",
+     "en": "the experience",
+     "pos": "noun",
+     "ex": "Tengo mucha experiencia en este sector.",
+     "exEn": "I have a lot of experience in this sector."
+    },
+    {
+     "id": "wrk-012",
+     "es": "las competencias",
+     "en": "the skills",
+     "pos": "noun",
+     "ex": "Mis competencias son muy útiles aquí.",
+     "exEn": "My skills are very useful here."
+    },
+    {
+     "id": "wrk-013",
+     "es": "el sector",
+     "en": "the sector",
+     "pos": "noun",
+     "ex": "Trabajo en el sector de la tecnología.",
+     "exEn": "I work in the technology sector."
+    },
+    {
+     "id": "wrk-014",
+     "es": "la carta de presentación",
+     "en": "the cover letter",
+     "pos": "noun",
+     "ex": "Falta la carta de presentación.",
+     "exEn": "The cover letter is missing."
+    },
+    {
+     "id": "wrk-015",
+     "es": "los idiomas",
+     "en": "the languages",
+     "pos": "noun",
+     "ex": "Para este puesto necesitas dos idiomas.",
+     "exEn": "For this position you need two languages."
+    }
+   ]
+  },
+  {
+   "id": "work-2",
+   "title": "Conditions",
+   "entries": [
+    {
+     "id": "wrk-016",
+     "es": "el sueldo",
+     "en": "the salary",
+     "pos": "noun",
+     "ex": "El sueldo es bastante bueno.",
+     "exEn": "The salary is quite good."
+    },
+    {
+     "id": "wrk-017",
+     "es": "el ascenso",
+     "en": "the promotion",
+     "pos": "noun",
+     "ex": "Este año quiero pedir un ascenso.",
+     "exEn": "This year I want to ask for a promotion."
+    },
+    {
+     "id": "wrk-018",
+     "es": "la empresa",
+     "en": "the company",
+     "pos": "noun",
+     "ex": "Mi empresa tiene oficinas en Madrid.",
+     "exEn": "My company has offices in Madrid."
+    },
+    {
+     "id": "wrk-019",
+     "es": "la plantilla",
+     "en": "the staff",
+     "pos": "noun",
+     "ex": "La plantilla es muy joven.",
+     "exEn": "The staff is very young."
+    },
+    {
+     "id": "wrk-020",
+     "es": "el contrato indefinido",
+     "en": "the permanent contract",
+     "pos": "noun",
+     "ex": "Por fin tengo un contrato indefinido.",
+     "exEn": "At last I have a permanent contract."
+    },
+    {
+     "id": "wrk-021",
+     "es": "el contrato temporal",
+     "en": "the temporary contract",
+     "pos": "noun",
+     "ex": "Es un contrato temporal de seis meses.",
+     "exEn": "It's a six-month temporary contract."
+    },
+    {
+     "id": "wrk-022",
+     "es": "las condiciones",
+     "en": "the conditions",
+     "pos": "noun",
+     "ex": "Las condiciones de trabajo son buenas.",
+     "exEn": "The working conditions are good."
+    },
+    {
+     "id": "wrk-023",
+     "es": "trabajar en remoto",
+     "en": "to work remotely",
+     "pos": "verb",
+     "ex": "Puedo trabajar en remoto dos días a la semana.",
+     "exEn": "I can work remotely two days a week."
+    },
+    {
+     "id": "wrk-024",
+     "es": "trabajar desde casa",
+     "en": "to work from home",
+     "pos": "verb",
+     "ex": "Hoy voy a trabajar desde casa.",
+     "exEn": "Today I'm going to work from home."
+    },
+    {
+     "id": "wrk-025",
+     "es": "el horario",
+     "en": "the working hours",
+     "pos": "noun",
+     "ex": "Tengo un horario muy flexible.",
+     "exEn": "I have very flexible working hours."
+    },
+    {
+     "id": "wrk-026",
+     "es": "la jornada completa",
+     "en": "full-time",
+     "pos": "noun",
+     "ex": "Busco un trabajo a jornada completa.",
+     "exEn": "I'm looking for a full-time job."
+    },
+    {
+     "id": "wrk-027",
+     "es": "media jornada",
+     "en": "part-time",
+     "pos": "phrase",
+     "ex": "Mi novia trabaja media jornada.",
+     "exEn": "My girlfriend works part-time."
+    },
+    {
+     "id": "wrk-028",
+     "es": "los días libres",
+     "en": "the days off",
+     "pos": "noun",
+     "ex": "¿Cuántos días libres tienes al año?",
+     "exEn": "How many days off do you have a year?"
+    },
+    {
+     "id": "wrk-029",
+     "es": "la baja",
+     "en": "sick leave",
+     "pos": "noun",
+     "ex": "Mi compañero está de baja esta semana.",
+     "exEn": "My colleague is on sick leave this week."
+    },
+    {
+     "id": "wrk-030",
+     "es": "las vacaciones pagadas",
+     "en": "paid holiday",
+     "pos": "noun",
+     "ex": "Tenemos veintidós días de vacaciones pagadas.",
+     "exEn": "We have twenty-two days of paid holiday."
+    }
+   ]
+  },
+  {
+   "id": "work-3",
+   "title": "In the office",
+   "entries": [
+    {
+     "id": "wrk-031",
+     "es": "el jefe",
+     "en": "the boss",
+     "pos": "noun",
+     "ex": "Mi jefe es muy simpático.",
+     "exEn": "My boss is very friendly."
+    },
+    {
+     "id": "wrk-032",
+     "es": "el compañero",
+     "en": "the colleague",
+     "pos": "noun",
+     "ex": "Como con un compañero del trabajo.",
+     "exEn": "I'm having lunch with a colleague from work."
+    },
+    {
+     "id": "wrk-033",
+     "es": "la reunión",
+     "en": "the meeting",
+     "pos": "noun",
+     "ex": "Tengo una reunión a las diez.",
+     "exEn": "I have a meeting at ten."
+    },
+    {
+     "id": "wrk-034",
+     "es": "el plazo",
+     "en": "the deadline",
+     "pos": "noun",
+     "ex": "El plazo termina el viernes.",
+     "exEn": "The deadline is on Friday."
+    },
+    {
+     "id": "wrk-035",
+     "es": "entregar",
+     "en": "to hand in",
+     "pos": "verb",
+     "ex": "Tengo que entregar el informe hoy.",
+     "exEn": "I have to hand in the report today."
+    },
+    {
+     "id": "wrk-036",
+     "es": "el informe",
+     "en": "the report",
+     "pos": "noun",
+     "ex": "El informe tiene veinte páginas.",
+     "exEn": "The report has twenty pages."
+    },
+    {
+     "id": "wrk-037",
+     "es": "el cliente",
+     "en": "the client",
+     "pos": "noun",
+     "ex": "El cliente quiere verlo hoy.",
+     "exEn": "The client wants to see it today."
+    },
+    {
+     "id": "wrk-038",
+     "es": "el proyecto",
+     "en": "the project",
+     "pos": "noun",
+     "ex": "Estoy trabajando en un proyecto nuevo.",
+     "exEn": "I'm working on a new project."
+    },
+    {
+     "id": "wrk-039",
+     "es": "la consultoría",
+     "en": "consulting",
+     "pos": "noun",
+     "ex": "Trabajo en consultoría desde 2020.",
+     "exEn": "I've worked in consulting since 2020."
+    },
+    {
+     "id": "wrk-040",
+     "es": "¿Qué tal en el trabajo?",
+     "en": "How's work?",
+     "pos": "phrase",
+     "ex": "Hola, Ana, ¿qué tal en el trabajo?",
+     "exEn": "Hi, Ana, how's work?"
+    },
+    {
+     "id": "wrk-041",
+     "es": "el correo",
+     "en": "the email",
+     "pos": "noun",
+     "ex": "Te mando un correo ahora.",
+     "exEn": "I'll send you an email now."
+    },
+    {
+     "id": "wrk-042",
+     "es": "la oficina",
+     "en": "the office",
+     "pos": "noun",
+     "ex": "La oficina está en el centro.",
+     "exEn": "The office is in the centre."
+    },
+    {
+     "id": "wrk-043",
+     "es": "la presentación",
+     "en": "the presentation",
+     "pos": "noun",
+     "ex": "Mañana hago una presentación importante.",
+     "exEn": "Tomorrow I'm giving an important presentation."
+    },
+    {
+     "id": "wrk-044",
+     "es": "el equipo",
+     "en": "the team",
+     "pos": "noun",
+     "ex": "Mi equipo tiene ocho personas.",
+     "exEn": "My team has eight people."
+    },
+    {
+     "id": "wrk-045",
+     "es": "la tarea",
+     "en": "the task",
+     "pos": "noun",
+     "ex": "Esta tarea es muy fácil.",
+     "exEn": "This task is very easy."
+    }
+   ]
+  },
+  {
+   "id": "work-4",
+   "title": "Talking about your job",
+   "entries": [
+    {
+     "id": "wrk-046",
+     "es": "Trabajo como…",
+     "en": "I work as…",
+     "pos": "phrase",
+     "ex": "Trabajo como consultor en una empresa pequeña.",
+     "exEn": "I work as a consultant at a small company."
+    },
+    {
+     "id": "wrk-047",
+     "es": "Me dedico a…",
+     "en": "I work in…",
+     "pos": "phrase",
+     "ex": "Me dedico a la consultoría.",
+     "exEn": "I work in consulting."
+    },
+    {
+     "id": "wrk-048",
+     "es": "Estoy a cargo de…",
+     "en": "I'm in charge of…",
+     "pos": "phrase",
+     "ex": "Estoy a cargo de tres proyectos.",
+     "exEn": "I'm in charge of three projects."
+    },
+    {
+     "id": "wrk-049",
+     "es": "Llevo … años trabajando",
+     "en": "I've been working for … years",
+     "pos": "phrase",
+     "ex": "Llevo cinco años trabajando aquí.",
+     "exEn": "I've been working here for five years.",
+     "cloze": "Llevo cinco años trabajando"
+    },
+    {
+     "id": "wrk-050",
+     "es": "Estoy muy liado con…",
+     "en": "I'm very busy with…",
+     "pos": "phrase",
+     "ex": "Estoy muy liado con el proyecto.",
+     "exEn": "I'm very busy with the project."
+    },
+    {
+     "id": "wrk-051",
+     "es": "el salario mínimo",
+     "en": "the minimum wage",
+     "pos": "noun",
+     "ex": "El salario mínimo sube este año.",
+     "exEn": "The minimum wage goes up this year."
+    },
+    {
+     "id": "wrk-052",
+     "es": "los autónomos",
+     "en": "the self-employed",
+     "pos": "noun",
+     "ex": "Los autónomos pagan muchos impuestos.",
+     "exEn": "The self-employed pay a lot of tax."
+    },
+    {
+     "id": "wrk-053",
+     "es": "ganar dinero",
+     "en": "to earn money",
+     "pos": "verb",
+     "ex": "Quiero ganar dinero en España.",
+     "exEn": "I want to earn money in Spain."
+    },
+    {
+     "id": "wrk-054",
+     "es": "cambiar de trabajo",
+     "en": "to change jobs",
+     "pos": "verb",
+     "ex": "Quiero cambiar de trabajo este año.",
+     "exEn": "I want to change jobs this year."
+    },
+    {
+     "id": "wrk-055",
+     "es": "jubilarse",
+     "en": "to retire",
+     "pos": "verb",
+     "ex": "Mi padre va a jubilarse pronto.",
+     "exEn": "My father is going to retire soon."
+    },
+    {
+     "id": "wrk-056",
+     "es": "la formación",
+     "en": "the training",
+     "pos": "noun",
+     "ex": "La empresa paga la formación.",
+     "exEn": "The company pays for the training."
+    },
+    {
+     "id": "wrk-057",
+     "es": "la carrera",
+     "en": "the university degree",
+     "pos": "noun",
+     "ex": "Terminé la carrera en 2015.",
+     "exEn": "I finished my degree in 2015."
+    },
+    {
+     "id": "wrk-058",
+     "es": "el trabajo en equipo",
+     "en": "teamwork",
+     "pos": "noun",
+     "ex": "Aquí es importante el trabajo en equipo.",
+     "exEn": "Teamwork is important here."
+    },
+    {
+     "id": "wrk-059",
+     "es": "el desarrollo",
+     "en": "the development",
+     "pos": "noun",
+     "ex": "Trabajo en el desarrollo de productos.",
+     "exEn": "I work in product development."
+    },
+    {
+     "id": "wrk-060",
+     "es": "los beneficios",
+     "en": "the benefits; the profits",
+     "pos": "noun",
+     "ex": "Este puesto tiene muchos beneficios.",
+     "exEn": "This position has a lot of benefits."
+    }
+   ]
+  }
+ ]
+}

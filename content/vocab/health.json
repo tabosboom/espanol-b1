@@ -1,0 +1,319 @@
+{
+ "id": "health",
+ "title": "Health, body & fitness",
+ "es": "Salud y deporte",
+ "priority": 14,
+ "packs": [
+  {
+   "id": "health-1",
+   "title": "Training",
+   "entries": [
+    {
+     "id": "hea-001",
+     "es": "entrenar",
+     "en": "to train",
+     "pos": "verb",
+     "ex": "Voy a entrenar tres veces a la semana.",
+     "exEn": "I'm going to train three times a week."
+    },
+    {
+     "id": "hea-002",
+     "es": "el entrenamiento",
+     "en": "the training session",
+     "pos": "noun",
+     "ex": "El entrenamiento empieza a las siete.",
+     "exEn": "The training session starts at seven."
+    },
+    {
+     "id": "hea-003",
+     "es": "la media maratón",
+     "en": "the half marathon",
+     "pos": "noun",
+     "ex": "En mayo corro la media maratón.",
+     "exEn": "In May I'm running the half marathon."
+    },
+    {
+     "id": "hea-004",
+     "es": "correr",
+     "en": "to run",
+     "pos": "verb",
+     "ex": "Me gusta correr por la mañana.",
+     "exEn": "I like running in the morning."
+    },
+    {
+     "id": "hea-005",
+     "es": "estirar",
+     "en": "to stretch",
+     "pos": "verb",
+     "ex": "Es importante estirar después de correr.",
+     "exEn": "It's important to stretch after running."
+    },
+    {
+     "id": "hea-006",
+     "es": "el gimnasio",
+     "en": "the gym",
+     "pos": "noun",
+     "ex": "Voy al gimnasio después del trabajo.",
+     "exEn": "I go to the gym after work."
+    },
+    {
+     "id": "hea-007",
+     "es": "el pádel",
+     "en": "padel",
+     "pos": "noun",
+     "ex": "Juego al pádel con mis amigos.",
+     "exEn": "I play padel with my friends."
+    },
+    {
+     "id": "hea-008",
+     "es": "estar en forma",
+     "en": "to be fit",
+     "pos": "verb",
+     "ex": "Quiero estar en forma para el verano.",
+     "exEn": "I want to be fit for the summer."
+    },
+    {
+     "id": "hea-009",
+     "es": "ponerse en forma",
+     "en": "to get fit",
+     "pos": "verb",
+     "ex": "Voy a ponerme en forma este año.",
+     "exEn": "I'm going to get fit this year.",
+     "cloze": "ponerme en forma"
+    },
+    {
+     "id": "hea-010",
+     "es": "el músculo",
+     "en": "the muscle",
+     "pos": "noun",
+     "ex": "Me duele este músculo.",
+     "exEn": "This muscle hurts."
+    },
+    {
+     "id": "hea-011",
+     "es": "cansarse",
+     "en": "to get tired",
+     "pos": "verb",
+     "ex": "Me canso mucho cuando subo escaleras.",
+     "exEn": "I get very tired when I climb stairs.",
+     "cloze": "Me canso"
+    },
+    {
+     "id": "hea-012",
+     "es": "la carrera",
+     "en": "the race",
+     "pos": "noun",
+     "ex": "La carrera es el domingo.",
+     "exEn": "The race is on Sunday."
+    }
+   ]
+  },
+  {
+   "id": "health-2",
+   "title": "Injuries",
+   "entries": [
+    {
+     "id": "hea-013",
+     "es": "lesionarse",
+     "en": "to get injured",
+     "pos": "verb",
+     "ex": "No quiero lesionarme antes de la carrera.",
+     "exEn": "I don't want to get injured before the race.",
+     "cloze": "lesionarme"
+    },
+    {
+     "id": "hea-014",
+     "es": "la lesión",
+     "en": "the injury",
+     "pos": "noun",
+     "ex": "Tengo una lesión en la rodilla.",
+     "exEn": "I have a knee injury."
+    },
+    {
+     "id": "hea-015",
+     "es": "recuperarse",
+     "en": "to recover",
+     "pos": "verb",
+     "ex": "Espero recuperarme pronto.",
+     "exEn": "I hope to recover soon.",
+     "cloze": "recuperarme"
+    },
+    {
+     "id": "hea-016",
+     "es": "la cita médica",
+     "en": "the medical appointment",
+     "pos": "noun",
+     "ex": "Tengo una cita médica a las cuatro.",
+     "exEn": "I have a medical appointment at four."
+    },
+    {
+     "id": "hea-017",
+     "es": "la consulta",
+     "en": "the doctor's surgery",
+     "pos": "noun",
+     "ex": "La consulta está en la primera planta.",
+     "exEn": "The surgery is on the first floor."
+    },
+    {
+     "id": "hea-018",
+     "es": "el fisio",
+     "en": "the physio",
+     "pos": "noun",
+     "ex": "Mañana voy al fisio.",
+     "exEn": "Tomorrow I'm going to the physio."
+    },
+    {
+     "id": "hea-019",
+     "es": "la rodilla",
+     "en": "the knee",
+     "pos": "noun",
+     "ex": "Me duele la rodilla al correr.",
+     "exEn": "My knee hurts when I run."
+    },
+    {
+     "id": "hea-020",
+     "es": "el tobillo",
+     "en": "the ankle",
+     "pos": "noun",
+     "ex": "Me he hecho daño en el tobillo.",
+     "exEn": "I've hurt my ankle."
+    },
+    {
+     "id": "hea-021",
+     "es": "la espalda",
+     "en": "the back",
+     "pos": "noun",
+     "ex": "Tengo dolor de espalda.",
+     "exEn": "I have back pain."
+    },
+    {
+     "id": "hea-022",
+     "es": "el descanso",
+     "en": "the rest",
+     "pos": "noun",
+     "ex": "Necesito un día de descanso.",
+     "exEn": "I need a rest day."
+    },
+    {
+     "id": "hea-023",
+     "es": "hacerse daño",
+     "en": "to hurt oneself",
+     "pos": "verb",
+     "ex": "Vas a hacerte daño.",
+     "exEn": "You're going to hurt yourself.",
+     "cloze": "hacerte daño"
+    },
+    {
+     "id": "hea-024",
+     "es": "el esfuerzo",
+     "en": "the effort",
+     "pos": "noun",
+     "ex": "Fue un gran esfuerzo.",
+     "exEn": "It was a big effort."
+    }
+   ]
+  },
+  {
+   "id": "health-3",
+   "title": "Staying healthy",
+   "entries": [
+    {
+     "id": "hea-025",
+     "es": "sano",
+     "en": "healthy",
+     "pos": "adj",
+     "ex": "Quiero comer más sano.",
+     "exEn": "I want to eat more healthily."
+    },
+    {
+     "id": "hea-026",
+     "es": "la dieta",
+     "en": "the diet",
+     "pos": "noun",
+     "ex": "Estoy siguiendo una dieta nueva.",
+     "exEn": "I'm following a new diet."
+    },
+    {
+     "id": "hea-027",
+     "es": "adelgazar",
+     "en": "to lose weight",
+     "pos": "verb",
+     "ex": "Quiero adelgazar cinco kilos.",
+     "exEn": "I want to lose five kilos."
+    },
+    {
+     "id": "hea-028",
+     "es": "engordar",
+     "en": "to gain weight",
+     "pos": "verb",
+     "ex": "Este año no quiero engordar.",
+     "exEn": "This year I don't want to gain weight."
+    },
+    {
+     "id": "hea-029",
+     "es": "dormir bien",
+     "en": "to sleep well",
+     "pos": "verb",
+     "ex": "Es importante dormir bien.",
+     "exEn": "It's important to sleep well."
+    },
+    {
+     "id": "hea-030",
+     "es": "el sueño",
+     "en": "the sleep; the dream",
+     "pos": "noun",
+     "ex": "Necesito más horas de sueño.",
+     "exEn": "I need more hours of sleep."
+    },
+    {
+     "id": "hea-031",
+     "es": "beber agua",
+     "en": "to drink water",
+     "pos": "verb",
+     "ex": "Tienes que beber agua.",
+     "exEn": "You have to drink water."
+    },
+    {
+     "id": "hea-032",
+     "es": "dejar de fumar",
+     "en": "to stop smoking",
+     "pos": "verb",
+     "ex": "Quiero dejar de fumar este año.",
+     "exEn": "I want to stop smoking this year."
+    },
+    {
+     "id": "hea-033",
+     "es": "la vacuna",
+     "en": "the vaccine",
+     "pos": "noun",
+     "ex": "Necesito una vacuna para el viaje.",
+     "exEn": "I need a vaccine for the trip."
+    },
+    {
+     "id": "hea-034",
+     "es": "el análisis de sangre",
+     "en": "the blood test",
+     "pos": "noun",
+     "ex": "Mañana tengo un análisis de sangre.",
+     "exEn": "Tomorrow I have a blood test."
+    },
+    {
+     "id": "hea-035",
+     "es": "el estrés",
+     "en": "the stress",
+     "pos": "noun",
+     "ex": "Correr me ayuda con el estrés.",
+     "exEn": "Running helps me with stress."
+    },
+    {
+     "id": "hea-036",
+     "es": "la salud",
+     "en": "the health",
+     "pos": "noun",
+     "ex": "La salud es lo más importante.",
+     "exEn": "Health is the most important thing."
+    }
+   ]
+  }
+ ]
+}

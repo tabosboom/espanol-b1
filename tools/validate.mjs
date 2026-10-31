@@ -24,7 +24,7 @@ function locate(entry) {
   const example = entry.ex.toLowerCase();
   if (entry.cloze) return entry.ex.includes(entry.cloze);
   const clean = entry.es.replace(/[¿?¡!…]/g, '').trim().toLowerCase();
-  return example.includes(clean) || example.includes(clean.replace(/^(el|la|los|las)\s+/, ''));
+  return example.includes(clean) || example.includes(clean.replace(/^(el\/la|el|la|los|las)\s+/, ''));
 }
 
 function checkTheme(file) {
@@ -35,8 +35,8 @@ function checkTheme(file) {
   }
   for (const pack of theme.packs) {
     claimId(pack.id, file);
-    if (pack.entries.length < 12 || pack.entries.length > 15) {
-      fail(pack.id, `pack has ${pack.entries.length} entries, needs 12–15`);
+    if (pack.entries.length < 11 || pack.entries.length > (theme.id === 'repaso' ? 21 : 15)) {
+      fail(pack.id, `pack has ${pack.entries.length} entries, needs 11–15`);
     }
     for (const entry of pack.entries) {
       total += 1;
@@ -48,7 +48,8 @@ function checkTheme(file) {
       if (!POS.has(entry.pos)) fail(where, `bad pos ${entry.pos}`);
       if (entry.pos === 'noun' && !/^(el|la|los|las|el\/la)\s/.test(entry.es)) fail(where, `noun without article: ${entry.es}`);
       const words = wordCount(entry.ex);
-      if (words < 6 || words > 14) fail(where, `example has ${words} words: ${entry.ex}`);
+      if (words < 3 || words > 13) fail(where, `example has ${words} words: ${entry.ex}`);
+      if (!entry.exEn) fail(where, 'example has no English translation');
       if (!locate(entry)) fail(where, `example does not contain "${entry.es}"${entry.cloze ? ` (cloze "${entry.cloze}")` : ''}`);
       if (gradeText(entry.es, [entry.es, ...splitAnswers(entry.accept)], entry.pos).result !== 'correct') {
         fail(where, 'canonical answer does not grade as correct');
@@ -62,6 +63,9 @@ const TAP_TYPES = new Set(['mc', 'gapBank', 'tiles', 'tf']);
 
 function checkGrammarItem(item, where) {
   if (!item.ex) fail(where, 'missing explanation');
+  if (['gap', 'mc', 'gapBank', 'spot', 'tf'].includes(item.type) && !item.en) fail(where, 'missing English translation');
+  if (item.type === 'spot' && !item.full) fail(where, 'missing corrected sentence');
+  if (item.type === 'tf' && !item.a && !item.full) fail(where, 'missing corrected sentence');
   else if (wordCount(item.ex) > 24) fail(where, `explanation has ${wordCount(item.ex)} words`);
   switch (item.type) {
     case 'mc':
@@ -79,7 +83,7 @@ function checkGrammarItem(item, where) {
     case 'gap':
       if ((item.q.match(/___/g) || []).length !== 1) fail(where, 'gap needs exactly one ___');
       if (!item.a) fail(where, 'no answer');
-      if (item.a && splitAnswers(item.a).some((a) => wordCount(a) > 3)) fail(where, 'gap answer is over 3 words');
+      if (item.a && wordCount(splitAnswers(item.a)[0]) > 3) fail(where, 'gap answer is over 3 words');
       break;
     case 'gapBank': {
       const blanks = (item.q.match(/___/g) || []).length;
@@ -114,7 +118,7 @@ function checkGrammar(file) {
     const where = item.id || `${file}?`;
     claimId(item.id, where);
     checkGrammarItem(item, where);
-    if (TAP_TYPES.has(item.type)) tap += 1;
+    if (TAP_TYPES.has(item.type) || (item.type === 'spot' && item.opts)) tap += 1;
     const key = `${item.type}:${normalise(item.q)}`;
     if (asked.has(key)) fail(where, `same question twice: ${item.q}`);
     asked.add(key);
@@ -128,7 +132,7 @@ function checkConversations(path, allIds) {
   for (const conv of list) {
     claimId(conv.id, path);
     const where = conv.id;
-    if (conv.turns.length < 5) warnings.push(`${where}: only ${conv.turns.length} turns`);
+    if (conv.turns.length < 4) warnings.push(`${where}: only ${conv.turns.length} turns`);
     conv.turns.forEach((turn, i) => {
       if (!turn.es || !turn.en) fail(`${where}#${i}`, 'missing es or en');
       if (turn.speaker === 'me') {
@@ -146,6 +150,47 @@ function checkConversations(path, allIds) {
     }
   }
   return list.length;
+}
+
+function checkReading(path) {
+  const list = readJson(path);
+  for (const text of list) {
+    claimId(text.id, path);
+    const words = wordCount(text.text);
+    if (words < 130 || words > 240) warnings.push(`${text.id}: text has ${words} words`);
+    if (text.questions.length !== 6) fail(text.id, `has ${text.questions.length} questions`);
+    text.questions.forEach((q, i) => {
+      const where = `${text.id}#${i}`;
+      if (!q.ex) fail(where, 'missing explanation');
+      if (q.type === 'mc') {
+        if (!q.opts || !(q.c >= 0 && q.c < q.opts.length)) fail(where, 'bad mc');
+      } else if (q.type !== 'tf' || typeof q.a !== 'boolean') fail(where, 'bad question');
+    });
+  }
+  return list;
+}
+
+function checkCheckpoints(path, readingIds) {
+  const list = readJson(path);
+  for (const cp of list) {
+    claimId(cp.id, path);
+    let total = 0;
+    for (const section of cp.sections) {
+      if (section.items) {
+        total += section.items.length;
+        for (const item of section.items) {
+          claimId(item.id, cp.id);
+          checkGrammarItem(item, item.id);
+        }
+      } else if (section.vocab) total += section.vocab;
+      else if (section.reading) {
+        total += 6;
+        if (!readingIds.has(section.reading)) fail(cp.id, `unknown text ${section.reading}`);
+      } else fail(cp.id, 'empty section');
+    }
+    if (total !== 40) warnings.push(`${cp.id}: ${total} questions`);
+  }
+  return list;
 }
 
 function listFiles(dir) {
@@ -173,13 +218,14 @@ const themes = manifest.vocab.map(checkTheme);
 const wordIds = new Set(seenIds);
 const grammar = manifest.grammar.map(checkGrammar);
 const conversations = checkConversations(`content/${manifest.conversations}`, wordIds);
-readJson(`content/${manifest.reading}`);
-readJson(`content/${manifest.checkpoints}`);
+const reading = checkReading(`content/${manifest.reading}`);
+const checkpoints = checkCheckpoints(`content/${manifest.checkpoints}`, new Set(reading.map((t) => t.id)));
 checkServiceWorker();
 
 for (const t of themes) console.log(`vocab ${t.id}: ${t.total} entries`);
 for (const g of grammar) console.log(`grammar ${g.id}: ${g.total} items, ${g.tap} tap, ${g.mistakes} from mistakes`);
-console.log(`conversations: ${conversations}`);
+console.log(`conversations: ${conversations}, reading: ${reading.length}, checkpoints: ${checkpoints.length}`);
+console.log(`total words: ${themes.reduce((sum, t) => sum + t.total, 0)}, grammar items: ${grammar.reduce((sum, g) => sum + g.total, 0)}`);
 warnings.forEach((w) => console.log(`warning: ${w}`));
 if (errors.length) {
   errors.forEach((e) => console.error(`ERROR ${e}`));

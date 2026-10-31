@@ -1,0 +1,446 @@
+{
+ "id": "personality",
+ "title": "Personality & relationships",
+ "es": "Personalidad y relaciones",
+ "priority": 13,
+ "packs": [
+  {
+   "id": "personality-1",
+   "title": "What people are like",
+   "entries": [
+    {
+     "id": "per-001",
+     "es": "cariñoso",
+     "en": "affectionate",
+     "pos": "adj",
+     "ex": "Mi abuela es muy cariñosa.",
+     "exEn": "My grandmother is very affectionate.",
+     "cloze": "cariñosa"
+    },
+    {
+     "id": "per-002",
+     "es": "abierto",
+     "en": "open, outgoing",
+     "pos": "adj",
+     "ex": "Mi hermano es muy abierto.",
+     "exEn": "My brother is very outgoing."
+    },
+    {
+     "id": "per-003",
+     "es": "tímido",
+     "en": "shy",
+     "pos": "adj",
+     "ex": "De pequeño era muy tímido.",
+     "exEn": "I was very shy as a child."
+    },
+    {
+     "id": "per-004",
+     "es": "simpático",
+     "en": "friendly",
+     "pos": "adj",
+     "ex": "Tu amigo es muy simpático.",
+     "exEn": "Your friend is very friendly."
+    },
+    {
+     "id": "per-005",
+     "es": "majo",
+     "en": "nice (Spain)",
+     "pos": "adj",
+     "ex": "Tus padres son muy majos.",
+     "exEn": "Your parents are very nice.",
+     "cloze": "majos"
+    },
+    {
+     "id": "per-006",
+     "es": "borde",
+     "en": "rude, unfriendly",
+     "pos": "adj",
+     "ex": "El camarero ha sido muy borde.",
+     "exEn": "The waiter was very rude."
+    },
+    {
+     "id": "per-007",
+     "es": "testarudo",
+     "en": "stubborn",
+     "pos": "adj",
+     "ex": "Mi padre es muy testarudo.",
+     "exEn": "My father is very stubborn."
+    },
+    {
+     "id": "per-008",
+     "es": "generoso",
+     "en": "generous",
+     "pos": "adj",
+     "ex": "Marta es muy generosa con todos.",
+     "exEn": "Marta is very generous with everyone.",
+     "cloze": "generosa"
+    },
+    {
+     "id": "per-009",
+     "es": "tacaño",
+     "en": "stingy",
+     "pos": "adj",
+     "ex": "Mi jefe es un poco tacaño.",
+     "exEn": "My boss is a bit stingy."
+    },
+    {
+     "id": "per-010",
+     "es": "gracioso",
+     "en": "funny",
+     "pos": "adj",
+     "ex": "Tu hermano es muy gracioso.",
+     "exEn": "Your brother is very funny."
+    },
+    {
+     "id": "per-011",
+     "es": "serio",
+     "en": "serious",
+     "pos": "adj",
+     "ex": "Hoy estás muy serio.",
+     "exEn": "You're very serious today."
+    },
+    {
+     "id": "per-012",
+     "es": "trabajador",
+     "en": "hard-working",
+     "pos": "adj",
+     "ex": "Pedro es muy trabajador.",
+     "exEn": "Pedro is very hard-working."
+    },
+    {
+     "id": "per-013",
+     "es": "vago",
+     "en": "lazy",
+     "pos": "adj",
+     "ex": "Soy un poco vago los domingos.",
+     "exEn": "I'm a bit lazy on Sundays."
+    }
+   ]
+  },
+  {
+   "id": "personality-2",
+   "title": "Getting on",
+   "entries": [
+    {
+     "id": "per-014",
+     "es": "llevarse bien con",
+     "en": "to get on well with",
+     "pos": "verb",
+     "ex": "Me llevo bien con mis compañeros.",
+     "exEn": "I get on well with my colleagues.",
+     "cloze": "Me llevo bien con"
+    },
+    {
+     "id": "per-015",
+     "es": "llevarse mal con",
+     "en": "to get on badly with",
+     "pos": "verb",
+     "ex": "Me llevo mal con mi vecino.",
+     "exEn": "I get on badly with my neighbour.",
+     "cloze": "Me llevo mal con"
+    },
+    {
+     "id": "per-016",
+     "es": "enfadarse con",
+     "en": "to get angry with",
+     "pos": "verb",
+     "ex": "Mi madre se enfada con mi padre.",
+     "exEn": "My mother gets angry with my father.",
+     "cloze": "se enfada con"
+    },
+    {
+     "id": "per-017",
+     "es": "confiar en",
+     "en": "to trust",
+     "pos": "verb",
+     "ex": "Puedes confiar en mí.",
+     "exEn": "You can trust me."
+    },
+    {
+     "id": "per-018",
+     "es": "echar de menos",
+     "en": "to miss",
+     "pos": "verb",
+     "ex": "Voy a echar de menos a mis amigos.",
+     "exEn": "I'm going to miss my friends."
+    },
+    {
+     "id": "per-019",
+     "es": "conocer a alguien",
+     "en": "to meet someone",
+     "pos": "verb",
+     "ex": "Quiero conocer a alguien aquí.",
+     "exEn": "I want to meet someone here.",
+     "cloze": "conocer a alguien"
+    },
+    {
+     "id": "per-020",
+     "es": "discutir",
+     "en": "to argue",
+     "pos": "verb",
+     "ex": "No quiero discutir contigo.",
+     "exEn": "I don't want to argue with you."
+    },
+    {
+     "id": "per-021",
+     "es": "hacer las paces",
+     "en": "to make up",
+     "pos": "verb",
+     "ex": "Vamos a hacer las paces.",
+     "exEn": "Let's make up."
+    },
+    {
+     "id": "per-022",
+     "es": "pelearse",
+     "en": "to fall out",
+     "pos": "verb",
+     "ex": "No quiero pelearme con ella.",
+     "exEn": "I don't want to fall out with her.",
+     "cloze": "pelearme"
+    },
+    {
+     "id": "per-023",
+     "es": "ayudar a",
+     "en": "to help",
+     "pos": "verb",
+     "ex": "Me gusta ayudar a mis vecinos.",
+     "exEn": "I like helping my neighbours."
+    },
+    {
+     "id": "per-024",
+     "es": "tener confianza",
+     "en": "to feel close",
+     "pos": "verb",
+     "ex": "Con Ana tengo mucha confianza.",
+     "exEn": "I feel very close to Ana.",
+     "cloze": "tengo mucha confianza"
+    },
+    {
+     "id": "per-025",
+     "es": "caer bien",
+     "en": "to like (a person)",
+     "pos": "verb",
+     "ex": "Tu amigo me cae muy bien.",
+     "exEn": "I really like your friend.",
+     "cloze": "cae muy bien"
+    }
+   ]
+  },
+  {
+   "id": "personality-3",
+   "title": "Partners and family",
+   "entries": [
+    {
+     "id": "per-026",
+     "es": "la pareja",
+     "en": "the partner; the couple",
+     "pos": "noun",
+     "ex": "Mi pareja es de Sevilla.",
+     "exEn": "My partner is from Seville."
+    },
+    {
+     "id": "per-027",
+     "es": "el novio",
+     "en": "the boyfriend",
+     "pos": "noun",
+     "ex": "Su novio trabaja en un banco.",
+     "exEn": "Her boyfriend works in a bank."
+    },
+    {
+     "id": "per-028",
+     "es": "la novia",
+     "en": "the girlfriend",
+     "pos": "noun",
+     "ex": "Mi novia habla muy bien español.",
+     "exEn": "My girlfriend speaks Spanish very well."
+    },
+    {
+     "id": "per-029",
+     "es": "casarse con",
+     "en": "to marry",
+     "pos": "verb",
+     "ex": "Mi hermana va a casarse con Luis.",
+     "exEn": "My sister is going to marry Luis."
+    },
+    {
+     "id": "per-030",
+     "es": "separarse",
+     "en": "to separate",
+     "pos": "verb",
+     "ex": "Sus padres van a separarse.",
+     "exEn": "His parents are going to separate."
+    },
+    {
+     "id": "per-031",
+     "es": "divorciarse",
+     "en": "to get divorced",
+     "pos": "verb",
+     "ex": "Mis tíos quieren divorciarse.",
+     "exEn": "My aunt and uncle want to get divorced."
+    },
+    {
+     "id": "per-032",
+     "es": "el compañero de piso",
+     "en": "the flatmate",
+     "pos": "noun",
+     "ex": "Mi compañero de piso cocina muy bien.",
+     "exEn": "My flatmate cooks very well."
+    },
+    {
+     "id": "per-033",
+     "es": "enamorarse de",
+     "en": "to fall in love with",
+     "pos": "verb",
+     "ex": "Me he enamorado de esta ciudad.",
+     "exEn": "I've fallen in love with this city.",
+     "cloze": "enamorado de"
+    },
+    {
+     "id": "per-034",
+     "es": "la boda",
+     "en": "the wedding",
+     "pos": "noun",
+     "ex": "La boda es en junio.",
+     "exEn": "The wedding is in June."
+    },
+    {
+     "id": "per-035",
+     "es": "soltero",
+     "en": "single",
+     "pos": "adj",
+     "ex": "Mi hermano está soltero.",
+     "exEn": "My brother is single."
+    },
+    {
+     "id": "per-036",
+     "es": "casado",
+     "en": "married",
+     "pos": "adj",
+     "ex": "Mis padres están casados.",
+     "exEn": "My parents are married.",
+     "cloze": "casados"
+    }
+   ]
+  },
+  {
+   "id": "personality-4",
+   "title": "People around you",
+   "entries": [
+    {
+     "id": "per-037",
+     "es": "el amigo",
+     "en": "the friend",
+     "pos": "noun",
+     "ex": "Mi amigo vive en Madrid.",
+     "exEn": "My friend lives in Madrid."
+    },
+    {
+     "id": "per-038",
+     "es": "el conocido",
+     "en": "the acquaintance",
+     "pos": "noun",
+     "ex": "Es un conocido de mi hermano.",
+     "exEn": "He's an acquaintance of my brother's."
+    },
+    {
+     "id": "per-039",
+     "es": "los suegros",
+     "en": "the parents-in-law",
+     "pos": "noun",
+     "ex": "Mis suegros viven en Toledo.",
+     "exEn": "My parents-in-law live in Toledo."
+    },
+    {
+     "id": "per-040",
+     "es": "el cuñado",
+     "en": "the brother-in-law",
+     "pos": "noun",
+     "ex": "Mi cuñado juega al pádel.",
+     "exEn": "My brother-in-law plays padel."
+    },
+    {
+     "id": "per-041",
+     "es": "el sobrino",
+     "en": "the nephew",
+     "pos": "noun",
+     "ex": "Mi sobrino tiene dos años.",
+     "exEn": "My nephew is two years old."
+    },
+    {
+     "id": "per-042",
+     "es": "el tío",
+     "en": "the uncle",
+     "pos": "noun",
+     "ex": "Mi tío vive en Bilbao.",
+     "exEn": "My uncle lives in Bilbao."
+    },
+    {
+     "id": "per-043",
+     "es": "parecerse a",
+     "en": "to look like",
+     "pos": "verb",
+     "ex": "Te pareces mucho a tu padre.",
+     "exEn": "You look a lot like your father.",
+     "cloze": "pareces mucho a"
+    },
+    {
+     "id": "per-044",
+     "es": "quedar bien",
+     "en": "to make a good impression",
+     "pos": "verb",
+     "ex": "Quiero quedar bien con sus padres.",
+     "exEn": "I want to make a good impression on her parents."
+    },
+    {
+     "id": "per-045",
+     "es": "contar con",
+     "en": "to count on",
+     "pos": "verb",
+     "ex": "Puedes contar con nosotros.",
+     "exEn": "You can count on us."
+    },
+    {
+     "id": "per-046",
+     "es": "tener en común",
+     "en": "to have in common",
+     "pos": "verb",
+     "ex": "Tenemos mucho en común.",
+     "exEn": "We have a lot in common.",
+     "cloze": "Tenemos mucho en común"
+    },
+    {
+     "id": "per-047",
+     "es": "la confianza",
+     "en": "the trust",
+     "pos": "noun",
+     "ex": "La confianza es muy importante.",
+     "exEn": "Trust is very important."
+    },
+    {
+     "id": "per-048",
+     "es": "la relación",
+     "en": "the relationship",
+     "pos": "noun",
+     "ex": "Tengo una buena relación con mi jefe.",
+     "exEn": "I have a good relationship with my boss."
+    },
+    {
+     "id": "per-049",
+     "es": "el carácter",
+     "en": "the personality",
+     "pos": "noun",
+     "ex": "Tiene muy buen carácter.",
+     "exEn": "He has a very good personality."
+    },
+    {
+     "id": "per-050",
+     "es": "pasarlo bien juntos",
+     "en": "to have a good time together",
+     "pos": "verb",
+     "ex": "Vamos a pasarlo bien juntos.",
+     "exEn": "We're going to have a good time together."
+    }
+   ]
+  }
+ ]
+}

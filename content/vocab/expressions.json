@@ -1,0 +1,434 @@
+{
+ "id": "expressions",
+ "title": "Fixed expressions & colloquial Spain",
+ "es": "Expresiones coloquiales",
+ "priority": 19,
+ "packs": [
+  {
+   "id": "expressions-1",
+   "title": "Everyday phrases",
+   "entries": [
+    {
+     "id": "exp-001",
+     "es": "hacer caso",
+     "en": "to pay attention, to listen",
+     "pos": "verb",
+     "ex": "Mi perro no me hace caso.",
+     "exEn": "My dog doesn't listen to me.",
+     "cloze": "hace caso"
+    },
+    {
+     "id": "exp-002",
+     "es": "dar igual",
+     "en": "to not matter",
+     "pos": "verb",
+     "ex": "A mí me da igual.",
+     "exEn": "It doesn't matter to me.",
+     "cloze": "da igual"
+    },
+    {
+     "id": "exp-003",
+     "es": "tener en cuenta",
+     "en": "to bear in mind",
+     "pos": "verb",
+     "ex": "Hay que tener en cuenta el precio.",
+     "exEn": "You have to bear the price in mind."
+    },
+    {
+     "id": "exp-004",
+     "es": "darse prisa",
+     "en": "to hurry",
+     "pos": "verb",
+     "ex": "Tenemos que darnos prisa.",
+     "exEn": "We have to hurry.",
+     "cloze": "darnos prisa"
+    },
+    {
+     "id": "exp-005",
+     "es": "echar una mano",
+     "en": "to give a hand",
+     "pos": "verb",
+     "ex": "¿Me puedes echar una mano?",
+     "exEn": "Can you give me a hand?"
+    },
+    {
+     "id": "exp-006",
+     "es": "estar hecho polvo",
+     "en": "to be exhausted",
+     "pos": "verb",
+     "ex": "Hoy estoy hecho polvo.",
+     "exEn": "I'm exhausted today.",
+     "cloze": "hecho polvo"
+    },
+    {
+     "id": "exp-007",
+     "es": "tener ganas de",
+     "en": "to look forward to",
+     "pos": "verb",
+     "ex": "Tengo ganas de verte.",
+     "exEn": "I'm looking forward to seeing you.",
+     "cloze": "Tengo ganas de"
+    },
+    {
+     "id": "exp-008",
+     "es": "pasarlo bien",
+     "en": "to have a good time",
+     "pos": "verb",
+     "ex": "Vamos a pasarlo bien.",
+     "exEn": "We're going to have a good time."
+    },
+    {
+     "id": "exp-009",
+     "es": "pasarlo mal",
+     "en": "to have a bad time",
+     "pos": "verb",
+     "ex": "Lo he pasado mal esta semana.",
+     "exEn": "I've had a bad time this week.",
+     "cloze": "pasado mal"
+    },
+    {
+     "id": "exp-010",
+     "es": "me da pereza",
+     "en": "I can't be bothered",
+     "pos": "phrase",
+     "ex": "Me da pereza salir hoy.",
+     "exEn": "I can't be bothered to go out today."
+    },
+    {
+     "id": "exp-011",
+     "es": "me hace ilusión",
+     "en": "I'm excited about it",
+     "pos": "phrase",
+     "ex": "Me hace ilusión verte.",
+     "exEn": "I'm excited to see you."
+    },
+    {
+     "id": "exp-012",
+     "es": "no me compensa",
+     "en": "it's not worth it for me",
+     "pos": "phrase",
+     "ex": "Tanto viaje no me compensa.",
+     "exEn": "So much travel isn't worth it for me."
+    },
+    {
+     "id": "exp-013",
+     "es": "vale la pena",
+     "en": "it's worth it",
+     "pos": "phrase",
+     "ex": "Este museo vale la pena.",
+     "exEn": "This museum is worth it."
+    }
+   ]
+  },
+  {
+   "id": "expressions-2",
+   "title": "Reactions",
+   "entries": [
+    {
+     "id": "exp-014",
+     "es": "¡Qué pasada!",
+     "en": "That's amazing!",
+     "pos": "phrase",
+     "ex": "¡Qué pasada de playa!",
+     "exEn": "What an amazing beach!"
+    },
+    {
+     "id": "exp-015",
+     "es": "¡Qué rollo!",
+     "en": "What a pain!",
+     "pos": "phrase",
+     "ex": "¡Qué rollo de reunión!",
+     "exEn": "What a boring meeting!"
+    },
+    {
+     "id": "exp-016",
+     "es": "¡Qué majo!",
+     "en": "How nice of him!",
+     "pos": "phrase",
+     "ex": "Te ha traído flores, ¡qué majo!",
+     "exEn": "He brought you flowers, how nice of him!"
+    },
+    {
+     "id": "exp-017",
+     "es": "¡Vaya tela!",
+     "en": "Unbelievable!",
+     "pos": "phrase",
+     "ex": "Otra vez sin luz, ¡vaya tela!",
+     "exEn": "No electricity again, unbelievable!"
+    },
+    {
+     "id": "exp-018",
+     "es": "¡Menuda locura!",
+     "en": "What madness!",
+     "pos": "phrase",
+     "ex": "Mil personas en la cola, ¡menuda locura!",
+     "exEn": "A thousand people in the queue, what madness!"
+    },
+    {
+     "id": "exp-019",
+     "es": "ni idea",
+     "en": "no idea",
+     "pos": "phrase",
+     "ex": "¿Dónde está? Ni idea.",
+     "exEn": "Where is it? No idea."
+    },
+    {
+     "id": "exp-020",
+     "es": "¡Ojo!",
+     "en": "Careful! Watch out!",
+     "pos": "phrase",
+     "ex": "¡Ojo! El suelo está mojado.",
+     "exEn": "Careful! The floor is wet."
+    },
+    {
+     "id": "exp-021",
+     "es": "sin más",
+     "en": "just like that",
+     "pos": "phrase",
+     "ex": "Se fue sin más.",
+     "exEn": "He left just like that."
+    },
+    {
+     "id": "exp-022",
+     "es": "¡Ni hablar!",
+     "en": "No way!",
+     "pos": "phrase",
+     "ex": "¿Pagar tanto? ¡Ni hablar!",
+     "exEn": "Pay that much? No way!"
+    },
+    {
+     "id": "exp-023",
+     "es": "¡Qué fuerte!",
+     "en": "Wow, that's heavy!",
+     "pos": "phrase",
+     "ex": "¿Te han despedido? ¡Qué fuerte!",
+     "exEn": "You've been fired? Wow!"
+    },
+    {
+     "id": "exp-024",
+     "es": "¡Qué va!",
+     "en": "Not at all!",
+     "pos": "phrase",
+     "ex": "¿Estás cansado? ¡Qué va!",
+     "exEn": "Are you tired? Not at all!"
+    },
+    {
+     "id": "exp-025",
+     "es": "¡Anda!",
+     "en": "Oh, wow!",
+     "pos": "phrase",
+     "ex": "¡Anda! No sabía que estabas aquí.",
+     "exEn": "Oh, wow! I didn't know you were here."
+    }
+   ]
+  },
+  {
+   "id": "expressions-3",
+   "title": "Colloquial words",
+   "entries": [
+    {
+     "id": "exp-026",
+     "es": "tío",
+     "en": "mate, dude",
+     "pos": "phrase",
+     "ex": "Tío, ¿dónde estás?",
+     "exEn": "Mate, where are you?"
+    },
+    {
+     "id": "exp-027",
+     "es": "tía",
+     "en": "mate (to a woman)",
+     "pos": "phrase",
+     "ex": "Tía, ¡qué bien te veo!",
+     "exEn": "Hey, you look great!"
+    },
+    {
+     "id": "exp-028",
+     "es": "guay",
+     "en": "cool",
+     "pos": "adj",
+     "ex": "Tu piso es muy guay.",
+     "exEn": "Your flat is really cool."
+    },
+    {
+     "id": "exp-029",
+     "es": "currar",
+     "en": "to work (slang)",
+     "pos": "verb",
+     "ex": "Mañana tengo que currar.",
+     "exEn": "Tomorrow I have to work."
+    },
+    {
+     "id": "exp-030",
+     "es": "el curro",
+     "en": "the job (slang)",
+     "pos": "noun",
+     "ex": "Tengo un curro nuevo.",
+     "exEn": "I have a new job."
+    },
+    {
+     "id": "exp-031",
+     "es": "flipar",
+     "en": "to be amazed",
+     "pos": "verb",
+     "ex": "Vas a flipar con esta playa.",
+     "exEn": "You'll be amazed by this beach."
+    },
+    {
+     "id": "exp-032",
+     "es": "molar",
+     "en": "to be cool",
+     "pos": "verb",
+     "ex": "Me mola tu chaqueta.",
+     "exEn": "I like your jacket.",
+     "cloze": "mola"
+    },
+    {
+     "id": "exp-033",
+     "es": "la pasta",
+     "en": "the money (slang)",
+     "pos": "noun",
+     "ex": "Ese coche cuesta mucha pasta.",
+     "exEn": "That car costs a lot of money."
+    },
+    {
+     "id": "exp-034",
+     "es": "un montón",
+     "en": "loads",
+     "pos": "phrase",
+     "ex": "Tengo un montón de trabajo.",
+     "exEn": "I have loads of work."
+    },
+    {
+     "id": "exp-035",
+     "es": "el chaval",
+     "en": "the kid",
+     "pos": "noun",
+     "ex": "Ese chaval juega muy bien.",
+     "exEn": "That kid plays very well."
+    },
+    {
+     "id": "exp-036",
+     "es": "mogollón",
+     "en": "a lot",
+     "pos": "phrase",
+     "ex": "Había mogollón de gente.",
+     "exEn": "There were loads of people."
+    },
+    {
+     "id": "exp-037",
+     "es": "la movida",
+     "en": "the hassle",
+     "pos": "noun",
+     "ex": "¡Qué movida con el coche!",
+     "exEn": "What a hassle with the car!"
+    }
+   ]
+  },
+  {
+   "id": "expressions-4",
+   "title": "Handy sayings",
+   "entries": [
+    {
+     "id": "exp-038",
+     "es": "por si acaso",
+     "en": "just in case",
+     "pos": "phrase",
+     "ex": "Llevo paraguas por si acaso.",
+     "exEn": "I'm taking an umbrella just in case."
+    },
+    {
+     "id": "exp-039",
+     "es": "de vez en cuando",
+     "en": "from time to time",
+     "pos": "phrase",
+     "ex": "Voy al cine de vez en cuando.",
+     "exEn": "I go to the cinema from time to time."
+    },
+    {
+     "id": "exp-040",
+     "es": "a lo mejor",
+     "en": "maybe",
+     "pos": "phrase",
+     "ex": "A lo mejor voy mañana.",
+     "exEn": "Maybe I'll go tomorrow."
+    },
+    {
+     "id": "exp-041",
+     "es": "en serio",
+     "en": "seriously",
+     "pos": "phrase",
+     "ex": "Te lo digo en serio.",
+     "exEn": "I mean it."
+    },
+    {
+     "id": "exp-042",
+     "es": "de verdad",
+     "en": "really",
+     "pos": "phrase",
+     "ex": "Me gusta de verdad.",
+     "exEn": "I really like it."
+    },
+    {
+     "id": "exp-043",
+     "es": "a ver si…",
+     "en": "let's hope…",
+     "pos": "phrase",
+     "ex": "A ver si nos vemos pronto.",
+     "exEn": "Let's hope we see each other soon."
+    },
+    {
+     "id": "exp-044",
+     "es": "no pasa nada",
+     "en": "it's no problem",
+     "pos": "phrase",
+     "ex": "Si llegas tarde, no pasa nada.",
+     "exEn": "If you're late, it's no problem."
+    },
+    {
+     "id": "exp-045",
+     "es": "más o menos",
+     "en": "more or less",
+     "pos": "phrase",
+     "ex": "Llego a las ocho, más o menos.",
+     "exEn": "I'll arrive at eight, more or less."
+    },
+    {
+     "id": "exp-046",
+     "es": "tener mala suerte",
+     "en": "to be unlucky",
+     "pos": "verb",
+     "ex": "Hoy he tenido mala suerte.",
+     "exEn": "I've been unlucky today.",
+     "cloze": "tenido mala suerte"
+    },
+    {
+     "id": "exp-047",
+     "es": "estar en las nubes",
+     "en": "to have your head in the clouds",
+     "pos": "verb",
+     "ex": "Hoy estás en las nubes.",
+     "exEn": "Your head is in the clouds today.",
+     "cloze": "estás en las nubes"
+    },
+    {
+     "id": "exp-048",
+     "es": "ser pan comido",
+     "en": "to be a piece of cake",
+     "pos": "verb",
+     "ex": "Este examen va a ser pan comido.",
+     "exEn": "This exam is going to be a piece of cake."
+    },
+    {
+     "id": "exp-049",
+     "es": "tomar el pelo",
+     "en": "to pull someone's leg",
+     "pos": "verb",
+     "ex": "¿Me estás tomando el pelo?",
+     "exEn": "Are you pulling my leg?",
+     "cloze": "tomando el pelo"
+    }
+   ]
+  }
+ ]
+}

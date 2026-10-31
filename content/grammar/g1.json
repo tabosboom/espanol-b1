@@ -95,7 +95,8 @@
    "tags": [
     "verb+prep"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "We are interested in renting a home in the centre."
   },
   {
    "id": "g1-002",
@@ -106,7 +107,8 @@
    "tags": [
     "verb+prep"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "Yesterday I dreamed about a trip I took many years ago."
   },
   {
    "id": "g1-003",
@@ -117,7 +119,8 @@
    "tags": [
     "verb+prep"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I don't agree with that decision."
   },
   {
    "id": "g1-004",
@@ -128,7 +131,8 @@
    "tags": [
     "verb+prep"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I love learning to dance."
   },
   {
    "id": "g1-005",
@@ -139,7 +143,8 @@
    "tags": [
     "verb+prep"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I have worked on several international projects."
   },
   {
    "id": "g1-006",
@@ -150,7 +155,8 @@
    "tags": [
     "place+time"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I live on a very quiet street."
   },
   {
    "id": "g1-007",
@@ -161,7 +167,8 @@
    "tags": [
     "place+time"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "We arrived at the central station at nine in the morning."
   },
   {
    "id": "g1-008",
@@ -177,7 +184,8 @@
    "tags": [
     "place+time"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "The phone is on top of the table."
   },
   {
    "id": "g1-009",
@@ -188,7 +196,8 @@
    "tags": [
     "place+time"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I go to work by metro every day."
   },
   {
    "id": "g1-010",
@@ -199,18 +208,20 @@
    "tags": [
     "verb+prep"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I talked to my boss about the project."
   },
   {
    "id": "g1-011",
    "type": "gap",
    "q": "Hablé con mi jefe ___ el proyecto.",
-   "a": "sobre",
+   "a": "sobre|del",
    "ex": "hablar sobre algo = to talk about something. «de» needs «del».",
    "tags": [
     "verb+prep"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I talked to my boss about the project."
   },
   {
    "id": "g1-012",
@@ -226,7 +237,8 @@
    "tags": [
     "place+time"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I go running in the morning."
   },
   {
    "id": "g1-013",
@@ -237,7 +249,8 @@
    "tags": [
     "place+time"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "After the trip, I went back to work."
   },
   {
    "id": "g1-014",
@@ -248,7 +261,8 @@
    "tags": [
     "place+time"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I'm moving to Madrid in two years."
   },
   {
    "id": "g1-015",
@@ -259,7 +273,8 @@
    "tags": [
     "place+time"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I go to the beach every Sunday."
   },
   {
    "id": "g1-016",
@@ -270,7 +285,8 @@
    "tags": [
     "place+time"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "Yesterday I got home very late."
   },
   {
    "id": "g1-017",
@@ -281,7 +297,8 @@
    "tags": [
     "verb+prep"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "Are you going to come to dinner on Friday?"
   },
   {
    "id": "g1-018",
@@ -297,7 +314,8 @@
    "tags": [
     "place+time"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I work in the afternoons in a café."
   },
   {
    "id": "g1-019",
@@ -316,7 +334,8 @@
    "tags": [
     "verb+prep"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "On Saturdays I play tennis with my brother."
   },
   {
    "id": "g1-020",
@@ -327,7 +346,8 @@
    "tags": [
     "place+time"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I've been living in Madrid for five years."
   },
   {
    "id": "g1-021",
@@ -344,7 +364,9 @@
    "tags": [
     "verb+prep"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "We are interested in renting a flat.",
+   "full": "Estamos interesados en alquilar un piso."
   },
   {
    "id": "g1-022",
@@ -361,7 +383,9 @@
    "tags": [
     "verb+prep"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I don't agree with that decision.",
+   "full": "No estoy de acuerdo con esa decisión."
   },
   {
    "id": "g1-023",
@@ -378,7 +402,9 @@
    "tags": [
     "verb+prep"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "Yesterday I dreamed about a long trip.",
+   "full": "Ayer soñé con un viaje largo."
   },
   {
    "id": "g1-024",
@@ -395,7 +421,9 @@
    "tags": [
     "verb+prep"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I love learning to dance.",
+   "full": "Me encanta aprender a bailar."
   },
   {
    "id": "g1-025",
@@ -412,7 +440,9 @@
    "tags": [
     "place+time"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I go to the beach on Sundays.",
+   "full": "Voy a la playa los domingos."
   },
   {
    "id": "g1-026",
@@ -429,7 +459,9 @@
    "tags": [
     "place+time"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I study in the morning and work in the afternoon.",
+   "full": "Estudio por la mañana y trabajo por la tarde."
   },
   {
    "id": "g1-027",
@@ -446,7 +478,9 @@
    "tags": [
     "verb+prep"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I've worked on several projects this year.",
+   "full": "He trabajado en varios proyectos este año."
   },
   {
    "id": "g1-028",
@@ -463,7 +497,9 @@
    "tags": [
     "place+time"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I arrived at the station at nine.",
+   "full": "Llegué a la estación a las nueve."
   },
   {
    "id": "g1-029",
@@ -474,7 +510,9 @@
    "tags": [
     "verb+prep"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I am interested in this job.",
+   "full": "Estoy interesado en este trabajo."
   },
   {
    "id": "g1-030",
@@ -485,7 +523,8 @@
    "tags": [
     "personal-a"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I have met people from many countries."
   },
   {
    "id": "g1-031",
@@ -496,7 +535,9 @@
    "tags": [
     "place+time"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "We arrived at the station at nine.",
+   "full": "Llegamos a la estación a las nueve."
   },
   {
    "id": "g1-032",
@@ -507,7 +548,8 @@
    "tags": [
     "place+time"
    ],
-   "fromMistake": true
+   "fromMistake": true,
+   "en": "I go to work by metro."
   },
   {
    "id": "g1-033",
@@ -601,7 +643,8 @@
    "ex": "casarse con = to marry.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "My sister is marrying her boyfriend in June."
   },
   {
    "id": "g1-040",
@@ -616,7 +659,8 @@
    "ex": "contar con = to count on.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "I always count on my colleagues when I need help."
   },
   {
    "id": "g1-041",
@@ -626,7 +670,8 @@
    "ex": "pensar en = to think about.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "I've been thinking about you all week."
   },
   {
    "id": "g1-042",
@@ -644,7 +689,8 @@
    "ex": "confiar en = to trust.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "I don't trust him because he has lied to me."
   },
   {
    "id": "g1-043",
@@ -659,17 +705,19 @@
    "ex": "fijarse en = to notice.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "Have you noticed that beautiful house?"
   },
   {
    "id": "g1-044",
    "type": "gap",
    "q": "Hemos quedado ___ vernos a las ocho.",
-   "a": "en",
+   "a": "en|para",
    "ex": "quedar en = to agree to do something.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "We've agreed to meet at eight."
   },
   {
    "id": "g1-045",
@@ -679,7 +727,8 @@
    "ex": "tardar en + infinitive = to take time to.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "It takes me twenty minutes to get to work."
   },
   {
    "id": "g1-046",
@@ -697,7 +746,8 @@
    "ex": "depender de = to depend on.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "That depends on you."
   },
   {
    "id": "g1-047",
@@ -707,7 +757,8 @@
    "ex": "acordarse de = to remember.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "I can't remember his name."
   },
   {
    "id": "g1-048",
@@ -722,7 +773,8 @@
    "ex": "olvidarse de = to forget.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "I always forget to close the window."
   },
   {
    "id": "g1-049",
@@ -732,7 +784,8 @@
    "ex": "enamorarse de = to fall in love with.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "He fell in love with a girl from Seville."
   },
   {
    "id": "g1-050",
@@ -742,7 +795,8 @@
    "ex": "darse cuenta de = to realise, to notice.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "I didn't notice what time it was."
   },
   {
    "id": "g1-051",
@@ -752,7 +806,8 @@
    "ex": "tratar de + infinitive = to try to.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "I'm going to try to arrive before nine."
   },
   {
    "id": "g1-052",
@@ -762,7 +817,8 @@
    "ex": "dejar de + infinitive = to stop doing.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "I've stopped smoking this year."
   },
   {
    "id": "g1-053",
@@ -780,7 +836,8 @@
    "ex": "empezar a + infinitive.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "My son has started to walk."
   },
   {
    "id": "g1-054",
@@ -790,7 +847,8 @@
    "ex": "ayudar a + infinitive.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "Can you help me carry the suitcase?"
   },
   {
    "id": "g1-055",
@@ -800,7 +858,8 @@
    "ex": "volver a + infinitive = to do again.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "I don't want to make that mistake again."
   },
   {
    "id": "g1-056",
@@ -815,7 +874,8 @@
    "ex": "ir a + infinitive = going to.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "Tomorrow I'm going to call my mother."
   },
   {
    "id": "g1-057",
@@ -833,7 +893,8 @@
    "ex": "preocuparse por = to worry about.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "My parents worry about me a lot."
   },
   {
    "id": "g1-058",
@@ -848,7 +909,8 @@
    "ex": "interesarse por = to take an interest in.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "My brother takes a great interest in politics."
   },
   {
    "id": "g1-059",
@@ -863,7 +925,8 @@
    "ex": "pensar en = to think about someone.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "I often think about my friends."
   },
   {
    "id": "g1-060",
@@ -873,7 +936,8 @@
    "ex": "Personal «a»: ver a + person.",
    "tags": [
     "personal-a"
-   ]
+   ],
+   "en": "Yesterday I saw Marta in the supermarket."
   },
   {
    "id": "g1-061",
@@ -883,7 +947,8 @@
    "ex": "Personal «a»: llamar a + person.",
    "tags": [
     "personal-a"
-   ]
+   ],
+   "en": "I have to call my brother this afternoon."
   },
   {
    "id": "g1-062",
@@ -1045,7 +1110,7 @@
    "id": "g1-075",
    "type": "type",
    "q": "next to the bank",
-   "a": "al lado del banco",
+   "a": "al lado del banco|junto al banco",
    "ex": "al lado de + el = al lado del.",
    "tags": [
     "place+time"
@@ -1055,7 +1120,7 @@
    "id": "g1-076",
    "type": "type",
    "q": "opposite the station",
-   "a": "enfrente de la estación",
+   "a": "enfrente de la estación|frente a la estación",
    "ex": "enfrente de + place.",
    "tags": [
     "place+time"
@@ -1099,7 +1164,8 @@
    "ex": "enfrente de = opposite.",
    "tags": [
     "place+time"
-   ]
+   ],
+   "en": "The stop is opposite the station."
   },
   {
    "id": "g1-081",
@@ -1109,7 +1175,8 @@
    "ex": "al lado de = next to.",
    "tags": [
     "place+time"
-   ]
+   ],
+   "en": "The bank is next to the pharmacy."
   },
   {
    "id": "g1-082",
@@ -1124,7 +1191,8 @@
    "ex": "encima de = on top of.",
    "tags": [
     "place+time"
-   ]
+   ],
+   "en": "The keys are on top of the table."
   },
   {
    "id": "g1-083",
@@ -1134,7 +1202,8 @@
    "ex": "desde hace + length of time.",
    "tags": [
     "place+time"
-   ]
+   ],
+   "en": "I've been studying Spanish for two years."
   },
   {
    "id": "g1-084",
@@ -1149,7 +1218,8 @@
    "ex": "hace + time + past tense = ago.",
    "tags": [
     "place+time"
-   ]
+   ],
+   "en": "I finished my degree three years ago."
   },
   {
    "id": "g1-085",
@@ -1164,7 +1234,8 @@
    "ex": "desde + a point in time; desde hace + a length.",
    "tags": [
     "place+time"
-   ]
+   ],
+   "en": "I've worked at this company since 2021."
   },
   {
    "id": "g1-086",
@@ -1183,7 +1254,8 @@
    "ex": "llegar a + place; en + transport.",
    "tags": [
     "place+time"
-   ]
+   ],
+   "en": "I got to Madrid by train."
   },
   {
    "id": "g1-087",
@@ -1202,7 +1274,8 @@
    "ex": "hablar con alguien sobre algo.",
    "tags": [
     "verb+prep"
-   ]
+   ],
+   "en": "I talked to Marta about the trip."
   },
   {
    "id": "g1-088",
@@ -1217,7 +1290,8 @@
    "ex": "a las + clock time.",
    "tags": [
     "place+time"
-   ]
+   ],
+   "en": "See you at eight."
   },
   {
    "id": "g1-089",
@@ -1232,7 +1306,8 @@
    "ex": "en + month.",
    "tags": [
     "place+time"
-   ]
+   ],
+   "en": "My birthday is in March."
   },
   {
    "id": "g1-090",
@@ -1250,7 +1325,8 @@
    "ex": "salir de + place you leave.",
    "tags": [
     "place+time"
-   ]
+   ],
+   "en": "We leave home at seven."
   },
   {
    "id": "g1-091",
@@ -1260,7 +1336,8 @@
    "ex": "a pie = on foot; other transport takes «en».",
    "tags": [
     "place+time"
-   ]
+   ],
+   "en": "We can go on foot, it's very near."
   }
  ]
 }

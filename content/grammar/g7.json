@@ -1,0 +1,320 @@
+{
+ "id": "g7",
+ "title": "Por / para",
+ "rule": {
+  "intro": "Maintenance only: you already do this well. Para looks forward to a goal. Por looks back at a cause, or describes a route or exchange.",
+  "points": [
+   {
+    "title": "para",
+    "examples": [
+     [
+      "Este regalo es para ti.",
+      "recipient"
+     ],
+     [
+      "Estudio para aprender.",
+      "purpose"
+     ],
+     [
+      "Es para mañana.",
+      "deadline"
+     ]
+    ]
+   },
+   {
+    "title": "por",
+    "examples": [
+     [
+      "Gracias por tu ayuda.",
+      "cause"
+     ],
+     [
+      "Pasamos por el centro.",
+      "through"
+     ],
+     [
+      "Lo compré por diez euros.",
+      "exchange"
+     ],
+     [
+      "Por la mañana",
+      "time of day"
+     ]
+    ]
+   }
+  ]
+ },
+ "items": [
+  {
+   "id": "g7-001",
+   "type": "gap",
+   "q": "Este regalo es ___ mi madre.",
+   "a": "para",
+   "ex": "Recipient: para.",
+   "en": "This present is for my mother."
+  },
+  {
+   "id": "g7-002",
+   "type": "gap",
+   "q": "Pasamos ___ el centro antes de llegar.",
+   "a": "por",
+   "ex": "Through: por.",
+   "en": "We went through the centre before arriving."
+  },
+  {
+   "id": "g7-003",
+   "type": "gap",
+   "q": "Gracias ___ ayudarme.",
+   "a": "por",
+   "ex": "Thanks for: por.",
+   "en": "Thanks for helping me."
+  },
+  {
+   "id": "g7-004",
+   "type": "gap",
+   "q": "Tengo que terminar este informe ___ mañana.",
+   "a": "para",
+   "ex": "Deadline: para.",
+   "en": "I have to finish this report for tomorrow."
+  },
+  {
+   "id": "g7-005",
+   "type": "gap",
+   "q": "Estudio español ___ trabajar en España.",
+   "a": "para",
+   "ex": "Purpose: para.",
+   "en": "I study Spanish in order to work in Spain."
+  },
+  {
+   "id": "g7-006",
+   "type": "gap",
+   "q": "Lo he comprado ___ veinte euros.",
+   "a": "por",
+   "ex": "Exchange: por.",
+   "en": "I bought it for twenty euros."
+  },
+  {
+   "id": "g7-007",
+   "type": "gap",
+   "q": "No fui ___ la lluvia.",
+   "a": "por",
+   "ex": "Cause: por.",
+   "en": "I didn't go because of the rain."
+  },
+  {
+   "id": "g7-008",
+   "type": "gap",
+   "q": "Hablamos ___ teléfono ayer.",
+   "a": "por",
+   "ex": "Means: por teléfono.",
+   "en": "We talked on the phone yesterday."
+  },
+  {
+   "id": "g7-009",
+   "type": "gap",
+   "q": "Salgo ___ Madrid mañana.",
+   "a": "para",
+   "ex": "Destination: para.",
+   "en": "I'm leaving for Madrid tomorrow."
+  },
+  {
+   "id": "g7-010",
+   "type": "gap",
+   "q": "___ mí, es la mejor opción.",
+   "a": "Para",
+   "ex": "Opinion: para mí.",
+   "en": "For me, it's the best option."
+  },
+  {
+   "id": "g7-011",
+   "type": "mc",
+   "q": "Te llamo ___ la tarde.",
+   "opts": [
+    "por",
+    "para",
+    "a"
+   ],
+   "c": 0,
+   "ex": "Time of day: por.",
+   "en": "I'll call you in the afternoon."
+  },
+  {
+   "id": "g7-012",
+   "type": "mc",
+   "q": "El tren ___ Sevilla sale a las diez.",
+   "opts": [
+    "para",
+    "por",
+    "en"
+   ],
+   "c": 0,
+   "ex": "Destination: para.",
+   "en": "The train for Seville leaves at ten."
+  },
+  {
+   "id": "g7-013",
+   "type": "mc",
+   "q": "Cambié mi coche ___ una moto.",
+   "opts": [
+    "por",
+    "para",
+    "a"
+   ],
+   "c": 0,
+   "ex": "Exchange: por.",
+   "en": "I swapped my car for a motorbike."
+  },
+  {
+   "id": "g7-014",
+   "type": "mc",
+   "q": "Esta mesa es ___ dos personas.",
+   "opts": [
+    "para",
+    "por",
+    "en"
+   ],
+   "c": 0,
+   "ex": "Intended for: para.",
+   "en": "This table is for two people."
+  },
+  {
+   "id": "g7-015",
+   "type": "mc",
+   "q": "Me pagan veinte euros ___ hora.",
+   "opts": [
+    "por",
+    "para",
+    "a"
+   ],
+   "c": 0,
+   "ex": "Per: por.",
+   "en": "They pay me twenty euros an hour."
+  },
+  {
+   "id": "g7-016",
+   "type": "mc",
+   "q": "Necesito el coche ___ ir al trabajo.",
+   "opts": [
+    "para",
+    "por",
+    "de"
+   ],
+   "c": 0,
+   "ex": "Purpose: para.",
+   "en": "I need the car to go to work."
+  },
+  {
+   "id": "g7-017",
+   "type": "mc",
+   "q": "Lo hice ___ ti. (because of you)",
+   "opts": [
+    "por",
+    "para",
+    "de"
+   ],
+   "c": 0,
+   "ex": "On your behalf, because of you: por.",
+   "en": "I did it for you."
+  },
+  {
+   "id": "g7-018",
+   "type": "mc",
+   "q": "Vamos a dar un paseo ___ la playa.",
+   "opts": [
+    "por",
+    "para",
+    "de"
+   ],
+   "c": 0,
+   "ex": "Along: por.",
+   "en": "Let's go for a walk along the beach."
+  },
+  {
+   "id": "g7-019",
+   "type": "gapBank",
+   "q": "Salí ___ comprar pan y pasé ___ tu calle.",
+   "a": [
+    "para",
+    "por"
+   ],
+   "bank": [
+    "para",
+    "por",
+    "de",
+    "en"
+   ],
+   "ex": "Purpose: para. Through: por.",
+   "en": "I went out to buy bread and went along your street."
+  },
+  {
+   "id": "g7-020",
+   "type": "gapBank",
+   "q": "El libro es ___ Ana; lo compré ___ diez euros.",
+   "a": [
+    "para",
+    "por"
+   ],
+   "bank": [
+    "para",
+    "por",
+    "de",
+    "a"
+   ],
+   "ex": "Recipient: para. Exchange: por.",
+   "en": "The book is for Ana; I bought it for ten euros."
+  },
+  {
+   "id": "g7-021",
+   "type": "gapBank",
+   "q": "Muchas gracias ___ el regalo.",
+   "a": [
+    "por"
+   ],
+   "bank": [
+    "por",
+    "para",
+    "de",
+    "a"
+   ],
+   "ex": "Thanks for: por.",
+   "en": "Thank you very much for the present."
+  },
+  {
+   "id": "g7-022",
+   "type": "tf",
+   "q": "Viajamos para España durante dos semanas.",
+   "a": false,
+   "ex": "Travelling around: por.",
+   "en": "We travelled around Spain for two weeks.",
+   "full": "Viajamos por España durante dos semanas."
+  },
+  {
+   "id": "g7-023",
+   "type": "tf",
+   "q": "Gracias por venir.",
+   "a": true,
+   "ex": "Thanks for: por.",
+   "en": "Thanks for coming."
+  },
+  {
+   "id": "g7-024",
+   "type": "tiles",
+   "q": "This is for you",
+   "a": "Esto es para ti",
+   "distractors": [
+    "por"
+   ],
+   "ex": "Recipient: para."
+  },
+  {
+   "id": "g7-025",
+   "type": "tiles",
+   "q": "Thanks for your help",
+   "a": "Gracias por tu ayuda",
+   "distractors": [
+    "para"
+   ],
+   "ex": "Thanks for: por."
+  }
+ ]
+}

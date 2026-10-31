@@ -1,0 +1,719 @@
+{
+ "id": "fix",
+ "title": "Fix my sentences",
+ "rule": {
+  "intro": "These come from your own exams, homework and chats. Tap the word that is wrong, then correct it. Or build the sentence again from tiles.",
+  "points": [
+   {
+    "title": "Your writing",
+    "examples": [
+     [
+      "Otra ciudad, without una.",
+      "una otra is never right"
+     ],
+     [
+      "Tomamos unas cervezas.",
+      "drinks take tomar, not tener"
+     ],
+     [
+      "Drop yo and nosotros where you can.",
+      "the verb already shows the person"
+     ]
+    ]
+   }
+  ],
+  "watch": "Your exam email had yo, yo, nosotros. Spanish usually drops them."
+ },
+ "items": [
+  {
+   "id": "fix-001",
+   "type": "spot",
+   "q": "¿Como estás?",
+   "wrong": 0,
+   "a": "¿Cómo",
+   "opts": [
+    "¿Cómo",
+    "¿Cuándo",
+    "¿Qué"
+   ],
+   "full": "¿Cómo estás?",
+   "ex": "Question words carry an accent.",
+   "en": "How are you?",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-002",
+   "type": "spot",
+   "q": "¿Cómo estas?",
+   "wrong": 1,
+   "a": "estás",
+   "opts": [
+    "estás",
+    "esta",
+    "estoy"
+   ],
+   "full": "¿Cómo estás?",
+   "ex": "Estás: with accent.",
+   "en": "How are you?",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-003",
+   "type": "spot",
+   "q": "He empezado la clase de bailar.",
+   "wrong": 5,
+   "a": "baile",
+   "opts": [
+    "baile",
+    "bailo",
+    "bailando"
+   ],
+   "full": "He empezado la clase de baile.",
+   "ex": "Noun needed: clase de baile.",
+   "en": "I've started the dance class.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-004",
+   "type": "spot",
+   "q": "Me encanta aprender de bailar.",
+   "wrong": 3,
+   "a": "a",
+   "opts": [
+    "a",
+    "en",
+    "por"
+   ],
+   "full": "Me encanta aprender a bailar.",
+   "ex": "aprender a + infinitive.",
+   "en": "I love learning to dance.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-005",
+   "type": "spot",
+   "q": "Después, nosotros teníamos unas cervezas.",
+   "wrong": 2,
+   "a": "tomamos",
+   "opts": [
+    "tomamos",
+    "tuvimos",
+    "hacíamos"
+   ],
+   "full": "Después, nosotros tomamos unas cervezas.",
+   "ex": "Drinks take tomar.",
+   "en": "Afterwards, we had some beers.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-006",
+   "type": "spot",
+   "q": "Voy a visitar una otra ciudad.",
+   "wrong": 3,
+   "a": "(delete)",
+   "opts": [
+    "(delete)",
+    "la",
+    "un"
+   ],
+   "full": "Voy a visitar otra ciudad.",
+   "ex": "Otra needs no una.",
+   "en": "I'm going to visit another city.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-007",
+   "type": "spot",
+   "q": "He encontrado otras personas en clase.",
+   "wrong": 1,
+   "a": "conocido a",
+   "opts": [
+    "conocido a",
+    "visto a",
+    "encontrado a"
+   ],
+   "full": "He conocido a otras personas en clase.",
+   "ex": "First meetings: conocer a.",
+   "en": "I've met other people in class.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-008",
+   "type": "spot",
+   "q": "(you mean you met them) He visto personas de muchos países.",
+   "wrong": 6,
+   "a": "conocido a",
+   "opts": [
+    "conocido a",
+    "visitado",
+    "encontrado"
+   ],
+   "full": "He conocido a personas de muchos países.",
+   "ex": "First meetings: conocer a.",
+   "en": "I've met people from many countries.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-009",
+   "type": "spot",
+   "q": "¡Espero que vayas aquí pronto!",
+   "wrong": 2,
+   "a": "vengas",
+   "opts": [
+    "vengas",
+    "vas",
+    "vienes"
+   ],
+   "full": "¡Espero que vengas aquí pronto!",
+   "ex": "Coming here: venir, subjunctive.",
+   "en": "I hope you come here soon!",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-010",
+   "type": "spot",
+   "q": "¿Dónde tú vives?",
+   "wrong": 1,
+   "a": "(delete)",
+   "opts": [
+    "(delete)",
+    "usted",
+    "yo"
+   ],
+   "full": "¿Dónde vives?",
+   "ex": "Verb right after the question word.",
+   "en": "Where do you live?",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-011",
+   "type": "spot",
+   "q": "Quiero aprender Espanyol.",
+   "wrong": 2,
+   "a": "español",
+   "opts": [
+    "español",
+    "Español",
+    "espanol"
+   ],
+   "full": "Quiero aprender español.",
+   "ex": "Spanish spelling, with a small e.",
+   "en": "I want to learn Spanish.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-012",
+   "type": "spot",
+   "q": "(you mean you enjoy it) Por las mañanas quiero ver películas.",
+   "wrong": 8,
+   "a": "me gusta",
+   "opts": [
+    "me gusta",
+    "tengo",
+    "voy"
+   ],
+   "full": "Por las mañanas me gusta ver películas.",
+   "ex": "You mean you like it.",
+   "en": "In the mornings I like watching films.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-013",
+   "type": "spot",
+   "q": "Después de viaje, descansamos.",
+   "wrong": 1,
+   "a": "del",
+   "opts": [
+    "del",
+    "al",
+    "en"
+   ],
+   "full": "Después del viaje, descansamos.",
+   "ex": "de + el = del.",
+   "en": "After the trip, we rested.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-015",
+   "type": "spot",
+   "q": "Vivo en España desde cinco años.",
+   "wrong": 3,
+   "a": "desde hace",
+   "opts": [
+    "desde hace",
+    "hace",
+    "por"
+   ],
+   "full": "Vivo en España desde hace cinco años.",
+   "ex": "Length of time: desde hace.",
+   "en": "I've lived in Spain for five years.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-016",
+   "type": "tf",
+   "q": "Estoy sabiendo la respuesta.",
+   "a": false,
+   "ex": "Saber is not used with estar + -ing.",
+   "en": "I know the answer.",
+   "full": "Sé la respuesta.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-017",
+   "type": "spot",
+   "q": "Tengo la pelo rubio y largo.",
+   "wrong": 1,
+   "a": "el",
+   "opts": [
+    "el",
+    "un",
+    "lo"
+   ],
+   "full": "Tengo el pelo rubio y largo.",
+   "ex": "Pelo is masculine: el pelo.",
+   "en": "I have long blond hair.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-018",
+   "type": "spot",
+   "q": "Mis amigos ha llegado tarde.",
+   "wrong": 2,
+   "a": "han",
+   "opts": [
+    "han",
+    "he",
+    "has"
+   ],
+   "full": "Mis amigos han llegado tarde.",
+   "ex": "Plural subject: han.",
+   "en": "My friends have arrived late.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-019",
+   "type": "spot",
+   "q": "Toda la mi casa está limpia.",
+   "wrong": 1,
+   "a": "(delete)",
+   "opts": [
+    "(delete)",
+    "una",
+    "de"
+   ],
+   "full": "Toda mi casa está limpia.",
+   "ex": "Toda mi casa, with no la.",
+   "en": "My whole house is clean.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-020",
+   "type": "spot",
+   "q": "Tengo mucho información.",
+   "wrong": 1,
+   "a": "mucha",
+   "opts": [
+    "mucha",
+    "muchos",
+    "muy"
+   ],
+   "full": "Tengo mucha información.",
+   "ex": "Información is feminine.",
+   "en": "I have a lot of information.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-021",
+   "type": "spot",
+   "q": "Mis padres habia vivido allí.",
+   "wrong": 2,
+   "a": "habían",
+   "opts": [
+    "habían",
+    "había",
+    "has"
+   ],
+   "full": "Mis padres habían vivido allí.",
+   "ex": "Plural, with an accent: habían.",
+   "en": "My parents had lived there.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-022",
+   "type": "spot",
+   "q": "(tú) Hace la cama, por favor.",
+   "wrong": 1,
+   "a": "Haz",
+   "opts": [
+    "Haz",
+    "Haces",
+    "Hagas"
+   ],
+   "full": "(tú) Haz la cama, por favor.",
+   "ex": "Irregular tú: haz.",
+   "en": "Make the bed, please.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-023",
+   "type": "spot",
+   "q": "(tú) Sale de aquí ahora.",
+   "wrong": 1,
+   "a": "Sal",
+   "opts": [
+    "Sal",
+    "Sales",
+    "Salgas"
+   ],
+   "full": "(tú) Sal de aquí ahora.",
+   "ex": "Irregular tú: sal.",
+   "en": "Get out of here now.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-024",
+   "type": "spot",
+   "q": "El niño está dormiendo.",
+   "wrong": 3,
+   "a": "durmiendo",
+   "opts": [
+    "durmiendo",
+    "duermiendo",
+    "duerme"
+   ],
+   "full": "El niño está durmiendo.",
+   "ex": "Stem change: durmiendo.",
+   "en": "The child is sleeping.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-025",
+   "type": "spot",
+   "q": "La tienda está abrida.",
+   "wrong": 3,
+   "a": "abierta",
+   "opts": [
+    "abierta",
+    "abierto",
+    "abre"
+   ],
+   "full": "La tienda está abierta.",
+   "ex": "Irregular participle: abierto, abierta.",
+   "en": "The shop is open.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-026",
+   "type": "tiles",
+   "q": "I've started the dance class",
+   "a": "He empezado la clase de baile",
+   "distractors": [
+    "bailar"
+   ],
+   "ex": "Noun: baile.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-027",
+   "type": "tiles",
+   "q": "Afterwards we had some beers",
+   "a": "Después tomamos unas cervezas",
+   "distractors": [
+    "teníamos",
+    "nosotros"
+   ],
+   "ex": "Drinks take tomar; drop nosotros.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-028",
+   "type": "tiles",
+   "q": "I'm going to visit another city",
+   "a": "Voy a visitar otra ciudad",
+   "distractors": [
+    "una"
+   ],
+   "ex": "Otra needs no una.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-029",
+   "type": "tiles",
+   "q": "I hope you come soon",
+   "a": "Espero que vengas pronto",
+   "distractors": [
+    "vayas",
+    "tú"
+   ],
+   "ex": "Venir, subjunctive; drop tú.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-030",
+   "type": "tiles",
+   "q": "Where do you live?",
+   "a": "¿Dónde vives?",
+   "distractors": [
+    "tú"
+   ],
+   "ex": "Verb right after the question word.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-031",
+   "type": "tiles",
+   "q": "I chose this course because I need Spanish",
+   "a": "Elegí este curso porque necesito español",
+   "distractors": [
+    "Yo",
+    "yo"
+   ],
+   "ex": "Drop yo.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-032",
+   "type": "tiles",
+   "q": "I live in a small neighbourhood",
+   "a": "Vivo en un barrio pequeño",
+   "distractors": [
+    "Yo",
+    "una"
+   ],
+   "ex": "Drop yo.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-033",
+   "type": "tiles",
+   "q": "I arrived home late",
+   "a": "Llegué a casa tarde",
+   "distractors": [
+    "en"
+   ],
+   "ex": "Llegar a casa.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-034",
+   "type": "tiles",
+   "q": "I play tennis on Saturdays",
+   "a": "Los sábados juego al tenis",
+   "distractors": [
+    "a",
+    "de"
+   ],
+   "ex": "Jugar al tenis.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-035",
+   "type": "tiles",
+   "q": "I work in the afternoons",
+   "a": "Trabajo por las tardes",
+   "distractors": [
+    "a",
+    "en"
+   ],
+   "ex": "Por las tardes.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-036",
+   "type": "tiles",
+   "q": "I've lived here for five years",
+   "a": "Vivo aquí desde hace cinco años",
+   "distractors": [
+    "por"
+   ],
+   "ex": "Desde hace, with the present.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-037",
+   "type": "tiles",
+   "q": "I had a birthday last week",
+   "a": "Cumplí años la semana pasada",
+   "distractors": [
+    "Tenía",
+    "yo"
+   ],
+   "ex": "Cumplir años.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-038",
+   "type": "tiles",
+   "q": "I don't know",
+   "a": "No lo sé",
+   "distractors": [
+    "estoy",
+    "sabiendo"
+   ],
+   "ex": "Never «estoy sabiendo».",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-039",
+   "type": "tiles",
+   "q": "In two years I'm going to work in Spain",
+   "a": "Dentro de dos años voy a trabajar en España",
+   "distractors": [
+    "Hace",
+    "yo"
+   ],
+   "ex": "Dentro de + future time.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-040",
+   "type": "tiles",
+   "q": "I've been a bit busy",
+   "a": "He estado un poco liado",
+   "distractors": [
+    "soy",
+    "sido"
+   ],
+   "ex": "A state: estar.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-041",
+   "type": "gap",
+   "q": "He trabajado ___ dos empresas en Holanda.",
+   "a": "en",
+   "ex": "trabajar en.",
+   "en": "I have worked at two companies in the Netherlands.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-042",
+   "type": "gap",
+   "q": "(usted) ___ de sus cosas, por favor. (preocuparse)",
+   "a": "Preocúpese",
+   "ex": "Pronoun on the end, plus accent.",
+   "en": "Take care of your things, please.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-043",
+   "type": "mc",
+   "q": "(usted) ___ por sus hijos.",
+   "opts": [
+    "Preocúpese",
+    "Preocupase",
+    "Se preocupa"
+   ],
+   "c": 0,
+   "ex": "Pronoun on the end, plus accent.",
+   "en": "Worry about your children.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-044",
+   "type": "tf",
+   "q": "Vi que el bar estaba cerrado.",
+   "a": true,
+   "ex": "Vi que + clause; vi has no accent.",
+   "en": "I saw that the bar was closed.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-045",
+   "type": "gap",
+   "q": "Me gusta mucho la clase de ___ .",
+   "a": "baile",
+   "ex": "Noun needed: baile.",
+   "en": "I really like the dance class.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-046",
+   "type": "gap",
+   "q": "Anoche ___ unas cañas en el bar. (tomar, nosotros)",
+   "a": "tomamos",
+   "ex": "Drinks take tomar.",
+   "en": "Last night we had some beers in the bar.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-047",
+   "type": "mc",
+   "q": "Los domingos ___ con mis amigos.",
+   "opts": [
+    "voy a la playa",
+    "voy en la playa",
+    "voy la playa"
+   ],
+   "c": 0,
+   "ex": "ir a + place.",
+   "en": "On Sundays I go to the beach with my friends.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-048",
+   "type": "gap",
+   "q": "El bebé está ___ . (dormir)",
+   "a": "durmiendo",
+   "ex": "Stem change: durmiendo.",
+   "en": "The baby is sleeping.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-049",
+   "type": "mc",
+   "q": "Mis padres están ___ en el hotel.",
+   "opts": [
+    "durmiendo",
+    "dormiendo",
+    "duermiendo"
+   ],
+   "c": 0,
+   "ex": "Stem change: durmiendo.",
+   "en": "My parents are sleeping at the hotel.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-050",
+   "type": "gap",
+   "q": "(tú) ___ la cena, por favor. (hacer)",
+   "a": "Haz",
+   "ex": "Irregular tú: haz.",
+   "en": "Make dinner, please.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-051",
+   "type": "gap",
+   "q": "(tú) ___ ya, que llegas tarde. (salir)",
+   "a": "Sal",
+   "ex": "Irregular tú: sal.",
+   "en": "Leave now, you're running late.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-052",
+   "type": "gap",
+   "q": "Necesito ___ información sobre el piso. (a lot of)",
+   "a": "mucha",
+   "ex": "Información is feminine.",
+   "en": "I need a lot of information about the flat.",
+   "fromMistake": true
+  },
+  {
+   "id": "fix-053",
+   "type": "mc",
+   "q": "Tengo ___ información sobre el curso.",
+   "opts": [
+    "mucha",
+    "mucho",
+    "muchos"
+   ],
+   "c": 0,
+   "ex": "Información is feminine.",
+   "en": "I have a lot of information about the course.",
+   "fromMistake": true
+  }
+ ]
+}

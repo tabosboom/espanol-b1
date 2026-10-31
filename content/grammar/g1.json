@@ -1,0 +1,1266 @@
+{
+ "id": "g1",
+ "title": "Verbs + prepositions",
+ "rule": {
+  "intro": "Many Spanish verbs take a fixed preposition. Learn the verb and its preposition as one unit. People as direct objects take «a».",
+  "points": [
+   {
+    "title": "con",
+    "examples": [
+     [
+      "soñar con, casarse con, contar con",
+      "dream about, marry, count on"
+     ],
+     [
+      "Estoy de acuerdo con esa decisión.",
+      "I agree with that decision."
+     ]
+    ]
+   },
+   {
+    "title": "en",
+    "examples": [
+     [
+      "pensar en, confiar en, fijarse en, tardar en",
+      "think about, trust, notice, take time to"
+     ],
+     [
+      "Estamos interesados en alquilar un piso.",
+      "We are interested in renting a flat."
+     ]
+    ]
+   },
+   {
+    "title": "de",
+    "examples": [
+     [
+      "depender de, acordarse de, olvidarse de, dejar de",
+      "depend on, remember, forget, stop doing"
+     ],
+     [
+      "No me di cuenta de la hora.",
+      "I didn't notice the time."
+     ]
+    ]
+   },
+   {
+    "title": "a",
+    "examples": [
+     [
+      "aprender a, empezar a, ayudar a, volver a, ir a",
+      "learn to, start to, help to, do again, going to"
+     ],
+     [
+      "Llegué a casa muy tarde.",
+      "I got home very late."
+     ]
+    ]
+   },
+   {
+    "title": "por",
+    "examples": [
+     [
+      "preocuparse por, interesarse por",
+      "worry about, take an interest in"
+     ],
+     [
+      "Salgo a correr por la mañana.",
+      "I go running in the morning."
+     ]
+    ]
+   },
+   {
+    "title": "Personal «a»",
+    "examples": [
+     [
+      "He conocido a otras personas.",
+      "I've met other people."
+     ],
+     [
+      "Ayer vi a Marta.",
+      "I saw Marta yesterday."
+     ]
+    ]
+   }
+  ],
+  "watch": "From your exam: interesados en (not de), soñé con (not para), de acuerdo con (not para), aprender a (not de)."
+ },
+ "items": [
+  {
+   "id": "g1-001",
+   "type": "gap",
+   "q": "Estamos interesados ___ alquilar una vivienda en el centro.",
+   "a": "en",
+   "ex": "estar interesado en = to be interested in. You wrote «de».",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-002",
+   "type": "gap",
+   "q": "Ayer soñé ___ un viaje que hice hace muchos años.",
+   "a": "con",
+   "ex": "soñar con = to dream about. You wrote «para».",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-003",
+   "type": "gap",
+   "q": "No estoy de acuerdo ___ esa decisión.",
+   "a": "con",
+   "ex": "estar de acuerdo con = to agree with. You wrote «para».",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-004",
+   "type": "gap",
+   "q": "Me encanta aprender ___ bailar.",
+   "a": "a",
+   "ex": "aprender a + infinitive. You wrote «de».",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-005",
+   "type": "gap",
+   "q": "He trabajado ___ varios proyectos internacionales.",
+   "a": "en",
+   "ex": "trabajar en un proyecto: the preposition cannot be dropped.",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-006",
+   "type": "gap",
+   "q": "Vivo ___ una calle muy tranquila.",
+   "a": "en",
+   "ex": "vivir en + place.",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-007",
+   "type": "gap",
+   "q": "Llegamos a las nueve de la mañana ___ la estación central.",
+   "a": "a",
+   "ex": "llegar a + place, never «llegar en».",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-008",
+   "type": "mc",
+   "q": "El móvil está ___ la mesa.",
+   "opts": [
+    "encima de",
+    "con",
+    "a"
+   ],
+   "c": 0,
+   "ex": "encima de (or sobre) = on top of.",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-009",
+   "type": "gap",
+   "q": "Voy al trabajo ___ metro todos los días.",
+   "a": "en",
+   "ex": "en + transport: en metro, en tren, en coche.",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-010",
+   "type": "gap",
+   "q": "Hablé ___ mi jefe sobre el proyecto.",
+   "a": "con",
+   "ex": "hablar con alguien = to talk to someone.",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-011",
+   "type": "gap",
+   "q": "Hablé con mi jefe ___ el proyecto.",
+   "a": "sobre",
+   "ex": "hablar sobre algo = to talk about something. «de» needs «del».",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-012",
+   "type": "mc",
+   "q": "Salgo a correr ___ la mañana.",
+   "opts": [
+    "por",
+    "a",
+    "en"
+   ],
+   "c": 0,
+   "ex": "por la mañana, not «a la mañana».",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-013",
+   "type": "gap",
+   "q": "Después ___ viaje, volví a trabajar.",
+   "a": "del",
+   "ex": "después de + el = después del.",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-014",
+   "type": "gap",
+   "q": "Me voy a vivir a Madrid ___ dos años.",
+   "a": "dentro de|en",
+   "ex": "dentro de + time = in (a future time).",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-015",
+   "type": "gap",
+   "q": "Voy ___ la playa todos los domingos.",
+   "a": "a",
+   "ex": "ir a + place, not «en».",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-016",
+   "type": "gap",
+   "q": "Ayer llegué ___ casa muy tarde.",
+   "a": "a",
+   "ex": "llegar a casa.",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-017",
+   "type": "gap",
+   "q": "¿Vas ___ venir a la cena del viernes?",
+   "a": "a",
+   "ex": "ir a + infinitive; do not drop the «a».",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-018",
+   "type": "mc",
+   "q": "Trabajo ___ las tardes en una cafetería.",
+   "opts": [
+    "por",
+    "a",
+    "en"
+   ],
+   "c": 0,
+   "ex": "por las tardes = in the afternoons.",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-019",
+   "type": "gapBank",
+   "q": "Los sábados juego ___ tenis con mi hermano.",
+   "a": [
+    "al"
+   ],
+   "bank": [
+    "al",
+    "a",
+    "en",
+    "de"
+   ],
+   "ex": "jugar a + el = jugar al tenis.",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-020",
+   "type": "gap",
+   "q": "Vivo en Madrid ___ cinco años.",
+   "a": "desde hace",
+   "ex": "desde hace + length of time, with the present tense.",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-021",
+   "type": "spot",
+   "q": "Estamos interesados de alquilar un piso.",
+   "wrong": 2,
+   "a": "en",
+   "opts": [
+    "en",
+    "a",
+    "con"
+   ],
+   "ex": "estar interesado en, never «de».",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-022",
+   "type": "spot",
+   "q": "No estoy de acuerdo para esa decisión.",
+   "wrong": 4,
+   "a": "con",
+   "opts": [
+    "con",
+    "en",
+    "de"
+   ],
+   "ex": "estar de acuerdo con.",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-023",
+   "type": "spot",
+   "q": "Ayer soñé para un viaje largo.",
+   "wrong": 2,
+   "a": "con",
+   "opts": [
+    "con",
+    "de",
+    "en"
+   ],
+   "ex": "soñar con.",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-024",
+   "type": "spot",
+   "q": "Me encanta aprender de bailar.",
+   "wrong": 3,
+   "a": "a",
+   "opts": [
+    "a",
+    "en",
+    "por"
+   ],
+   "ex": "aprender a + infinitive.",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-025",
+   "type": "spot",
+   "q": "Voy en la playa los domingos.",
+   "wrong": 1,
+   "a": "a",
+   "opts": [
+    "a",
+    "de",
+    "por"
+   ],
+   "ex": "ir a + place.",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-026",
+   "type": "spot",
+   "q": "Estudio a la mañana y trabajo por la tarde.",
+   "wrong": 1,
+   "a": "por",
+   "opts": [
+    "por",
+    "en",
+    "de"
+   ],
+   "ex": "por la mañana, por la tarde.",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-027",
+   "type": "spot",
+   "q": "He trabajado varios proyectos este año.",
+   "wrong": 2,
+   "a": "en varios",
+   "opts": [
+    "en varios",
+    "de varios",
+    "a varios"
+   ],
+   "ex": "trabajar en varios proyectos.",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-028",
+   "type": "spot",
+   "q": "Llegué en la estación a las nueve.",
+   "wrong": 1,
+   "a": "a",
+   "opts": [
+    "a",
+    "de",
+    "por"
+   ],
+   "ex": "llegar a + place.",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-029",
+   "type": "tf",
+   "q": "Estoy interesado de este trabajo.",
+   "a": false,
+   "ex": "Should be «interesado en este trabajo».",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-030",
+   "type": "tf",
+   "q": "He conocido a personas de muchos países.",
+   "a": true,
+   "ex": "Correct: conocer a + people.",
+   "tags": [
+    "personal-a"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-031",
+   "type": "tf",
+   "q": "Llegamos en la estación a las nueve.",
+   "a": false,
+   "ex": "Should be «llegamos a la estación».",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-032",
+   "type": "tf",
+   "q": "Voy al trabajo en metro.",
+   "a": true,
+   "ex": "Correct: en + transport.",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-033",
+   "type": "tiles",
+   "q": "I have met other people",
+   "a": "He conocido a otras personas",
+   "distractors": [
+    "encontrado",
+    "de"
+   ],
+   "ex": "conocer a + people. «Encontrar» means to find.",
+   "tags": [
+    "personal-a"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-034",
+   "type": "tiles",
+   "q": "I've met people from many countries",
+   "a": "He conocido a personas de muchos países",
+   "distractors": [
+    "visto",
+    "en"
+   ],
+   "ex": "First meetings use conocer a, not ver.",
+   "tags": [
+    "personal-a"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-035",
+   "type": "tiles",
+   "q": "I'm learning to dance",
+   "a": "Estoy aprendiendo a bailar",
+   "distractors": [
+    "de",
+    "en"
+   ],
+   "ex": "aprender a + infinitive.",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-036",
+   "type": "tiles",
+   "q": "I go to the beach on Sundays",
+   "a": "Los domingos voy a la playa",
+   "distractors": [
+    "en"
+   ],
+   "ex": "ir a + place.",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-037",
+   "type": "tiles",
+   "q": "I arrive at the station at nine",
+   "a": "Llego a la estación a las nueve",
+   "distractors": [
+    "en"
+   ],
+   "ex": "llegar a + place; a las + time.",
+   "tags": [
+    "place+time"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-038",
+   "type": "type",
+   "q": "I play tennis.",
+   "a": "Juego al tenis",
+   "ex": "jugar al + sport.",
+   "tags": [
+    "verb+prep"
+   ],
+   "fromMistake": true
+  },
+  {
+   "id": "g1-039",
+   "type": "gap",
+   "q": "Mi hermana se casa ___ su novio en junio.",
+   "a": "con",
+   "ex": "casarse con = to marry.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-040",
+   "type": "mc",
+   "q": "Siempre cuento ___ mis compañeros cuando necesito ayuda.",
+   "opts": [
+    "con",
+    "en",
+    "de"
+   ],
+   "c": 0,
+   "ex": "contar con = to count on.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-041",
+   "type": "gap",
+   "q": "Llevo toda la semana pensando ___ ti.",
+   "a": "en",
+   "ex": "pensar en = to think about.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-042",
+   "type": "gapBank",
+   "q": "No confío ___ él porque me ha mentido.",
+   "a": [
+    "en"
+   ],
+   "bank": [
+    "en",
+    "de",
+    "con",
+    "a"
+   ],
+   "ex": "confiar en = to trust.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-043",
+   "type": "mc",
+   "q": "¿Te has fijado ___ esa casa tan bonita?",
+   "opts": [
+    "en",
+    "de",
+    "con"
+   ],
+   "c": 0,
+   "ex": "fijarse en = to notice.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-044",
+   "type": "gap",
+   "q": "Hemos quedado ___ vernos a las ocho.",
+   "a": "en",
+   "ex": "quedar en = to agree to do something.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-045",
+   "type": "gap",
+   "q": "Tardo veinte minutos ___ llegar al trabajo.",
+   "a": "en",
+   "ex": "tardar en + infinitive = to take time to.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-046",
+   "type": "gapBank",
+   "q": "Eso depende ___ ti.",
+   "a": [
+    "de"
+   ],
+   "bank": [
+    "de",
+    "en",
+    "con",
+    "por"
+   ],
+   "ex": "depender de = to depend on.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-047",
+   "type": "gap",
+   "q": "No me acuerdo ___ su nombre.",
+   "a": "de",
+   "ex": "acordarse de = to remember.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-048",
+   "type": "mc",
+   "q": "Siempre me olvido ___ cerrar la ventana.",
+   "opts": [
+    "de",
+    "a",
+    "en"
+   ],
+   "c": 0,
+   "ex": "olvidarse de = to forget.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-049",
+   "type": "gap",
+   "q": "Se enamoró ___ una chica de Sevilla.",
+   "a": "de",
+   "ex": "enamorarse de = to fall in love with.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-050",
+   "type": "gap",
+   "q": "No me di cuenta ___ la hora que era.",
+   "a": "de",
+   "ex": "darse cuenta de = to realise, to notice.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-051",
+   "type": "gap",
+   "q": "Voy a tratar ___ llegar antes de las nueve.",
+   "a": "de",
+   "ex": "tratar de + infinitive = to try to.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-052",
+   "type": "gap",
+   "q": "He dejado ___ fumar este año.",
+   "a": "de",
+   "ex": "dejar de + infinitive = to stop doing.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-053",
+   "type": "gapBank",
+   "q": "Mi hijo ha empezado ___ andar.",
+   "a": [
+    "a"
+   ],
+   "bank": [
+    "a",
+    "de",
+    "en",
+    "por"
+   ],
+   "ex": "empezar a + infinitive.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-054",
+   "type": "gap",
+   "q": "¿Me ayudas ___ llevar la maleta?",
+   "a": "a",
+   "ex": "ayudar a + infinitive.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-055",
+   "type": "gap",
+   "q": "No quiero volver ___ cometer ese error.",
+   "a": "a",
+   "ex": "volver a + infinitive = to do again.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-056",
+   "type": "mc",
+   "q": "Mañana voy ___ llamar a mi madre.",
+   "opts": [
+    "a",
+    "de",
+    "en"
+   ],
+   "c": 0,
+   "ex": "ir a + infinitive = going to.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-057",
+   "type": "gapBank",
+   "q": "Mis padres se preocupan mucho ___ mí.",
+   "a": [
+    "por"
+   ],
+   "bank": [
+    "por",
+    "de",
+    "en",
+    "con"
+   ],
+   "ex": "preocuparse por = to worry about.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-058",
+   "type": "mc",
+   "q": "Mi hermano se interesa mucho ___ la política.",
+   "opts": [
+    "por",
+    "de",
+    "a"
+   ],
+   "c": 0,
+   "ex": "interesarse por = to take an interest in.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-059",
+   "type": "mc",
+   "q": "Pienso ___ mis amigos a menudo.",
+   "opts": [
+    "en",
+    "de",
+    "a"
+   ],
+   "c": 0,
+   "ex": "pensar en = to think about someone.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-060",
+   "type": "gap",
+   "q": "Ayer vi ___ Marta en el supermercado.",
+   "a": "a",
+   "ex": "Personal «a»: ver a + person.",
+   "tags": [
+    "personal-a"
+   ]
+  },
+  {
+   "id": "g1-061",
+   "type": "gap",
+   "q": "Tengo que llamar ___ mi hermano esta tarde.",
+   "a": "a",
+   "ex": "Personal «a»: llamar a + person.",
+   "tags": [
+    "personal-a"
+   ]
+  },
+  {
+   "id": "g1-062",
+   "type": "tiles",
+   "q": "Yesterday I met your brother",
+   "a": "Ayer conocí a tu hermano",
+   "distractors": [
+    "de"
+   ],
+   "ex": "Personal «a» with conocer.",
+   "tags": [
+    "personal-a"
+   ]
+  },
+  {
+   "id": "g1-063",
+   "type": "tiles",
+   "q": "I agree with you",
+   "a": "Estoy de acuerdo contigo",
+   "distractors": [
+    "con",
+    "para"
+   ],
+   "ex": "con + ti becomes contigo.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-064",
+   "type": "tiles",
+   "q": "I dream about that trip",
+   "a": "Sueño con ese viaje",
+   "distractors": [
+    "para",
+    "de"
+   ],
+   "ex": "soñar con.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-065",
+   "type": "tiles",
+   "q": "I'm thinking about you",
+   "a": "Estoy pensando en ti",
+   "distractors": [
+    "de"
+   ],
+   "ex": "pensar en.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-066",
+   "type": "tiles",
+   "q": "She is interested in the flat",
+   "a": "Está interesada en el piso",
+   "distractors": [
+    "de"
+   ],
+   "ex": "estar interesado/a en.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-067",
+   "type": "tiles",
+   "q": "It depends on you",
+   "a": "Depende de ti",
+   "distractors": [
+    "en"
+   ],
+   "ex": "depender de, unlike English «on».",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-068",
+   "type": "tiles",
+   "q": "I don't remember the address",
+   "a": "No me acuerdo de la dirección",
+   "distractors": [
+    "en"
+   ],
+   "ex": "acordarse de.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-069",
+   "type": "tiles",
+   "q": "I've stopped smoking",
+   "a": "He dejado de fumar",
+   "distractors": [
+    "a"
+   ],
+   "ex": "dejar de + infinitive.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-070",
+   "type": "type",
+   "q": "I dream about you.",
+   "a": "Sueño contigo",
+   "ex": "soñar con; con + ti = contigo.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-071",
+   "type": "type",
+   "q": "He married Ana.",
+   "a": "Se casó con Ana|Se ha casado con Ana",
+   "ex": "casarse con: Spanish needs «con».",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-072",
+   "type": "type",
+   "q": "I trust you.",
+   "a": "Confío en ti",
+   "ex": "confiar en.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-073",
+   "type": "type",
+   "q": "I agree with Marta.",
+   "a": "Estoy de acuerdo con Marta",
+   "ex": "estar de acuerdo con.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-074",
+   "type": "type",
+   "q": "I'm going by metro.",
+   "a": "Voy en metro",
+   "ex": "en + transport.",
+   "tags": [
+    "place+time"
+   ]
+  },
+  {
+   "id": "g1-075",
+   "type": "type",
+   "q": "next to the bank",
+   "a": "al lado del banco",
+   "ex": "al lado de + el = al lado del.",
+   "tags": [
+    "place+time"
+   ]
+  },
+  {
+   "id": "g1-076",
+   "type": "type",
+   "q": "opposite the station",
+   "a": "enfrente de la estación",
+   "ex": "enfrente de + place.",
+   "tags": [
+    "place+time"
+   ]
+  },
+  {
+   "id": "g1-077",
+   "type": "type",
+   "q": "in two years",
+   "a": "dentro de dos años|en dos años",
+   "ex": "dentro de + future time.",
+   "tags": [
+    "place+time"
+   ]
+  },
+  {
+   "id": "g1-078",
+   "type": "type",
+   "q": "two years ago",
+   "a": "hace dos años",
+   "ex": "hace + time = ago.",
+   "tags": [
+    "place+time"
+   ]
+  },
+  {
+   "id": "g1-079",
+   "type": "type",
+   "q": "in the morning",
+   "a": "por la mañana",
+   "ex": "por la mañana, not «a la mañana».",
+   "tags": [
+    "place+time"
+   ]
+  },
+  {
+   "id": "g1-080",
+   "type": "gap",
+   "q": "La parada está ___ de la estación. (opposite)",
+   "a": "enfrente",
+   "ex": "enfrente de = opposite.",
+   "tags": [
+    "place+time"
+   ]
+  },
+  {
+   "id": "g1-081",
+   "type": "gap",
+   "q": "El banco está ___ de la farmacia. (next to)",
+   "a": "al lado",
+   "ex": "al lado de = next to.",
+   "tags": [
+    "place+time"
+   ]
+  },
+  {
+   "id": "g1-082",
+   "type": "mc",
+   "q": "Las llaves están ___ de la mesa. (on top of)",
+   "opts": [
+    "encima",
+    "debajo",
+    "delante"
+   ],
+   "c": 0,
+   "ex": "encima de = on top of.",
+   "tags": [
+    "place+time"
+   ]
+  },
+  {
+   "id": "g1-083",
+   "type": "gap",
+   "q": "Estudio español ___ hace dos años.",
+   "a": "desde",
+   "ex": "desde hace + length of time.",
+   "tags": [
+    "place+time"
+   ]
+  },
+  {
+   "id": "g1-084",
+   "type": "mc",
+   "q": "Terminé la carrera ___ tres años.",
+   "opts": [
+    "hace",
+    "desde",
+    "dentro de"
+   ],
+   "c": 0,
+   "ex": "hace + time + past tense = ago.",
+   "tags": [
+    "place+time"
+   ]
+  },
+  {
+   "id": "g1-085",
+   "type": "mc",
+   "q": "Trabajo en esta empresa ___ 2021.",
+   "opts": [
+    "desde",
+    "desde hace",
+    "hace"
+   ],
+   "c": 0,
+   "ex": "desde + a point in time; desde hace + a length.",
+   "tags": [
+    "place+time"
+   ]
+  },
+  {
+   "id": "g1-086",
+   "type": "gapBank",
+   "q": "Llegué ___ Madrid ___ tren.",
+   "a": [
+    "a",
+    "en"
+   ],
+   "bank": [
+    "a",
+    "en",
+    "de",
+    "por"
+   ],
+   "ex": "llegar a + place; en + transport.",
+   "tags": [
+    "place+time"
+   ]
+  },
+  {
+   "id": "g1-087",
+   "type": "gapBank",
+   "q": "Hablé ___ Marta ___ el viaje.",
+   "a": [
+    "con",
+    "sobre"
+   ],
+   "bank": [
+    "con",
+    "sobre",
+    "a",
+    "en"
+   ],
+   "ex": "hablar con alguien sobre algo.",
+   "tags": [
+    "verb+prep"
+   ]
+  },
+  {
+   "id": "g1-088",
+   "type": "mc",
+   "q": "Nos vemos ___ las ocho.",
+   "opts": [
+    "a",
+    "en",
+    "por"
+   ],
+   "c": 0,
+   "ex": "a las + clock time.",
+   "tags": [
+    "place+time"
+   ]
+  },
+  {
+   "id": "g1-089",
+   "type": "mc",
+   "q": "Mi cumpleaños es ___ marzo.",
+   "opts": [
+    "en",
+    "a",
+    "de"
+   ],
+   "c": 0,
+   "ex": "en + month.",
+   "tags": [
+    "place+time"
+   ]
+  },
+  {
+   "id": "g1-090",
+   "type": "gapBank",
+   "q": "Salimos ___ casa a las siete.",
+   "a": [
+    "de"
+   ],
+   "bank": [
+    "de",
+    "a",
+    "en",
+    "por"
+   ],
+   "ex": "salir de + place you leave.",
+   "tags": [
+    "place+time"
+   ]
+  },
+  {
+   "id": "g1-091",
+   "type": "gap",
+   "q": "Podemos ir ___ pie, está muy cerca.",
+   "a": "a",
+   "ex": "a pie = on foot; other transport takes «en».",
+   "tags": [
+    "place+time"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+[
+ {
+  "id": "conv-station",
+  "title": "Directions to the station",
+  "setting": "You're in the street with a suitcase and need the train station.",
+  "turns": [
+   {
+    "speaker": "me",
+    "es": "Perdona, ¿cómo llego a la estación de tren?",
+    "en": "Excuse me, how do I get to the train station?",
+    "options": [
+     {
+      "es": "Perdona, ¿cómo llego a la estación de tren?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Perdona, ¿cómo llego en la estación de tren?",
+      "correct": false,
+      "why": "llegar a + place, never «en»."
+     },
+     {
+      "es": "Perdona, ¿me pone una caña, por favor?",
+      "correct": false,
+      "why": "That is how you order a beer in a bar."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Sigue todo recto hasta el semáforo.",
+    "en": "Go straight on to the traffic light."
+   },
+   {
+    "speaker": "me",
+    "es": "¿Está lejos?",
+    "en": "Is it far?",
+    "options": [
+     {
+      "es": "¿Está lejos?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "¿Es lejos?",
+      "correct": false,
+      "why": "Distance and location take estar."
+     },
+     {
+      "es": "¿Qué planes tienes?",
+      "correct": false,
+      "why": "That asks about their plans, not the route."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "No, está a diez minutos andando.",
+    "en": "No, it's a ten-minute walk."
+   },
+   {
+    "speaker": "me",
+    "es": "Vale, ¿y después del semáforo?",
+    "en": "OK, and after the traffic light?",
+    "options": [
+     {
+      "es": "Vale, ¿y después del semáforo?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Vale, ¿y después de el semáforo?",
+      "correct": false,
+      "why": "de + el always contracts to del."
+     },
+     {
+      "es": "Vale, ¿me trae la cuenta?",
+      "correct": false,
+      "why": "That asks a waiter for the bill."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Gira a la izquierda y coge la segunda calle. La estación está al final de la calle.",
+    "en": "Turn left and take the second street. The station is at the end of the street."
+   },
+   {
+    "speaker": "me",
+    "es": "Muchas gracias, ¡hasta luego!",
+    "en": "Thank you very much, see you!",
+    "options": [
+     {
+      "es": "Muchas gracias, ¡hasta luego!",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Muchas gracias para tu ayuda, ¡hasta luego!",
+      "correct": false,
+      "why": "Thanks for something takes por, not para."
+     },
+     {
+      "es": "¡Qué pena! No me digas.",
+      "correct": false,
+      "why": "They helped you, so a reaction of pity makes no sense."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "De nada. ¡Buen viaje!",
+    "en": "You're welcome. Have a good trip!"
+   }
+  ],
+  "phrases": [
+   [
+    "¿Cómo llego a…?",
+    "How do I get to…?",
+    "dir-002"
+   ],
+   [
+    "Sigue todo recto",
+    "Go straight on",
+    "dir-015"
+   ],
+   [
+    "¿Está lejos?",
+    "Is it far?",
+    "dir-003"
+   ],
+   [
+    "Está a cinco minutos andando",
+    "It's a five-minute walk",
+    "dir-038"
+   ],
+   [
+    "Gira a la izquierda",
+    "Turn left",
+    "dir-016"
+   ],
+   [
+    "Coge la segunda calle",
+    "Take the second street",
+    "dir-021"
+   ],
+   [
+    "Al final de la calle",
+    "At the end of the street",
+    "dir-029"
+   ],
+   [
+    "¡Buen viaje!",
+    "Have a good trip!",
+    "st-087"
+   ]
+  ]
+ },
+ {
+  "id": "conv-neighbour",
+  "title": "Small talk with a neighbour",
+  "setting": "You meet your neighbour Carmen in the lift on Friday afternoon.",
+  "turns": [
+   {
+    "speaker": "them",
+    "es": "¡Hola! ¿Qué tal?",
+    "en": "Hi! How's it going?"
+   },
+   {
+    "speaker": "me",
+    "es": "Bien, ¿y tú?",
+    "en": "Fine, and you?",
+    "options": [
+     {
+      "es": "Bien, ¿y tú?",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Bien, ¿y ti?",
+      "correct": false,
+      "why": "After «y», use the subject form: tú."
+     },
+     {
+      "es": "Sigue todo recto.",
+      "correct": false,
+      "why": "That is a direction, not an answer."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Tirando, un poco liada con el trabajo. ¿Qué planes tienes para el fin de semana?",
+    "en": "Getting by, a bit busy with work. What plans do you have for the weekend?"
+   },
+   {
+    "speaker": "me",
+    "es": "Voy a la playa con unos amigos.",
+    "en": "I'm going to the beach with some friends.",
+    "options": [
+     {
+      "es": "Voy a la playa con unos amigos.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Voy en la playa con unos amigos.",
+      "correct": false,
+      "why": "ir a + place, not «en»."
+     },
+     {
+      "es": "No, gracias, solo estoy mirando.",
+      "correct": false,
+      "why": "That is what you say to a shop assistant."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "¡Qué bien! Va a hacer muy buen tiempo. ¿Y tus clases de español?",
+    "en": "How nice! The weather's going to be great. And your Spanish classes?"
+   },
+   {
+    "speaker": "me",
+    "es": "Bastante bien, estoy aprendiendo mucho.",
+    "en": "Pretty good, I'm learning a lot.",
+    "options": [
+     {
+      "es": "Bastante bien, estoy aprendiendo mucho.",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Bastante bien, estoy aprender mucho.",
+      "correct": false,
+      "why": "estar + gerund: aprendiendo."
+     },
+     {
+      "es": "¿Cuánto cuesta?",
+      "correct": false,
+      "why": "That asks about a price."
+     }
+    ]
+   },
+   {
+    "speaker": "them",
+    "es": "Me alegro. Bueno, me voy, que tengo prisa.",
+    "en": "I'm glad. Well, I'm off, I'm in a hurry."
+   },
+   {
+    "speaker": "me",
+    "es": "Vale, ¡que lo pases bien!",
+    "en": "OK, have a good time!",
+    "options": [
+     {
+      "es": "Vale, ¡que lo pases bien!",
+      "correct": true,
+      "why": "Natural and correct."
+     },
+     {
+      "es": "Vale, ¡que lo pasas bien!",
+      "correct": false,
+      "why": "Wishes with «que» take the subjunctive: pases."
+     },
+     {
+      "es": "¿Está cerca?",
+      "correct": false,
+      "why": "That asks whether a place is near."
+     }
+    ]
+   }
+  ],
+  "phrases": [
+   [
+    "¿Qué tal?",
+    "How's it going?",
+    "st-001"
+   ],
+   [
+    "Bien, ¿y tú?",
+    "Fine, and you?",
+    "st-011"
+   ],
+   [
+    "Tirando",
+    "Getting by",
+    "st-013"
+   ],
+   [
+    "Liado/a",
+    "Busy, tied up",
+    "st-014"
+   ],
+   [
+    "¿Qué planes tienes?",
+    "What plans do you have?",
+    "st-009"
+   ],
+   [
+    "¡Qué bien!",
+    "How nice!",
+    "st-020"
+   ],
+   [
+    "Bastante bien",
+    "Pretty good",
+    "st-017"
+   ],
+   [
+    "Me alegro",
+    "I'm glad",
+    "st-024"
+   ],
+   [
+    "Tengo prisa",
+    "I'm in a hurry",
+    "st-051"
+   ],
+   [
+    "¡Que lo pases bien!",
+    "Have a good time!",
+    "st-037"
+   ]
+  ]
+ }
+]

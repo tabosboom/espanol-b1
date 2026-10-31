@@ -1,0 +1,426 @@
+{
+ "id": "directions",
+ "title": "Asking for and giving directions",
+ "es": "Pedir y dar direcciones",
+ "priority": 2,
+ "packs": [
+  {
+   "id": "directions-1",
+   "title": "Asking the way",
+   "entries": [
+    {
+     "id": "dir-001",
+     "es": "Perdona, ¿dónde está…?",
+     "en": "Excuse me, where is…?",
+     "pos": "phrase",
+     "ex": "Perdona, ¿dónde está la parada del autobús número doce?",
+     "cloze": "Perdona, ¿dónde está",
+     "accept": "dónde está"
+    },
+    {
+     "id": "dir-002",
+     "es": "¿Cómo llego a…?",
+     "en": "How do I get to…?",
+     "pos": "phrase",
+     "ex": "Perdona, ¿cómo llego a la estación de tren desde aquí?",
+     "note": "llegar a + place"
+    },
+    {
+     "id": "dir-003",
+     "es": "¿Está lejos?",
+     "en": "Is it far?",
+     "pos": "phrase",
+     "ex": "¿Está lejos el museo o puedo ir andando desde aquí?"
+    },
+    {
+     "id": "dir-004",
+     "es": "¿Está cerca?",
+     "en": "Is it near?",
+     "pos": "phrase",
+     "ex": "¿Está cerca la playa o tengo que coger el autobús?"
+    },
+    {
+     "id": "dir-005",
+     "es": "¿Hay un banco por aquí?",
+     "en": "Is there a bank around here?",
+     "pos": "phrase",
+     "ex": "Perdone, ¿hay un banco por aquí? Necesito sacar dinero."
+    },
+    {
+     "id": "dir-006",
+     "es": "¿Hay una farmacia por aquí?",
+     "en": "Is there a pharmacy around here?",
+     "pos": "phrase",
+     "ex": "Me duele la cabeza, ¿hay una farmacia por aquí cerca?"
+    },
+    {
+     "id": "dir-007",
+     "es": "¿Me puede indicar…?",
+     "en": "Could you show me…? (formal)",
+     "pos": "phrase",
+     "ex": "Disculpe, ¿me puede indicar el camino a la catedral?"
+    },
+    {
+     "id": "dir-008",
+     "es": "Disculpe",
+     "en": "Excuse me (formal)",
+     "pos": "phrase",
+     "ex": "Disculpe, señora, ¿sabe usted dónde está el ayuntamiento?"
+    },
+    {
+     "id": "dir-009",
+     "es": "¿Por dónde se va a…?",
+     "en": "Which way is it to…?",
+     "pos": "phrase",
+     "ex": "¿Por dónde se va a la plaza Mayor desde este hotel?"
+    },
+    {
+     "id": "dir-010",
+     "es": "Estoy perdido/a",
+     "en": "I'm lost",
+     "pos": "phrase",
+     "ex": "Creo que estoy perdido; ¿me ayuda a encontrar esta calle?",
+     "cloze": "estoy perdido"
+    },
+    {
+     "id": "dir-011",
+     "es": "Está perdido/a",
+     "en": "He or she is lost",
+     "pos": "phrase",
+     "ex": "Mi amigo está perdido y no contesta al teléfono.",
+     "cloze": "está perdido"
+    },
+    {
+     "id": "dir-012",
+     "es": "¿Cuánto se tarda?",
+     "en": "How long does it take?",
+     "pos": "phrase",
+     "ex": "¿Cuánto se tarda en llegar al aeropuerto en autobús?",
+     "note": "tardar en"
+    },
+    {
+     "id": "dir-013",
+     "es": "¿Voy bien para…?",
+     "en": "Am I going the right way to…?",
+     "pos": "phrase",
+     "ex": "Perdona, ¿voy bien para la estación de Atocha por aquí?"
+    },
+    {
+     "id": "dir-014",
+     "es": "la dirección",
+     "en": "the address; the direction",
+     "pos": "noun",
+     "ex": "Necesito la dirección del hotel para enseñársela al taxista."
+    }
+   ]
+  },
+  {
+   "id": "directions-2",
+   "title": "Turn, cross, carry on",
+   "entries": [
+    {
+     "id": "dir-015",
+     "es": "Sigue todo recto",
+     "en": "Go straight on",
+     "pos": "phrase",
+     "ex": "Sigue todo recto hasta llegar a la plaza grande."
+    },
+    {
+     "id": "dir-016",
+     "es": "Gira a la izquierda",
+     "en": "Turn left",
+     "pos": "phrase",
+     "ex": "Al final de esta calle, gira a la izquierda."
+    },
+    {
+     "id": "dir-017",
+     "es": "Gira a la derecha",
+     "en": "Turn right",
+     "pos": "phrase",
+     "ex": "Después del banco, gira a la derecha y ya lo verás."
+    },
+    {
+     "id": "dir-018",
+     "es": "Tuerce a la izquierda",
+     "en": "Turn left",
+     "pos": "phrase",
+     "ex": "Tuerce a la izquierda en el primer semáforo que veas."
+    },
+    {
+     "id": "dir-019",
+     "es": "Tuerce a la derecha",
+     "en": "Turn right",
+     "pos": "phrase",
+     "ex": "Cuando veas la iglesia, tuerce a la derecha."
+    },
+    {
+     "id": "dir-020",
+     "es": "Coge la primera calle",
+     "en": "Take the first street",
+     "pos": "phrase",
+     "ex": "Coge la primera calle a la derecha después del puente."
+    },
+    {
+     "id": "dir-021",
+     "es": "Coge la segunda calle",
+     "en": "Take the second street",
+     "pos": "phrase",
+     "ex": "Coge la segunda calle a la izquierda y sigue recto."
+    },
+    {
+     "id": "dir-022",
+     "es": "Cruza la calle",
+     "en": "Cross the street",
+     "pos": "phrase",
+     "ex": "Cruza la calle y la farmacia está justo enfrente."
+    },
+    {
+     "id": "dir-023",
+     "es": "Cruza la plaza",
+     "en": "Cross the square",
+     "pos": "phrase",
+     "ex": "Cruza la plaza y verás el museo a tu derecha."
+    },
+    {
+     "id": "dir-024",
+     "es": "Pasa el semáforo",
+     "en": "Go past the traffic light",
+     "pos": "phrase",
+     "ex": "Pasa el semáforo y el restaurante está a la izquierda."
+    },
+    {
+     "id": "dir-025",
+     "es": "Da la vuelta",
+     "en": "Turn around",
+     "pos": "phrase",
+     "ex": "Te has equivocado de calle; da la vuelta y vuelve al cruce."
+    },
+    {
+     "id": "dir-026",
+     "es": "Te has pasado",
+     "en": "You've gone past it",
+     "pos": "phrase",
+     "ex": "Te has pasado; la estación estaba dos calles más atrás."
+    },
+    {
+     "id": "dir-027",
+     "es": "Sigue por esta calle",
+     "en": "Carry on along this street",
+     "pos": "phrase",
+     "ex": "Sigue por esta calle hasta el final y pregunta otra vez."
+    },
+    {
+     "id": "dir-028",
+     "es": "Sube por esta calle",
+     "en": "Go up this street",
+     "pos": "phrase",
+     "ex": "Sube por esta calle y el hotel está arriba del todo."
+    }
+   ]
+  },
+  {
+   "id": "directions-3",
+   "title": "Where things are",
+   "entries": [
+    {
+     "id": "dir-029",
+     "es": "Al final de la calle",
+     "en": "At the end of the street",
+     "pos": "phrase",
+     "ex": "El supermercado está al final de la calle, a la derecha."
+    },
+    {
+     "id": "dir-030",
+     "es": "En la esquina",
+     "en": "On the corner",
+     "pos": "phrase",
+     "ex": "Hay una panadería muy buena en la esquina de mi calle."
+    },
+    {
+     "id": "dir-031",
+     "es": "Al lado de",
+     "en": "Next to",
+     "pos": "phrase",
+     "ex": "El banco está al lado de la farmacia, en esta misma calle."
+    },
+    {
+     "id": "dir-032",
+     "es": "Enfrente de",
+     "en": "Opposite",
+     "pos": "phrase",
+     "ex": "Mi hotel está enfrente de la estación de autobuses."
+    },
+    {
+     "id": "dir-033",
+     "es": "Detrás de",
+     "en": "Behind",
+     "pos": "phrase",
+     "ex": "El aparcamiento está detrás de ese edificio tan alto."
+    },
+    {
+     "id": "dir-034",
+     "es": "Delante de",
+     "en": "In front of",
+     "pos": "phrase",
+     "ex": "Te espero delante de la entrada principal del museo."
+    },
+    {
+     "id": "dir-035",
+     "es": "Entre … y …",
+     "en": "Between … and …",
+     "pos": "phrase",
+     "ex": "La cafetería está entre el banco y la librería.",
+     "cloze": "entre",
+     "accept": "entre"
+    },
+    {
+     "id": "dir-036",
+     "es": "Cerca de",
+     "en": "Near",
+     "pos": "phrase",
+     "ex": "Vivo cerca de la estación, a solo cinco minutos."
+    },
+    {
+     "id": "dir-037",
+     "es": "Lejos de",
+     "en": "Far from",
+     "pos": "phrase",
+     "ex": "El hotel está bastante lejos de la playa, por desgracia."
+    },
+    {
+     "id": "dir-038",
+     "es": "Está a cinco minutos andando",
+     "en": "It's a five-minute walk",
+     "pos": "phrase",
+     "ex": "El museo está a cinco minutos andando desde la plaza."
+    },
+    {
+     "id": "dir-039",
+     "es": "A pie",
+     "en": "On foot",
+     "pos": "phrase",
+     "ex": "Podemos ir a pie porque el centro está muy cerca."
+    },
+    {
+     "id": "dir-040",
+     "es": "Aquí mismo",
+     "en": "Right here",
+     "pos": "phrase",
+     "ex": "La parada del autobús está aquí mismo, junto a este banco."
+    },
+    {
+     "id": "dir-041",
+     "es": "A la vuelta de la esquina",
+     "en": "Just around the corner",
+     "pos": "phrase",
+     "ex": "La farmacia está a la vuelta de la esquina, muy cerca."
+    },
+    {
+     "id": "dir-042",
+     "es": "Encima de",
+     "en": "On top of",
+     "pos": "phrase",
+     "ex": "Las llaves están encima de la mesa de la cocina."
+    }
+   ]
+  },
+  {
+   "id": "directions-4",
+   "title": "City words",
+   "entries": [
+    {
+     "id": "dir-043",
+     "es": "la rotonda",
+     "en": "the roundabout",
+     "pos": "noun",
+     "ex": "En la rotonda, coge la segunda salida hacia el centro."
+    },
+    {
+     "id": "dir-044",
+     "es": "el cruce",
+     "en": "the junction",
+     "pos": "noun",
+     "ex": "Gira a la derecha en el próximo cruce, antes del puente."
+    },
+    {
+     "id": "dir-045",
+     "es": "el paso de peatones",
+     "en": "the pedestrian crossing",
+     "pos": "noun",
+     "ex": "Cruza siempre por el paso de peatones, aquí hay mucho tráfico."
+    },
+    {
+     "id": "dir-046",
+     "es": "el semáforo",
+     "en": "the traffic light",
+     "pos": "noun",
+     "ex": "El semáforo está en rojo, así que tenemos que esperar."
+    },
+    {
+     "id": "dir-047",
+     "es": "el mapa",
+     "en": "the map",
+     "pos": "noun",
+     "ex": "¿Tienes un mapa de la ciudad? Mi móvil no tiene batería.",
+     "note": "Masculine, despite the -a."
+    },
+    {
+     "id": "dir-048",
+     "es": "el barrio",
+     "en": "the neighbourhood",
+     "pos": "noun",
+     "ex": "Mi barrio es tranquilo y tiene muchas tiendas pequeñas."
+    },
+    {
+     "id": "dir-049",
+     "es": "el centro histórico",
+     "en": "the historic centre",
+     "pos": "noun",
+     "ex": "El centro histórico es precioso, pero siempre hay muchos turistas."
+    },
+    {
+     "id": "dir-050",
+     "es": "la plaza",
+     "en": "the square",
+     "pos": "noun",
+     "ex": "La plaza está llena de terrazas cuando hace buen tiempo."
+    },
+    {
+     "id": "dir-051",
+     "es": "el puente",
+     "en": "the bridge",
+     "pos": "noun",
+     "ex": "Después del puente, verás la estación a la izquierda."
+    },
+    {
+     "id": "dir-052",
+     "es": "la acera",
+     "en": "the pavement",
+     "pos": "noun",
+     "ex": "Camina por la acera, que aquí los coches van muy rápido."
+    },
+    {
+     "id": "dir-053",
+     "es": "el ayuntamiento",
+     "en": "the town hall",
+     "pos": "noun",
+     "ex": "El ayuntamiento es ese edificio grande que hay en la plaza."
+    },
+    {
+     "id": "dir-054",
+     "es": "la calle",
+     "en": "the street",
+     "pos": "noun",
+     "ex": "Esta calle es muy estrecha y no pueden pasar coches."
+    },
+    {
+     "id": "dir-055",
+     "es": "la avenida",
+     "en": "the avenue",
+     "pos": "noun",
+     "ex": "La avenida principal llega directamente hasta la playa."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "version": 1,
+ "vocab": [
+  "vocab/smalltalk.json",
+  "vocab/directions.json",
+  "vocab/transport.json",
+  "vocab/restaurants.json"
+ ],
+ "grammar": [
+  "grammar/g1.json"
+ ],
+ "conversations": "conversations.json",
+ "reading": "reading.json",
+ "checkpoints": "checkpoints.json"
+}

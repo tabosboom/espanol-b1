@@ -3,8 +3,8 @@
 import { el, es, renderQuestion } from './questions.js';
 import {
   buildCheckpoint, buildConversation, buildDailySession, buildGrammarPractice, buildIndex, buildMistakes,
-  buildPack, buildQuickReview, buildReading, countDueWords, describeItem, estimateMinutes, exchangeIds,
-  moduleAccuracy, readingIds, roundLabel,
+  buildPack, buildQuickReview, buildReading, countDueWords, countMistakes, describeItem, estimateMinutes,
+  exchangeIds, moduleAccuracy, nextGrammarModule, readingIds, roundLabel, SENTENCE_ROUND, sentenceStepFor,
 } from './session.js';
 import {
   accuracyLastDays, addNewWords, addSeconds, exportProgress, flush, importProgress, isLearned,
@@ -174,6 +174,7 @@ function renderToday() {
   const goal = state.settings.goalMinutes;
   const phrase = phraseOfDay();
   const estimate = estimateMinutes(buildDailySession(index));
+  const grammarMod = nextGrammarModule(index);
   page(
     'today',
     el(
@@ -183,8 +184,9 @@ function renderToday() {
       phrase ? el('div', { class: 'bubble-note' }, es(phrase.es), el('span', {}, phrase.en)) : null,
       icon('sprig', 'sprig')
     ),
-    el('button', { class: 'btn primary big', type: 'button', onclick: () => startSession(buildDailySession(index), 'Session') }, `Start session · about ${estimate} min`),
-    el('button', { class: 'btn accent', type: 'button', onclick: () => startSession(buildQuickReview(index), 'Quick review') }, '5-minute quick review'),
+    el('button', { class: 'btn primary big', type: 'button', onclick: () => startSession(buildDailySession(index), 'Vocabulary') }, `Vocabulary session · about ${estimate} min`),
+    el('button', { class: 'btn accent', type: 'button', onclick: () => startSession(buildGrammarPractice(index, grammarMod), grammarMod.title) }, `Grammar: ${grammarMod.title}`),
+    el('button', { class: 'btn', type: 'button', onclick: () => startSession(buildQuickReview(index), 'Quick review') }, '5-minute word review'),
     el(
       'div',
       { class: 'goal' },
@@ -274,7 +276,7 @@ function renderTheme(themeId) {
     backLink('#/learn', 'Learn'),
     el('h1', {}, theme.title),
     el('p', { class: 'subtitle' }, es(theme.es), ` · ${s.learned} of ${ids.length} learned`),
-    el('p', { class: 'muted' }, 'Each word takes four rounds: recognise it, recall it, use it in a sentence, write it.'),
+    el('p', { class: 'muted' }, 'Each word takes three rounds: recognise it, recall it, write it. Words you miss also get a sentence round.'),
     grid(theme.packs.map((pack, i) => {
       const packIds = pack.entries.map((e) => e.id);
       const finished = packIds.filter((id) => stageOf(state.items[id]) >= GRADUATED).length;
@@ -372,7 +374,9 @@ function renderMistakes() {
     count
       ? [
           el('p', { class: 'subtitle' }, `${plural(count, 'item')} from the last 30 days. An item leaves this list after 2 correct answers in a row.`),
-          el('button', { class: 'btn primary', type: 'button', onclick: () => startSession(buildMistakes(index), 'Mistakes') }, 'Practise all mistakes'),
+          [['vocab', 'Practise word mistakes'], ['grammar', 'Practise grammar mistakes'], ['other', 'Practise conversation and reading mistakes']]
+            .filter(([kind]) => countMistakes(index, kind) > 0)
+            .map(([kind, label]) => el('button', { class: 'btn primary', type: 'button', onclick: () => startSession(buildMistakes(index, kind), 'Mistakes') }, `${label} (${countMistakes(index, kind)})`)),
           [...groups.entries()].map(([module, list]) =>
             panel(module, 'wine', list.map((info) => el('div', { class: 'list-row' }, es(info.title), el('span', { class: 'row-sub' }, info.detail))))
           ),
@@ -464,7 +468,13 @@ function renderSettings() {
     'settings',
     el('h1', {}, 'Settings'),
     panel('Daily goal', 'wine', segmented([5, 10, 15, 20], state.settings.goalMinutes, (v) => setSetting('goalMinutes', v), (v) => `${v} min`)),
-    panel('New words per session', 'gold', segmented([5, 8, 10, 12, 15], state.settings.newWords, (v) => setSetting('newWords', v)), el('p', { class: 'muted hint' }, 'Each new word takes four rounds, so 8 words is about 32 questions.')),
+    panel('New words per session', 'gold', segmented([5, 8, 10, 12, 15], state.settings.newWords, (v) => setSetting('newWords', v)), el('p', { class: 'muted hint' }, 'Each new word takes three rounds, so 8 words is about 24 questions.')),
+    panel(
+      'Sentence round',
+      'wine',
+      segmented(['missed', 'off'], state.settings.sentenceRound, (v) => setSetting('sentenceRound', v), (v) => (v === 'missed' ? 'Missed words' : 'Off')),
+      el('p', { class: 'muted hint' }, 'Tap a word into a sentence as extra practice, only for words you got wrong.')
+    ),
     panel(
       'Backup',
       'wine',
@@ -595,9 +605,21 @@ function scheduleRetry(session, step) {
       if (session.steps[i].round === step.round) last = i;
     }
     session.steps.splice(last + 1, 0, { ...step, retries: retries + 1, question: { ...step.question, tag: 'Once more' } });
+    addSentenceStep(session, step, last + 1);
   } else if (step.retryable) {
     session.steps.push({ ...step, retryable: false, again: true, question: { ...step.question, tag: 'Try again' } });
   }
+}
+
+// Before the writing round, or just before the retry when writing was the miss.
+function addSentenceStep(session, step, retryAt) {
+  const id = step.ids[0];
+  if (step.round === SENTENCE_ROUND || session.steps.some((s) => s.round === SENTENCE_ROUND && s.ids[0] === id)) return;
+  const sentence = sentenceStepFor(index, id);
+  if (!sentence) return;
+  const firstWriting = session.steps.findIndex((s, i) => i > session.at && s.round > SENTENCE_ROUND);
+  const at = step.round > SENTENCE_ROUND ? retryAt : (firstWriting >= 0 ? firstWriting : session.steps.length);
+  session.steps.splice(at, 0, sentence);
 }
 
 function onAnswered(step, outcome) {

@@ -11,15 +11,23 @@ import { state } from './storage.js';
 const BASE_MINUTES = 15;
 const BASE_ITEMS = 25;
 const BASE_REVIEWS = 10;
-const BASE_GRAMMAR = 6;
 const MATCH_MIN = 4;
 const MATCH_MAX = 5;
 const MODULE_PRACTICE_SIZE = 12;
 const QUICK_ITEMS = 8;
 const SECONDS_PER_STEP = 20;
-const ROUND_NAMES = ['Recognise', 'Recall', 'In a sentence', 'Write it'];
+export const SENTENCE_ROUND = 2;
+const ROUND_LABELS = [
+  'Round 1 of 3 · Recognise',
+  'Round 2 of 3 · Recall',
+  'Extra practice · In a sentence',
+  'Round 3 of 3 · Write it',
+];
 
-export const roundLabel = (round) => `Round ${round + 1} of 4 · ${ROUND_NAMES[round]}`;
+export const roundLabel = (round) => ROUND_LABELS[round];
+
+// The sentence round is only for words missed before, and can be switched off.
+const wantsSentence = (id) => state.settings.sentenceRound !== 'off' && (state.items[id]?.wrong || 0) > 0;
 
 // ---------- Content index ----------
 
@@ -161,21 +169,6 @@ function vocabType(record) {
   };
 }
 
-function vocabGap(record) {
-  const { entry } = record;
-  const blank = exampleWithBlank(entry);
-  if (!blank || blank.cloze.split(/\s+/).length > 3) return vocabType(record);
-  return {
-    type: 'gap',
-    instruction: `Write the missing Spanish: "${entry.en}"`,
-    sentence: blank.sentence,
-    accepted: [blank.cloze, ...acceptedFor(record)],
-    display: blank.cloze,
-    pos: entry.pos,
-    ...footer(entry),
-  };
-}
-
 function vocabGapBank(record) {
   const { entry } = record;
   const blank = exampleWithBlank(entry);
@@ -196,13 +189,10 @@ function vocabGapBank(record) {
   };
 }
 
-// Reviews test recall: the sentence with a word bank first, then writing.
+// Reviews test recall by writing; words missed before sometimes get the sentence.
 function reviewQuestion(record) {
-  const box = state.items[record.entry.id]?.box ?? 1;
-  const coin = Math.random() < 0.5;
-  if (box <= 1) return vocabGapBank(record);
-  if (box <= 3) return coin ? vocabType(record) : vocabGapBank(record);
-  return coin ? vocabType(record) : vocabGap(record);
+  const useSentence = wantsSentence(record.entry.id) && Math.random() < 0.5;
+  return useSentence ? vocabGapBank(record) : vocabType(record);
 }
 
 function roundQuestion(record, round) {
@@ -328,20 +318,19 @@ function stepFor(index, id) {
 
 // ---------- Selection ----------
 
-const isReviewable = (id, record) =>
-  (record.kind === 'grammar' || (record.kind === 'vocab' && stageOf(state.items[id]) >= GRADUATED));
+const isReviewableWord = (id, record) => record.kind === 'vocab' && stageOf(state.items[id]) >= GRADUATED;
 
-function dueIds(index) {
+function dueWordIds(index) {
   const today = dateString();
   const due = [];
   for (const [id, record] of index.byId) {
-    if (isReviewable(id, record) && isDue(state.items[id], today)) due.push(id);
+    if (isReviewableWord(id, record) && isDue(state.items[id], today)) due.push(id);
   }
   return shuffle(due).sort((a, b) => state.items[a].due.localeCompare(state.items[b].due));
 }
 
 export function countDueWords(index) {
-  return dueIds(index).filter((id) => index.byId.get(id).kind === 'vocab').length;
+  return dueWordIds(index).length;
 }
 
 const orderedThemes = (index) => [...index.themes].sort((a, b) => a.priority - b.priority);
@@ -365,70 +354,59 @@ export function moduleAccuracy(ids) {
   return seen ? credit / seen : null;
 }
 
-// Weighted draw without replacement: weaker modules and real mistakes come first.
-function pickGrammar(index, count, used) {
-  const candidates = [];
-  for (const mod of index.grammar) {
-    const accuracy = moduleAccuracy(mod.items.map((item) => item.id));
-    const moduleWeight = 1.2 - (accuracy ?? 0.5);
-    for (const item of mod.items) {
-      if (!state.items[item.id] && !used.has(item.id)) {
-        candidates.push({ id: item.id, weight: moduleWeight * (item.fromMistake ? 3 : 1) });
-      }
-    }
-  }
-  const picked = [];
-  while (picked.length < count && candidates.length) {
-    const total = candidates.reduce((sum, c) => sum + c.weight, 0);
-    let roll = Math.random() * total;
-    let at = 0;
-    for (; at < candidates.length - 1; at += 1) {
-      roll -= candidates[at].weight;
-      if (roll <= 0) break;
-    }
-    picked.push(candidates[at].id);
-    candidates.splice(at, 1);
-  }
-  return picked;
+const mistakeKind = (record) => (record.kind === 'vocab' || record.kind === 'grammar' ? record.kind : 'other');
+
+function mistakeIdsOfKind(index, kind) {
+  return Object.keys(state.mistakes).filter((id) => {
+    const record = index.byId.get(id);
+    return record && mistakeKind(record) === kind;
+  });
 }
 
-function nextExchange(index) {
-  const exchanges = [...index.byId.entries()].filter(([, r]) => r.kind === 'exchange').map(([id]) => id);
-  return exchanges.find((id) => !state.items[id]) || shuffle(exchanges)[0] || null;
+export function countMistakes(index, kind) {
+  return mistakeIdsOfKind(index, kind).length;
 }
 
-function mistakeIds(count, used) {
-  const open = Object.keys(state.mistakes).filter((id) => !used.has(id));
-  return shuffle(open).slice(0, count);
-}
-
-// Seen items that are not due, weakest first, to top up a short session.
-function practiceIds(index, count, used) {
+// Seen words that are not due, weakest first, to top up a short session.
+function practiceWordIds(index, count, used) {
   const seen = [...index.byId.entries()]
-    .filter(([id, r]) => isReviewable(id, r) && state.items[id]?.seen && !used.has(id))
+    .filter(([id, r]) => isReviewableWord(id, r) && state.items[id]?.seen && !used.has(id))
     .map(([id]) => id);
   return shuffle(seen).sort((a, b) => state.items[a].box - state.items[b].box).slice(0, count);
 }
 
 // ---------- Learning rounds ----------
 
+function roundStep(record, round) {
+  return {
+    kind: 'question',
+    ids: [record.entry.id],
+    module: record.module,
+    round,
+    question: { ...roundQuestion(record, round), round: roundLabel(round) },
+  };
+}
+
+// A word missed during this session gets the sentence round as extra practice.
+export function sentenceStepFor(index, id) {
+  if (state.settings.sentenceRound === 'off') return null;
+  return roundStep(index.byId.get(id), SENTENCE_ROUND);
+}
+
 // Returns one list of steps per round. In round 1 each word's card comes just
 // before the question on the previous word, so an answer never follows its own card.
 function learningRounds(index, ids) {
   const records = ids.map((id) => index.byId.get(id));
-  const inRound = (round) => shuffle(records.filter((r) => stageOf(state.items[r.entry.id]) <= round));
+  const inRound = (round) => shuffle(records.filter((r) => {
+    if (stageOf(state.items[r.entry.id]) > round) return false;
+    return round !== SENTENCE_ROUND || wantsSentence(r.entry.id);
+  }));
   const rounds = [];
   for (let round = 0; round < 4; round += 1) {
     const steps = [];
     let held = null;
     for (const record of inRound(round)) {
-      const step = {
-        kind: 'question',
-        ids: [record.entry.id],
-        module: record.module,
-        round,
-        question: { ...roundQuestion(record, round), round: roundLabel(round) },
-      };
+      const step = roundStep(record, round);
       if (round === 0) {
         steps.push({ kind: 'intro', ids: [record.entry.id], entry: record.entry, round, total: records.length });
         if (held) steps.push(held);
@@ -478,7 +456,7 @@ function avoidRepeats(steps) {
   return out;
 }
 
-// Spaces grammar and other items between the rounds rather than running one block.
+// A vocabulary session: due reviews, then new words round by round, then missed words.
 export function buildDailySession(index) {
   const { goalMinutes, newWords } = state.settings;
   const scale = goalMinutes / BASE_MINUTES;
@@ -490,33 +468,17 @@ export function buildDailySession(index) {
     return fresh;
   };
 
-  const reviews = take(dueIds(index).slice(0, Math.round(BASE_REVIEWS * Math.min(scale, 1.3))));
+  const reviews = take(dueWordIds(index).slice(0, Math.round(BASE_REVIEWS * Math.min(scale, 1.3))));
   const wordCount = scale < 1 ? Math.min(newWords, Math.max(2, Math.round(newWords * scale * 0.7))) : newWords;
   const words = take(nextLearningWords(index, wordCount));
-  const grammar = take(pickGrammar(index, Math.max(2, Math.round(BASE_GRAMMAR * scale)), used));
-  const exchange = scale >= 0.6 ? take([nextExchange(index)].filter(Boolean)) : [];
-  const mistakes = take(mistakeIds(scale < 1 ? 1 : 2, used));
+  const mistakes = take(shuffle(mistakeIdsOfKind(index, 'vocab')).slice(0, scale < 1 ? 1 : 2));
+  const counted = reviews.length + words.length * 3 + mistakes.length;
+  const extra = counted < target ? take(practiceWordIds(index, target - counted, used)) : [];
 
-  const counted = reviews.length + words.length * 4 + grammar.length + exchange.length + mistakes.length;
-  if (counted < target) grammar.push(...take(pickGrammar(index, target - counted, used)));
-  const counted2 = reviews.length + words.length * 4 + grammar.length + exchange.length + mistakes.length;
-  const extra = counted2 < target ? take(practiceIds(index, target - counted2, used)) : [];
-
-  const [first, second, third, fourth] = learningRounds(index, words);
-  const fill = avoidRepeats(toSteps(index, [...grammar, ...extra]));
-  const part = Math.ceil(fill.length / 3);
   return [
     ...avoidRepeats(toSteps(index, reviews)),
-    ...first,
-    ...fill.slice(0, part),
-    ...second,
-    ...toSteps(index, mistakes),
-    ...matchFor(index, words),
-    ...fill.slice(part, part * 2),
-    ...third,
-    ...toSteps(index, exchange),
-    ...fill.slice(part * 2),
-    ...fourth,
+    ...learningSteps(index, words),
+    ...avoidRepeats(toSteps(index, [...mistakes, ...extra])),
   ];
 }
 
@@ -531,15 +493,14 @@ export function buildQuickReview(index) {
     fresh.forEach((id) => used.add(id));
     return fresh;
   };
-  const ids = take(dueIds(index).slice(0, QUICK_ITEMS));
-  ids.push(...take(mistakeIds(QUICK_ITEMS - ids.length, used)));
-  ids.push(...take(practiceIds(index, QUICK_ITEMS - ids.length, used)));
-  ids.push(...take(pickGrammar(index, QUICK_ITEMS - ids.length, used)));
+  const ids = take(dueWordIds(index).slice(0, QUICK_ITEMS));
+  ids.push(...take(shuffle(mistakeIdsOfKind(index, 'vocab')).slice(0, QUICK_ITEMS - ids.length)));
+  ids.push(...take(practiceWordIds(index, QUICK_ITEMS - ids.length, used)));
   return avoidRepeats(toSteps(index, ids));
 }
 
-export function buildMistakes(index) {
-  return avoidRepeats(toSteps(index, Object.keys(state.mistakes).filter((id) => index.byId.has(id))));
+export function buildMistakes(index, kind) {
+  return avoidRepeats(toSteps(index, mistakeIdsOfKind(index, kind)));
 }
 
 // The next words of this pack through all rounds; once all are learned, a review of the pack.
@@ -549,12 +510,26 @@ export function buildPack(index, pack) {
   return avoidRepeats(toSteps(index, pack.entries.map((entry) => entry.id)));
 }
 
+// Due items first, then new ones with real mistakes up front, then the weakest seen.
 export function buildGrammarPractice(index, mod) {
-  const unseen = mod.items.filter((item) => !state.items[item.id]);
+  const today = dateString();
   const seen = shuffle(mod.items.filter((item) => state.items[item.id]))
     .sort((a, b) => state.items[a.id].box - state.items[b.id].box);
-  const chosen = [...shuffle(unseen), ...seen].slice(0, MODULE_PRACTICE_SIZE);
-  return shuffle(chosen.map((item) => stepFor(index, item.id)));
+  const due = seen.filter((item) => isDue(state.items[item.id], today));
+  const later = seen.filter((item) => !isDue(state.items[item.id], today));
+  const unseen = shuffle(mod.items.filter((item) => !state.items[item.id]))
+    .sort((a, b) => Number(Boolean(b.fromMistake)) - Number(Boolean(a.fromMistake)));
+  const chosen = [...due, ...unseen, ...later].slice(0, MODULE_PRACTICE_SIZE);
+  return avoidRepeats(chosen.map((item) => stepFor(index, item.id)));
+}
+
+// The module to suggest next: most items due, otherwise the first with new items.
+export function nextGrammarModule(index) {
+  const today = dateString();
+  const dueCount = (mod) => mod.items.filter((item) => isDue(state.items[item.id], today)).length;
+  const mostDue = [...index.grammar].sort((a, b) => dueCount(b) - dueCount(a))[0];
+  if (mostDue && dueCount(mostDue) > 0) return mostDue;
+  return index.grammar.find((mod) => mod.items.some((item) => !state.items[item.id])) || index.grammar[0];
 }
 
 export function buildConversation(conv) {

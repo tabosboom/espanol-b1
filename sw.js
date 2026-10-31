@@ -1,5 +1,5 @@
 // Cache-first service worker. Bump VERSION whenever any app or content file changes.
-const VERSION = 2;
+const VERSION = 3;
 const CACHE = `trainer-v${VERSION}`;
 
 const FILES = [

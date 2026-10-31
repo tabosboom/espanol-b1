@@ -16,7 +16,7 @@ function blank() {
   return {
     schema: SCHEMA,
     startDate: dateString(),
-    settings: { goalMinutes: 15, newWords: 8 },
+    settings: { goalMinutes: 15, newWords: 8, sentenceRound: 'missed' },
     items: {},
     mistakes: {},
     days: {},
